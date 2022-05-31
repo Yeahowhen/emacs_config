@@ -69,6 +69,19 @@
 (setq-default indent-tabs-mode nil)
 (setq-default save-place t)
 
+(org-babel-do-load-languages
+   'org-babel-load-languages
+   '((emacs-lisp . t)
+     (C . t)
+     (python . t)
+     (shell . t)
+     (latex . t)
+     (plantuml . t)))
+
+(global-set-key (kbd "C-c l") #'org-store-link)
+(global-set-key (kbd "C-c a") #'org-agenda)
+(global-set-key (kbd "C-c c") #'org-capture)
+
 (use-package emms
   :ensure t
   :init
@@ -155,7 +168,6 @@
   :config
   (helm-mode))
 
-
 (use-package projectile
   :ensure t
   :init
@@ -218,6 +230,11 @@
   :ensure t
   :config
   (sml/setup))
+
+(use-package auto-complete
+  :ensure t
+  :config
+  (auto-complete-mode))	     
 
 (use-package ctable
   :ensure t
