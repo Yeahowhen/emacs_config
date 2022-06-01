@@ -1,9 +1,9 @@
-;; Object semanticdb-project-database-file-49b19de8
+;; Object semanticdb-project-database-file-5040722a
 ;; SEMANTICDB Tags save file
-(semanticdb-project-database-file "semanticdb-project-database-file-49b19de8"
+(semanticdb-project-database-file "semanticdb-project-database-file-5040722a"
   :tables
   (list
-    (semanticdb-table "semanticdb-table-49b08c14"
+    (semanticdb-table "semanticdb-table-504071ca"
       :major-mode c++-mode
       :tags 
         '( ("algorithm" include (:system-flag t) nil [1 21])
@@ -37,7 +37,7 @@
       :fsize 824
       :lastmodtime '(25237 57876 588034 236000)
       :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table-49b0998a"
+    (semanticdb-table "semanticdb-table-504071ea"
       :major-mode c++-mode
       :tags 
         '( ("iostream" include (:system-flag t) nil [1 20])
@@ -57,10 +57,18 @@
       :fsize 356
       :lastmodtime '(25189 8125 211576 579000)
       :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table-49b19dc8"
-      :file "regex"
-      :fsize 388450
-      :lastmodtime '(25221 44376 504635 610000)))
+    (semanticdb-table "semanticdb-table-5040720a"
+      :major-mode python-mode
+      :tags 
+        '( ("os" include nil nil [1 10])
+            ("func" function (:arguments 
+              ( ("args" variable nil (reparse-symbol function_parameters) [21 25]))              ) nil [12 54])
+            ("if" code nil nil [55 181]))          
+      :file "test.py"
+      :pointmax 181
+      :fsize 180
+      :lastmodtime '(25239 13647 496936 472000)
+      :unmatched-syntax nil))
   :file "!Users!howinye!semantic.cache"
   :semantic-tag-version "2.0"
   :semanticdb-version "2.2")

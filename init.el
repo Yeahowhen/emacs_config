@@ -29,10 +29,10 @@
    '(("youdao" . "http://dict.youdao.com/search?q=%s&ue=utf8")
      ("iciba" . "http://www.iciba.com/word?w=%s")))
  '(ivy-mode t)
- '(lsp-keymap-prefix "C-c l" t)
+ '(lsp-keymap-prefix "C-c l")
  '(org-agenda-files nil)
  '(package-selected-packages
-   '(swiper-helm yasnippet-snippets neotree mwim google google-this rainbow-mode rainbow-delimiters posframe exec-path-from-shell helm-flycheck helm-company lsp-pyright helm-lsp lsp-mode org-roam fuzzy auto-compelete org-edit-latex ctable helm-dictionary ace-jump-mode deferred epc helm-descbinds smart-mode-line youdao-dictionary helm-firefox sr-speedbar ztree-dir ztree-diff dashboard good-scrll smart-region good-scroll ace-window pdf-tools dtrt-indent ws-butler function-args auto-complete-clang which-key helm-xref ag helm-gtags helm-ls-git helm-ls-hg duplicate-thing popwin highlight-symbol highlight-numbers nyan-mode flycheck magit diff-hl ztree recentf-ext treemacs-projectile ibuffer-vc clean-aindent-mode smartparens yasnippet undo-tree volatile-highlights helm-projectile expand-region imenu-anywhere helm use-package monokai-theme company ggtags))
+   '(treemacs-all-the-icons treemacs ranger swiper-helm yasnippet-snippets mwim google google-this rainbow-mode rainbow-delimiters posframe exec-path-from-shell helm-flycheck helm-company lsp-pyright helm-lsp lsp-mode org-roam fuzzy auto-compelete org-edit-latex ctable helm-dictionary ace-jump-mode deferred epc helm-descbinds smart-mode-line youdao-dictionary helm-firefox sr-speedbar ztree-dir ztree-diff dashboard good-scrll smart-region good-scroll ace-window pdf-tools dtrt-indent ws-butler function-args auto-complete-clang which-key helm-xref ag helm-gtags helm-ls-git helm-ls-hg duplicate-thing popwin highlight-symbol highlight-numbers nyan-mode flycheck magit diff-hl ztree recentf-ext treemacs-projectile ibuffer-vc clean-aindent-mode smartparens yasnippet undo-tree volatile-highlights helm-projectile expand-region imenu-anywhere helm use-package monokai-theme company ggtags))
  '(sr-speedbar-default-width 10)
  '(sr-speedbar-max-width 40)
  '(warning-suppress-types '((use-package)))
@@ -326,17 +326,24 @@
   :commands
   lsp)
 
+(use-package ranger
+  :ensure t
+  :config
+  (setq ranger-cleanup-on-disable t)
+  (ranger-override-dired-mode t))
+
 (use-package helm-lsp
   :ensure t
   :commands
   helm-lsp-workspace-symbol)
 
-(use-package neotree
+(use-package treemacs
   :ensure t
+  :defer t
   :bind
-  ("C-c t" . 'neotree-toggle)
+  ("C-c t" . 'treemacs)
   :config
-  (setq neo-theme 'arrow))
+  (treemacs-follow-mode))
 
 (provide 'init)
 ;;; init.el ends here

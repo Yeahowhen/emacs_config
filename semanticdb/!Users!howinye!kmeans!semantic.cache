@@ -1,9 +1,9 @@
-;; Object semanticdb-project-database-file-4801e1c8
+;; Object semanticdb-project-database-file-49c2f9ba
 ;; SEMANTICDB Tags save file
-(semanticdb-project-database-file "semanticdb-project-database-file-4801e1c8"
+(semanticdb-project-database-file "semanticdb-project-database-file-49c2f9ba"
   :tables
   (list
-    (semanticdb-table "semanticdb-table-4801e1a8"
+    (semanticdb-table "semanticdb-table-49c2f97a"
       :major-mode python-mode
       :tags 
         '( ("collections" include nil nil [41 76])
@@ -126,9 +126,9 @@
       :file "kmeans.py"
       :pointmax 7825
       :fsize 7824
-      :lastmodtime '(25023 59360 585732 705000)
+      :lastmodtime '(25239 14776 952867 823000)
       :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table-41228c38"
+    (semanticdb-table "semanticdb-table-49c2f99a"
       :major-mode python-mode
       :tags 
         '( ("sklearn.cluster" include nil nil [41 75])

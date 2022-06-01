@@ -1,1 +1,1 @@
-("~/.emacs.d/" "~/prog/" "~/iOS/Scripts/" "~/kmeans/" "~/iOS/" "~/")
+("~/.emacs.d/" "~/kmeans/" "~/prog/" "~/iOS/Scripts/" "~/iOS/" "~/")
