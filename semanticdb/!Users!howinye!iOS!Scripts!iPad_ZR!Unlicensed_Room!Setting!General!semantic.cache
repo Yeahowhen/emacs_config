@@ -1,0 +1,110 @@
+;; Object semanticdb-project-database-file-47ead65e
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-47ead65e"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-47ead61e"
+      :major-mode python-mode
+      :tags 
+        '( ("appium.webdriver.common.appiumby" include nil nil [1 60])
+            ("selenium.webdriver.support.ui" include nil nil [61 116])
+            ("selenium.webdriver.support" include nil nil [117 181])
+            ("Options" type
+               (:members 
+                  ( ("OPTIONS_PREFIX" variable nil (reparse-symbol indented_block_body) [203 642])
+                    ("OPTIONS_SUFFIX" variable nil (reparse-symbol indented_block_body) [647 711])
+                    ("ROOM_NAME" variable nil (reparse-symbol indented_block_body) [717 754])
+                    ("APP_VERSION" variable nil (reparse-symbol indented_block_body) [759 798])
+                    ("DOMAIN" variable nil (reparse-symbol indented_block_body) [803 837])
+                    ("PRIVACY_POLICY" variable nil (reparse-symbol indented_block_body) [842 884])
+                    ("OPEN_SOURCE_SOFTWARE" variable nil (reparse-symbol indented_block_body) [889 937])
+                    ("ROOM_NAME_XPATH" code nil (reparse-symbol indented_block_body) [943 1004])
+                    ("APP_VERSION_XPATH" code nil (reparse-symbol indented_block_body) [1009 1074])
+                    ("DOMAIN_XPATH" code nil (reparse-symbol indented_block_body) [1079 1134])
+                    ("PRIVACY_POLICY_XPATH" code nil (reparse-symbol indented_block_body) [1139 1210])
+                    ("OPEN_SOURCE_SOFTWARE_XPATH" code nil (reparse-symbol indented_block_body) [1215 1298])
+                    ("PRIVACY_CLOSE" variable nil (reparse-symbol indented_block_body) [1304 1365])
+                    ("PRIVACY_CONTENTS" variable nil (reparse-symbol indented_block_body) [1370 1437])
+                    ("OPEN_SOURCE_CLOSE" variable nil (reparse-symbol indented_block_body) [1443 1508])
+                    ("choose_domain" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [1653 1656])
+                            ("driver" variable nil (reparse-symbol function_parameters) [1658 1664]))                          )
+                        (reparse-symbol indented_block_body) [1618 1823])
+                    ("choose_privacy" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [1864 1867])
+                            ("driver" variable nil (reparse-symbol function_parameters) [1869 1875]))                          )
+                        (reparse-symbol indented_block_body) [1828 2148])
+                    ("choose_open_source" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [2193 2196])
+                            ("driver" variable nil (reparse-symbol function_parameters) [2198 2204]))                          )
+                        (reparse-symbol indented_block_body) [2153 2487])
+                    ("privacy_close" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [2527 2530])
+                            ("driver" variable nil (reparse-symbol function_parameters) [2532 2538]))                          )
+                        (reparse-symbol indented_block_body) [2492 2698])
+                    ("open_source_close" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [2742 2745])
+                            ("driver" variable nil (reparse-symbol function_parameters) [2747 2753]))                          )
+                        (reparse-symbol indented_block_body) [2703 2917]))                  
+                :type "class")
+                nil [184 2917]))          
+      :file "Options.py"
+      :pointmax 2917
+      :fsize 2916
+      :lastmodtime '(25057 3815 315954 332000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-47ead63e"
+      :major-mode python-mode
+      :tags 
+        '( ("Test_unlicensed_general" type
+               (:members 
+                  ( ("test_domain" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [52 56])
+                            ("choose_unlicensed_domain_fixture" variable nil (reparse-symbol function_parameters) [58 90]))                          )
+                        (reparse-symbol indented_block_body) [36 118]))                  
+                :type "class")
+                nil [1 118]))          
+      :file "test_options.py"
+      :pointmax 118
+      :fsize 122
+      :lastmodtime '(25057 3544 799069 563000)
+      :unmatched-syntax '(($EOI 23 . 23) ($EOI 12 . 12)))
+    (semanticdb-table "semanticdb-table-46502fa4"
+      :major-mode python-mode
+      :tags 
+        '( ("pytest" include nil nil [1 14])
+            ("Options" include nil nil [15 29])
+            ("" code nil nil [47 65])
+            ("choose_unlicensed_domain_fixture" function (:arguments 
+              ( ("choose_unlicensed_general_fixture" variable nil (reparse-symbol function_parameters) [103 136]))              ) nil [66 214])
+            ("" code nil nil [230 248])
+            ("choose_unlicensed_privacy_fixture" function (:arguments 
+              ( ("choose_unlicensed_general_fixture" variable nil (reparse-symbol function_parameters) [287 320]))              ) nil [249 468])
+            ("" code nil nil [484 502])
+            ("choose_unlicensed_open_source_fixture" function (:arguments 
+              ( ("choose_unlicensed_general_fixture" variable nil (reparse-symbol function_parameters) [545 578]))              ) nil [503 734]))          
+      :file "conftest.py"
+      :pointmax 734
+      :fsize 733
+      :lastmodtime '(25057 3093 124083 869000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!iPad_ZR!Unlicensed_Room!Setting!General!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,50 @@
+;; Object semanticdb-project-database-file-4325e238
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-4325e238"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4320aab8"
+      :major-mode c-mode
+      :tags 
+        '( ("_BSD_MACHINE_TYPES_H_" variable (:constant-flag t) nil [1430 1451])
+            ("i386/types.h" include nil nil [1499 1522]))          
+      :file "types.h"
+      :pointmax 1676
+      :fsize 1675
+      :lastmodtime '(25108 27263 0 0)
+      :unmatched-syntax '((symbol 1623 . 1632) (symbol 1619 . 1622) (symbol 1606 . 1618) (symbol 1600 . 1605) (punctuation 1599 . 1600))
+      :lexical-table 
+        '(("_BSD_MACHINE_TYPES_H_")
+          )
+)
+    (semanticdb-table "semanticdb-table-43266140"
+      :major-mode c-mode
+      :tags 
+        '( ("_BSD_MACHINE_ENDIAN_H_" variable (:constant-flag t) nil [1431 1453])
+            ("i386/endian.h" include nil nil [1501 1525]))          
+      :file "endian.h"
+      :pointmax 1681
+      :fsize 1680
+      :lastmodtime '(25108 27263 0 0)
+      :unmatched-syntax '((symbol 1627 . 1636) (symbol 1623 . 1626) (symbol 1610 . 1622) (symbol 1604 . 1609) (punctuation 1603 . 1604))
+      :lexical-table 
+        '(("_BSD_MACHINE_ENDIAN_H_")
+          )
+)
+    (semanticdb-table "semanticdb-table-43263b24"
+      :major-mode c-mode
+      :tags 
+        '( ("_BSD_MACHINE__TYPES_H_" variable (:constant-flag t) nil [1365 1387])
+            ("i386/_types.h" include nil nil [1435 1459]))          
+      :file "_types.h"
+      :pointmax 1615
+      :fsize 1614
+      :lastmodtime '(25108 27264 0 0)
+      :unmatched-syntax '((symbol 1561 . 1570) (symbol 1557 . 1560) (symbol 1544 . 1556) (symbol 1538 . 1543) (punctuation 1537 . 1538))
+      :lexical-table 
+        '(("_BSD_MACHINE__TYPES_H_")
+          )
+))
+  :file "!Applications!Xcode.app!Contents!Developer!Platforms!MacOSX.platform!Developer!SDKs!MacOSX.sdk!usr!include!machine!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

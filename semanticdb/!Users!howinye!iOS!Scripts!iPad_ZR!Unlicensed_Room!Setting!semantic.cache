@@ -1,0 +1,68 @@
+;; Object semanticdb-project-database-file-471e5f74
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-471e5f74"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-471e5f34"
+      :major-mode python-mode
+      :tags 
+        '( ("appium.webdriver.common.appiumby" include nil nil [1 60])
+            ("selenium.webdriver.support.ui" include nil nil [61 116])
+            ("selenium.webdriver.support" include nil nil [117 181])
+            ("Setting" type
+               (:members 
+                  ( ("SETTING_BAR_XPATH" variable nil (reparse-symbol indented_block_body) [203 273])
+                    ("SETTING_CLOSE_XPATH" variable nil (reparse-symbol indented_block_body) [278 340])
+                    ("SETTING_GENERAL_XPATH" variable nil (reparse-symbol indented_block_body) [346 815])
+                    ("SETTING_MICROPHONE_XPATH" variable nil (reparse-symbol indented_block_body) [820 1316])
+                    ("SETTING_CAMERA_XPATH" variable nil (reparse-symbol indented_block_body) [1321 1813])
+                    ("choose_general" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [1855 1858])
+                            ("driver" variable nil (reparse-symbol function_parameters) [1860 1866]))                          )
+                        (reparse-symbol indented_block_body) [1819 2050])
+                    ("choose_microphone" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [2094 2097])
+                            ("driver" variable nil (reparse-symbol function_parameters) [2099 2105]))                          )
+                        (reparse-symbol indented_block_body) [2055 2298])
+                    ("choose_camera" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [2338 2341])
+                            ("driver" variable nil (reparse-symbol function_parameters) [2343 2349]))                          )
+                        (reparse-symbol indented_block_body) [2303 2530]))                  
+                :type "class")
+                nil [184 2530]))          
+      :file "Setting.py"
+      :pointmax 2530
+      :fsize 2529
+      :lastmodtime '(25056 55185 762822 254000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-471e5f54"
+      :major-mode python-mode
+      :tags 
+        '( ("pytest" include nil nil [1 14])
+            ("Setting" include nil nil [15 34])
+            ("" code nil nil [52 70])
+            ("choose_unlicensed_general_fixture" function (:arguments 
+              ( ("unlicensed_setting_fixture" variable nil (reparse-symbol function_parameters) [109 135]))              ) nil [71 201])
+            ("" code nil nil [217 235])
+            ("choose_unlicensed_microphone_fixture" function (:arguments 
+              ( ("unlicensed_setting_fixture" variable nil (reparse-symbol function_parameters) [277 303]))              ) nil [236 372])
+            ("" code nil nil [388 406])
+            ("choose_unlicensed_camera_fixture" function (:arguments 
+              ( ("unlicensed_setting_fixture" variable nil (reparse-symbol function_parameters) [444 470]))              ) nil [407 535]))          
+      :file "conftest.py"
+      :pointmax 535
+      :fsize 534
+      :lastmodtime '(25056 56521 226314 36000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!iPad_ZR!Unlicensed_Room!Setting!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

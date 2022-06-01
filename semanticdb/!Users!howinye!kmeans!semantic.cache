@@ -1,0 +1,161 @@
+;; Object semanticdb-project-database-file-4801e1c8
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-4801e1c8"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4801e1a8"
+      :major-mode python-mode
+      :tags 
+        '( ("collections" include nil nil [41 76])
+            ("matplotlib" include nil nil [77 114])
+            ("numpy" include nil nil [115 133])
+            ("math" include nil nil [134 145])
+            ("random" include nil nil [147 160])
+            ("csv" include nil nil [161 171])
+            ("point_avg" function
+               (:documentation "
+    Accepts a list of points, each with the same number of dimensions.
+    NB. points can have more dimensions than 2
+    
+    First method: Returns a new point which is the absolute center of all the points.
+    Second method: Returns a new point which is the relative center of all the points.
+    "
+                :arguments 
+                  ( ("points" variable nil (reparse-symbol function_parameters) [187 193])
+                    ("method" variable nil (reparse-symbol function_parameters) [195 201]))                  )
+                nil [173 1100])
+            ("update_centers" function
+               (:documentation "
+    Accepts a dataset and a list of assignments; the indexes 
+    of both lists correspond to each other.
+
+    Compute the center for each of the assigned groups.
+
+    Return `k` centers where `k` is the number of unique assignments.
+    "
+                :arguments 
+                  ( ("assignments" variable nil (reparse-symbol function_parameters) [1120 1131]))                  )
+                nil [1101 1546])
+            ("assign_points" function
+               (:documentation "
+    Given a data set and a list of points betweeen other points,
+    assign each point to an index that corresponds to the index
+    of the center point on it's proximity to that point. 
+    Return a an array of indexes of centers that correspond to
+    an index in the data set; that is, if there are N points
+    in `data_set` the list we return will have N elements. Also
+    If there are Y points in `centers` there will be Y unique
+    possible values within the returned list.
+    "
+                :arguments 
+                  ( ("data_set" variable nil (reparse-symbol function_parameters) [1565 1573])
+                    ("centers" variable nil (reparse-symbol function_parameters) [1575 1582]))                  )
+                nil [1547 2483])
+            ("distance_euclid" function
+               (:documentation "
+    Accept two points
+
+    Return Euclid distance of two points
+    "
+                :arguments 
+                  ( ("first" variable nil (reparse-symbol function_parameters) [2504 2509])
+                    ("second" variable nil (reparse-symbol function_parameters) [2511 2517]))                  )
+                nil [2484 2813])
+            ("distance_manhattan" function
+               (:documentation "
+    Accept two points
+
+    Return Manhattan distance of two points
+    "
+                :arguments 
+                  ( ("first" variable nil (reparse-symbol function_parameters) [2837 2842])
+                    ("second" variable nil (reparse-symbol function_parameters) [2844 2850]))                  )
+                nil [2814 3133])
+            ("generate_centers" function
+               (:documentation "
+    Given `data_set`, which is an array of arrays,
+
+    Find the minimum and maximum for each coordinate, a range.
+    Generate `k` random points between the ranges.
+
+    Return an array of the random points within the ranges.
+    "
+                :arguments 
+                  ( ("data_set" variable nil (reparse-symbol function_parameters) [3155 3163])
+                    ("k" variable nil (reparse-symbol function_parameters) [3165 3166]))                  )
+                nil [3134 4259])
+            ("delta_satisfied" function
+               (:documentation "
+    The Standard whether the process should finish
+    "
+                :arguments 
+                  ( ("old_centers" variable nil (reparse-symbol function_parameters) [4280 4291])
+                    ("new_centers" variable nil (reparse-symbol function_parameters) [4293 4304]))                  )
+                nil [4260 4590])
+            ("k_means" function
+               (:documentation "
+    K-means Algorithm
+    "
+                :arguments 
+                  ( ("dataset" variable nil (reparse-symbol function_parameters) [4603 4610])
+                    ("k" variable nil (reparse-symbol function_parameters) [4612 4613]))                  )
+                nil [4591 5384])
+            ("get_csv_data" function
+               (:documentation "
+    Obtain points dataset from csv file
+    "
+                :arguments 
+                  ( ("filename" variable nil (reparse-symbol function_parameters) [5402 5410]))                  )
+                nil [5385 5712])
+            ("draw" function
+               (:documentation "
+    Accept initial points set and kmeans result
+    
+    Draw from kmeans result
+    "
+                :arguments 
+                  ( ("data_set" variable nil (reparse-symbol function_parameters) [5722 5730])
+                    ("assignments" variable nil (reparse-symbol function_parameters) [5732 5743])
+                    ("centers" variable nil (reparse-symbol function_parameters) [5745 5752])
+                    ("origin_centers" variable nil (reparse-symbol function_parameters) [5754 5768]))                  )
+                nil [5713 7279])
+            ("get_rand_data" function (:arguments 
+              ( ("num" variable nil (reparse-symbol function_parameters) [7298 7301]))              ) nil [7280 7457])
+            ("main" function nil nil [7458 7786])
+            ("if" code nil nil [7787 7825]))          
+      :file "kmeans.py"
+      :pointmax 7825
+      :fsize 7824
+      :lastmodtime '(25023 59360 585732 705000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-41228c38"
+      :major-mode python-mode
+      :tags 
+        '( ("sklearn.cluster" include nil nil [41 75])
+            ("collections" include nil nil [76 111])
+            ("matplotlib" include nil nil [112 149])
+            ("numpy" include nil nil [150 168])
+            ("csv" include nil nil [169 179])
+            ("random" include nil nil [180 193])
+            ("get_rand_data" function (:arguments 
+              ( ("num" variable nil (reparse-symbol function_parameters) [213 216]))              ) nil [195 369])
+            ("get_csv_data" function
+               (:documentation "
+    Obtain points dataset from csv file
+    "
+                :arguments 
+                  ( ("filename" variable nil (reparse-symbol function_parameters) [387 395]))                  )
+                nil [370 697])
+            ("draw" function (:arguments 
+              ( ("data_set" variable nil (reparse-symbol function_parameters) [707 715])
+                ("kmean" variable nil (reparse-symbol function_parameters) [717 722]))              ) nil [698 1514])
+            ("main" function nil nil [1515 1798])
+            ("if" code nil nil [1799 1837]))          
+      :file "sci_kmeans.py"
+      :pointmax 1837
+      :fsize 1836
+      :lastmodtime '(24988 45440 185100 301000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!kmeans!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

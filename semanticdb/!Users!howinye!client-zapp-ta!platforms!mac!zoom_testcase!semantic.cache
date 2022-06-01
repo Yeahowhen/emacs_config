@@ -1,0 +1,129 @@
+;; Object semanticdb-project-database-file-4be69808
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-4be69808"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4be6981a"
+      :major-mode python-mode
+      :tags 
+        '( ("os" include nil nil [15 29])
+            ("sys" include nil nil [15 29])
+            ("sys" code nil nil [30 100])
+            ("time" include nil nil [101 112])
+            ("platforms.mac.src.base.PyLog" include nil nil [113 160])
+            ("platforms.mac.src.base.PyUtil" include nil nil [161 221])
+            ("platforms.mac.src.base.PyConsts" include nil nil [222 279])
+            ("platforms.mac.src.base.PyApplicationUIElement" include nil nil [280 359])
+            ("platforms.mac.src.base.PyWindow" include nil nil [360 499])
+            ("pynput.keyboard" include nil nil [500 542])
+            ("platforms.mac.zoom_testcase" include nil nil [543 603])
+            ("platforms.mac.base_method.IM_method" include nil nil [604 653])
+            ("platforms.mac.release_check.Mac_Sign_Check" include nil nil [654 719])
+            ("platforms.mac.base_method.domain_switch" include nil nil [720 773])
+            ("platforms.mac.base_method.meeting_method" include nil nil [774 843])
+            ("silent_upload_package_upgrade" function (:arguments 
+              ( ("admin_pwd" variable nil (reparse-symbol function_parameters) [894 903])
+                ("log" variable nil (reparse-symbol function_parameters) [905 908]))              ) nil [860 1910])
+            ("option_upload_package_upgrade" function (:arguments 
+              ( ("admin_pwd" variable nil (reparse-symbol function_parameters) [1945 1954])
+                ("log" variable nil (reparse-symbol function_parameters) [1956 1959]))              ) nil [1911 3618])
+            ("judge_upgrade_finish_or_not" function (:arguments 
+              ( ("log" variable nil (reparse-symbol function_parameters) [3651 3654]))              ) nil [3619 4688])
+            ("upgrade_no_it_when_logout" function (:arguments 
+              ( ("admin_pwd" variable nil (reparse-symbol function_parameters) [4743 4752])
+                ("log" variable nil (reparse-symbol function_parameters) [4754 4757]))              ) nil [4713 5513])
+            ("upgrade_it_when_logout" function (:arguments 
+              ( ("domain" variable nil (reparse-symbol function_parameters) [5541 5547])
+                ("log" variable nil (reparse-symbol function_parameters) [5549 5552]))              ) nil [5514 6547])
+            ("if" code nil nil [6548 6776]))          
+      :file "upgrade.py"
+      :pointmax 6776
+      :fsize 7025
+      :lastmodtime '(24989 55957 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4bdedcaa"
+      :major-mode python-mode
+      :tags 
+        '( ("sys" include nil nil [16 26])
+            ("sys" code nil nil [28 111])
+            ("platforms.mac.base_method.edit_driver_options" include nil nil [112 197])
+            ("selenium.webdriver.support.ui" include nil nil [198 253])
+            ("platforms.mac.base_method.meeting_method" include nil nil [254 323])
+            ("platforms.mac.base_method.IM_method" include nil nil [324 373])
+            ("platforms.mac.base_method.initializeEnvironment" include nil nil [374 455])
+            ("selenium" include nil nil [456 486])
+            ("platforms.mac.base_method.domain_switch" include nil nil [487 540])
+            ("platforms.mac.base_method.web_method" include nil nil [541 591])
+            ("platforms.mac.release_check.Mac_Sign_Check" include nil nil [592 657])
+            ("logs" variable nil nil [658 715])
+            ("SignInBaseCase" type
+               (:superclasses ("object")
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("if" code nil (reparse-symbol indented_block_body) [848 966])
+                            ("self" variable nil (reparse-symbol indented_block_body) [974 1010])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1019 1035])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1044 1058])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1067 1105])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1114 1129])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1138 1158]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [764 768])
+                            ("domain" variable nil (reparse-symbol function_parameters) [770 776])
+                            ("logs" variable nil (reparse-symbol function_parameters) [778 782])
+                            ("name" variable nil (reparse-symbol function_parameters) [784 788])
+                            ("pwd" variable nil (reparse-symbol function_parameters) [790 793])
+                            ("keep_me_sign_in" variable nil (reparse-symbol function_parameters) [795 810])
+                            ("clear_local_db" variable nil (reparse-symbol function_parameters) [818 832]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [751 1159])
+                    ("__pre_sign_in" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1220 1224]))                          )
+                        (reparse-symbol indented_block_body) [1202 1785])
+                    ("normal_SignIn" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1808 1812]))                          )
+                        (reparse-symbol indented_block_body) [1790 3832])
+                    ("facebook_sign_in" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3858 3862]))                          )
+                        (reparse-symbol indented_block_body) [3837 5489])
+                    ("google_sign_in" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5513 5517]))                          )
+                        (reparse-symbol indented_block_body) [5494 7538])
+                    ("sso_sign_in" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [7559 7563])
+                            ("company_domain" variable nil (reparse-symbol function_parameters) [7565 7579]))                          )
+                        (reparse-symbol indented_block_body) [7543 9675]))                  
+                :type "class")
+                nil [717 9675])
+            ("Auto_SignIn" function (:arguments 
+              ( ("log" variable nil (reparse-symbol function_parameters) [9692 9695]))              ) nil [9676 10084])
+            ("SignOut" function (:arguments 
+              ( ("log" variable nil (reparse-symbol function_parameters) [10097 10100]))              ) nil [10085 10256])
+            ("sign_in_by_proxy" function (:arguments 
+              ( ("log" variable nil (reparse-symbol function_parameters) [10278 10281])
+                ("domain" variable nil (reparse-symbol function_parameters) [10283 10289])
+                ("account" variable nil (reparse-symbol function_parameters) [10312 10319])
+                ("pwd" variable nil (reparse-symbol function_parameters) [10357 10360])
+                ("proxy_account" variable nil (reparse-symbol function_parameters) [10390 10403])
+                ("proxy_pwd" variable nil (reparse-symbol function_parameters) [10412 10421]))              ) nil [10257 11836])
+            ("if" code nil nil [11837 12047]))          
+      :file "login_logout.py"
+      :pointmax 12815
+      :fsize 12842
+      :lastmodtime '(24989 55957 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!client-zapp-ta!platforms!mac!zoom_testcase!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

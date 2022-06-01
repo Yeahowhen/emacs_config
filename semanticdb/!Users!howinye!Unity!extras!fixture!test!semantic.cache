@@ -1,0 +1,416 @@
+;; Object semanticdb-project-database-file-47f2dc56
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-47f2dc56"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-47edd9b6"
+      :major-mode c-mode
+      :tags 
+        '( ("unity_fixture.h" include nil nil [354 380])
+            ("stdlib.h" include (:system-flag t) nil [381 400])
+            ("string.h" include (:system-flag t) nil [401 420])
+            ("TEST_GROUP" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("UnityFixture" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [433 446]))                  
+                :type "int")
+                nil [422 447])
+            ("TEST_SETUP" function
+               (:arguments 
+                  ( ("" variable (:type ("UnityFixture" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [460 473]))                  
+                :type "int")
+                nil [449 477])
+            ("TEST_TEAR_DOWN" function
+               (:arguments 
+                  ( ("" variable (:type ("UnityFixture" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [494 507]))                  
+                :type "int")
+                nil [479 511])
+            ("pointer1" variable
+               (:pointer 1
+                :typemodifiers ("static")
+                :default-value "0"
+                :type "int")
+                nil [513 538])
+            ("pointer2" variable
+               (:pointer 1
+                :typemodifiers ("static")
+                :default-value "(int*)2"
+                :type "int")
+                nil [539 570])
+            ("pointer3" variable
+               (:pointer 1
+                :typemodifiers ("static")
+                :default-value "(int*)3"
+                :type "int")
+                nil [571 602])
+            ("int1" variable
+               (:typemodifiers ("static")
+                :type "int")
+                nil [603 619])
+            ("int2" variable
+               (:typemodifiers ("static")
+                :type "int")
+                nil [620 636])
+            ("int3" variable
+               (:typemodifiers ("static")
+                :type "int")
+                nil [637 653])
+            ("int4" variable
+               (:typemodifiers ("static")
+                :type "int")
+                nil [654 670])
+            ("TEST" function
+               (:arguments 
+                  ( ("" variable (:type ("UnityFixture" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [677 690])
+                    ("" variable (:type ("PointerSetting" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [691 706]))                  
+                :type "int")
+                nil [672 1213])
+            ("p1" variable
+               (:pointer 1
+                :typemodifiers ("static")
+                :type "char")
+                nil [1215 1231])
+            ("p2" variable
+               (:pointer 1
+                :typemodifiers ("static")
+                :type "char")
+                nil [1232 1248])
+            ("TEST" function
+               (:arguments 
+                  ( ("" variable (:type ("UnityFixture" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1255 1268])
+                    ("" variable (:type ("PointerSet" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1269 1280]))                  
+                :type "int")
+                nil [1250 1654])
+            ("TEST" function
+               (:arguments 
+                  ( ("" variable (:type ("UnityFixture" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1661 1674])
+                    ("" variable (:type ("FreeNULLSafety" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1675 1690]))                  
+                :type "int")
+                nil [1656 1710])
+            ("TEST" function
+               (:arguments 
+                  ( ("" variable (:type ("UnityFixture" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1717 1730])
+                    ("" variable (:type ("ConcludeTestIncrementsFailCount" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1731 1763]))                  
+                :type "int")
+                nil [1712 2260])
+            ("TEST_GROUP" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("UnityCommandOptions" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2340 2360]))                  
+                :type "int")
+                nil [2329 2361])
+            ("savedVerbose" variable
+               (:typemodifiers ("static")
+                :type "int")
+                nil [2363 2387])
+            ("savedRepeat" variable
+               (:typemodifiers ("static")
+                :type "unsigned int")
+                nil [2388 2420])
+            ("savedName" variable
+               (:pointer 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :type "char")
+                nil [2421 2450])
+            ("savedGroup" variable
+               (:pointer 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :type "char")
+                nil [2451 2481])
+            ("TEST_SETUP" function
+               (:arguments 
+                  ( ("" variable (:type ("UnityCommandOptions" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2494 2514]))                  
+                :type "int")
+                nil [2483 2687])
+            ("TEST_TEAR_DOWN" function
+               (:arguments 
+                  ( ("" variable (:type ("UnityCommandOptions" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2704 2724]))                  
+                :type "int")
+                nil [2689 2896])
+            ("noOptions" variable
+               (:pointer 1
+                :dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "{
+        \"testrunner.exe\"
+}"
+                :type "char")
+                nil [2899 2961])
+            ("TEST" function
+               (:arguments 
+                  ( ("" variable (:type ("UnityCommandOptions" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2968 2988])
+                    ("" variable (:type ("DefaultOptions" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2989 3004]))                  
+                :type "int")
+                nil [2963 3275])
+            ("verbose" variable
+               (:pointer 1
+                :dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "{
+        \"testrunner.exe\",
+        \"-v\"
+}"
+                :type "char")
+                nil [3277 3351])
+            ("TEST" function
+               (:arguments 
+                  ( ("" variable (:type ("UnityCommandOptions" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3358 3378])
+                    ("" variable (:type ("OptionVerbose" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3379 3393]))                  
+                :type "int")
+                nil [3353 3511])
+            ("group" variable
+               (:pointer 1
+                :dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "{
+        \"testrunner.exe\",
+        \"-g\", \"groupname\"
+}"
+                :type "char")
+                nil [3513 3598])
+            ("TEST" function
+               (:arguments 
+                  ( ("" variable (:type ("UnityCommandOptions" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3605 3625])
+                    ("" variable (:type ("OptionSelectTestByGroup" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3626 3650]))                  
+                :type "int")
+                nil [3600 3775])
+            ("name" variable
+               (:pointer 1
+                :dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "{
+        \"testrunner.exe\",
+        \"-n\", \"testname\"
+}"
+                :type "char")
+                nil [3777 3860])
+            ("TEST" function
+               (:arguments 
+                  ( ("" variable (:type ("UnityCommandOptions" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3867 3887])
+                    ("" variable (:type ("OptionSelectTestByName" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3888 3911]))                  
+                :type "int")
+                nil [3862 4033])
+            ("repeat" variable
+               (:pointer 1
+                :dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "{
+        \"testrunner.exe\",
+        \"-r\", \"99\"
+}"
+                :type "char")
+                nil [4035 4114])
+            ("TEST" function
+               (:arguments 
+                  ( ("" variable (:type ("UnityCommandOptions" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4121 4141])
+                    ("" variable (:type ("OptionSelectRepeatTestsDefaultCount" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4142 4178]))                  
+                :type "int")
+                nil [4116 4299])
+            ("TEST" function
+               (:arguments 
+                  ( ("" variable (:type ("UnityCommandOptions" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4306 4326])
+                    ("" variable (:type ("OptionSelectRepeatTestsSpecificCount" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4327 4364]))                  
+                :type "int")
+                nil [4301 4486])
+            ("multiple" variable
+               (:pointer 1
+                :dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "{
+        \"testrunner.exe\",
+        \"-v\",
+        \"-g\", \"groupname\",
+        \"-n\", \"testname\",
+        \"-r\", \"98\"
+}"
+                :type "char")
+                nil [4488 4636])
+            ("TEST" function
+               (:arguments 
+                  ( ("" variable (:type ("UnityCommandOptions" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4643 4663])
+                    ("" variable (:type ("MultipleOptions" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4664 4680]))                  
+                :type "int")
+                nil [4638 4964])
+            ("dashRNotLast" variable
+               (:pointer 1
+                :dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "{
+        \"testrunner.exe\",
+        \"-v\",
+        \"-g\", \"gggg\",
+        \"-r\",
+        \"-n\", \"tttt\",
+}"
+                :type "char")
+                nil [4966 5104])
+            ("TEST" function
+               (:arguments 
+                  ( ("" variable (:type ("UnityCommandOptions" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5111 5131])
+                    ("" variable (:type ("MultipleOptionsDashRNotLastAndNoValueSpecified" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5132 5179]))                  
+                :type "int")
+                nil [5106 5457])
+            ("unknownCommand" variable
+               (:pointer 1
+                :dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "{
+        \"testrunner.exe\",
+        \"-v\",
+        \"-g\", \"groupname\",
+        \"-n\", \"testname\",
+        \"-r\", \"98\",
+        \"-z\"
+}"
+                :type "char")
+                nil [5459 5627])
+            ("TEST" function
+               (:arguments 
+                  ( ("" variable (:type ("UnityCommandOptions" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5633 5653])
+                    ("" variable (:type ("UnknownCommandIsIgnored" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5654 5678]))                  
+                :type "int")
+                nil [5628 5968])
+            ("TEST" function
+               (:arguments 
+                  ( ("" variable (:type ("UnityCommandOptions" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5975 5995])
+                    ("" variable (:type ("GroupOrNameFilterWithoutStringFails" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5996 6032]))                  
+                :type "int")
+                nil [5970 6244])
+            ("TEST" function
+               (:arguments 
+                  ( ("" variable (:type ("UnityCommandOptions" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6251 6271])
+                    ("" variable (:type ("GroupFilterReallyFilters" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6272 6297]))                  
+                :type "int")
+                nil [6246 6518])
+            ("IGNORE_TEST" function
+               (:arguments 
+                  ( ("" variable (:type ("UnityCommandOptions" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6532 6552])
+                    ("" variable (:type ("TestShouldBeIgnored" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6553 6573]))                  
+                :type "int")
+                nil [6520 6629]))          
+      :file "unity_fixture_Test.c"
+      :pointmax 6630
+      :fsize 6629
+      :lastmodtime '(25037 6564 294153 568000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-47f35e4a"
+      :major-mode c-mode
+      :tags 
+        '( ("unity_fixture.h" include nil nil [354 380])
+            ("TEST_GROUP_RUNNER" function
+               (:arguments 
+                  ( ("" variable (:type ("UnityFixture" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [400 413]))                  
+                :type "int")
+                nil [382 626])
+            ("TEST_GROUP_RUNNER" function
+               (:arguments 
+                  ( ("" variable (:type ("UnityCommandOptions" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [646 666]))                  
+                :type "int")
+                nil [628 1479]))          
+      :file "unity_fixture_TestRunner.c"
+      :pointmax 1480
+      :fsize 1479
+      :lastmodtime '(25037 6564 294241 277000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-47f2dc36"
+      :major-mode c-mode
+      :tags 
+        '( ("unity_fixture.h" include nil nil [354 380])
+            ("data" variable
+               (:typemodifiers ("static")
+                :default-value "-1"
+                :type "int")
+                nil [382 403])
+            ("TEST_GROUP" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("mygroup" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [416 424]))                  
+                :type "int")
+                nil [405 425])
+            ("TEST_SETUP" function
+               (:arguments 
+                  ( ("" variable (:type ("mygroup" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [438 446]))                  
+                :type "int")
+                nil [427 464])
+            ("TEST_TEAR_DOWN" function
+               (:arguments 
+                  ( ("" variable (:type ("mygroup" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [481 489]))                  
+                :type "int")
+                nil [466 508])
+            ("TEST" function
+               (:arguments 
+                  ( ("" variable (:type ("mygroup" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [515 523])
+                    ("" variable (:type ("test1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [524 530]))                  
+                :type "int")
+                nil [510 570])
+            ("TEST" function
+               (:arguments 
+                  ( ("" variable (:type ("mygroup" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [577 585])
+                    ("" variable (:type ("test2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [586 592]))                  
+                :type "int")
+                nil [572 646])
+            ("TEST" function
+               (:arguments 
+                  ( ("" variable (:type ("mygroup" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [653 661])
+                    ("" variable (:type ("test3" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [662 668]))                  
+                :type "int")
+                nil [648 722]))          
+      :file "template_fixture_tests.c"
+      :pointmax 723
+      :fsize 722
+      :lastmodtime '(25037 6564 294017 26000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-53205b0c"
+      :major-mode makefile-bsdmake-mode
+      :tags 
+        '( ("CC" variable (:default-value ("gcc")) nil [1 10])
+            ("CC" variable (:default-value ("clang")) nil [43 54])
+            ("CFLAGS" variable (:default-value ("-std=c99" "-pedantic" "-Wall" "-Wextra" "-Werror" "-DUNITY_FIXTURE_NO_EXTRAS")) nil [76 153])
+            ("CFLAGS" variable (:default-value ("$(DEBUG)")) nil [153 172])
+            ("SRC" variable (:default-value ("../src/unity_fixture.c" "../../../src/unity.c" "unity_fixture_Test.c" "unity_fixture_TestRunner.c" "main/AllTests.c")) nil [172 322])
+            ("INC_DIR" variable (:default-value ("-I../src" "-I../../../src/")) nil [323 358])
+            ("BUILD_DIR" variable (:default-value ("../build")) nil [358 379])
+            ("TARGET" variable (:default-value ("../build/fixture_tests.exe")) nil [379 415])
+            ("all" function (:arguments ("default" "noStdlibMalloc" "32bits")) nil [416 451])
+            ("default" function (:arguments ("$(BUILD_DIR)")) nil [452 590])
+            ("32bits" function (:arguments ("$(BUILD_DIR)")) nil [591 707])
+            ("noStdlibMalloc" function (:arguments ("$(BUILD_DIR)")) nil [708 876])
+            ("C89" function (:arguments ("CFLAGS" "+=" "-D" "UNITY_EXCLUDE_STDINT_H")) nil [877 966])
+            ("C89" function (:arguments ("$(BUILD_DIR)")) nil [966 1179])
+            ("$(BUILD_DIR)" function nil nil [1180 1217])
+            ("clean" function nil nil [1218 1261])
+            ("cov" function (:arguments ("$(BUILD_DIR)")) nil [1262 1626])
+            ("CFLAGS" variable (:default-value ("-Wbad-function-cast")) nil [1695 1725])
+            ("CFLAGS" variable (:default-value ("-Wcast-qual")) nil [1725 1747])
+            ("CFLAGS" variable (:default-value ("-Wconversion")) nil [1747 1770])
+            ("CFLAGS" variable (:default-value ("-Wformat=2")) nil [1770 1791])
+            ("CFLAGS" variable (:default-value ("-Wmissing-prototypes")) nil [1791 1822])
+            ("CFLAGS" variable (:default-value ("-Wold-style-definition")) nil [1822 1855])
+            ("CFLAGS" variable (:default-value ("-Wpointer-arith")) nil [1855 1881])
+            ("CFLAGS" variable (:default-value ("-Wshadow")) nil [1881 1900])
+            ("CFLAGS" variable (:default-value ("-Wstrict-overflow=5")) nil [1900 1930])
+            ("CFLAGS" variable (:default-value ("-Wstrict-prototypes")) nil [1930 1960])
+            ("CFLAGS" variable (:default-value ("-Wswitch-default")) nil [1960 1987])
+            ("CFLAGS" variable (:default-value ("-Wundef")) nil [1987 2005])
+            ("CFLAGS" variable (:default-value ("-Wno-error=undef")) nil [2005 2080])
+            ("CFLAGS" variable (:default-value ("-Wunreachable-code")) nil [2080 2109])
+            ("CFLAGS" variable (:default-value ("-Wunused")) nil [2109 2128])
+            ("CFLAGS" variable (:default-value ("-fstrict-aliasing")) nil [2128 2157]))          
+      :file "Makefile"
+      :pointmax 2157
+      :fsize 2156
+      :lastmodtime '(25047 46022 706019 457000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!Unity!extras!fixture!test!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

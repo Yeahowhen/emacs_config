@@ -1,0 +1,567 @@
+;; Object semanticdb-project-database-file-4323f1d0
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-4323f1d0"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-43240e2c"
+      :major-mode c++-mode
+      :tags 
+        '( ("_LIBCPP___UTILITY_FORWARD_H" variable (:constant-flag t) nil [430 457])
+            ("__config" include (:system-flag t) nil [459 478])
+            ("type_traits" include (:system-flag t) nil [479 501])
+            ("__undef_macros" include (:system-flag t) nil [607 632]))          
+      :file "forward.h"
+      :pointmax 1241
+      :fsize 1240
+      :lastmodtime '(25095 32637 0 0)
+      :unmatched-syntax '((symbol 1183 . 1201) (symbol 1156 . 1181) (semantic-list 1025 . 1154) (symbol 1015 . 1024) (semantic-list 970 . 1014) (symbol 963 . 970) (punctuation 1008 . 1009) (punctuation 1002 . 1003) (punctuation 1001 . 1002) (punctuation 961 . 962) (punctuation 960 . 961) (symbol 957 . 960) (symbol 939 . 956) (symbol 913 . 938) (INLINE 906 . 912) (symbol 884 . 905) (punctuation 882 . 883) (symbol 879 . 882) (CLASS 873 . 878) (punctuation 872 . 873) (TEMPLATE 863 . 871) (semantic-list 824 . 861) (symbol 814 . 823) (semantic-list 770 . 813) (symbol 763 . 770) (punctuation 802 . 803) (punctuation 801 . 802) (punctuation 761 . 762) (punctuation 760 . 761) (symbol 757 . 760) (symbol 739 . 756) (symbol 713 . 738) (INLINE 706 . 712) (symbol 684 . 705) (punctuation 682 . 683) (symbol 679 . 682) (CLASS 673 . 678) (punctuation 672 . 673) (TEMPLATE 663 . 671) (symbol 634 . 661) (symbol 587 . 606) (symbol 565 . 578) (symbol 561 . 564) (symbol 554 . 560) (punctuation 553 . 554))
+      :lexical-table 
+        '(("_LIBCPP___UTILITY_FORWARD_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-43259620"
+      :major-mode c++-mode
+      :tags 
+        '( ("_LIBCPP___UTILITY_AS_CONST_H" variable (:constant-flag t) nil [416 444])
+            ("__config" include (:system-flag t) nil [446 465])
+            ("__utility/forward.h" include (:system-flag t) nil [466 496])
+            ("__utility/move.h" include (:system-flag t) nil [497 524])
+            ("type_traits" include (:system-flag t) nil [525 547])
+            ("__undef_macros" include (:system-flag t) nil [653 678]))          
+      :file "as_const.h"
+      :pointmax 1002
+      :fsize 1001
+      :lastmodtime '(25095 32637 0 0)
+      :unmatched-syntax '((symbol 943 . 961) (symbol 916 . 941) (symbol 680 . 707) (symbol 633 . 652) (symbol 611 . 624) (symbol 607 . 610) (symbol 600 . 606) (punctuation 599 . 600))
+      :lexical-table 
+        '(("_LIBCPP___UTILITY_AS_CONST_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-432b721c"
+      :major-mode c++-mode
+      :tags 
+        '( ("_LIBCPP___UTILITY_CMP_H" variable (:constant-flag t) nil [411 434])
+            ("__config" include (:system-flag t) nil [436 455])
+            ("__utility/forward.h" include (:system-flag t) nil [456 486])
+            ("__utility/move.h" include (:system-flag t) nil [487 514])
+            ("limits" include (:system-flag t) nil [515 532])
+            ("type_traits" include (:system-flag t) nil [533 555])
+            ("__undef_macros" include (:system-flag t) nil [661 686]))          
+      :file "cmp.h"
+      :pointmax 3229
+      :fsize 3228
+      :lastmodtime '(25095 32637 0 0)
+      :unmatched-syntax '((symbol 3175 . 3193) (symbol 3148 . 3173) (symbol 688 . 715) (symbol 641 . 660) (symbol 619 . 632) (symbol 615 . 618) (symbol 608 . 614) (punctuation 607 . 608))
+      :lexical-table 
+        '(("_LIBCPP___UTILITY_CMP_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-42bd16ec"
+      :major-mode c++-mode
+      :tags 
+        '( ("_LIBCPP___UTILITY_DECLVAL_H" variable (:constant-flag t) nil [415 442])
+            ("__config" include (:system-flag t) nil [444 463])
+            ("__undef_macros" include (:system-flag t) nil [569 594])
+            ("__declval" variable (:type ("_Tp" type (:type "class") nil nil)) nil [772 814])
+            ("__declval" function
+               (:template 
+                  ( ("_Tp" type (:type "class") nil nil))                  
+                :type ("_Tp" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable (:type "long") (reparse-symbol arg-sub-list) [850 855]))                  
+                :prototype-flag t)
+                nil [815 856])
+            ("_NOEXCEPT" variable (:type "int") nil [949 959]))          
+      :file "declval.h"
+      :pointmax 1046
+      :fsize 1045
+      :lastmodtime '(25110 22739 0 0)
+      :unmatched-syntax '((symbol 988 . 1006) (symbol 961 . 986) (semantic-list 946 . 948) (symbol 939 . 946) (semantic-list 919 . 938) (symbol 911 . 919) (semantic-list 934 . 937) (punctuation 909 . 910) (symbol 906 . 909) (CLASS 900 . 905) (punctuation 899 . 900) (TEMPLATE 890 . 898) (semantic-list 934 . 937) (symbol 857 . 888) (symbol 739 . 771) (symbol 596 . 623) (symbol 549 . 568) (symbol 527 . 540) (symbol 523 . 526) (symbol 516 . 522) (punctuation 515 . 516))
+      :lexical-table 
+        '(("_LIBCPP___UTILITY_DECLVAL_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-42ac3920"
+      :major-mode c++-mode
+      :tags 
+        '( ("_LIBCPP___UTILITY_EXCHANGE_H" variable (:constant-flag t) nil [416 444])
+            ("__config" include (:system-flag t) nil [446 465])
+            ("__utility/forward.h" include (:system-flag t) nil [466 496])
+            ("__utility/move.h" include (:system-flag t) nil [497 524])
+            ("__undef_macros" include (:system-flag t) nil [630 655]))          
+      :file "exchange.h"
+      :pointmax 1090
+      :fsize 1089
+      :lastmodtime '(25095 32637 0 0)
+      :unmatched-syntax '((symbol 1031 . 1049) (symbol 1004 . 1029) (symbol 657 . 684) (symbol 610 . 629) (symbol 588 . 601) (symbol 584 . 587) (symbol 577 . 583) (punctuation 576 . 577))
+      :lexical-table 
+        '(("_LIBCPP___UTILITY_EXCHANGE_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-43b09d7a"
+      :major-mode c++-mode
+      :tags 
+        '( ("_LIBCPP___UTILITY_IN_PLACE_H" variable (:constant-flag t) nil [416 444])
+            ("__config" include (:system-flag t) nil [446 465])
+            ("type_traits" include (:system-flag t) nil [466 488])
+            ("__undef_macros" include (:system-flag t) nil [594 619]))          
+      :file "in_place.h"
+      :pointmax 1833
+      :fsize 1832
+      :lastmodtime '(25095 32637 0 0)
+      :unmatched-syntax '((symbol 1774 . 1792) (symbol 1747 . 1772) (symbol 621 . 648) (symbol 574 . 593) (symbol 552 . 565) (symbol 548 . 551) (symbol 541 . 547) (punctuation 540 . 541))
+      :lexical-table 
+        '(("_LIBCPP___UTILITY_IN_PLACE_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-43b18368"
+      :major-mode c++-mode
+      :tags 
+        '( ("_LIBCPP___UTILITY_INTEGER_SEQUENCE_H" variable (:constant-flag t) nil [424 460])
+            ("__config" include (:system-flag t) nil [462 481])
+            ("type_traits" include (:system-flag t) nil [482 504])
+            ("__undef_macros" include (:system-flag t) nil [610 635]))          
+      :file "integer_sequence.h"
+      :pointmax 2657
+      :fsize 2656
+      :lastmodtime '(25095 32637 0 0)
+      :unmatched-syntax '((symbol 2590 . 2608) (symbol 2563 . 2588) (symbol 637 . 664) (symbol 590 . 609) (symbol 568 . 581) (symbol 564 . 567) (symbol 557 . 563) (punctuation 556 . 557))
+      :lexical-table 
+        '(("_LIBCPP___UTILITY_INTEGER_SEQUENCE_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-53e2f07c"
+      :major-mode c++-mode
+      :tags 
+        '( ("_LIBCPP___UTILITY_MOVE_H" variable (:constant-flag t) nil [427 451])
+            ("__config" include (:system-flag t) nil [453 472])
+            ("type_traits" include (:system-flag t) nil [473 495])
+            ("__undef_macros" include (:system-flag t) nil [601 626])
+            ("type" variable (:type "int") nil [1163 1168]))          
+      :file "move.h"
+      :pointmax 1564
+      :fsize 1563
+      :lastmodtime '(25095 32637 0 0)
+      :unmatched-syntax '((symbol 1509 . 1527) (symbol 1482 . 1507) (semantic-list 1450 . 1480) (symbol 1440 . 1449) (semantic-list 1429 . 1439) (symbol 1413 . 1429) (punctuation 1411 . 1412) (symbol 1408 . 1411) (punctuation 1407 . 1408) (symbol 1380 . 1407) (symbol 1350 . 1379) (symbol 1324 . 1349) (INLINE 1317 . 1323) (symbol 1295 . 1316) (punctuation 1293 . 1294) (symbol 1290 . 1293) (CLASS 1284 . 1289) (punctuation 1283 . 1284) (TEMPLATE 1274 . 1282) (punctuation 1162 . 1163) (punctuation 1161 . 1162) (punctuation 1160 . 1161) (punctuation 1159 . 1160) (punctuation 1158 . 1159) (symbol 1155 . 1158) (punctuation 1128 . 1129) (punctuation 1127 . 1128) (symbol 1124 . 1127) (CONST 1118 . 1123) (punctuation 1116 . 1117) (symbol 1111 . 1116) (punctuation 1110 . 1111) (punctuation 1109 . 1110) (punctuation 1108 . 1109) (symbol 1105 . 1108) (punctuation 1104 . 1105) (symbol 1083 . 1104) (punctuation 1081 . 1082) (punctuation 1080 . 1081) (symbol 1074 . 1079) (punctuation 1073 . 1074) (punctuation 1072 . 1073) (punctuation 1071 . 1072) (symbol 1068 . 1071) (punctuation 1067 . 1068) (symbol 1038 . 1067) (punctuation 1037 . 1038) (punctuation 1036 . 1037) (symbol 1025 . 1036) (TYPENAME 1016 . 1024) (USING 976 . 981) (punctuation 974 . 975) (symbol 971 . 974) (CLASS 965 . 970) (punctuation 964 . 965) (TEMPLATE 955 . 963) (semantic-list 816 . 926) (symbol 806 . 815) (semantic-list 794 . 805) (symbol 790 . 794) (punctuation 799 . 800) (punctuation 788 . 789) (punctuation 787 . 788) (symbol 783 . 787) (punctuation 782 . 783) (punctuation 781 . 782) (punctuation 780 . 781) (symbol 777 . 780) (punctuation 776 . 777) (symbol 760 . 776) (TYPENAME 751 . 759) (symbol 733 . 750) (symbol 707 . 732) (INLINE 700 . 706) (symbol 678 . 699) (punctuation 676 . 677) (symbol 673 . 676) (CLASS 667 . 672) (punctuation 666 . 667) (TEMPLATE 657 . 665) (symbol 628 . 655) (symbol 581 . 600) (symbol 559 . 572) (symbol 555 . 558) (symbol 548 . 554) (punctuation 547 . 548))
+      :lexical-table 
+        '(("_LIBCPP___UTILITY_MOVE_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-43287bda"
+      :major-mode c++-mode
+      :tags 
+        '( ("_LIBCPP___UTILITY_PAIR_H" variable (:constant-flag t) nil [412 436])
+            ("__config" include (:system-flag t) nil [438 457])
+            ("__functional/unwrap_ref.h" include (:system-flag t) nil [458 494])
+            ("__tuple" include (:system-flag t) nil [495 513])
+            ("__utility/forward.h" include (:system-flag t) nil [514 544])
+            ("__utility/move.h" include (:system-flag t) nil [545 572])
+            ("__utility/piecewise_construct.h" include (:system-flag t) nil [573 615])
+            ("cstddef" include (:system-flag t) nil [616 634])
+            ("type_traits" include (:system-flag t) nil [635 657])
+            ("__undef_macros" include (:system-flag t) nil [763 788])
+            ("pair" variable (:type ("_LIBCPP_TEMPLATE_VIS" type
+                 (:prototype t
+                  :type "struct")
+                  nil nil)) nil [1195 12120])
+            ("pair" variable (:type "int") nil [12211 12226])
+            ("==" function
+               (:operator-flag t
+                :arguments 
+                  ( ("__x" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("pair" type
+                             (:template-specifier 
+                                ( ("_T1" type nil nil nil)
+                                  ("_T2" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [12381 12406])
+                    ("__y" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("pair" type
+                             (:template-specifier 
+                                ( ("_T1" type nil nil nil)
+                                  ("_T2" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [12407 12432]))                  
+                :type "bool")
+                nil [12365 12499])
+            ("!=" function
+               (:operator-flag t
+                :arguments 
+                  ( ("__x" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("pair" type
+                             (:template-specifier 
+                                ( ("_T1" type nil nil nil)
+                                  ("_T2" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [12612 12637])
+                    ("__y" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("pair" type
+                             (:template-specifier 
+                                ( ("_T1" type nil nil nil)
+                                  ("_T2" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [12638 12663]))                  
+                :type "bool")
+                nil [12596 12693])
+            ("<" function
+               (:operator-flag t
+                :arguments 
+                  ( ("__x" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("pair" type
+                             (:template-specifier 
+                                ( ("_T1" type nil nil nil)
+                                  ("_T2" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [12806 12831])
+                    ("__y" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("pair" type
+                             (:template-specifier 
+                                ( ("_T1" type nil nil nil)
+                                  ("_T2" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [12832 12857]))                  
+                :type "bool")
+                nil [12790 12952])
+            (">" function
+               (:operator-flag t
+                :arguments 
+                  ( ("__x" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("pair" type
+                             (:template-specifier 
+                                ( ("_T1" type nil nil nil)
+                                  ("_T2" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [13065 13090])
+                    ("__y" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("pair" type
+                             (:template-specifier 
+                                ( ("_T1" type nil nil nil)
+                                  ("_T2" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [13091 13116]))                  
+                :type "bool")
+                nil [13049 13142])
+            (">=" function
+               (:operator-flag t
+                :arguments 
+                  ( ("__x" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("pair" type
+                             (:template-specifier 
+                                ( ("_T1" type nil nil nil)
+                                  ("_T2" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [13255 13280])
+                    ("__y" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("pair" type
+                             (:template-specifier 
+                                ( ("_T1" type nil nil nil)
+                                  ("_T2" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [13281 13306]))                  
+                :type "bool")
+                nil [13239 13335])
+            ("<=" function
+               (:operator-flag t
+                :arguments 
+                  ( ("__x" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("pair" type
+                             (:template-specifier 
+                                ( ("_T1" type nil nil nil)
+                                  ("_T2" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [13448 13473])
+                    ("__y" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("pair" type
+                             (:template-specifier 
+                                ( ("_T1" type nil nil nil)
+                                  ("_T2" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [13474 13499]))                  
+                :type "bool")
+                nil [13432 13528])
+            ("_NOEXCEPT_" function (:type "int") nil [13797 13939])
+            ("make_pair" function
+               (:arguments 
+                  ( ("" variable
+                       (:reference 1
+                        :type ("_T1" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [14159 14164])
+                    ("" variable (:type ("__t1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14165 14170])
+                    ("" variable
+                       (:reference 1
+                        :type ("_T2" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [14171 14176])
+                    ("" variable (:type ("__t2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14177 14182]))                  
+                :type "int")
+                nil [14149 14353])
+            ("integral_constant" variable (:type "int") nil [14667 14699])
+            ("tuple_element" variable (:type ("_LIBCPP_TEMPLATE_VIS" type
+                 (:prototype t
+                  :type "struct")
+                  nil nil)) nil [14701 14905])
+            ("tuple_element" variable (:type ("_LIBCPP_TEMPLATE_VIS" type
+                 (:prototype t
+                  :type "struct")
+                  nil nil)) nil [14907 15048])
+            ("tuple_element" variable (:type ("_LIBCPP_TEMPLATE_VIS" type
+                 (:prototype t
+                  :type "struct")
+                  nil nil)) nil [15050 15191])
+            ("__get_pair" type
+               (:template 
+                  ( ("size_t" type (:typevar "_Ip") nil nil))                  
+                :type "struct"
+                :prototype t)
+                nil [15193 15233])
+            ("__get_pair" type
+               (:type "struct"
+                :template-specifier (("0")))
+                nil [15235 16107])
+            ("__get_pair" type
+               (:type "struct"
+                :template-specifier (("1")))
+                nil [16109 16985]))          
+      :file "pair.h"
+      :pointmax 19524
+      :fsize 19523
+      :lastmodtime '(25110 9399 0 0)
+      :unmatched-syntax '((symbol 19469 . 19487) (symbol 19442 . 19467) (semantic-list 17960 . 18014) (symbol 17950 . 17959) (semantic-list 17921 . 17949) (symbol 17918 . 17921) (punctuation 17943 . 17944) (punctuation 17916 . 17917) (punctuation 17915 . 17916) (symbol 17911 . 17915) (punctuation 17910 . 17911) (punctuation 17909 . 17910) (punctuation 17908 . 17909) (punctuation 17906 . 17907) (symbol 17903 . 17906) (punctuation 17901 . 17902) (symbol 17898 . 17901) (punctuation 17897 . 17898) (symbol 17893 . 17897) (punctuation 17891 . 17892) (symbol 17888 . 17891) (punctuation 17887 . 17888) (symbol 17874 . 17887) (TYPENAME 17865 . 17873) (CONST 17859 . 17864) (symbol 17829 . 17858) (symbol 17803 . 17828) (INLINE 17796 . 17802) (punctuation 17794 . 17795) (symbol 17791 . 17794) (CLASS 17785 . 17790) (punctuation 17783 . 17784) (symbol 17780 . 17783) (CLASS 17774 . 17779) (punctuation 17772 . 17773) (symbol 17769 . 17772) (symbol 17762 . 17768) (punctuation 17761 . 17762) (TEMPLATE 17752 . 17760) (semantic-list 17696 . 17750) (symbol 17686 . 17695) (semantic-list 17663 . 17685) (symbol 17660 . 17663) (punctuation 17679 . 17680) (punctuation 17658 . 17659) (punctuation 17657 . 17658) (symbol 17653 . 17657) (punctuation 17652 . 17653) (punctuation 17651 . 17652) (punctuation 17650 . 17651) (punctuation 17648 . 17649) (symbol 17645 . 17648) (punctuation 17643 . 17644) (symbol 17640 . 17643) (punctuation 17639 . 17640) (symbol 17635 . 17639) (punctuation 17633 . 17634) (symbol 17630 . 17633) (punctuation 17629 . 17630) (symbol 17616 . 17629) (TYPENAME 17607 . 17615) (symbol 17577 . 17606) (symbol 17551 . 17576) (INLINE 17544 . 17550) (punctuation 17542 . 17543) (symbol 17539 . 17542) (CLASS 17533 . 17538) (punctuation 17531 . 17532) (symbol 17528 . 17531) (CLASS 17522 . 17527) (punctuation 17520 . 17521) (symbol 17517 . 17520) (symbol 17510 . 17516) (punctuation 17509 . 17510) (TEMPLATE 17500 . 17508) (semantic-list 17430 . 17471) (symbol 17420 . 17429) (semantic-list 17392 . 17419) (symbol 17389 . 17392) (punctuation 17387 . 17388) (symbol 17383 . 17387) (punctuation 17382 . 17383) (punctuation 17381 . 17382) (punctuation 17380 . 17381) (punctuation 17378 . 17379) (symbol 17375 . 17378) (punctuation 17373 . 17374) (symbol 17370 . 17373) (punctuation 17369 . 17370) (symbol 17365 . 17369) (punctuation 17363 . 17364) (symbol 17360 . 17363) (punctuation 17359 . 17360) (symbol 17346 . 17359) (TYPENAME 17337 . 17345) (CONST 17331 . 17336) (symbol 17301 . 17330) (symbol 17275 . 17300) (INLINE 17268 . 17274) (punctuation 17266 . 17267) (symbol 17263 . 17266) (CLASS 17257 . 17262) (punctuation 17255 . 17256) (symbol 17252 . 17255) (CLASS 17246 . 17251) (punctuation 17244 . 17245) (symbol 17241 . 17244) (symbol 17234 . 17240) (punctuation 17233 . 17234) (TEMPLATE 17224 . 17232) (semantic-list 17181 . 17222) (symbol 17171 . 17180) (semantic-list 17149 . 17170) (symbol 17146 . 17149) (punctuation 17144 . 17145) (symbol 17140 . 17144) (punctuation 17139 . 17140) (punctuation 17138 . 17139) (punctuation 17137 . 17138) (punctuation 17135 . 17136) (symbol 17132 . 17135) (punctuation 17130 . 17131) (symbol 17127 . 17130) (punctuation 17126 . 17127) (symbol 17122 . 17126) (punctuation 17120 . 17121) (symbol 17117 . 17120) (punctuation 17116 . 17117) (symbol 17103 . 17116) (TYPENAME 17094 . 17102) (symbol 17064 . 17093) (symbol 17038 . 17063) (INLINE 17031 . 17037) (punctuation 17029 . 17030) (symbol 17026 . 17029) (CLASS 17020 . 17025) (punctuation 17018 . 17019) (symbol 17015 . 17018) (CLASS 17009 . 17014) (punctuation 17007 . 17008) (symbol 17004 . 17007) (symbol 16997 . 17003) (punctuation 16996 . 16997) (TEMPLATE 16987 . 16995) (semantic-list 16906 . 16953) (symbol 16896 . 16905) (semantic-list 16867 . 16895) (symbol 16864 . 16867) (punctuation 16889 . 16890) (punctuation 16858 . 16859) (punctuation 16857 . 16858) (symbol 16854 . 16857) (CONST 16848 . 16853) (symbol 16814 . 16843) (symbol 16788 . 16813) (STATIC 16777 . 16783) (punctuation 16771 . 16772) (symbol 16768 . 16771) (CLASS 16762 . 16767) (punctuation 16760 . 16761) (symbol 16757 . 16760) (CLASS 16751 . 16756) (punctuation 16750 . 16751) (TEMPLATE 16741 . 16749) (semantic-list 16694 . 16735) (symbol 16684 . 16693) (semantic-list 16661 . 16683) (symbol 16658 . 16661) (punctuation 16677 . 16678) (punctuation 16652 . 16653) (punctuation 16651 . 16652) (symbol 16648 . 16651) (symbol 16614 . 16643) (symbol 16588 . 16613) (STATIC 16577 . 16583) (punctuation 16571 . 16572) (symbol 16568 . 16571) (CLASS 16562 . 16567) (punctuation 16560 . 16561) (symbol 16557 . 16560) (CLASS 16551 . 16556) (punctuation 16550 . 16551) (TEMPLATE 16541 . 16549) (semantic-list 16488 . 16508) (symbol 16478 . 16487) (semantic-list 16450 . 16477) (symbol 16447 . 16450) (punctuation 16441 . 16442) (symbol 16438 . 16441) (CONST 16432 . 16437) (symbol 16398 . 16427) (symbol 16372 . 16397) (STATIC 16361 . 16367) (punctuation 16355 . 16356) (symbol 16352 . 16355) (CLASS 16346 . 16351) (punctuation 16344 . 16345) (symbol 16341 . 16344) (CLASS 16335 . 16340) (punctuation 16334 . 16335) (TEMPLATE 16325 . 16333) (semantic-list 16299 . 16319) (symbol 16289 . 16298) (semantic-list 16267 . 16288) (symbol 16264 . 16267) (punctuation 16258 . 16259) (symbol 16255 . 16258) (symbol 16221 . 16250) (symbol 16195 . 16220) (STATIC 16184 . 16190) (punctuation 16178 . 16179) (symbol 16175 . 16178) (CLASS 16169 . 16174) (punctuation 16167 . 16168) (symbol 16164 . 16167) (CLASS 16158 . 16163) (punctuation 16157 . 16158) (TEMPLATE 16148 . 16156) (semantic-list 16029 . 16075) (symbol 16019 . 16028) (semantic-list 15990 . 16018) (symbol 15987 . 15990) (punctuation 16012 . 16013) (punctuation 15981 . 15982) (punctuation 15980 . 15981) (symbol 15977 . 15980) (CONST 15971 . 15976) (symbol 15937 . 15966) (symbol 15911 . 15936) (STATIC 15900 . 15906) (punctuation 15894 . 15895) (symbol 15891 . 15894) (CLASS 15885 . 15890) (punctuation 15883 . 15884) (symbol 15880 . 15883) (CLASS 15874 . 15879) (punctuation 15873 . 15874) (TEMPLATE 15864 . 15872) (semantic-list 15818 . 15858) (symbol 15808 . 15817) (semantic-list 15785 . 15807) (symbol 15782 . 15785) (punctuation 15801 . 15802) (punctuation 15776 . 15777) (punctuation 15775 . 15776) (symbol 15772 . 15775) (symbol 15738 . 15767) (symbol 15712 . 15737) (STATIC 15701 . 15707) (punctuation 15695 . 15696) (symbol 15692 . 15695) (CLASS 15686 . 15691) (punctuation 15684 . 15685) (symbol 15681 . 15684) (CLASS 15675 . 15680) (punctuation 15674 . 15675) (TEMPLATE 15665 . 15673) (semantic-list 15613 . 15632) (symbol 15603 . 15612) (semantic-list 15575 . 15602) (symbol 15572 . 15575) (punctuation 15566 . 15567) (symbol 15563 . 15566) (CONST 15557 . 15562) (symbol 15523 . 15552) (symbol 15497 . 15522) (STATIC 15486 . 15492) (punctuation 15480 . 15481) (symbol 15477 . 15480) (CLASS 15471 . 15476) (punctuation 15469 . 15470) (symbol 15466 . 15469) (CLASS 15460 . 15465) (punctuation 15459 . 15460) (TEMPLATE 15450 . 15458) (semantic-list 15425 . 15444) (symbol 15415 . 15424) (semantic-list 15393 . 15414) (symbol 15390 . 15393) (punctuation 15384 . 15385) (symbol 15381 . 15384) (symbol 15347 . 15376) (symbol 15321 . 15346) (STATIC 15310 . 15316) (punctuation 15304 . 15305) (symbol 15301 . 15304) (CLASS 15295 . 15300) (punctuation 15293 . 15294) (symbol 15290 . 15293) (CLASS 15284 . 15289) (punctuation 15283 . 15284) (TEMPLATE 15274 . 15282) (PUBLIC 14660 . 14666) (punctuation 14658 . 14659) (punctuation 14652 . 14653) (punctuation 14650 . 14651) (symbol 14647 . 14650) (punctuation 14645 . 14646) (symbol 14642 . 14645) (punctuation 14641 . 14642) (symbol 14637 . 14641) (punctuation 14636 . 14637) (symbol 14626 . 14636) (symbol 14605 . 14625) (STRUCT 14598 . 14604) (punctuation 14594 . 14595) (symbol 14591 . 14594) (CLASS 14585 . 14590) (punctuation 14583 . 14584) (symbol 14580 . 14583) (CLASS 14574 . 14579) (punctuation 14573 . 14574) (TEMPLATE 14564 . 14572) (punctuation 14175 . 14176) (punctuation 14163 . 14164) (punctuation 14147 . 14148) (symbol 14143 . 14147) (punctuation 14142 . 14143) (punctuation 14141 . 14142) (punctuation 14140 . 14141) (symbol 14137 . 14140) (punctuation 14136 . 14137) (symbol 14118 . 14136) (TYPENAME 14109 . 14117) (punctuation 14107 . 14108) (symbol 14103 . 14107) (punctuation 14102 . 14103) (punctuation 14101 . 14102) (punctuation 14100 . 14101) (symbol 14097 . 14100) (punctuation 14096 . 14097) (symbol 14078 . 14096) (TYPENAME 14069 . 14077) (punctuation 14068 . 14069) (symbol 14064 . 14068) (symbol 14034 . 14063) (symbol 14008 . 14033) (INLINE 14001 . 14007) (punctuation 13999 . 14000) (symbol 13996 . 13999) (CLASS 13990 . 13995) (punctuation 13988 . 13989) (symbol 13985 . 13988) (CLASS 13979 . 13984) (punctuation 13978 . 13979) (TEMPLATE 13969 . 13977) (semantic-list 13808 . 13915) (semantic-list 13733 . 13775) (symbol 13729 . 13733) (symbol 13724 . 13728) (punctuation 13723 . 13724) (punctuation 13722 . 13723) (punctuation 13721 . 13722) (VOID 13716 . 13720) (punctuation 13710 . 13711) (symbol 13705 . 13710) (punctuation 13704 . 13705) (punctuation 13703 . 13704) (punctuation 13702 . 13703) (symbol 13699 . 13702) (punctuation 13698 . 13699) (symbol 13684 . 13698) (punctuation 13678 . 13679) (punctuation 13677 . 13678) (symbol 13671 . 13676) (punctuation 13670 . 13671) (punctuation 13669 . 13670) (punctuation 13668 . 13669) (symbol 13665 . 13668) (punctuation 13664 . 13665) (symbol 13650 . 13664) (punctuation 13644 . 13645) (symbol 13634 . 13643) (TYPENAME 13625 . 13633) (symbol 13595 . 13624) (symbol 13569 . 13594) (INLINE 13562 . 13568) (punctuation 13560 . 13561) (symbol 13557 . 13560) (CLASS 13551 . 13556) (punctuation 13549 . 13550) (symbol 13546 . 13549) (CLASS 13540 . 13545) (punctuation 13539 . 13540) (TEMPLATE 13530 . 13538) (symbol 13402 . 13431) (symbol 13376 . 13401) (INLINE 13369 . 13375) (punctuation 13367 . 13368) (symbol 13364 . 13367) (CLASS 13358 . 13363) (punctuation 13356 . 13357) (symbol 13353 . 13356) (CLASS 13347 . 13352) (punctuation 13346 . 13347) (TEMPLATE 13337 . 13345) (symbol 13209 . 13238) (symbol 13183 . 13208) (INLINE 13176 . 13182) (punctuation 13174 . 13175) (symbol 13171 . 13174) (CLASS 13165 . 13170) (punctuation 13163 . 13164) (symbol 13160 . 13163) (CLASS 13154 . 13159) (punctuation 13153 . 13154) (TEMPLATE 13144 . 13152) (symbol 13019 . 13048) (symbol 12993 . 13018) (INLINE 12986 . 12992) (punctuation 12984 . 12985) (symbol 12981 . 12984) (CLASS 12975 . 12980) (punctuation 12973 . 12974) (symbol 12970 . 12973) (CLASS 12964 . 12969) (punctuation 12963 . 12964) (TEMPLATE 12954 . 12962) (symbol 12760 . 12789) (symbol 12734 . 12759) (INLINE 12727 . 12733) (punctuation 12725 . 12726) (symbol 12722 . 12725) (CLASS 12716 . 12721) (punctuation 12714 . 12715) (symbol 12711 . 12714) (CLASS 12705 . 12710) (punctuation 12704 . 12705) (TEMPLATE 12695 . 12703) (symbol 12566 . 12595) (symbol 12540 . 12565) (INLINE 12533 . 12539) (punctuation 12531 . 12532) (symbol 12528 . 12531) (CLASS 12522 . 12527) (punctuation 12520 . 12521) (symbol 12517 . 12520) (CLASS 12511 . 12516) (punctuation 12510 . 12511) (TEMPLATE 12501 . 12509) (symbol 12335 . 12364) (symbol 12309 . 12334) (INLINE 12302 . 12308) (punctuation 12300 . 12301) (symbol 12297 . 12300) (CLASS 12291 . 12296) (punctuation 12289 . 12290) (symbol 12286 . 12289) (CLASS 12280 . 12285) (punctuation 12279 . 12280) (TEMPLATE 12270 . 12278) (punctuation 12209 . 12210) (punctuation 12208 . 12209) (semantic-list 12197 . 12207) (symbol 12193 . 12197) (punctuation 12191 . 12192) (symbol 12188 . 12191) (CLASS 12182 . 12187) (punctuation 12180 . 12181) (symbol 12177 . 12180) (CLASS 12171 . 12176) (punctuation 12170 . 12171) (TEMPLATE 12162 . 12170) (symbol 790 . 817) (symbol 743 . 762) (symbol 721 . 734) (symbol 717 . 720) (symbol 710 . 716) (punctuation 709 . 710))
+      :lexical-table 
+        '(("_LIBCPP___UTILITY_PAIR_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-42ab4ee0"
+      :major-mode c-mode
+      :tags 
+        '( ("_LIBCPP___UTILITY_PIECEWISE_CONSTRUCT_H" variable (:constant-flag t) nil [427 466])
+            ("__config" include (:system-flag t) nil [468 487])
+            ("__undef_macros" include (:system-flag t) nil [593 618])
+            ("piecewise_construct_t" variable (:type ("_LIBCPP_TEMPLATE_VIS" type
+                 (:prototype t
+                  :type "struct")
+                  nil nil)) nil [649 747])
+            ("piecewise_construct" variable
+               (:default-value "piecewise_construct_t()"
+                :type ("piecewise_construct_t" type (:type "class") nil nil))
+                nil [969 1037]))          
+      :file "piecewise_construct.h"
+      :pointmax 1143
+      :fsize 1142
+      :lastmodtime '(25095 32637 0 0)
+      :unmatched-syntax '((symbol 1073 . 1091) (symbol 1046 . 1071) (symbol 959 . 968) (symbol 620 . 647) (symbol 573 . 592) (symbol 551 . 564) (symbol 547 . 550) (symbol 540 . 546) (punctuation 539 . 540))
+      :lexical-table 
+        '(("_LIBCPP___UTILITY_PIECEWISE_CONSTRUCT_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-4322b6bc"
+      :major-mode c++-mode
+      :tags 
+        '( ("_LIBCPP___UTILITY_REL_OPS_H" variable (:constant-flag t) nil [415 442])
+            ("__config" include (:system-flag t) nil [444 463])
+            ("__utility/forward.h" include (:system-flag t) nil [464 494])
+            ("__utility/move.h" include (:system-flag t) nil [495 522])
+            ("type_traits" include (:system-flag t) nil [523 545])
+            ("__undef_macros" include (:system-flag t) nil [651 676])
+            ("rel_ops" type
+               (:members 
+                  ( ("!=" function
+                       (:operator-flag t
+                        :arguments 
+                          ( ("__x" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("_Tp" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [797 812])
+                            ("__y" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("_Tp" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [813 828]))                          
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [781 858])
+                    (">" function
+                       (:operator-flag t
+                        :arguments 
+                          ( ("__x" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("_Tp" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [929 944])
+                            ("__y" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("_Tp" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [945 960]))                          
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [913 986])
+                    ("<=" function
+                       (:operator-flag t
+                        :arguments 
+                          ( ("__x" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("_Tp" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1057 1072])
+                            ("__y" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("_Tp" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1073 1088]))                          
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [1041 1117])
+                    (">=" function
+                       (:operator-flag t
+                        :arguments 
+                          ( ("__x" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("_Tp" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1188 1203])
+                            ("__y" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("_Tp" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1204 1219]))                          
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [1172 1248]))                  
+                :type "namespace")
+                nil [707 1251]))          
+      :file "rel_ops.h"
+      :pointmax 1350
+      :fsize 1349
+      :lastmodtime '(25095 32637 0 0)
+      :unmatched-syntax '((symbol 1292 . 1310) (symbol 1265 . 1290) (symbol 1146 . 1171) (INLINE 1139 . 1145) (punctuation 1137 . 1138) (symbol 1134 . 1137) (CLASS 1128 . 1133) (punctuation 1127 . 1128) (TEMPLATE 1119 . 1127) (symbol 1015 . 1040) (INLINE 1008 . 1014) (punctuation 1006 . 1007) (symbol 1003 . 1006) (CLASS 997 . 1002) (punctuation 996 . 997) (TEMPLATE 988 . 996) (symbol 887 . 912) (INLINE 880 . 886) (punctuation 878 . 879) (symbol 875 . 878) (CLASS 869 . 874) (punctuation 868 . 869) (TEMPLATE 860 . 868) (symbol 755 . 780) (INLINE 748 . 754) (punctuation 746 . 747) (symbol 743 . 746) (CLASS 737 . 742) (punctuation 736 . 737) (TEMPLATE 728 . 736) (symbol 678 . 705) (symbol 631 . 650) (symbol 609 . 622) (symbol 605 . 608) (symbol 598 . 604) (punctuation 597 . 598))
+      :lexical-table 
+        '(("_LIBCPP___UTILITY_REL_OPS_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-4f64e480"
+      :major-mode c++-mode
+      :tags 
+        '( ("_LIBCPP___UTILITY_SWAP_H" variable (:constant-flag t) nil [412 436])
+            ("__config" include (:system-flag t) nil [438 457])
+            ("__utility/declval.h" include (:system-flag t) nil [458 488])
+            ("__utility/move.h" include (:system-flag t) nil [489 516])
+            ("type_traits" include (:system-flag t) nil [517 539])
+            ("cstddef" include (:system-flag t) nil [540 558])
+            ("__undef_macros" include (:system-flag t) nil [664 689])
+            ("type" variable (:type "int") nil [881 886])
+            ("_NOEXCEPT_" function
+               (:arguments 
+                  ( ("" variable (:type ("is_nothrow_move_constructible" type
+                         (:template-specifier 
+                            ( ("_Tp" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [1093 1128])
+                    ("" variable
+                       (:reference 1
+                        :type ("value" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1129 1136])
+                    ("" variable (:type ("is_nothrow_move_assignable" type
+                         (:template-specifier 
+                            ( ("_Tp" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [1137 1169])
+                    ("" variable (:type ("value" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1170 1176]))                  
+                :type "int")
+                nil [1082 1261])
+            ("_NOEXCEPT_" function
+               (:arguments 
+                  ( ("" variable (:type ("__is_nothrow_swappable" type
+                         (:template-specifier 
+                            ( ("_Tp" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [1462 1490])
+                    ("" variable (:type ("value" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1491 1497]))                  
+                :type "int")
+                nil [1451 1579]))          
+      :file "swap.h"
+      :pointmax 1663
+      :fsize 1662
+      :lastmodtime '(25095 32637 0 0)
+      :unmatched-syntax '((symbol 1608 . 1626) (symbol 1581 . 1606) (punctuation 1490 . 1491) (punctuation 1489 . 1490) (semantic-list 1416 . 1450) (symbol 1412 . 1416) (semantic-list 1444 . 1449) (semantic-list 1438 . 1444) (semantic-list 1427 . 1432) (semantic-list 1421 . 1427) (symbol 1407 . 1411) (semantic-list 1444 . 1449) (semantic-list 1438 . 1444) (semantic-list 1427 . 1432) (semantic-list 1421 . 1427) (punctuation 1406 . 1407) (punctuation 1405 . 1406) (punctuation 1404 . 1405) (symbol 1399 . 1404) (punctuation 1398 . 1399) (punctuation 1397 . 1398) (punctuation 1396 . 1397) (symbol 1393 . 1396) (punctuation 1392 . 1393) (symbol 1378 . 1392) (punctuation 1377 . 1378) (symbol 1368 . 1377) (TYPENAME 1359 . 1367) (symbol 1329 . 1358) (symbol 1303 . 1328) (INLINE 1296 . 1302) (punctuation 1294 . 1295) (symbol 1291 . 1294) (symbol 1284 . 1290) (punctuation 1282 . 1283) (symbol 1279 . 1282) (CLASS 1273 . 1278) (punctuation 1272 . 1273) (TEMPLATE 1263 . 1271) (punctuation 1169 . 1170) (punctuation 1168 . 1169) (punctuation 1135 . 1136) (punctuation 1128 . 1129) (punctuation 1127 . 1128) (semantic-list 1057 . 1077) (symbol 1053 . 1057) (symbol 1023 . 1052) (punctuation 1021 . 1022) (symbol 1018 . 1021) (punctuation 1017 . 1018) (symbol 1002 . 1017) (symbol 976 . 1001) (INLINE 969 . 975) (punctuation 967 . 968) (symbol 964 . 967) (CLASS 958 . 963) (punctuation 957 . 958) (TEMPLATE 948 . 956) (punctuation 880 . 881) (punctuation 879 . 880) (punctuation 878 . 879) (symbol 873 . 878) (punctuation 872 . 873) (punctuation 871 . 872) (punctuation 870 . 871) (symbol 867 . 870) (punctuation 866 . 867) (symbol 848 . 866) (punctuation 846 . 847) (punctuation 845 . 846) (symbol 839 . 844) (punctuation 838 . 839) (punctuation 837 . 838) (punctuation 836 . 837) (symbol 833 . 836) (punctuation 832 . 833) (symbol 811 . 832) (punctuation 810 . 811) (symbol 801 . 810) (TYPENAME 792 . 800) (USING 768 . 773) (punctuation 766 . 767) (symbol 763 . 766) (CLASS 757 . 762) (punctuation 756 . 757) (TEMPLATE 747 . 755) (symbol 691 . 718) (symbol 644 . 663) (symbol 622 . 635) (symbol 618 . 621) (symbol 611 . 617) (punctuation 610 . 611))
+      :lexical-table 
+        '(("_LIBCPP___UTILITY_SWAP_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-43b9a67a"
+      :major-mode c++-mode
+      :tags 
+        '( ("_LIBCPP___UTILITY_TO_UNDERLYING_H" variable (:constant-flag t) nil [436 469])
+            ("__config" include (:system-flag t) nil [471 490])
+            ("type_traits" include (:system-flag t) nil [491 513])
+            ("__undef_macros" include (:system-flag t) nil [619 644]))          
+      :file "to_underlying.h"
+      :pointmax 1236
+      :fsize 1235
+      :lastmodtime '(25095 32637 0 0)
+      :unmatched-syntax '((symbol 1172 . 1190) (symbol 1145 . 1170) (semantic-list 831 . 900) (symbol 822 . 830) (semantic-list 810 . 821) (symbol 795 . 810) (symbol 790 . 794) (punctuation 789 . 790) (punctuation 788 . 789) (punctuation 787 . 788) (symbol 784 . 787) (punctuation 783 . 784) (symbol 768 . 783) (TYPENAME 759 . 767) (symbol 749 . 758) (symbol 723 . 748) (punctuation 721 . 722) (symbol 718 . 721) (CLASS 712 . 717) (punctuation 711 . 712) (TEMPLATE 702 . 710) (symbol 646 . 673) (symbol 599 . 618) (symbol 577 . 590) (symbol 573 . 576) (symbol 566 . 572) (punctuation 565 . 566))
+      :lexical-table 
+        '(("_LIBCPP___UTILITY_TO_UNDERLYING_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-43227ce8"
+      :major-mode c++-mode
+      :tags 
+        '( ("_LIBCPP___TYPE_TRAITS_DECAY_COPY_H" variable (:constant-flag t) nil [437 471])
+            ("__config" include (:system-flag t) nil [473 492])
+            ("__utility/forward.h" include (:system-flag t) nil [493 523])
+            ("type_traits" include (:system-flag t) nil [524 546])
+            ("__undef_macros" include (:system-flag t) nil [652 677])
+            ("__decay_copy" function
+               (:arguments 
+                  ( ("" variable
+                       (:reference 1
+                        :type ("_Tp" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [801 806])
+                    ("" variable (:type ("__t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [807 811]))                  
+                :type ("type" type (:type "class") nil nil))
+                nil [783 952]))          
+      :file "__decay_copy.h"
+      :pointmax 1046
+      :fsize 1045
+      :lastmodtime '(25095 32637 0 0)
+      :unmatched-syntax '((symbol 981 . 999) (symbol 954 . 979) (punctuation 805 . 806) (punctuation 782 . 783) (punctuation 781 . 782) (punctuation 780 . 781) (symbol 777 . 780) (punctuation 776 . 777) (symbol 771 . 776) (TYPENAME 762 . 770) (symbol 736 . 761) (INLINE 729 . 735) (punctuation 727 . 728) (symbol 724 . 727) (CLASS 718 . 723) (punctuation 717 . 718) (TEMPLATE 708 . 716) (symbol 679 . 706) (symbol 632 . 651) (symbol 610 . 623) (symbol 606 . 609) (symbol 599 . 605) (punctuation 598 . 599))
+      :lexical-table 
+        '(("_LIBCPP___TYPE_TRAITS_DECAY_COPY_H")
+          )
+))
+  :file "!Applications!Xcode.app!Contents!Developer!Platforms!MacOSX.platform!Developer!SDKs!MacOSX.sdk!usr!include!c++!v1!__utility!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

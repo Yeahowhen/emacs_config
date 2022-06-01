@@ -1,0 +1,108 @@
+;; Object semanticdb-project-database-file-43ec6598
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-43ec6598"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-43ec65aa"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"
+--------------------------------------
+@Project: iPad_ZR_auto_test
+@Time: 2021/1/10
+@Auth: Howin Ye
+@Email: howin.ye@zoom.us
+@File: Create_new_room.py
+@Tools: Emacs
+--------------------------------------
+\"\"\"" code nil nil [65 276])
+            ("appium.webdriver.common.appiumby" include nil nil [278 337])
+            ("selenium.webdriver.support.ui" include nil nil [338 393])
+            ("selenium.webdriver.support" include nil nil [394 458])
+            ("Create_new_room" type
+               (:members 
+                  ( ("CREATE_NEW_ROOM_TAG" variable nil (reparse-symbol indented_block_body) [488 566])
+                    ("CREATE_NEW_ROOM_SELECT_ROOM" variable nil (reparse-symbol indented_block_body) [571 647])
+                    ("CREATE_NEW_ROOM_CLOSE" variable nil (reparse-symbol indented_block_body) [652 716])
+                    ("CREATE_NEW_ROOM_SZR" variable nil (reparse-symbol indented_block_body) [722 1066])
+                    ("CREATE_NEW_ROOM_PZR" variable nil (reparse-symbol indented_block_body) [1072 1416])
+                    ("create_new_room" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [1459 1462])
+                            ("driver" variable nil (reparse-symbol function_parameters) [1464 1470]))                          )
+                        (reparse-symbol indented_block_body) [1422 1636])
+                    ("select_room" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [1674 1677])
+                            ("driver" variable nil (reparse-symbol function_parameters) [1679 1685]))                          )
+                        (reparse-symbol indented_block_body) [1641 1859])
+                    ("pzr" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [1889 1892])
+                            ("driver" variable nil (reparse-symbol function_parameters) [1894 1900]))                          )
+                        (reparse-symbol indented_block_body) [1864 2066])
+                    ("szr" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [2096 2099])
+                            ("driver" variable nil (reparse-symbol function_parameters) [2101 2107]))                          )
+                        (reparse-symbol indented_block_body) [2071 2273])
+                    ("close" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [2305 2308])
+                            ("driver" variable nil (reparse-symbol function_parameters) [2310 2316]))                          )
+                        (reparse-symbol indented_block_body) [2278 2484]))                  
+                :type "class")
+                nil [461 2484]))          
+      :file "Create_new_room.py"
+      :pointmax 2484
+      :fsize 2483
+      :lastmodtime '(25057 18350 103720 575000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4204346c"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"
+--------------------------------------
+@Project: iPad_ZR_auto_test
+@Time: 2021/1/10
+@Auth: Howin Ye
+@Email: howin.ye@zoom.us
+@File: conftest.py
+@Tools: Emacs
+--------------------------------------
+\"\"\"" code nil nil [65 269])
+            ("pytest" include nil nil [271 284])
+            ("Create_new_room" include nil nil [285 314])
+            ("" code nil nil [331 349])
+            ("create_new_room_fixture" function (:arguments 
+              ( ("room_fixed_email_fixed_fixture" variable nil (reparse-symbol function_parameters) [378 408]))              ) nil [350 489])
+            ("" code nil nil [505 523])
+            ("create_back" function (:arguments 
+              ( ("create_new_room_fixture" variable nil (reparse-symbol function_parameters) [540 563]))              ) nil [524 633])
+            ("" code nil nil [649 667])
+            ("pzr" function (:arguments 
+              ( ("create_new_room_fixture" variable nil (reparse-symbol function_parameters) [676 699]))              ) nil [668 761])
+            ("" code nil nil [777 795])
+            ("szr" function (:arguments 
+              ( ("create_new_room_fixture" variable nil (reparse-symbol function_parameters) [804 827]))              ) nil [796 889])
+            ("" code nil nil [905 923])
+            ("create_close" function (:arguments 
+              ( ("create_new_room_fixture" variable nil (reparse-symbol function_parameters) [941 964]))              ) nil [924 1028]))          
+      :file "conftest.py"
+      :pointmax 1028
+      :fsize 1027
+      :lastmodtime '(25057 18840 198743 188000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!iPad_ZR!Unlicensed_Room!Sign_in!Email!Select_Room!Create_new_room!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

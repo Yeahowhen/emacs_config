@@ -1,0 +1,35 @@
+;; Object semanticdb-project-database-file-4bc37c94
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-4bc37c94"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4bc37ca6"
+      :major-mode python-mode
+      :tags 
+        '( ("platforms.mac.Zoomapps_base_method.Zoomapp_method" include nil nil [16 79])
+            ("platforms.mac.Zoomapps_base_method.login_logout" include nil nil [80 141])
+            ("test_Switch_apps" function (:arguments 
+              ( ("log" variable nil (reparse-symbol function_parameters) [165 168]))              ) nil [144 828])
+            ("if" code nil nil [830 962]))          
+      :file "Open_launch_page.py"
+      :pointmax 962
+      :fsize 961
+      :lastmodtime '(24989 55957 0 0)
+      :unmatched-syntax '((INDENT_BLOCK 769 . 828) (NEWLINE 768 . 769) (COLON 767 . 768) (TRY 175 . 178) (AS 763 . 765)))
+    (semanticdb-table "semanticdb-table-4bdef952"
+      :major-mode python-mode
+      :tags 
+        '( ("selenium.webdriver.support.ui" include nil nil [15 70])
+            ("platforms.mac.base_method.edit_driver_options" include nil nil [71 130])
+            ("platforms.mac.base_method.web_method" include nil nil [131 181])
+            ("enable_zoomapps" function (:arguments 
+              ( ("log" variable nil (reparse-symbol function_parameters) [203 206]))              ) nil [183 241])
+            ("if" code nil nil [243 358]))          
+      :file "enable_disable_zoomapps.py"
+      :pointmax 358
+      :fsize 357
+      :lastmodtime '(24989 55957 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!client-zapp-ta!platforms!mac!zoomapp!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

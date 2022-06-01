@@ -1,0 +1,72 @@
+;; Object semanticdb-project-database-file-43d5484a
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-43d5484a"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-43d547ea"
+      :major-mode python-mode
+      :tags 
+        '( ("pytest" include nil nil [1 14])
+            ("sign_in" include nil nil [15 29])
+            ("email_fixture" function (:arguments 
+              ( ("sign_in_fixture" variable nil (reparse-symbol function_parameters) [84 99]))              ) nil [66 158])
+            ("activation_fixture" function (:arguments 
+              ( ("sign_in_fixture" variable nil (reparse-symbol function_parameters) [216 231]))              ) nil [193 295]))          
+      :file "conftest.py"
+      :pointmax 295
+      :fsize 294
+      :lastmodtime '(25055 60367 10424 765000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-43d5480a"
+      :major-mode python-mode
+      :tags 
+        '( ("appium.webdriver.common.appiumby" include nil nil [1 60])
+            ("selenium.webdriver.support.ui" include nil nil [61 116])
+            ("selenium.webdriver.support" include nil nil [117 181])
+            ("Sign_in" type
+               (:members 
+                  ( ("ZOOM_LOGO_XPATH" variable nil (reparse-symbol indented_block_body) [203 270])
+                    ("EMAIL_BUTTON_XPATH" variable nil (reparse-symbol indented_block_body) [275 336])
+                    ("ACTIVATION_BUTTON_XPATH" variable nil (reparse-symbol indented_block_body) [341 417])
+                    ("choose_email" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [457 460])
+                            ("driver" variable nil (reparse-symbol function_parameters) [462 468]))                          )
+                        (reparse-symbol indented_block_body) [423 631])
+                    ("choose_activation" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [675 678])
+                            ("driver" variable nil (reparse-symbol function_parameters) [680 686]))                          )
+                        (reparse-symbol indented_block_body) [636 864]))                  
+                :type "class")
+                nil [184 864]))          
+      :file "sign_in.py"
+      :pointmax 864
+      :fsize 863
+      :lastmodtime '(25053 15191 849780 380000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-43d5482a"
+      :major-mode python-mode
+      :tags 
+        '( ("Test_sign_in" type
+               (:members 
+                  ( ("test_choose_email" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [47 51])
+                            ("email_fixture" variable nil (reparse-symbol function_parameters) [53 66]))                          )
+                        (reparse-symbol indented_block_body) [25 99]))                  
+                :type "class")
+                nil [1 99]))          
+      :file "test_sign_in.py"
+      :pointmax 99
+      :fsize 98
+      :lastmodtime '(25055 59376 821706 688000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!iPad_ZR!Unlicensed_Room!Sign_in!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

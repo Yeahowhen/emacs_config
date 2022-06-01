@@ -1,0 +1,95 @@
+;; Object semanticdb-project-database-file-43674d08
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-43674d08"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4365dc84"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"
+--------------------------------------
+@Project: iPad_ZR_auto_test
+@Time: 2021/1/10
+@Auth: Howin Ye
+@Email: howin.ye@zoom.us
+@File: Personal_link.py
+@Tools: Emacs
+--------------------------------------
+\"\"\"" code nil nil [65 274])
+            ("appium.webdriver.common.appiumby" include nil nil [276 335])
+            ("selenium.webdriver.support.ui" include nil nil [336 391])
+            ("selenium.webdriver.support" include nil nil [392 456])
+            ("Personal_link" type
+               (:members 
+                  ( ("JOIN_MEETING_WITH_PERNONAL_LINK_NAME_BOX" variable nil (reparse-symbol indented_block_body) [484 827])
+                    ("JOIN_MEETING_WITH_PERNONAL_LINK_NAME_JOIN" variable nil (reparse-symbol indented_block_body) [832 920])
+                    ("personal_meeting" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [964 967])
+                            ("driver" variable nil (reparse-symbol function_parameters) [969 975])
+                            ("personal_name" variable nil (reparse-symbol function_parameters) [977 990]))                          )
+                        (reparse-symbol indented_block_body) [926 1387]))                  
+                :type "class")
+                nil [459 1387]))          
+      :file "Personal_link.py"
+      :pointmax 1387
+      :fsize 1386
+      :lastmodtime '(25057 12650 207039 628000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-43764924"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"
+--------------------------------------
+@Project: iPad_ZR_auto_test
+@Time: 2021/1/10
+@Auth: Howin Ye
+@Email: howin.ye@zoom.us
+@File: conftest.py
+@Tools: Emacs
+--------------------------------------
+\"\"\"" code nil nil [65 269])
+            ("pytest" include nil nil [271 284])
+            ("Personal_link" include nil nil [285 311])
+            ("json" include nil nil [312 323])
+            ("basic_xpath" include nil nil [324 348])
+            ("'''
+Personal link fixed interface
+'''" code nil nil [351 388])
+            ("" code nil nil [404 422])
+            ("personal_link_fixed_fixture" function (:arguments 
+              ( ("join_personal_meeting_fixture" variable nil (reparse-symbol function_parameters) [455 484]))              ) nil [423 670])
+            ("'''
+Personal link alternative interface
+'''" code nil nil [672 715])
+            ("" code nil nil [731 749])
+            ("personal_link_alternative_fixture" function (:arguments 
+              ( ("join_personal_meeting_fixture" variable nil (reparse-symbol function_parameters) [788 817]))              ) nil [750 953]))          
+      :file "conftest.py"
+      :pointmax 953
+      :fsize 952
+      :lastmodtime '(25057 12790 806050 402000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-43e768e6"
+      :major-mode python-mode
+      :tags 
+        '( ("Test_personal_link" type
+               (:members 
+                  ( ("test_personal_link" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [54 58])
+                            ("personal_link_alternative_fixture" variable nil (reparse-symbol function_parameters) [60 93]))                          )
+                        (reparse-symbol indented_block_body) [31 186]))                  
+                :type "class")
+                nil [1 186]))          
+      :file "test_personal_link.py"
+      :pointmax 186
+      :fsize 185
+      :lastmodtime '(25057 12978 133218 32000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!iPad_ZR!Unlicensed_Room!Sign_in!Email!Select_Room!Licensed_Room!Join!Personal_link!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

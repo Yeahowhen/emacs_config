@@ -1,0 +1,81 @@
+;; Object semanticdb-project-database-file-47b498d8
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-47b498d8"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-47b4a504"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"
+--------------------------------------
+@Project: iPad_ZR_auto_test
+@Time: 2021/1/10
+@Auth: Howin Ye
+@Email: howin.ye@zoom.us
+@File: Email.py
+@Tools: Emacs
+--------------------------------------
+\"\"\"" code nil nil [65 266])
+            ("appium.webdriver.common.appiumby" include nil nil [268 327])
+            ("selenium.webdriver.support.ui" include nil nil [328 383])
+            ("selenium.webdriver.support" include nil nil [384 448])
+            ("Email" type
+               (:members 
+                  ( ("EMAIL_SIGN_IN_TAG" variable nil (reparse-symbol indented_block_body) [468 539])
+                    ("EMAIL_ADDRESS_XPATH" variable nil (reparse-symbol indented_block_body) [544 889])
+                    ("EMAIL_PASSWD_XPATH" variable nil (reparse-symbol indented_block_body) [894 1244])
+                    ("EMAIL_SIGN_IN_BUTTON" variable nil (reparse-symbol indented_block_body) [1249 1319])
+                    ("email" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [1352 1355])
+                            ("driver" variable nil (reparse-symbol function_parameters) [1357 1363])
+                            ("account" variable nil (reparse-symbol function_parameters) [1365 1372])
+                            ("passwd" variable nil (reparse-symbol function_parameters) [1374 1380]))                          )
+                        (reparse-symbol indented_block_body) [1325 1889]))                  
+                :type "class")
+                nil [451 1889]))          
+      :file "Email.py"
+      :pointmax 1889
+      :fsize 1888
+      :lastmodtime '(25057 10414 218709 960000)
+      :unmatched-syntax '(($EOI 1889 . 1889)))
+    (semanticdb-table "semanticdb-table-47b4a524"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"
+--------------------------------------
+@Project: iPad_ZR_auto_test
+@Time: 2021/1/10
+@Auth: Howin Ye
+@Email: howin.ye@zoom.us
+@File: conftest.py
+@Tools: Emacs
+--------------------------------------
+\"\"\"" code nil nil [65 269])
+            ("pytest" include nil nil [271 284])
+            ("Email" include nil nil [285 297])
+            ("json" include nil nil [298 309])
+            ("basic_xpath" include nil nil [310 334])
+            ("'''
+Fixed email interface
+email config path ~/iOS/Config/email.json
+'''" code nil nil [336 407])
+            ("" code nil nil [423 441])
+            ("email_login_fixed_fixture" function (:arguments 
+              ( ("email_fixture" variable nil (reparse-symbol function_parameters) [472 485]))              ) nil [442 642])
+            ("'''
+Alternative email interface
+'''" code nil nil [644 679])
+            ("" code nil nil [695 713])
+            ("email_login_alternative_fixture" function (:arguments 
+              ( ("email_fixture" variable nil (reparse-symbol function_parameters) [750 763]))              ) nil [714 895]))          
+      :file "conftest.py"
+      :pointmax 895
+      :fsize 894
+      :lastmodtime '(25057 10444 64938 714000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!iPad_ZR!Unlicensed_Room!Sign_in!Email!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

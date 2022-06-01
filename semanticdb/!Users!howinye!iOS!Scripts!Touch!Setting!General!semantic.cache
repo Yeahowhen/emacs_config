@@ -1,0 +1,32 @@
+;; Object semanticdb-project-database-file-43a88c5c
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-43a88c5c"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-43a538a0"
+      :major-mode python-mode
+      :tags 
+        '( ("Options" type
+               (:members 
+                  ( ("OPTIONS_PREFIX" variable nil (reparse-symbol indented_block_body) [20 459])
+                    ("OPTIONS_SUFFIX" variable nil (reparse-symbol indented_block_body) [464 528])
+                    ("ROOM_NAME" variable nil (reparse-symbol indented_block_body) [534 571])
+                    ("APP_VERSION" variable nil (reparse-symbol indented_block_body) [576 615])
+                    ("DOMAIN" variable nil (reparse-symbol indented_block_body) [620 654])
+                    ("PRIVACY_POLICY" variable nil (reparse-symbol indented_block_body) [659 701])
+                    ("OPEN_SOURCE_SOFTWARE" variable nil (reparse-symbol indented_block_body) [706 754])
+                    ("ROOM_NAME_XPATH" code nil (reparse-symbol indented_block_body) [764 825])
+                    ("APP_VERSION_XPATH" code nil (reparse-symbol indented_block_body) [830 895])
+                    ("DOMAIN_XPATH" code nil (reparse-symbol indented_block_body) [900 955])
+                    ("PRIVACY_POLICY_XPATH" code nil (reparse-symbol indented_block_body) [960 1031])
+                    ("OPEN_SOURCE_SOFTWARE_XPATH" code nil (reparse-symbol indented_block_body) [1036 1119]))                  
+                :type "class")
+                nil [1 1120]))          
+      :file "Options.py"
+      :pointmax 1120
+      :fsize 1119
+      :lastmodtime '(25052 62867 476121 269000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!Touch!Setting!General!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

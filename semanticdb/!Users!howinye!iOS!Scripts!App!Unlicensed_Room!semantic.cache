@@ -1,0 +1,57 @@
+;; Object semanticdb-project-database-file-43fa1f5a
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-43fa1f5a"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-43fa3888"
+      :major-mode python-mode
+      :tags 
+        '( ("pytest" include nil nil [1 14])
+            ("Unlicensed_Room" include nil nil [15 37])
+            ("pytest" include nil nil [39 52])
+            ("" code nil nil [78 88])
+            ("Test_unlicensed_room" type
+               (:members 
+                  ( ("test_back" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [135 139])
+                            ("touch_fixture" variable nil (reparse-symbol function_parameters) [141 154])
+                            ("back_fixture" variable nil (reparse-symbol function_parameters) [156 168]))                          )
+                        (reparse-symbol indented_block_body) [121 184]))                  
+                :type "class")
+                nil [89 184]))          
+      :file "test_unlicensed_room.py"
+      :pointmax 184
+      :fsize 183
+      :lastmodtime '(25053 19202 693328 739000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-43fac70c"
+      :major-mode python-mode
+      :tags 
+        '( ("Unlicensed_Room" include nil nil [1 29])
+            ("pytest" include nil nil [30 43])
+            ("" code nil nil [68 78])
+            ("" code nil nil [94 96])
+            ("sign_in_fixture" function (:arguments 
+              ( ("driver" variable nil (reparse-symbol function_parameters) [117 123]))              ) nil [97 171])
+            ("" code nil nil [195 205])
+            ("" code nil nil [221 223])
+            ("back_fixture" function (:arguments 
+              ( ("driver" variable nil (reparse-symbol function_parameters) [241 247]))              ) nil [224 300])
+            ("" code nil nil [324 334])
+            ("" code nil nil [350 352])
+            ("test_meeting_fixture" function (:arguments 
+              ( ("driver" variable nil (reparse-symbol function_parameters) [378 384]))              ) nil [353 445])
+            ("" code nil nil [469 479])
+            ("" code nil nil [495 497])
+            ("test_white_board_fixture" function (:arguments 
+              ( ("driver" variable nil (reparse-symbol function_parameters) [527 533]))              ) nil [498 598]))          
+      :file "conftest.py"
+      :pointmax 598
+      :fsize 597
+      :lastmodtime '(25053 19243 307037 753000)
+      :unmatched-syntax '((AT 446 . 447) ($EOI 598 . 598) (AT 301 . 302) ($EOI 598 . 598) (AT 172 . 173) ($EOI 598 . 598) (DEF 503 . 506) (NEWLINE 539 . 540) (INDENT_BLOCK 540 . 602) (DEF 355 . 358) (NEWLINE 387 . 388) (INDENT_BLOCK 388 . 446) (DEF 227 . 230) (NEWLINE 251 . 252) (INDENT_BLOCK 252 . 302) (DEF 97 . 100) (NEWLINE 124 . 125) (INDENT_BLOCK 125 . 170))))
+  :file "!Users!howinye!iOS!Scripts!App!Unlicensed_Room!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

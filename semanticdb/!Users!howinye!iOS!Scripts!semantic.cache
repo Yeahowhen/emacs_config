@@ -1,0 +1,82 @@
+;; Object semanticdb-project-database-file-4367a634
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-4367a634"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4367ccb8"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"
+--------------------------------------
+@Project: iPad_ZR_auto_test
+@Time: 2021/12/10
+@Auth: Howin Ye
+@Email: howin.ye@zoom.us
+@File: conftest.py
+@Tools: Emacs
+--------------------------------------
+\"\"\"" code nil nil [65 270])
+            ("json" include nil nil [272 283])
+            ("pytest" include nil nil [284 297])
+            ("basic_xpath" include nil nil [298 322])
+            ("appium" include nil nil [323 351])
+            ("" code nil nil [368 386])
+            ("config1_stream" function nil nil [387 468])
+            ("" code nil nil [484 502])
+            ("config2_stream" function nil nil [503 584])
+            ("" code nil nil [600 618])
+            ("desired1_caps" function (:arguments 
+              ( ("config1_stream" variable nil (reparse-symbol function_parameters) [637 651]))              ) nil [619 706])
+            ("" code nil nil [722 740])
+            ("desired2_caps" function (:arguments 
+              ( ("config2_stream" variable nil (reparse-symbol function_parameters) [759 773]))              ) nil [741 828])
+            ("" code nil nil [844 862])
+            ("driver1" function (:arguments 
+              ( ("desired1_caps" variable nil (reparse-symbol function_parameters) [875 888]))              ) nil [863 1029])
+            ("" code nil nil [1045 1063])
+            ("driver2" function (:arguments 
+              ( ("desired2_caps" variable nil (reparse-symbol function_parameters) [1076 1089]))              ) nil [1064 1230]))          
+      :file "conftest.py"
+      :pointmax 1230
+      :fsize 878
+      :lastmodtime '(25056 58871 901700 493000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-43682588"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"
+--------------------------------------
+@Project: iPad_ZR_auto_test
+@Time: 2021/1/10
+@Auth: Howin Ye
+@Email: howin.ye@zoom.us
+@File: basic_xpath.py
+@Tools: Emacs
+--------------------------------------
+\"\"\"" code nil nil [65 272])
+            ("os" include nil nil [274 283])
+            ("SERVER_PATH" variable nil nil [285 329])
+            ("CONFIG_DIR" variable nil nil [330 394])
+            ("EMAIL_PATH" variable nil nil [395 446])
+            ("ROOM_PATH" variable nil nil [447 496])
+            ("ACTIVATION_CODE_PATH" variable nil nil [497 568])
+            ("MEETING_PATH" variable nil nil [569 624])
+            ("PERSONAL_LINK_PATH" variable nil nil [625 692]))          
+      :file "basic_xpath.py"
+      :pointmax 693
+      :fsize 692
+      :lastmodtime '(25057 5734 445200 464000)
+      :unmatched-syntax '(($EOI 693 . 693) ($EOI 692 . 692) ($EOI 693 . 693) ($EOI 692 . 692) ($EOI 694 . 694) ($EOI 685 . 685) ($EOI 691 . 691)))
+    (semanticdb-table "semanticdb-table-436adcc8"
+      :major-mode python-mode
+      :tags 
+        '( ("test_driver" function (:arguments 
+              ( ("driver" variable nil (reparse-symbol function_parameters) [17 23]))              ) nil [1 120]))          
+      :file "test_driver.py"
+      :pointmax 120
+      :fsize 119
+      :lastmodtime '(25056 58806 236862 867000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

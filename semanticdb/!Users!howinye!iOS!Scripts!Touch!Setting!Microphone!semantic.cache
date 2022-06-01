@@ -1,0 +1,24 @@
+;; Object semanticdb-project-database-file-47914e04
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-47914e04"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-47914e16"
+      :major-mode python-mode
+      :tags 
+        '( ("Microphone" type
+               (:members 
+                  ( ("MICROPHONE_SOURCE" variable nil (reparse-symbol indented_block_body) [23 488])
+                    ("MICROPHONE_ADVANCED_SAP" variable nil (reparse-symbol indented_block_body) [493 1009])
+                    ("MICROPHONE_ANS" variable nil (reparse-symbol indented_block_body) [1014 1476])
+                    ("MICROPHONE_MODERATE" variable nil (reparse-symbol indented_block_body) [1481 1993]))                  
+                :type "class")
+                nil [1 2513]))          
+      :file "Options.py"
+      :pointmax 2513
+      :fsize 1005
+      :lastmodtime '(25052 63585 32729 782000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!Touch!Setting!Microphone!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

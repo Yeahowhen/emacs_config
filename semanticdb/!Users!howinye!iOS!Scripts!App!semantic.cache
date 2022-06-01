@@ -1,0 +1,65 @@
+;; Object semanticdb-project-database-file-43f8ddce
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-43f8ddce"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-43f8ddd8"
+      :major-mode python-mode
+      :tags 
+        '( ("pytest" include nil nil [1 14])
+            ("" code nil nil [40 50])
+            ("Test_touch" type
+               (:members 
+                  ( ("test_touch" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [88 92])
+                            ("touch_fixture" variable nil (reparse-symbol function_parameters) [94 107]))                          )
+                        (reparse-symbol indented_block_body) [73 138]))                  
+                :type "class")
+                nil [51 138]))          
+      :file "test_app.py"
+      :pointmax 138
+      :fsize 137
+      :lastmodtime '(25053 19360 817749 946000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-43b44cfc"
+      :major-mode python-mode
+      :tags 
+        '( ("appium.webdriver.common.appiumby" include nil nil [1 60])
+            ("selenium.webdriver.support.ui" include nil nil [61 116])
+            ("selenium.webdriver.support" include nil nil [117 181])
+            ("App" type
+               (:members 
+                  ( ("PREFIX" variable nil (reparse-symbol indented_block_body) [199 456])
+                    ("SUFFIX" variable nil (reparse-symbol indented_block_body) [461 493])
+                    ("TOUCH" variable nil (reparse-symbol indented_block_body) [498 555])
+                    ("CONTROLLER" variable nil (reparse-symbol indented_block_body) [560 622])
+                    ("ORIGIN_TAG_XPATH" variable nil (reparse-symbol indented_block_body) [628 726])
+                    ("CONTROLLER_XPATH" code nil (reparse-symbol indented_block_body) [732 779])
+                    ("TOUCH_XPATH" code nil (reparse-symbol indented_block_body) [784 821])
+                    ("NEXT_BUTTON_XPATH" variable nil (reparse-symbol indented_block_body) [827 886])
+                    ("touch" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [919 922])
+                            ("driver" variable nil (reparse-symbol function_parameters) [924 930]))                          )
+                        (reparse-symbol indented_block_body) [892 1231])
+                    ("controller" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [1268 1271])
+                            ("driver" variable nil (reparse-symbol function_parameters) [1273 1279]))                          )
+                        (reparse-symbol indented_block_body) [1236 1585]))                  
+                :type "class")
+                nil [184 1585]))          
+      :file "App.py"
+      :pointmax 1585
+      :fsize 1584
+      :lastmodtime '(25053 18493 684578 985000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!App!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

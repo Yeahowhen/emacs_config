@@ -1,0 +1,24 @@
+;; Object semanticdb-project-database-file-4a8b2cb0
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-4a8b2cb0"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4a8b2cc2"
+      :major-mode python-mode
+      :tags 
+        '( ("Custom_Domain" type
+               (:members 
+                  ( ("CUSTOM_DOMAIN_TAG" variable nil (reparse-symbol indented_block_body) [26 98])
+                    ("CUSTOM_DOMAIN_DOMAIN" variable nil (reparse-symbol indented_block_body) [103 167])
+                    ("CUSTOM_DOMAIN_DONE" variable nil (reparse-symbol indented_block_body) [172 232])
+                    ("CUSTOM_DOMAIN_CHANGE_BAR" variable nil (reparse-symbol indented_block_body) [238 337]))                  
+                :type "class")
+                nil [1 338]))          
+      :file "Customize_domain.py"
+      :pointmax 338
+      :fsize 337
+      :lastmodtime '(25052 63346 903963 360000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!Touch!Setting!General!Domain!Custom_domain!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

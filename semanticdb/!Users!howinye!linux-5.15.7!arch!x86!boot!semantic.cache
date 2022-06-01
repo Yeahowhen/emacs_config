@@ -1,0 +1,76 @@
+;; Object semanticdb-project-database-file-45428876
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-45428876"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-45428816"
+      :major-mode c-mode
+      :tags 
+        '( ("linux/build_bug.h" include (:system-flag t) nil [416 444])
+            ("boot.h" include nil nil [446 463])
+            ("string.h" include nil nil [464 483])
+            ("boot_params" variable (:type ("boot_params" type
+                 (:prototype t
+                  :type "struct")
+                  nil nil)) nil [485 545])
+            ("HEAP" variable
+               (:type "char"
+                :default-value "_end"
+                :pointer 1)
+                nil [547 565])
+            ("heap_end" variable
+               (:type "char"
+                :default-value "_end"
+                :pointer 1)
+                nil [566 588])
+            ("copy_boot_params" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [844 849]))                  
+                :type "void")
+                nil [815 1560])
+            ("keyboard_init" function
+               (:type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1790 1795]))                  
+                :typemodifiers ("static"))
+                nil [1764 2036])
+            ("query_ist" function
+               (:type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2109 2114]))                  
+                :typemodifiers ("static"))
+                nil [2087 2613])
+            ("set_bios_mode" function
+               (:type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2700 2705]))                  
+                :typemodifiers ("static"))
+                nil [2674 2841])
+            ("init_heap" function
+               (:type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2865 2870]))                  
+                :typemodifiers ("static"))
+                nil [2843 3294])
+            ("main" function
+               (:type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3306 3311]))                  )
+                nil [3296 4346]))          
+      :file "main.c"
+      :pointmax 4347
+      :fsize 4346
+      :lastmodtime '(25008 26409 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-45428836"
+      :file "boot.h"
+      :fsize 7892
+      :lastmodtime '(25008 26409 0 0))
+    (semanticdb-table "semanticdb-table-45428856"
+      :file "string.h"
+      :fsize 1126
+      :lastmodtime '(25008 26409 0 0)))
+  :file "!Users!howinye!linux-5.15.7!arch!x86!boot!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

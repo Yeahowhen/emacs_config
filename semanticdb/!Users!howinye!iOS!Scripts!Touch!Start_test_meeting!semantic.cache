@@ -1,0 +1,27 @@
+;; Object semanticdb-project-database-file-43a2e8a6
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-43a2e8a6"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-43a2e8b0"
+      :major-mode python-mode
+      :tags 
+        '( ("Start_test_meeting" type
+               (:members 
+                  ( ("TEST_MEETING_TAG_XPATH" variable nil (reparse-symbol indented_block_body) [31 316])
+                    ("TEST_MEETING_SERVICE_XPATH" variable nil (reparse-symbol indented_block_body) [321 399])
+                    ("TEST_MEETING_PRIVACY_XPATH" variable nil (reparse-symbol indented_block_body) [404 480])
+                    ("TEST_MEETING_DISAGREE_XPATH" variable nil (reparse-symbol indented_block_body) [485 560])
+                    ("TEST_MEETING_AGREE_XPATH" variable nil (reparse-symbol indented_block_body) [565 634])
+                    ("TEST_MEETING_ALERT_CANCEL" variable nil (reparse-symbol indented_block_body) [905 974])
+                    ("TEST_MEETING_ALERT_AGREE" variable nil (reparse-symbol indented_block_body) [979 1048]))                  
+                :type "class")
+                nil [1 1049]))          
+      :file "start_test_meeting.py"
+      :pointmax 1049
+      :fsize 1048
+      :lastmodtime '(25052 61407 243900 416000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!Touch!Start_test_meeting!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

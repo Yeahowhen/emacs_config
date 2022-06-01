@@ -1,0 +1,95 @@
+;; Object semanticdb-project-database-file-43e1336c
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-43e1336c"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-43e1334c"
+      :major-mode python-mode
+      :tags 
+        '( ("os" include nil nil [43 52])
+            ("platforms.mac.Zoomapps_base_method.login_logout" include nil nil [53 107])
+            ("platforms.mac.Zoomapps_base_method.Zoomapp_method" include nil nil [108 164])
+            ("BaseUI" type
+               (:members 
+                  ( ("client_login" function
+                       (:typemodifiers ("static")
+                        :arguments 
+                          ( ("domain" variable nil (reparse-symbol function_parameters) [350 356])
+                            ("logs" variable nil (reparse-symbol function_parameters) [358 362])
+                            ("name" variable nil (reparse-symbol function_parameters) [364 368])
+                            ("pwd" variable nil (reparse-symbol function_parameters) [370 373])
+                            ("keep_me_sign_in" variable nil (reparse-symbol function_parameters) [375 390])
+                            ("clear_local_db" variable nil (reparse-symbol function_parameters) [398 412]))                          
+                        :decorators 
+                          ( ("staticmethod" function (:type "decorator") nil nil))                          )
+                        (reparse-symbol indented_block_body) [315 766])
+                    ("switch_to_tab" function
+                       (:typemodifiers ("static")
+                        :arguments 
+                          ( ("name" variable nil (reparse-symbol function_parameters) [807 811]))                          
+                        :decorators 
+                          ( ("staticmethod" function (:type "decorator") nil nil))                          )
+                        (reparse-symbol indented_block_body) [771 1214]))                  
+                :type "class")
+                nil [167 1214]))          
+      :file "base_ui.py"
+      :pointmax 1215
+      :fsize 1214
+      :lastmodtime '(24989 55957 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4482ab58"
+      :major-mode python-mode
+      :tags 
+        '( ("os" include nil nil [1 10])
+            ("platforms.mac.base_method.IM_method" include nil nil [12 61])
+            ("Utils" type
+               (:members 
+                  ( ("set_zoom_ini_file" function
+                       (:typemodifiers ("static")
+                        :arguments 
+                          ( ("domain" variable nil (reparse-symbol function_parameters) [122 128]))                          
+                        :decorators 
+                          ( ("staticmethod" function (:type "decorator") nil nil))                          )
+                        (reparse-symbol indented_block_body) [82 148])
+                    ("kill_zoom_process" function
+                       (:typemodifiers ("static")
+                        :decorators 
+                          ( ("staticmethod" function (:type "decorator") nil nil))                          )
+                        (reparse-symbol indented_block_body) [153 235]))                  
+                :type "class")
+                nil [63 235]))          
+      :file "utils.py"
+      :pointmax 238
+      :fsize 251
+      :lastmodtime '(24989 55957 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-456aa048"
+      :major-mode python-mode
+      :tags 
+        '( ("os" include nil nil [43 52])
+            ("platforms.mac.Zoomapps_base_method.Zoomapp_method" include nil nil [54 117])
+            ("ZOOM_APPS" variable nil nil [119 135])
+            ("ZoomAppsUI" type
+               (:members 
+                  ( ("zoom_apps" function
+                       (:typemodifiers ("static")
+                        :decorators 
+                          ( ("staticmethod" function (:type "decorator") nil nil))                          )
+                        (reparse-symbol indented_block_body) [160 208])
+                    ("open_app" function
+                       (:typemodifiers ("static")
+                        :arguments 
+                          ( ("name" variable nil (reparse-symbol function_parameters) [244 248]))                          
+                        :decorators 
+                          ( ("staticmethod" function (:type "decorator") nil nil))                          )
+                        (reparse-symbol indented_block_body) [213 274]))                  
+                :type "class")
+                nil [136 274]))          
+      :file "zoom_apps_ui.py"
+      :pointmax 274
+      :fsize 273
+      :lastmodtime '(25011 7403 274938 810000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!client-zapp-ta!platforms!mac!export!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,42 @@
+;; Object semanticdb-project-database-file-500e3f98
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-500e3f98"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-500e3faa"
+      :major-mode c-mode
+      :tags 
+        '( ("unity_fixture.h" include nil nil [354 380])
+            ("runAllTests" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [406 411]))                  
+                :type "void")
+                nil [382 490])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [501 510])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [511 530]))                  
+                :type "int")
+                nil [492 581]))          
+      :file "AllTests.c"
+      :pointmax 582
+      :fsize 582
+      :lastmodtime '(25037 6564 293935 859000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-50194f20"
+      :major-mode c-mode
+      :tags nil
+      :file ".#AllTests.c"
+      :pointmax 1
+      :fsize 23
+      :lastmodtime '(25046 43653 806620 111000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!Unity!extras!fixture!test!main!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

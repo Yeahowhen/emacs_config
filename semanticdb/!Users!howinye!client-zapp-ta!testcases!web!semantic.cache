@@ -1,0 +1,58 @@
+;; Object semanticdb-project-database-file-475f25cc
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-475f25cc"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-475f25ac"
+      :major-mode python-mode
+      :tags 
+        '( ("pytest" include nil nil [43 56])
+            ("allure" include nil nil [57 70])
+            ("config.config" include nil nil [71 104])
+            ("web.browser" include nil nil [105 136])
+            ("web.base_web" include nil nil [137 169])
+            ("web.zoom_apps_web" include nil nil [170 211])
+            ("utils.utils" include nil nil [212 237])
+            ("ZAPP_SETTING_URL" variable nil nil [239 306])
+            ("" code nil nil [326 355])
+            ("" code nil nil [369 430])
+            ("" code nil nil [447 519])
+            ("" code nil nil [536 548])
+            ("" code nil nil [573 582])
+            ("test_disable_zoom_apps_feature" function nil nil [583 786])
+            ("" code nil nil [877 886])
+            ("test_enable_zoom_apps_feature" function nil nil [887 1018]))          
+      :file "test_zoomapps_setting.py"
+      :pointmax 1031
+      :fsize 1030
+      :lastmodtime '(24989 55957 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-475f1594"
+      :major-mode python-mode
+      :tags 
+        '( ("pytest" include nil nil [15 28])
+            ("allure" include nil nil [29 42])
+            ("config.config" include nil nil [43 76])
+            ("web.browser" include nil nil [77 108])
+            ("web.base_web" include nil nil [109 141])
+            ("utils.utils" include nil nil [142 167])
+            ("" code nil nil [185 187])
+            ("login" function nil nil [188 426])
+            ("pytest_runtest_makereport" function
+               (:documentation "
+    Extends the PyTest Plugin to take and embed screenshot in html report, whenever test fails.
+    :param item:
+    "
+                :arguments 
+                  ( ("item" variable nil (reparse-symbol function_parameters) [483 487]))                  
+                :decorators 
+                  ( ("pytest.mark.hookwrapper" function (:type "decorator") nil nil))                  )
+                nil [428 1091]))          
+      :file "conftest.py"
+      :pointmax 1091
+      :fsize 1162
+      :lastmodtime '(24989 55957 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!client-zapp-ta!testcases!web!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

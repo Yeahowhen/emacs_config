@@ -1,0 +1,25 @@
+;; Object semanticdb-project-database-file-43a5554c
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-43a5554c"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-43a63c88"
+      :major-mode python-mode
+      :tags 
+        '( ("Select_Location" type
+               (:members 
+                  ( ("SELECT_LOCATION_TAG" variable nil (reparse-symbol indented_block_body) [28 106])
+                    ("SELECT_LOCATION_BACK" variable nil (reparse-symbol indented_block_body) [111 193])
+                    ("SELECT_LOCATION_CLOSE" variable nil (reparse-symbol indented_block_body) [198 262])
+                    ("SELECT_LOCATION_FIRST" variable nil (reparse-symbol indented_block_body) [268 614])
+                    ("SELECT_LOCATION_SKIP" variable nil (reparse-symbol indented_block_body) [620 682]))                  
+                :type "class")
+                nil [1 683]))          
+      :file "Select_location.py"
+      :pointmax 683
+      :fsize 682
+      :lastmodtime '(25053 8855 122199 982000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!Touch!Sign_in!Email!Select_Room!Create_new_room!Share_ZR!Calendar_service!Calendar_resource!Select_location!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,25 @@
+;; Object semanticdb-project-database-file-479e7ccc
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-479e7ccc"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-479e7cde"
+      :major-mode python-mode
+      :tags 
+        '( ("Calendar_resource" type
+               (:members 
+                  ( ("CALENDAR_RESOURCE_TAG" variable nil (reparse-symbol indented_block_body) [30 117])
+                    ("CALENDAR_RESOURCE_BACK" variable nil (reparse-symbol indented_block_body) [122 205])
+                    ("CALENDAR_RESOURCE_CLOSE" variable nil (reparse-symbol indented_block_body) [210 276])
+                    ("CALENDAR_RESOURCE_SEARCH_FIELD" variable nil (reparse-symbol indented_block_body) [282 366])
+                    ("CALENDAR_RESOURCE_SKIP" variable nil (reparse-symbol indented_block_body) [775 839]))                  
+                :type "class")
+                nil [1 840]))          
+      :file "Calendar_resource.py"
+      :pointmax 840
+      :fsize 0
+      :lastmodtime '(25053 8372 802762 340000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!Touch!Sign_in!Email!Select_Room!Create_new_room!Share_ZR!Calendar_service!Calendar_resource!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,37 @@
+;; Object semanticdb-project-database-file-4fdf13dc
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-4fdf13dc"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4fdf53dc"
+      :major-mode python-mode
+      :tags 
+        '( ("appium.webdriver.common.appiumby" include nil nil [1 60])
+            ("selenium.webdriver.support.ui" include nil nil [61 116])
+            ("selenium.webdriver.support" include nil nil [117 181])
+            ("appium.webdriver.common.touch_action" include nil nil [182 242])
+            ("Email" type
+               (:members 
+                  ( ("EMAIL_SIGN_IN_TAG" variable nil (reparse-symbol indented_block_body) [262 333])
+                    ("EMAIL_ADDRESS_XPATH" variable nil (reparse-symbol indented_block_body) [338 683])
+                    ("EMAIL_PASSWD_XPATH" variable nil (reparse-symbol indented_block_body) [688 1038])
+                    ("EMAIL_SIGN_IN_BUTTON" variable nil (reparse-symbol indented_block_body) [1043 1113])
+                    ("email" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [1146 1149])
+                            ("driver" variable nil (reparse-symbol function_parameters) [1151 1157])
+                            ("account" variable nil (reparse-symbol function_parameters) [1159 1166])
+                            ("passwd" variable nil (reparse-symbol function_parameters) [1168 1174]))                          )
+                        (reparse-symbol indented_block_body) [1119 1682]))                  
+                :type "class")
+                nil [245 1682]))          
+      :file "Email.py"
+      :pointmax 1682
+      :fsize 1681
+      :lastmodtime '(25053 15022 793465 597000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!Unlicensed_Room!Sign_in!Email!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

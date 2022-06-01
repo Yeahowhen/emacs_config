@@ -1,0 +1,271 @@
+;; Object semanticdb-project-database-file-4a8d0c0c
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-4a8d0c0c"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-433c847e"
+      :major-mode python-mode
+      :tags 
+        '( ("selenium.webdriver.support.ui" include nil nil [43 98])
+            ("selenium" include nil nil [99 129])
+            ("selenium.webdriver.common.by" include nil nil [130 173])
+            ("selenium.webdriver.remote.webelement" include nil nil [174 233])
+            ("platforms.win.utils.logger" include nil nil [234 276])
+            ("web.browser" include nil nil [277 308])
+            ("web.base_web" include nil nil [309 341])
+            ("Modified_zoom_Apps_feature" variable nil nil [392 489])
+            ("ZoomAppsWeb" type
+               (:members 
+                  ( ("enable_zoom_apps_feature" function
+                       (:typemodifiers ("static")
+                        :decorators 
+                          ( ("staticmethod" function (:type "decorator") nil nil))                          )
+                        (reparse-symbol indented_block_body) [602 726])
+                    ("disable_zoom_apps_feature" function nil (reparse-symbol indented_block_body) [731 836]))                  
+                :type "class")
+                nil [577 836]))          
+      :file "zoom_apps_web.py"
+      :pointmax 844
+      :fsize 843
+      :lastmodtime '(24989 55957 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-43e738ee"
+      :major-mode python-mode
+      :tags 
+        '( ("selenium.webdriver.support.ui" include nil nil [42 97])
+            ("selenium" include nil nil [98 128])
+            ("selenium.webdriver.common.by" include nil nil [129 172])
+            ("selenium.webdriver.remote.webelement" include nil nil [173 232])
+            ("utils.utils" include nil nil [233 258])
+            ("Browser" type
+               (:members 
+                  ( ("dr" variable nil (reparse-symbol indented_block_body) [281 291])
+                    ("create_chrome_driver" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [339 342]))                          )
+                        (reparse-symbol indented_block_body) [297 2699])
+                    ("open_url" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [2820 2823])
+                            ("url" variable nil (reparse-symbol function_parameters) [2824 2827]))                          )
+                        (reparse-symbol indented_block_body) [2790 2954])
+                    ("find_element" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2981 2985])
+                            ("element" variable nil (reparse-symbol function_parameters) [2987 2994]))                          )
+                        (reparse-symbol indented_block_body) [2964 3477]))                  
+                :type "class")
+                nil [260 3477]))          
+      :file "browser.py"
+      :pointmax 3477
+      :fsize 3629
+      :lastmodtime '(24989 55957 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-46811162"
+      :major-mode python-mode
+      :tags 
+        '( ("__author__" variable nil nil [24 47])
+            ("config.config" include nil nil [87 140])
+            ("selenium.webdriver.common.by" include nil nil [141 184])
+            ("time" include nil nil [185 196])
+            ("selenium.webdriver.common.action_chains" include nil nil [197 261])
+            ("platforms.win.utils.login_api" include nil nil [317 368])
+            ("WebSettingLocators" type
+               (:superclasses ("object")
+                :members 
+                  ( ("waiting_room" variable nil (reparse-symbol indented_block_body) [465 494])
+                    ("meeting_passcode" variable nil (reparse-symbol indented_block_body) [499 536])
+                    ("pmi_passcode" variable nil (reparse-symbol indented_block_body) [542 593])
+                    ("authenticated_option" variable nil (reparse-symbol indented_block_body) [599 666])
+                    ("approve_block_regions" variable nil (reparse-symbol indented_block_body) [672 761])
+                    ("host_video" variable nil (reparse-symbol indented_block_body) [767 792])
+                    ("participants_video" variable nil (reparse-symbol indented_block_body) [797 838])
+                    ("audio_both" variable nil (reparse-symbol indented_block_body) [844 909])
+                    ("audio_telephone" variable nil (reparse-symbol indented_block_body) [914 965])
+                    ("audio_computer" variable nil (reparse-symbol indented_block_body) [970 1025])
+                    ("jbh_option" variable nil (reparse-symbol indented_block_body) [1051 1104])
+                    ("enable_pmi" variable nil (reparse-symbol indented_block_body) [1146 1187])
+                    ("schedule_with_pmi" variable nil (reparse-symbol indented_block_body) [1193 1270])
+                    ("mute_option" variable nil (reparse-symbol indented_block_body) [1276 1338])
+                    ("security_require" variable nil (reparse-symbol indented_block_body) [1344 1427])
+                    ("allow_e2e" variable nil (reparse-symbol indented_block_body) [1433 1481]))                  
+                :type "class")
+                nil [427 1482])
+            ("WebSetting" type
+               (:superclasses ("BasePage")
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("super" code nil (reparse-symbol indented_block_body) [1594 1639])
+                            ("BASE_URL" code nil (reparse-symbol indented_block_body) [1690 1698])
+                            ("LOGIN_CONFIG" code nil (reparse-symbol indented_block_body) [1761 1773])
+                            ("if" code nil (reparse-symbol indented_block_body) [1782 1923])
+                            ("self" code nil (reparse-symbol indented_block_body) [1932 1957])
+                            ("api_login" code nil (reparse-symbol indented_block_body) [2000 2062])
+                            ("self" code nil (reparse-symbol indented_block_body) [2071 2108])
+                            ("self" code nil (reparse-symbol indented_block_body) [2117 2142])
+                            ("self" code nil (reparse-symbol indented_block_body) [2198 2248])
+                            ("self" variable nil (reparse-symbol indented_block_body) [2257 2324])
+                            ("js" code nil (reparse-symbol indented_block_body) [2333 2398])
+                            ("self" code nil (reparse-symbol indented_block_body) [2407 2430])
+                            ("self" variable nil (reparse-symbol indented_block_body) [2439 2511]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1529 1533])
+                            ("driver_name" variable nil (reparse-symbol function_parameters) [1535 1546])
+                            ("base_url" variable nil (reparse-symbol function_parameters) [1555 1563])
+                            ("login_config" variable nil (reparse-symbol function_parameters) [1568 1580]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [1516 2512])
+                    ("set_local_storage" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2539 2543])
+                            ("key" variable nil (reparse-symbol function_parameters) [2545 2548])
+                            ("value" variable nil (reparse-symbol function_parameters) [2550 2555]))                          )
+                        (reparse-symbol indented_block_body) [2517 2665])
+                    ("disable_account_confirm_window" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2705 2709]))                          )
+                        (reparse-symbol indented_block_body) [2670 2962])
+                    ("click_trust_window" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2990 2994]))                          )
+                        (reparse-symbol indented_block_body) [2967 3230])
+                    ("close" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3245 3249]))                          )
+                        (reparse-symbol indented_block_body) [3235 3281])
+                    ("action_chains_click" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3569 3573])
+                            ("locator" variable nil (reparse-symbol function_parameters) [3575 3582]))                          )
+                        (reparse-symbol indented_block_body) [3545 3789])
+                    ("alert_confirm" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3812 3816]))                          )
+                        (reparse-symbol indented_block_body) [3794 4264])
+                    ("set_option_backend" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [4292 4296])
+                            ("option_path" variable nil (reparse-symbol function_parameters) [4298 4309])
+                            ("lock_status" variable nil (reparse-symbol function_parameters) [4311 4322])
+                            ("value" variable nil (reparse-symbol function_parameters) [4330 4335])
+                            ("account_value" variable nil (reparse-symbol function_parameters) [4342 4355]))                          
+                        :documentation "
+        :param option_path: option xpath aria-label value
+        :param lock_status: set option lock status
+        :param value: set option lock value
+        :param account_value: option account setting value, used for lock status off and user setting not same as account setting
+        :return:
+        ")
+                        (reparse-symbol indented_block_body) [4269 8451])
+                    ("set_option" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [8471 8475])
+                            ("option_path" variable nil (reparse-symbol function_parameters) [8477 8488])
+                            ("lock_status" variable nil (reparse-symbol function_parameters) [8490 8501])
+                            ("value" variable nil (reparse-symbol function_parameters) [8509 8514])
+                            ("account_value" variable nil (reparse-symbol function_parameters) [8521 8534]))                          
+                        :documentation "
+        :param option_path: option xpath aria-label value
+        :param lock_status: set option lock status
+        :param value: set option lock value
+        :param account_value: option account setting value, used for lock status off and user setting not same as account setting
+        :return:
+        ")
+                        (reparse-symbol indented_block_body) [8456 12768])
+                    ("set_waiting_room" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [12794 12798])
+                            ("on_off" variable nil (reparse-symbol function_parameters) [12800 12806])
+                            ("lock_status" variable nil (reparse-symbol function_parameters) [12813 12824]))                          )
+                        (reparse-symbol indented_block_body) [12773 12977])
+                    ("set_one_time_passcode" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [13008 13012])
+                            ("on_off" variable nil (reparse-symbol function_parameters) [13014 13020])
+                            ("lock_status" variable nil (reparse-symbol function_parameters) [13027 13038]))                          )
+                        (reparse-symbol indented_block_body) [12982 13195])
+                    ("set_authenticated_option" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [13229 13233])
+                            ("on_off" variable nil (reparse-symbol function_parameters) [13235 13241])
+                            ("lock_status" variable nil (reparse-symbol function_parameters) [13248 13259]))                          )
+                        (reparse-symbol indented_block_body) [13200 13420])
+                    ("set_host_video" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [13444 13448])
+                            ("on_off" variable nil (reparse-symbol function_parameters) [13450 13456])
+                            ("lock_status" variable nil (reparse-symbol function_parameters) [13463 13474]))                          )
+                        (reparse-symbol indented_block_body) [13425 13625])
+                    ("set_participants_video" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [13657 13661])
+                            ("on_off" variable nil (reparse-symbol function_parameters) [13663 13669])
+                            ("lock_status" variable nil (reparse-symbol function_parameters) [13676 13687]))                          )
+                        (reparse-symbol indented_block_body) [13630 13846])
+                    ("set_jbh_option" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [13870 13874])
+                            ("on_off" variable nil (reparse-symbol function_parameters) [13876 13882])
+                            ("lock_status" variable nil (reparse-symbol function_parameters) [13889 13900]))                          )
+                        (reparse-symbol indented_block_body) [13851 14051])
+                    ("set_mute_option" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [14076 14080])
+                            ("on_off" variable nil (reparse-symbol function_parameters) [14082 14088])
+                            ("lock_status" variable nil (reparse-symbol function_parameters) [14095 14106]))                          )
+                        (reparse-symbol indented_block_body) [14056 14258])
+                    ("set_schedule_with_pmi" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [14289 14293])
+                            ("on_off" variable nil (reparse-symbol function_parameters) [14295 14301])
+                            ("lock_status" variable nil (reparse-symbol function_parameters) [14309 14320]))                          )
+                        (reparse-symbol indented_block_body) [14263 14478])
+                    ("set_security_require" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [14508 14512])
+                            ("on_off" variable nil (reparse-symbol function_parameters) [14514 14520])
+                            ("lock_status" variable nil (reparse-symbol function_parameters) [14528 14539])
+                            ("account_on_off" variable nil (reparse-symbol function_parameters) [14547 14561]))                          )
+                        (reparse-symbol indented_block_body) [14483 14748])
+                    ("set_e2e_setting" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [14773 14777])
+                            ("on_off" variable nil (reparse-symbol function_parameters) [14779 14785])
+                            ("lock_status" variable nil (reparse-symbol function_parameters) [14793 14804]))                          )
+                        (reparse-symbol indented_block_body) [14753 14954]))                  
+                :type "class")
+                nil [1484 14954])
+            ("if" code nil nil [14956 16007]))          
+      :file "websetting.py"
+      :pointmax 16007
+      :fsize 16006
+      :lastmodtime '(24989 55957 0 0)
+      :unmatched-syntax '((NAME 12553 . 12557) (IF 12633 . 12635) (ELSE 12671 . 12675) (NAME 11911 . 11915) (IF 11970 . 11972) (ELSE 11996 . 12000) (NAME 10828 . 10832) (IF 10887 . 10889) (ELSE 10917 . 10921) (NAME 10684 . 10688) (IF 10742 . 10744) (ELSE 10780 . 10784) (NAME 8236 . 8240) (IF 8316 . 8318) (ELSE 8354 . 8358) (NAME 7599 . 7603) (IF 7658 . 7660) (ELSE 7684 . 7688) (NAME 6554 . 6558) (IF 6613 . 6615) (ELSE 6643 . 6647) (NAME 6410 . 6414) (IF 6468 . 6470) (ELSE 6506 . 6510) (NAME 1707 . 1711) (IF 1740 . 1742) (ELSE 1756 . 1760) (NAME 1648 . 1652) (IF 1673 . 1675) (ELSE 1685 . 1689))))
+  :file "!Users!howinye!client-zapp-ta!web!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

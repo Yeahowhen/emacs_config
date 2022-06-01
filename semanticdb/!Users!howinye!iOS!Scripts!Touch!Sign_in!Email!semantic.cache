@@ -1,0 +1,23 @@
+;; Object semanticdb-project-database-file-43a56d4c
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-43a56d4c"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-43a56d5e"
+      :major-mode python-mode
+      :tags 
+        '( ("Email" type
+               (:members 
+                  ( ("EMAIL_SIGN_IN_TAG" variable nil (reparse-symbol indented_block_body) [18 89])
+                    ("EMAIL_ADDRESS_XPATH" variable nil (reparse-symbol indented_block_body) [94 439])
+                    ("EMAIL_PASSWD_XPATH" variable nil (reparse-symbol indented_block_body) [444 794]))                  
+                :type "class")
+                nil [1 870]))          
+      :file "Email.py"
+      :pointmax 870
+      :fsize 869
+      :lastmodtime '(25053 6130 171058 461000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!Touch!Sign_in!Email!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,535 @@
+;; Object semanticdb-project-database-file-47a4d57a
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-47a4d57a"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4bc856ba"
+      :major-mode python-mode
+      :tags 
+        '( ("PyUtil" include nil nil [1 21])
+            ("types" include nil nil [22 34])
+            ("binascii" include nil nil [35 50])
+            ("PyBitmap" type
+               (:superclasses ("object")
+                :members 
+                  ( ("'''
+    classdocs
+    '''" code nil (reparse-symbol indented_block_body) [90 115])
+                    ("__init__" function
+                       (:suite 
+                          ( ("'''
+        Constructor
+        '''" code nil (reparse-symbol indented_block_body) [165 200])
+                            ("self" variable nil (reparse-symbol indented_block_body) [209 242])
+                            ("self" variable nil (reparse-symbol indented_block_body) [251 270])
+                            ("self" variable nil (reparse-symbol indented_block_body) [279 321]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [135 139])
+                            ("bitmapFileName" variable nil (reparse-symbol function_parameters) [140 154]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [122 322])
+                    ("__del__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [347 351]))                          )
+                        (reparse-symbol indented_block_body) [335 442])
+                    ("getDataOffset" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [473 477]))                          )
+                        (reparse-symbol indented_block_body) [455 609])
+                    ("getBitmapFileSize" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [640 644]))                          )
+                        (reparse-symbol indented_block_body) [618 775])
+                    ("getDataLen" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [799 803]))                          )
+                        (reparse-symbol indented_block_body) [784 867])
+                    ("getData" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [888 892]))                          )
+                        (reparse-symbol indented_block_body) [876 1014]))                  
+                :type "class")
+                nil [62 1014]))          
+      :file "PyBitmap.py"
+      :pointmax 1014
+      :fsize 1013
+      :lastmodtime '(24989 55957 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4bc90738"
+      :file "PyUtil.py"
+      :fsize 15044
+      :lastmodtime '(24989 55957 0 0))
+    (semanticdb-table "semanticdb-table-4be7bf96"
+      :major-mode python-mode
+      :tags 
+        '( ("types" include nil nil [1 13])
+            ("ctypes" include nil nil [14 34])
+            ("platforms.mac.src.base.PyObject" include nil nil [35 87])
+            ("platforms.mac.src.base.PyConsts" include nil nil [88 140])
+            ("platforms.mac.src.base.PyUtil" include nil nil [141 184])
+            ("platforms.mac.src.base.valueobj" include nil nil [185 230])
+            ("PyUIElement" type
+               (:superclasses ("PyObject")
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("PyObject" code nil (reparse-symbol indented_block_body) [293 316])
+                            ("self" variable nil (reparse-symbol indented_block_body) [325 344])
+                            ("self" variable nil (reparse-symbol indented_block_body) [353 371]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [278 282]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [265 372])
+                    ("__del__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [395 399]))                          )
+                        (reparse-symbol indented_block_body) [383 787])
+                    ("addRef" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [815 819]))                          )
+                        (reparse-symbol indented_block_body) [804 866])
+                    ("getRoleName" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [887 891]))                          )
+                        (reparse-symbol indented_block_body) [871 948])
+                    ("getChildrenCount" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [979 983]))                          )
+                        (reparse-symbol indented_block_body) [958 1136])
+                    ("_getReferenceCount" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1168 1172]))                          )
+                        (reparse-symbol indented_block_body) [1145 1205])
+                    ("getHandle" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1233 1237]))                          )
+                        (reparse-symbol indented_block_body) [1219 1268])
+                    ("getStringAttributeValue" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1305 1309])
+                            ("attributeName" variable nil (reparse-symbol function_parameters) [1311 1324]))                          )
+                        (reparse-symbol indented_block_body) [1277 1813])
+                    ("getNumberAttributeValue" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1850 1854])
+                            ("attributeName" variable nil (reparse-symbol function_parameters) [1856 1869]))                          )
+                        (reparse-symbol indented_block_body) [1822 2363])
+                    ("getRect" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2384 2388]))                          )
+                        (reparse-symbol indented_block_body) [2372 2410]))                  
+                :type "class")
+                nil [232 2410]))          
+      :file "PyUIElement.py"
+      :pointmax 2410
+      :fsize 2409
+      :lastmodtime '(24989 55957 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-478c9604"
+      :major-mode python-mode
+      :tags 
+        '( ("ctypes" include nil nil [1 47])
+            ("platforms.mac.src.base.PyConsts" include nil nil [48 100])
+            ("PyObject" type
+               (:documentation "Root class of MAC OS X client TA solution
+    "
+                :superclasses ("object")
+                :members 
+                  ( ("_accLib" variable nil (reparse-symbol indented_block_body) [188 202])
+                    ("\"\"\"
+    class member, store the handle of 'macta.dylib'
+    \"\"\"" code nil (reparse-symbol indented_block_body) [208 271])
+                    ("__init__" function
+                       (:suite 
+                          ( ("\"\"\"Load the 'macta.dylib' and initialize the dll handle
+        \"\"\"" code nil (reparse-symbol indented_block_body) [304 371])
+                            ("if" code nil (reparse-symbol indented_block_body) [380 487])
+                            ("if" code nil (reparse-symbol indented_block_body) [687 760]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [289 293]))                          
+                        :documentation "Load the 'macta.dylib' and initialize the dll handle
+        "
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [276 760])
+                    ("__del__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [777 781]))                          
+                        :documentation "call 'rekease()' to Unload the 'macta.dylib' form system
+        ")
+                        (reparse-symbol indented_block_body) [765 983])
+                    ("getAccessLib" function
+                       (:documentation "class method: return the unique dll handle
+        @return: the handle of the loaded 'macta.dylib'
+        @rtype: handle
+        "
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [1031 1034]))                          
+                        :decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          )
+                        (reparse-symbol indented_block_body) [994 1607])
+                    ("isAccessibilityEnabled" function
+                       (:documentation "Check whether accessibility is enabled or not in 'system preferences'
+        @return: return the result about current accessibility enable status
+        @rtype: boolean
+        "
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [1660 1663]))                          
+                        :decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          )
+                        (reparse-symbol indented_block_body) [1616 2128])
+                    ("release" function
+                       (:documentation "class method: Unload the 'macta.dylib' form system, don't call this function at will
+        @return: nothing
+        @rtype: None
+        "
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [2170 2173]))                          
+                        :decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          )
+                        (reparse-symbol indented_block_body) [2141 2480]))                  
+                :type "class")
+                nil [102 2480]))          
+      :file "PyObject.py"
+      :pointmax 2480
+      :fsize 2479
+      :lastmodtime '(24989 55957 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4a008404"
+      :file "PyConsts.py"
+      :fsize 7560
+      :lastmodtime '(24989 55957 0 0))
+    (semanticdb-table "semanticdb-table-4bc78118"
+      :file "valueobj.py"
+      :fsize 1161
+      :lastmodtime '(24989 55957 0 0))
+    (semanticdb-table "semanticdb-table-4bc7c208"
+      :major-mode python-mode
+      :tags 
+        '( ("ctypes" include nil nil [1 21])
+            ("platforms.mac.src.base.PyUtil" include nil nil [22 65])
+            ("platforms.mac.src.base.PyUIElement" include nil nil [66 124])
+            ("platforms.mac.src.base.PyApplicationUIElement" include nil nil [125 205])
+            ("platforms.mac.src.base.PyConsts" include nil nil [206 275])
+            ("platforms.mac.src.base.PyObject" include nil nil [276 328])
+            ("platforms.mac.src.base.valueobj" include nil nil [329 374])
+            ("PyWindow" type
+               (:superclasses ("PyUIElement")
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("PyUIElement" code nil (reparse-symbol indented_block_body) [438 464]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [423 427]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [410 465])
+                    ("getPosition" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [486 490]))                          )
+                        (reparse-symbol indented_block_body) [470 801])
+                    ("getSize" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [818 822]))                          )
+                        (reparse-symbol indented_block_body) [806 1158])
+                    ("getRect" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1175 1179]))                          )
+                        (reparse-symbol indented_block_body) [1163 1663])
+                    ("getText" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1680 1684]))                          )
+                        (reparse-symbol indented_block_body) [1668 1742])
+                    ("getDescription" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1766 1770]))                          )
+                        (reparse-symbol indented_block_body) [1747 1834])
+                    ("getRoleDescription" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1862 1866]))                          )
+                        (reparse-symbol indented_block_body) [1839 1934])
+                    ("getHelpString" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1957 1961]))                          )
+                        (reparse-symbol indented_block_body) [1939 2018])
+                    ("getValue" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2036 2040]))                          )
+                        (reparse-symbol indented_block_body) [2023 2098])
+                    ("isEnable" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2116 2120]))                          )
+                        (reparse-symbol indented_block_body) [2103 2274])
+                    ("active" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2290 2294]))                          )
+                        (reparse-symbol indented_block_body) [2279 2436])
+                    ("setFocus" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2454 2458]))                          )
+                        (reparse-symbol indented_block_body) [2441 2600])
+                    ("raiseUp" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2617 2621]))                          )
+                        (reparse-symbol indented_block_body) [2605 2762])
+                    ("setStringValue" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2786 2790])
+                            ("attributeName" variable nil (reparse-symbol function_parameters) [2792 2805])
+                            ("strValue" variable nil (reparse-symbol function_parameters) [2807 2815]))                          )
+                        (reparse-symbol indented_block_body) [2767 3137])
+                    ("getProcessId" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3159 3163]))                          )
+                        (reparse-symbol indented_block_body) [3142 3312]))                  
+                :type "class")
+                nil [377 3312])
+            ("getChildWindowByRoleName" function (:arguments 
+              ( ("parentHandle" variable nil (reparse-symbol function_parameters) [3343 3355])
+                ("roleName" variable nil (reparse-symbol function_parameters) [3357 3365])
+                ("winList" variable nil (reparse-symbol function_parameters) [3367 3374])
+                ("maxExpectCount" variable nil (reparse-symbol function_parameters) [3379 3393])
+                ("bRecurrence" variable nil (reparse-symbol function_parameters) [3398 3409])
+                ("attributeKeyValues" variable nil (reparse-symbol function_parameters) [3417 3435]))              ) nil [3314 4882])
+            ("getChildWindowListByRole" function (:arguments 
+              ( ("parentHandle" variable nil (reparse-symbol function_parameters) [4913 4925])
+                ("roleName" variable nil (reparse-symbol function_parameters) [4927 4935])
+                ("maxExpectCount" variable nil (reparse-symbol function_parameters) [4937 4951])
+                ("bRecurrence" variable nil (reparse-symbol function_parameters) [4956 4967])
+                ("attributeKeyValues" variable nil (reparse-symbol function_parameters) [4975 4993]))              ) nil [4884 5149])
+            ("getParentWindow" function (:arguments 
+              ( ("handle" variable nil (reparse-symbol function_parameters) [5171 5177]))              ) nil [5151 5468])
+            ("getWindowByAttributes" function (:arguments 
+              ( ("parentRef" variable nil (reparse-symbol function_parameters) [5496 5505])
+                ("roleName" variable nil (reparse-symbol function_parameters) [5507 5515])
+                ("attrib" variable nil (reparse-symbol function_parameters) [5517 5523]))              ) nil [5470 5853])
+            ("isWindowExist" function (:arguments 
+              ( ("parentRef" variable nil (reparse-symbol function_parameters) [5873 5882])
+                ("roleName" variable nil (reparse-symbol function_parameters) [5884 5892])
+                ("attributes" variable nil (reparse-symbol function_parameters) [5905 5915]))              ) nil [5855 6030])
+            ("getWindowFromPosition" function (:arguments 
+              ( ("appRef" variable nil (reparse-symbol function_parameters) [6058 6064])
+                ("x" variable nil (reparse-symbol function_parameters) [6066 6067])
+                ("y" variable nil (reparse-symbol function_parameters) [6098 6099]))              ) nil [6032 6453])
+            ("mouseOperateOnWindow" function (:arguments 
+              ( ("window" variable nil (reparse-symbol function_parameters) [6480 6486])
+                ("x" variable nil (reparse-symbol function_parameters) [6513 6514])
+                ("y" variable nil (reparse-symbol function_parameters) [6545 6546])
+                ("mouseAction" variable nil (reparse-symbol function_parameters) [6602 6613])
+                ("key" variable nil (reparse-symbol function_parameters) [6663 6666])
+                ("times" variable nil (reparse-symbol function_parameters) [6713 6718])
+                ("speed" variable nil (reparse-symbol function_parameters) [6747 6752]))              ) nil [6455 7187])
+            ("captureWindow" function (:arguments 
+              ( ("filename" variable nil (reparse-symbol function_parameters) [7206 7214])
+                ("window" variable nil (reparse-symbol function_parameters) [7216 7222])
+                ("imageType" variable nil (reparse-symbol function_parameters) [7229 7238])
+                ("bCaptureCursor" variable nil (reparse-symbol function_parameters) [7270 7284]))              ) nil [7188 7937]))          
+      :file "PyWindow.py"
+      :pointmax 7937
+      :fsize 7936
+      :lastmodtime '(24989 55957 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4be6d62e"
+      :major-mode python-mode
+      :tags 
+        '( ("ctypes" include nil nil [1 21])
+            ("platforms.mac.src.base.PyUIElement" include nil nil [22 80])
+            ("platforms.mac.src.base.PyUtil" include nil nil [81 124])
+            ("PyApplicationUIElement" type
+               (:superclasses ("PyUIElement")
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("PyUIElement" code nil (reparse-symbol indented_block_body) [215 241])
+                            ("self" variable nil (reparse-symbol indented_block_body) [250 276])
+                            ("self" code nil (reparse-symbol indented_block_body) [292 306])
+                            ("self" code nil (reparse-symbol indented_block_body) [331 363]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [187 191])
+                            ("processName" variable nil (reparse-symbol function_parameters) [193 204]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [174 364])
+                    ("setProcessName" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [394 398])
+                            ("processName" variable nil (reparse-symbol function_parameters) [400 411]))                          )
+                        (reparse-symbol indented_block_body) [375 854])
+                    ("getProcessName" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [882 886]))                          )
+                        (reparse-symbol indented_block_body) [863 926])
+                    ("getProcessID" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [952 956]))                          )
+                        (reparse-symbol indented_block_body) [935 984]))                  
+                :type "class")
+                nil [127 984])
+            ("getApplicationElement" function (:arguments 
+              ( ("process" variable nil (reparse-symbol function_parameters) [1015 1022]))              ) nil [989 1179]))          
+      :file "PyApplicationUIElement.py"
+      :pointmax 1179
+      :fsize 1178
+      :lastmodtime '(24989 55957 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-46ce719c"
+      :major-mode python-mode
+      :tags 
+        '( ("platforms.mac.src.base.PyObject" include nil nil [1 53])
+            ("platforms.mac.src.base.PyUIElement" include nil nil [54 112])
+            ("platforms.mac.src.base.PyWindow" include nil nil [113 158])
+            ("platforms.mac.src.base.PyLog" include nil nil [159 212])
+            ("ctypes" include nil nil [213 248])
+            ("platforms.mac.src.base.PyUtil" include nil nil [249 292])
+            ("platforms.mac.src.base.PyConsts" include nil nil [293 368])
+            ("time" include nil nil [369 380])
+            ("PyMenuItem" type
+               (:documentation "Menu Item element
+    "
+                :superclasses ("PyWindow")
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("PyWindow" code nil (reparse-symbol indented_block_body) [475 498]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [460 464]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [447 499])
+                    ("getMarkerString" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [532 536]))                          )
+                        (reparse-symbol indented_block_body) [512 605])
+                    ("isHilighted" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [630 634]))                          )
+                        (reparse-symbol indented_block_body) [614 834])
+                    ("getStatus" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [853 857]))                          )
+                        (reparse-symbol indented_block_body) [839 1222])
+                    ("getTag" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1242 1246]))                          )
+                        (reparse-symbol indented_block_body) [1231 1267])
+                    ("hasSubMenu" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1291 1295]))                          )
+                        (reparse-symbol indented_block_body) [1276 1394]))                  
+                :type "class")
+                nil [382 1394])
+            ("PyMenu" type
+               (:documentation "Menu element
+    "
+                :superclasses ("PyWindow")
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("PyWindow" code nil (reparse-symbol indented_block_body) [1487 1510]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1472 1476]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [1459 1511])
+                    ("getMenuItemCount" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1545 1549]))                          )
+                        (reparse-symbol indented_block_body) [1524 1591])
+                    ("getMenuItemByIndex" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1623 1627])
+                            ("index" variable nil (reparse-symbol function_parameters) [1629 1634]))                          )
+                        (reparse-symbol indented_block_body) [1600 2068])
+                    ("getMenuItemByTag" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2098 2102])
+                            ("tagValue" variable nil (reparse-symbol function_parameters) [2103 2111]))                          )
+                        (reparse-symbol indented_block_body) [2077 2134])
+                    ("getMenuItemByText" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2165 2169])
+                            ("itemText" variable nil (reparse-symbol function_parameters) [2171 2179])
+                            ("iOrder" variable nil (reparse-symbol function_parameters) [2181 2187]))                          )
+                        (reparse-symbol indented_block_body) [2143 2877])
+                    ("cancel" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2902 2906]))                          )
+                        (reparse-symbol indented_block_body) [2891 3047]))                  
+                :type "class")
+                nil [1403 3047])
+            ("'''
+    fix-pending: isMainMenu is not used..
+'''" code nil nil [3055 3104])
+            ("getCurPopupMenu" function (:arguments 
+              ( ("processId" variable nil (reparse-symbol function_parameters) [3125 3134])
+                ("isMainMenu" variable nil (reparse-symbol function_parameters) [3136 3146])
+                ("parentMenu" variable nil (reparse-symbol function_parameters) [3156 3166]))              ) nil [3105 4364])
+            ("_getSubMenuFromMenuItem" function (:arguments 
+              ( ("menuItem" variable nil (reparse-symbol function_parameters) [4393 4401]))              ) nil [4365 4710])
+            ("_getMenuClickPath" function (:arguments 
+              ( ("menu" variable nil (reparse-symbol function_parameters) [4737 4741])
+                ("menuContent" variable nil (reparse-symbol function_parameters) [4743 4754])
+                ("path" variable nil (reparse-symbol function_parameters) [4756 4760])
+                ("iOrder" variable nil (reparse-symbol function_parameters) [4762 4768]))              ) nil [4715 5085])
+            ("OperateMenuItem" function (:arguments 
+              ( ("menu" variable nil (reparse-symbol function_parameters) [5107 5111])
+                ("itemValue" variable nil (reparse-symbol function_parameters) [5113 5122])
+                ("menuClickWay" variable nil (reparse-symbol function_parameters) [5124 5136])
+                ("mouseAction" variable nil (reparse-symbol function_parameters) [5173 5184])
+                ("iOrder" variable nil (reparse-symbol function_parameters) [5211 5217]))              ) nil [5087 7449]))          
+      :file "PyMenu.py"
+      :pointmax 7449
+      :fsize 7448
+      :lastmodtime '(24989 55957 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4bec5a90"
+      :file "PyLog.py"
+      :fsize 3813
+      :lastmodtime '(24989 55957 0 0)))
+  :file "!Users!howinye!client-zapp-ta!platforms!mac!src!base!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

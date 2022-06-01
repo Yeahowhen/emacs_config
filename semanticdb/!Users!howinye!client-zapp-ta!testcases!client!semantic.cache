@@ -1,0 +1,48 @@
+;; Object semanticdb-project-database-file-43be6f1e
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-43be6f1e"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-43b92dd2"
+      :major-mode python-mode
+      :tags 
+        '( ("pytest" include nil nil [15 28])
+            ("allure" include nil nil [29 42])
+            ("config.config" include nil nil [43 90])
+            ("utils.utils" include nil nil [91 116])
+            ("platforms.platforms" include nil nil [117 150])
+            ("" code nil nil [167 169])
+            ("login" function nil nil [170 598])
+            ("" code nil nil [614 629])
+            ("login_for_test_class" function nil nil [630 1129])
+            ("pytest_runtest_makereport" function
+               (:documentation "
+    Extends the PyTest Plugin to take and embed screenshot in html report, whenever test fails.
+    :param item:
+    "
+                :arguments 
+                  ( ("item" variable nil (reparse-symbol function_parameters) [1186 1190]))                  
+                :decorators 
+                  ( ("pytest.mark.hookwrapper" function (:type "decorator") nil nil))                  )
+                nil [1131 1824]))          
+      :file "conftest.py"
+      :pointmax 1824
+      :fsize 1854
+      :lastmodtime '(24989 55957 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-475ec5c4"
+      :major-mode python-mode
+      :tags 
+        '( ("pytest" include nil nil [42 55])
+            ("config.config" include nil nil [56 98])
+            ("utils.utils" include nil nil [99 124])
+            ("platforms.platforms" include nil nil [125 158])
+            ("test_06_login_base_test1" function nil nil [161 239]))          
+      :file "test_1.py"
+      :pointmax 239
+      :fsize 238
+      :lastmodtime '(24989 55957 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!client-zapp-ta!testcases!client!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

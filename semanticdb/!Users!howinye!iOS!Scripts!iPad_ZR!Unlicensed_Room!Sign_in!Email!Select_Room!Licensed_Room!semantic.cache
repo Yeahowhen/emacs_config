@@ -1,0 +1,161 @@
+;; Object semanticdb-project-database-file-47a99ebe
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-47a99ebe"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-47a99e7e"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"
+--------------------------------------
+@Project: iPad_ZR_auto_test
+@Time: 2021/1/10
+@Auth: Howin Ye
+@Email: howin.ye@zoom.us
+@File: conftest.py
+@Tools: Emacs
+--------------------------------------
+\"\"\"" code nil nil [65 269])
+            ("Licensed_Room" include nil nil [285 311])
+            ("" code nil nil [329 347])
+            ("new_meeting_fixture" function (:arguments 
+              ( ("room_fixed_email_fixed_fixture" variable nil (reparse-symbol function_parameters) [372 402]))              ) nil [348 476])
+            ("" code nil nil [492 510])
+            ("join_fixture" function (:arguments 
+              ( ("room_fixed_email_fixed_fixture" variable nil (reparse-symbol function_parameters) [528 558]))              ) nil [511 625])
+            ("" code nil nil [641 659])
+            ("phone_fixture" function (:arguments 
+              ( ("room_fixed_email_fixed_fixture" variable nil (reparse-symbol function_parameters) [678 708]))              ) nil [660 776])
+            ("" code nil nil [792 810])
+            ("white_board_fixture" function (:arguments 
+              ( ("room_fixed_email_fixed_fixture" variable nil (reparse-symbol function_parameters) [835 865]))              ) nil [811 939])
+            ("" code nil nil [955 973])
+            ("share_screen_fixture" function (:arguments 
+              ( ("room_fixed_email_fixed_fixture" variable nil (reparse-symbol function_parameters) [999 1029]))              ) nil [974 1104])
+            ("" code nil nil [1120 1138])
+            ("contacts_fixture" function (:arguments 
+              ( ("room_fixed_email_fixed_fixture" variable nil (reparse-symbol function_parameters) [1160 1190]))              ) nil [1139 1261])
+            ("" code nil nil [1277 1295])
+            ("licensed_settings_fixture" function (:arguments 
+              ( ("room_fixed_email_fixed_fixture" variable nil (reparse-symbol function_parameters) [1326 1356]))              ) nil [1296 1427]))          
+      :file "conftest.py"
+      :pointmax 1427
+      :fsize 904
+      :lastmodtime '(25055 60166 817848 529000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-47a99e9e"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"
+--------------------------------------
+@Project: iPad_ZR_auto_test
+@Time: 2021/1/10
+@Auth: Howin Ye
+@Email: howin.ye@zoom.us
+@File: Licensed_Room.py
+@Tools: Emacs
+--------------------------------------
+\"\"\"" code nil nil [65 274])
+            ("appium.webdriver.common.appiumby" include nil nil [276 335])
+            ("selenium.webdriver.support.ui" include nil nil [336 391])
+            ("selenium.webdriver.support" include nil nil [392 456])
+            ("Licensed_Room" type
+               (:members 
+                  ( ("NEW_MEETING" variable nil (reparse-symbol indented_block_body) [484 543])
+                    ("JOIN" variable nil (reparse-symbol indented_block_body) [548 593])
+                    ("PHONE" variable nil (reparse-symbol indented_block_body) [598 645])
+                    ("WHITE_BOARD" variable nil (reparse-symbol indented_block_body) [650 708])
+                    ("SHARE_SCREEN" variable nil (reparse-symbol indented_block_body) [713 774])
+                    ("CONTACTS" variable nil (reparse-symbol indented_block_body) [779 832])
+                    ("SETTING" variable nil (reparse-symbol indented_block_body) [837 889])
+                    ("ENTIRE_PAGE_XPATH" variable nil (reparse-symbol indented_block_body) [894 1162])
+                    ("NEW_MEETING_XPATH" code nil (reparse-symbol indented_block_body) [1168 1219])
+                    ("JOIN_XPATH" code nil (reparse-symbol indented_block_body) [1224 1261])
+                    ("PHONE_XPATH" code nil (reparse-symbol indented_block_body) [1266 1305])
+                    ("WHITE_BOARD_XPATH" code nil (reparse-symbol indented_block_body) [1310 1361])
+                    ("CONTACTS_XPATH" code nil (reparse-symbol indented_block_body) [1366 1411])
+                    ("SHARE_SCREEN_XPATH" code nil (reparse-symbol indented_block_body) [1416 1469])
+                    ("SETTING_XPATH" code nil (reparse-symbol indented_block_body) [1474 1517])
+                    ("PRIVACY_CLOSE" variable nil (reparse-symbol indented_block_body) [1523 1584])
+                    ("OPEN_SOURCE_CLOSE" variable nil (reparse-symbol indented_block_body) [1589 1654])
+                    ("SIGN_OUT_TAG" variable nil (reparse-symbol indented_block_body) [1660 1727])
+                    ("SIGN_OUT_PIN_FIELD" variable nil (reparse-symbol indented_block_body) [1732 1996])
+                    ("SIGN_OUT_CANCEL" variable nil (reparse-symbol indented_block_body) [2001 2060])
+                    ("SIGN_OUT_OK" variable nil (reparse-symbol indented_block_body) [2065 2116])
+                    ("new_meeting" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [2155 2158])
+                            ("driver" variable nil (reparse-symbol function_parameters) [2160 2166]))                          )
+                        (reparse-symbol indented_block_body) [2122 2354])
+                    ("join" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [2385 2388])
+                            ("driver" variable nil (reparse-symbol function_parameters) [2390 2396]))                          )
+                        (reparse-symbol indented_block_body) [2359 2563])
+                    ("phone" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [2595 2598])
+                            ("driver" variable nil (reparse-symbol function_parameters) [2600 2606]))                          )
+                        (reparse-symbol indented_block_body) [2568 2776])
+                    ("white_board" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [2814 2817])
+                            ("driver" variable nil (reparse-symbol function_parameters) [2819 2825]))                          )
+                        (reparse-symbol indented_block_body) [2781 3013])
+                    ("share_screen" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [3052 3055])
+                            ("driver" variable nil (reparse-symbol function_parameters) [3057 3063]))                          )
+                        (reparse-symbol indented_block_body) [3018 3254])
+                    ("contacts" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [3289 3292])
+                            ("driver" variable nil (reparse-symbol function_parameters) [3294 3300]))                          )
+                        (reparse-symbol indented_block_body) [3259 3479])
+                    ("settings" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [3514 3517])
+                            ("driver" variable nil (reparse-symbol function_parameters) [3519 3525]))                          )
+                        (reparse-symbol indented_block_body) [3484 3701]))                  
+                :type "class")
+                nil [459 3701]))          
+      :file "Licensed_Room.py"
+      :pointmax 3701
+      :fsize 3700
+      :lastmodtime '(25057 11880 175647 577000)
+      :unmatched-syntax '(($EOI 3701 . 3701)))
+    (semanticdb-table "semanticdb-table-43764d04"
+      :major-mode python-mode
+      :tags 
+        '( ("Test_licensed_room" type
+               (:members 
+                  ( ("test_new_meeting" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [52 56])
+                            ("new_meeting_fixture" variable nil (reparse-symbol function_parameters) [58 77]))                          )
+                        (reparse-symbol indented_block_body) [31 111]))                  
+                :type "class")
+                nil [1 111]))          
+      :file "test_licensed_room.py"
+      :pointmax 111
+      :fsize 110
+      :lastmodtime '(25057 11915 402844 20000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!iPad_ZR!Unlicensed_Room!Sign_in!Email!Select_Room!Licensed_Room!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

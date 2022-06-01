@@ -1,0 +1,20 @@
+;;;; Emacs Bookmark Format Version 1 ;;;; -*- coding: utf-8-emacs -*-
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("org-refile-last-stored"
+ (filename . "~/pratice.org")
+ (front-context-string . "** TODO Buffer f")
+ (rear-context-string . " [X] order food\n")
+ (position . 2284))
+("org-capture-last-stored"
+ (filename . "~/RoamNotes/20220531152558-programming_language.org")
+ (front-context-string . "\nHere are some g")
+ (rear-context-string . "amming language\n")
+ (position . 98))
+("conftest.py"
+ (filename . "~/iOS/Scripts/conftest.py")
+ (front-context-string)
+ (rear-context-string . "ture TearDown\")\n")
+ (position . 734))
+)

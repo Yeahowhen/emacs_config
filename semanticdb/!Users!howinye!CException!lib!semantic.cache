@@ -1,0 +1,1357 @@
+;; Object semanticdb-project-database-file-54c6caf2
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-54c6caf2"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-54c6cab2"
+      :major-mode c-mode
+      :tags 
+        '( ("CException.h" include nil nil [1 24])
+            ("CExceptionFrames" variable
+               (:dereference 1
+                :typemodifiers ("volatile")
+                :default-value "{{ 0 }}"
+                :type ("CEXCEPTION_FRAME_T" type (:type "class") nil nil))
+                nil [116 190])
+            ("Throw" function
+               (:arguments 
+                  ( ("ExceptionID" variable (:type ("CEXCEPTION_T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [426 451]))                  
+                :type "void")
+                nil [415 703]))          
+      :file "CException.c"
+      :pointmax 3220
+      :fsize 3219
+      :lastmodtime '(25037 29947 95721 401000)
+      :unmatched-syntax '((symbol 214 . 217) (symbol 203 . 213) (symbol 199 . 202) (symbol 192 . 198) (punctuation 191 . 192) (string 85 . 115) (symbol 77 . 84) (symbol 66 . 76) (symbol 62 . 65) (symbol 55 . 61) (punctuation 54 . 55) (symbol 49 . 53) (symbol 38 . 48) (symbol 34 . 37) (symbol 27 . 33) (punctuation 26 . 27)))
+    (semanticdb-table "semanticdb-table-54c6cad2"
+      :major-mode c-mode
+      :tags 
+        '( ("_CEXCEPTION_H" variable (:constant-flag t) nil [31 44])
+            ("setjmp.h" include (:system-flag t) nil [46 65])
+            ("ExitTry" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4131 4138])
+            ("Throw" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("ExceptionID" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [4049 4074]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4038 4075])
+            ("Catch" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2974 2979])
+            ("Try" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2287 2290])
+            ("CExceptionFrames" variable
+               (:type ("CEXCEPTION_FRAME_T" type (:type "class") nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern" "volatile")
+                :dereference 1)
+                (reparse-symbol extern-c-contents) [2188 2242])
+            ("CEXCEPTION_FRAME_T" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("pFrame" variable
+                             (:pointer 1
+                              :type ("jmp_buf" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [2056 2072])
+                          ("Exception" variable (:type "unsigned int") (reparse-symbol classsubparts) [2075 2107]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [2037 2129])
+            ("CEXCEPTION_VERSION" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [230 248])
+            ("CEXCEPTION_VERSION_BUILD" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [192 216])
+            ("CEXCEPTION_VERSION_MINOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [154 178])
+            ("CEXCEPTION_VERSION_MAJOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [116 140])
+            ("ExitTry" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4131 4138])
+            ("pFrame" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :default-value "PrevFrame")
+                (reparse-symbol extern-c-contents) [3768 3787])
+            ("e" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [3544 3546])
+            ("Catch" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2974 2979])
+            ("Try" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2287 2290])
+            ("CExceptionFrames" variable
+               (:type ("CEXCEPTION_FRAME_T" type (:type "class") nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern" "volatile")
+                :dereference 1)
+                (reparse-symbol extern-c-contents) [2188 2242])
+            ("CEXCEPTION_FRAME_T" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("pFrame" variable
+                             (:pointer 1
+                              :type ("jmp_buf" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [2056 2072])
+                          ("Exception" variable (:type "unsigned int") (reparse-symbol classsubparts) [2075 2107]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [2037 2129])
+            ("CEXCEPTION_VERSION" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [230 248])
+            ("CEXCEPTION_VERSION_BUILD" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [192 216])
+            ("CEXCEPTION_VERSION_MINOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [154 178])
+            ("CEXCEPTION_VERSION_MAJOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [116 140])
+            ("ExitTry" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4131 4138])
+            ("pFrame" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :default-value "PrevFrame")
+                (reparse-symbol extern-c-contents) [3768 3787])
+            ("e" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [3544 3546])
+            ("Catch" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2974 2979])
+            ("Try" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2287 2290])
+            ("CExceptionFrames" variable
+               (:type ("CEXCEPTION_FRAME_T" type (:type "class") nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern" "volatile")
+                :dereference 1)
+                (reparse-symbol extern-c-contents) [2188 2242])
+            ("CEXCEPTION_FRAME_T" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("pFrame" variable
+                             (:pointer 1
+                              :type ("jmp_buf" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [2056 2072])
+                          ("Exception" variable (:type "unsigned int") (reparse-symbol classsubparts) [2075 2107]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [2037 2129])
+            ("CEXCEPTION_VERSION" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [230 248])
+            ("CEXCEPTION_VERSION_BUILD" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [192 216])
+            ("CEXCEPTION_VERSION_MINOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [154 178])
+            ("CEXCEPTION_VERSION_MAJOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [116 140])
+            ("ExitTry" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4131 4138])
+            ("pFrame" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :default-value "PrevFrame")
+                (reparse-symbol extern-c-contents) [3768 3787])
+            ("e" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [3544 3546])
+            ("Catch" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2974 2979])
+            ("Try" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2287 2290])
+            ("CExceptionFrames" variable
+               (:type ("CEXCEPTION_FRAME_T" type (:type "class") nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern" "volatile")
+                :dereference 1)
+                (reparse-symbol extern-c-contents) [2188 2242])
+            ("CEXCEPTION_FRAME_T" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("pFrame" variable
+                             (:pointer 1
+                              :type ("jmp_buf" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [2056 2072])
+                          ("Exception" variable (:type "unsigned int") (reparse-symbol classsubparts) [2075 2107]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [2037 2129])
+            ("CEXCEPTION_VERSION" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [230 248])
+            ("CEXCEPTION_VERSION_BUILD" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [192 216])
+            ("CEXCEPTION_VERSION_MINOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [154 178])
+            ("CEXCEPTION_VERSION_MAJOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [116 140])
+            ("ExitTry" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4131 4138])
+            ("pFrame" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :default-value "PrevFrame")
+                (reparse-symbol extern-c-contents) [3768 3787])
+            ("e" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [3544 3546])
+            ("Catch" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2974 2979])
+            ("Try" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2287 2290])
+            ("CExceptionFrames" variable
+               (:type ("CEXCEPTION_FRAME_T" type (:type "class") nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern" "volatile")
+                :dereference 1)
+                (reparse-symbol extern-c-contents) [2188 2242])
+            ("CEXCEPTION_FRAME_T" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("pFrame" variable
+                             (:pointer 1
+                              :type ("jmp_buf" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [2056 2072])
+                          ("Exception" variable (:type "unsigned int") (reparse-symbol classsubparts) [2075 2107]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [2037 2129])
+            ("CEXCEPTION_VERSION" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [230 248])
+            ("CEXCEPTION_VERSION_BUILD" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [192 216])
+            ("CEXCEPTION_VERSION_MINOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [154 178])
+            ("CEXCEPTION_VERSION_MAJOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [116 140])
+            ("ExitTry" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4131 4138])
+            ("pFrame" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :default-value "PrevFrame")
+                (reparse-symbol extern-c-contents) [3768 3787])
+            ("e" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [3544 3546])
+            ("Catch" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2974 2979])
+            ("Try" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2287 2290])
+            ("CExceptionFrames" variable
+               (:type ("CEXCEPTION_FRAME_T" type (:type "class") nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern" "volatile")
+                :dereference 1)
+                (reparse-symbol extern-c-contents) [2188 2242])
+            ("CEXCEPTION_FRAME_T" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("pFrame" variable
+                             (:pointer 1
+                              :type ("jmp_buf" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [2056 2072])
+                          ("Exception" variable (:type "unsigned int") (reparse-symbol classsubparts) [2075 2107]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [2037 2129])
+            ("CEXCEPTION_VERSION" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [230 248])
+            ("CEXCEPTION_VERSION_BUILD" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [192 216])
+            ("CEXCEPTION_VERSION_MINOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [154 178])
+            ("CEXCEPTION_VERSION_MAJOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [116 140])
+            ("ExitTry" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4131 4138])
+            ("pFrame" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :default-value "PrevFrame")
+                (reparse-symbol extern-c-contents) [3768 3787])
+            ("e" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [3544 3546])
+            ("Catch" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2974 2979])
+            ("Try" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2287 2290])
+            ("CExceptionFrames" variable
+               (:type ("CEXCEPTION_FRAME_T" type (:type "class") nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern" "volatile")
+                :dereference 1)
+                (reparse-symbol extern-c-contents) [2188 2242])
+            ("CEXCEPTION_FRAME_T" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("pFrame" variable
+                             (:pointer 1
+                              :type ("jmp_buf" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [2056 2072])
+                          ("Exception" variable (:type "unsigned int") (reparse-symbol classsubparts) [2075 2107]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [2037 2129])
+            ("CEXCEPTION_VERSION" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [230 248])
+            ("CEXCEPTION_VERSION_BUILD" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [192 216])
+            ("CEXCEPTION_VERSION_MINOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [154 178])
+            ("CEXCEPTION_VERSION_MAJOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [116 140])
+            ("ExitTry" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4131 4138])
+            ("pFrame" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :default-value "PrevFrame")
+                (reparse-symbol extern-c-contents) [3768 3787])
+            ("e" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [3544 3546])
+            ("Catch" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2974 2979])
+            ("Try" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2287 2290])
+            ("CExceptionFrames" variable
+               (:type ("CEXCEPTION_FRAME_T" type (:type "class") nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern" "volatile")
+                :dereference 1)
+                (reparse-symbol extern-c-contents) [2188 2242])
+            ("CEXCEPTION_FRAME_T" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("pFrame" variable
+                             (:pointer 1
+                              :type ("jmp_buf" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [2056 2072])
+                          ("Exception" variable (:type "unsigned int") (reparse-symbol classsubparts) [2075 2107]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [2037 2129])
+            ("CEXCEPTION_VERSION" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [230 248])
+            ("CEXCEPTION_VERSION_BUILD" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [192 216])
+            ("CEXCEPTION_VERSION_MINOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [154 178])
+            ("CEXCEPTION_VERSION_MAJOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [116 140])
+            ("ExitTry" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4131 4138])
+            ("pFrame" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :default-value "PrevFrame")
+                (reparse-symbol extern-c-contents) [3768 3787])
+            ("e" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [3544 3546])
+            ("Catch" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2974 2979])
+            ("Try" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2287 2290])
+            ("CExceptionFrames" variable
+               (:type ("CEXCEPTION_FRAME_T" type (:type "class") nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern" "volatile")
+                :dereference 1)
+                (reparse-symbol extern-c-contents) [2188 2242])
+            ("CEXCEPTION_FRAME_T" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("pFrame" variable
+                             (:pointer 1
+                              :type ("jmp_buf" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [2056 2072])
+                          ("Exception" variable (:type "unsigned int") (reparse-symbol classsubparts) [2075 2107]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [2037 2129])
+            ("CEXCEPTION_VERSION" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [230 248])
+            ("CEXCEPTION_VERSION_BUILD" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [192 216])
+            ("CEXCEPTION_VERSION_MINOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [154 178])
+            ("CEXCEPTION_VERSION_MAJOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [116 140])
+            ("ExitTry" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4131 4138])
+            ("pFrame" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :default-value "PrevFrame")
+                (reparse-symbol extern-c-contents) [3768 3787])
+            ("e" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [3544 3546])
+            ("Catch" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2974 2979])
+            ("Try" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2287 2290])
+            ("CExceptionFrames" variable
+               (:type ("CEXCEPTION_FRAME_T" type (:type "class") nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern" "volatile")
+                :dereference 1)
+                (reparse-symbol extern-c-contents) [2188 2242])
+            ("CEXCEPTION_FRAME_T" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("pFrame" variable
+                             (:pointer 1
+                              :type ("jmp_buf" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [2056 2072])
+                          ("Exception" variable (:type "unsigned int") (reparse-symbol classsubparts) [2075 2107]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [2037 2129])
+            ("CEXCEPTION_VERSION" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [230 248])
+            ("CEXCEPTION_VERSION_BUILD" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [192 216])
+            ("CEXCEPTION_VERSION_MINOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [154 178])
+            ("CEXCEPTION_VERSION_MAJOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [116 140])
+            ("ExitTry" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4131 4138])
+            ("pFrame" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :default-value "PrevFrame")
+                (reparse-symbol extern-c-contents) [3768 3787])
+            ("e" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [3544 3546])
+            ("Catch" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2974 2979])
+            ("Try" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2287 2290])
+            ("CExceptionFrames" variable
+               (:type ("CEXCEPTION_FRAME_T" type (:type "class") nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern" "volatile")
+                :dereference 1)
+                (reparse-symbol extern-c-contents) [2188 2242])
+            ("CEXCEPTION_FRAME_T" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("pFrame" variable
+                             (:pointer 1
+                              :type ("jmp_buf" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [2056 2072])
+                          ("Exception" variable (:type "unsigned int") (reparse-symbol classsubparts) [2075 2107]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [2037 2129])
+            ("CEXCEPTION_VERSION" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [230 248])
+            ("CEXCEPTION_VERSION_BUILD" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [192 216])
+            ("CEXCEPTION_VERSION_MINOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [154 178])
+            ("CEXCEPTION_VERSION_MAJOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [116 140])
+            ("ExitTry" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4131 4138])
+            ("pFrame" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :default-value "PrevFrame")
+                (reparse-symbol extern-c-contents) [3768 3787])
+            ("e" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [3544 3546])
+            ("Catch" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2974 2979])
+            ("Try" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2287 2290])
+            ("CExceptionFrames" variable
+               (:type ("CEXCEPTION_FRAME_T" type (:type "class") nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern" "volatile")
+                :dereference 1)
+                (reparse-symbol extern-c-contents) [2188 2242])
+            ("CEXCEPTION_FRAME_T" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("pFrame" variable
+                             (:pointer 1
+                              :type ("jmp_buf" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [2056 2072])
+                          ("Exception" variable (:type "unsigned int") (reparse-symbol classsubparts) [2075 2107]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [2037 2129])
+            ("CEXCEPTION_VERSION" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [230 248])
+            ("CEXCEPTION_VERSION_BUILD" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [192 216])
+            ("CEXCEPTION_VERSION_MINOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [154 178])
+            ("CEXCEPTION_VERSION_MAJOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [116 140])
+            ("ExitTry" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4131 4138])
+            ("pFrame" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :default-value "PrevFrame")
+                (reparse-symbol extern-c-contents) [3768 3787])
+            ("e" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [3544 3546])
+            ("Catch" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2974 2979])
+            ("Try" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2287 2290])
+            ("CExceptionFrames" variable
+               (:type ("CEXCEPTION_FRAME_T" type (:type "class") nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern" "volatile")
+                :dereference 1)
+                (reparse-symbol extern-c-contents) [2188 2242])
+            ("CEXCEPTION_FRAME_T" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("pFrame" variable
+                             (:pointer 1
+                              :type ("jmp_buf" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [2056 2072])
+                          ("Exception" variable (:type "unsigned int") (reparse-symbol classsubparts) [2075 2107]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [2037 2129])
+            ("CEXCEPTION_VERSION" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [230 248])
+            ("CEXCEPTION_VERSION_BUILD" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [192 216])
+            ("CEXCEPTION_VERSION_MINOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [154 178])
+            ("CEXCEPTION_VERSION_MAJOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [116 140])
+            ("ExitTry" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4131 4138])
+            ("pFrame" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :default-value "PrevFrame")
+                (reparse-symbol extern-c-contents) [3768 3787])
+            ("e" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [3544 3546])
+            ("Catch" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2974 2979])
+            ("Try" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2287 2290])
+            ("CExceptionFrames" variable
+               (:type ("CEXCEPTION_FRAME_T" type (:type "class") nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern" "volatile")
+                :dereference 1)
+                (reparse-symbol extern-c-contents) [2188 2242])
+            ("CEXCEPTION_FRAME_T" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("pFrame" variable
+                             (:pointer 1
+                              :type ("jmp_buf" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [2056 2072])
+                          ("Exception" variable (:type "unsigned int") (reparse-symbol classsubparts) [2075 2107]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [2037 2129])
+            ("CEXCEPTION_VERSION" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [230 248])
+            ("CEXCEPTION_VERSION_BUILD" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [192 216])
+            ("CEXCEPTION_VERSION_MINOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [154 178])
+            ("CEXCEPTION_VERSION_MAJOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [116 140])
+            ("ExitTry" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4131 4138])
+            ("pFrame" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :default-value "PrevFrame")
+                (reparse-symbol extern-c-contents) [3768 3787])
+            ("e" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [3544 3546])
+            ("Catch" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2974 2979])
+            ("Try" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2287 2290])
+            ("CExceptionFrames" variable
+               (:type ("CEXCEPTION_FRAME_T" type (:type "class") nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern" "volatile")
+                :dereference 1)
+                (reparse-symbol extern-c-contents) [2188 2242])
+            ("CEXCEPTION_FRAME_T" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("pFrame" variable
+                             (:pointer 1
+                              :type ("jmp_buf" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [2056 2072])
+                          ("Exception" variable (:type "unsigned int") (reparse-symbol classsubparts) [2075 2107]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [2037 2129])
+            ("CEXCEPTION_VERSION" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [230 248])
+            ("CEXCEPTION_VERSION_BUILD" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [192 216])
+            ("CEXCEPTION_VERSION_MINOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [154 178])
+            ("CEXCEPTION_VERSION_MAJOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [116 140])
+            ("ExitTry" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4131 4138])
+            ("pFrame" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :default-value "PrevFrame")
+                (reparse-symbol extern-c-contents) [3768 3787])
+            ("e" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [3544 3546])
+            ("Catch" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2974 2979])
+            ("Try" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2287 2290])
+            ("CExceptionFrames" variable
+               (:type ("CEXCEPTION_FRAME_T" type (:type "class") nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern" "volatile")
+                :dereference 1)
+                (reparse-symbol extern-c-contents) [2188 2242])
+            ("CEXCEPTION_FRAME_T" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("pFrame" variable
+                             (:pointer 1
+                              :type ("jmp_buf" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [2056 2072])
+                          ("Exception" variable (:type "unsigned int") (reparse-symbol classsubparts) [2075 2107]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [2037 2129])
+            ("CEXCEPTION_VERSION" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [230 248])
+            ("CEXCEPTION_VERSION_BUILD" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [192 216])
+            ("CEXCEPTION_VERSION_MINOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [154 178])
+            ("CEXCEPTION_VERSION_MAJOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [116 140])
+            ("ExitTry" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4131 4138])
+            ("pFrame" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :default-value "PrevFrame")
+                (reparse-symbol extern-c-contents) [3768 3787])
+            ("e" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [3544 3546])
+            ("Catch" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2974 2979])
+            ("Try" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2287 2290])
+            ("CExceptionFrames" variable
+               (:type ("CEXCEPTION_FRAME_T" type (:type "class") nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern" "volatile")
+                :dereference 1)
+                (reparse-symbol extern-c-contents) [2188 2242])
+            ("CEXCEPTION_FRAME_T" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("pFrame" variable
+                             (:pointer 1
+                              :type ("jmp_buf" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [2056 2072])
+                          ("Exception" variable (:type "unsigned int") (reparse-symbol classsubparts) [2075 2107]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [2037 2129])
+            ("CEXCEPTION_VERSION" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [230 248])
+            ("CEXCEPTION_VERSION_BUILD" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [192 216])
+            ("CEXCEPTION_VERSION_MINOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [154 178])
+            ("CEXCEPTION_VERSION_MAJOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [116 140])
+            ("ExitTry" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4131 4138])
+            ("pFrame" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :default-value "PrevFrame")
+                (reparse-symbol extern-c-contents) [3768 3787])
+            ("e" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [3544 3546])
+            ("Catch" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2974 2979])
+            ("Try" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2287 2290])
+            ("CExceptionFrames" variable
+               (:type ("CEXCEPTION_FRAME_T" type (:type "class") nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern" "volatile")
+                :dereference 1)
+                (reparse-symbol extern-c-contents) [2188 2242])
+            ("CEXCEPTION_FRAME_T" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("pFrame" variable
+                             (:pointer 1
+                              :type ("jmp_buf" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [2056 2072])
+                          ("Exception" variable (:type "unsigned int") (reparse-symbol classsubparts) [2075 2107]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [2037 2129])
+            ("CEXCEPTION_VERSION" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [230 248])
+            ("CEXCEPTION_VERSION_BUILD" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [192 216])
+            ("CEXCEPTION_VERSION_MINOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [154 178])
+            ("CEXCEPTION_VERSION_MAJOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [116 140])
+            ("ExitTry" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4131 4138])
+            ("pFrame" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :default-value "PrevFrame")
+                (reparse-symbol extern-c-contents) [3768 3787])
+            ("e" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [3544 3546])
+            ("Catch" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2974 2979])
+            ("Try" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2287 2290])
+            ("CExceptionFrames" variable
+               (:type ("CEXCEPTION_FRAME_T" type (:type "class") nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern" "volatile")
+                :dereference 1)
+                (reparse-symbol extern-c-contents) [2188 2242])
+            ("CEXCEPTION_FRAME_T" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("pFrame" variable
+                             (:pointer 1
+                              :type ("jmp_buf" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [2056 2072])
+                          ("Exception" variable (:type "unsigned int") (reparse-symbol classsubparts) [2075 2107]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [2037 2129])
+            ("CEXCEPTION_VERSION" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [230 248])
+            ("CEXCEPTION_VERSION_BUILD" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [192 216])
+            ("CEXCEPTION_VERSION_MINOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [154 178])
+            ("CEXCEPTION_VERSION_MAJOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [116 140])
+            ("ExitTry" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4131 4138])
+            ("Throw" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("ExceptionID" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [4049 4074]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4038 4075])
+            ("Catch" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2974 2979])
+            ("Try" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2287 2290])
+            ("CExceptionFrames" variable
+               (:type ("CEXCEPTION_FRAME_T" type (:type "class") nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern" "volatile")
+                :dereference 1)
+                (reparse-symbol extern-c-contents) [2188 2242])
+            ("CEXCEPTION_FRAME_T" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("pFrame" variable
+                             (:pointer 1
+                              :type ("jmp_buf" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [2056 2072])
+                          ("Exception" variable (:type "unsigned int") (reparse-symbol classsubparts) [2075 2107]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [2037 2129])
+            ("CEXCEPTION_VERSION" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [230 248])
+            ("CEXCEPTION_VERSION_BUILD" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [192 216])
+            ("CEXCEPTION_VERSION_MINOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [154 178])
+            ("CEXCEPTION_VERSION_MAJOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [116 140])
+            ("ExitTry" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4131 4138])
+            ("Throw" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("ExceptionID" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [4049 4074]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4038 4075])
+            ("Catch" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2974 2979])
+            ("Try" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2287 2290])
+            ("CExceptionFrames" variable
+               (:type ("CEXCEPTION_FRAME_T" type (:type "class") nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern" "volatile")
+                :dereference 1)
+                (reparse-symbol extern-c-contents) [2188 2242])
+            ("CEXCEPTION_FRAME_T" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("pFrame" variable
+                             (:pointer 1
+                              :type ("jmp_buf" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [2056 2072])
+                          ("Exception" variable (:type "unsigned int") (reparse-symbol classsubparts) [2075 2107]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [2037 2129])
+            ("CEXCEPTION_VERSION" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [230 248])
+            ("CEXCEPTION_VERSION_BUILD" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [192 216])
+            ("CEXCEPTION_VERSION_MINOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [154 178])
+            ("CEXCEPTION_VERSION_MAJOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [116 140])
+            ("ExitTry" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4131 4138])
+            ("pFrame" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :default-value "PrevFrame")
+                (reparse-symbol extern-c-contents) [3768 3787])
+            ("e" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [3544 3546])
+            ("Catch" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2974 2979])
+            ("Try" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2287 2290])
+            ("CExceptionFrames" variable
+               (:type ("CEXCEPTION_FRAME_T" type (:type "class") nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern" "volatile")
+                :dereference 1)
+                (reparse-symbol extern-c-contents) [2188 2242])
+            ("CEXCEPTION_FRAME_T" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("pFrame" variable
+                             (:pointer 1
+                              :type ("jmp_buf" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [2056 2072])
+                          ("Exception" variable (:type "unsigned int") (reparse-symbol classsubparts) [2075 2107]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [2037 2129])
+            ("CEXCEPTION_VERSION" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [230 248])
+            ("CEXCEPTION_VERSION_BUILD" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [192 216])
+            ("CEXCEPTION_VERSION_MINOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [154 178])
+            ("CEXCEPTION_VERSION_MAJOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [116 140])
+            ("ExitTry" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4131 4138])
+            ("Throw" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("ExceptionID" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [4049 4074]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4038 4075])
+            ("Catch" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2974 2979])
+            ("Try" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2287 2290])
+            ("CExceptionFrames" variable
+               (:type ("CEXCEPTION_FRAME_T" type (:type "class") nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern" "volatile")
+                :dereference 1)
+                (reparse-symbol extern-c-contents) [2188 2242])
+            ("CEXCEPTION_FRAME_T" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("pFrame" variable
+                             (:pointer 1
+                              :type ("jmp_buf" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [2056 2072])
+                          ("Exception" variable (:type "unsigned int") (reparse-symbol classsubparts) [2075 2107]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [2037 2129])
+            ("CEXCEPTION_HOOK_START_CATCH" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1972 1999])
+            ("CEXCEPTION_HOOK_AFTER_TRY" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1895 1920])
+            ("CEXCEPTION_HOOK_HAPPY_TRY" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1820 1845])
+            ("CEXCEPTION_HOOK_START_TRY" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1745 1770])
+            ("CEXCEPTION_NO_CATCH_HANDLER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1542 1569])
+            ("CEXCEPTION_T" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1384 1396])
+            ("CEXCEPTION_GET_ID" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1211 1228])
+            ("CEXCEPTION_NUM_ID" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1015 1032])
+            ("CEXCEPTION_NONE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [870 885])
+            ("CEXCEPTION_VERSION" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [230 248])
+            ("CEXCEPTION_VERSION_BUILD" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [192 216])
+            ("CEXCEPTION_VERSION_MINOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [154 178])
+            ("CEXCEPTION_VERSION_MAJOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [116 140]))          
+      :file "CException.h"
+      :pointmax 4235
+      :fsize 4234
+      :lastmodtime '(25037 29947 95901 358000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("CEXCEPTION_T" . ((UNSIGNED "unsigned" 1405 . 1413) (INT "int" 1414 . 1417)))
+          ("Catch" (spp-arg-list ("e") 2979 . 2982) . 
+              ((ELSE "else" 3048 . 3052) (semantic-list "{ }" 3053 . 3056) (symbol "CExceptionFrames" 3118 . 3134) (semantic-list "[MY_ID]" 3134 . 3141) (punctuation "." 3141 . 3142) (symbol "Exception" 3142 . 3151) (punctuation "=" 3152 . 3153) (symbol "CEXCEPTION_NONE" 3154 . 3169) (punctuation ";" 3169 . 3170) (symbol "CEXCEPTION_HOOK_HAPPY_TRY" 3188 . 3213) (punctuation ";" 3213 . 3214) (close-paren "}" 3254 . 3255) (ELSE "else" 3324 . 3328) (semantic-list "{                                                           \\
+            e = CExceptionFrames[MY_ID].Exception;                  \\
+            (void)e;                                                \\
+            CEXCEPTION_HOOK_START_CATCH;                            \\
+        }" 3394 . 3675) (symbol "CExceptionFrames" 3744 . 3760) (semantic-list "[MY_ID]" 3760 . 3767) (punctuation "." 3767 . 3768) (symbol "pFrame" 3768 . 3774) (punctuation "=" 3775 . 3776) (symbol "PrevFrame" 3777 . 3786) (punctuation ";" 3786 . 3787) (symbol "CEXCEPTION_HOOK_AFTER_TRY" 3814 . 3839) (punctuation ";" 3839 . 3840) (close-paren "}" 3880 . 3881) (IF "if" 3950 . 3952) (semantic-list "(CExceptionFrames[CEXCEPTION_GET_ID].Exception != CEXCEPTION_NONE)" 3953 . 4019)))
+          ("CEXCEPTION_HOOK_AFTER_TRY")
+          ("CEXCEPTION_VERSION_MINOR" . ((number "3" 182 . 183)))
+          ("CEXCEPTION_NUM_ID" . ((semantic-list "(1)" 1036 . 1039)))
+          ("CEXCEPTION_GET_ID" . ((semantic-list "(0)" 1232 . 1235)))
+          ("ExitTry" (spp-arg-list nil 4138 . 4140) . ((symbol "Throw" 4141 . 4146) (semantic-list "(CEXCEPTION_NONE)" 4146 . 4163)))
+          ("_CEXCEPTION_H")
+          ("CEXCEPTION_VERSION_BUILD" . ((number "3" 220 . 221)))
+          ("CEXCEPTION_NONE" . ((semantic-list "(0x5A5A5A5A)" 891 . 903)))
+          ("CEXCEPTION_HOOK_START_CATCH")
+          ("CEXCEPTION_VERSION" . ((semantic-list "((CEXCEPTION_VERSION_MAJOR << 16) | (CEXCEPTION_VERSION_MINOR << 8) | CEXCEPTION_VERSION_BUILD)" 258 . 353)))
+          ("CEXCEPTION_NO_CATCH_HANDLER" (spp-arg-list ("id") 1569 . 1573))
+          ("CEXCEPTION_HOOK_HAPPY_TRY")
+          ("Try" . 
+              ((open-paren "{" 2353 . 2354) (symbol "jmp_buf" 2427 . 2434) (punctuation "*" 2435 . 2436) (symbol "PrevFrame" 2436 . 2445) (punctuation "," 2445 . 2446) (symbol "NewFrame" 2447 . 2455) (punctuation ";" 2455 . 2456) (UNSIGNED "unsigned" 2497 . 2505) (INT "int" 2506 . 2509) (symbol "MY_ID" 2510 . 2515) (punctuation "=" 2516 . 2517) (symbol "CEXCEPTION_GET_ID" 2518 . 2535) (punctuation ";" 2535 . 2536) (symbol "PrevFrame" 2567 . 2576) (punctuation "=" 2577 . 2578) (symbol "CExceptionFrames" 2579 . 2595) (semantic-list "[MY_ID]" 2595 . 2602) (punctuation "." 2602 . 2603) (symbol "pFrame" 2603 . 2609) (punctuation ";" 2609 . 2610) (symbol "CExceptionFrames" 2637 . 2653) (semantic-list "[MY_ID]" 2653 . 2660) (punctuation "." 2660 . 2661) (symbol "pFrame" 2661 . 2667) (punctuation "=" 2668 . 2669) (semantic-list "(jmp_buf*)" 2670 . 2680) (semantic-list "(&NewFrame)" 2680 . 2691) (punctuation ";" 2691 . 2692) (symbol "CExceptionFrames" 2707 . 2723) (semantic-list "[MY_ID]" 2723 . 2730) (punctuation "." 2730 . 2731) (symbol "Exception" 2731 . 2740) (punctuation "=" 2741 . 2742) (symbol "CEXCEPTION_NONE" 2743 . 2758) (punctuation ";" 2758 . 2759) (symbol "CEXCEPTION_HOOK_START_TRY" 2777 . 2802) (punctuation ";" 2802 . 2803) (IF "if" 2847 . 2849) (semantic-list "(setjmp(NewFrame) == 0)" 2850 . 2873) (open-paren "{" 2874 . 2875) (IF "if" 2921 . 2923) (semantic-list "(1)" 2924 . 2927)))
+          ("CEXCEPTION_VERSION_MAJOR" . ((number "1" 144 . 145)))
+          ("CEXCEPTION_HOOK_START_TRY")
+          )
+))
+  :file "!Users!howinye!CException!lib!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

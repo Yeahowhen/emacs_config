@@ -1,0 +1,71 @@
+;; Object semanticdb-project-database-file-4ae1935e
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-4ae1935e"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4ae192fe"
+      :major-mode python-mode
+      :tags 
+        '( ("appium.webdriver.common.appiumby" include nil nil [1 60])
+            ("selenium.webdriver.support.ui" include nil nil [61 116])
+            ("selenium.webdriver.support" include nil nil [117 181])
+            ("Sign_out" type
+               (:members 
+                  ( ("SIGN_OUT_PIN_FIELD" variable nil (reparse-symbol indented_block_body) [204 468])
+                    ("SIGN_OUT_CANCEL" variable nil (reparse-symbol indented_block_body) [473 532])
+                    ("SIGN_OUT_OK" variable nil (reparse-symbol indented_block_body) [537 588])
+                    ("sign_out" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [624 627])
+                            ("driver" variable nil (reparse-symbol function_parameters) [629 635])
+                            ("pin_num" variable nil (reparse-symbol function_parameters) [637 644]))                          )
+                        (reparse-symbol indented_block_body) [594 979]))                  
+                :type "class")
+                nil [184 979]))          
+      :file "Sign_out.py"
+      :pointmax 979
+      :fsize 978
+      :lastmodtime '(25055 52977 519634 699000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4ae1931e"
+      :major-mode python-mode
+      :tags 
+        '( ("pytest" include nil nil [1 14])
+            ("Sign_out" include nil nil [15 36])
+            ("" code nil nil [53 71])
+            ("sign_out_fixture" function (:arguments 
+              ( ("choose_general_sign_out_fixture" variable nil (reparse-symbol function_parameters) [93 124]))              ) nil [72 221]))          
+      :file "conftest.py"
+      :pointmax 221
+      :fsize 220
+      :lastmodtime '(25055 63500 20445 305000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4ae1933e"
+      :major-mode python-mode
+      :tags 
+        '( ("Test_sign_out" type
+               (:members 
+                  ( ("test_sign_out" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [44 48])
+                            ("touch_fixture" variable nil (reparse-symbol function_parameters) [50 63])
+                            ("sign_in_fixture" variable nil (reparse-symbol function_parameters) [65 80])
+                            ("email_fixture" variable nil (reparse-symbol function_parameters) [82 95])
+                            ("email_login_fixture" variable nil (reparse-symbol function_parameters) [97 116])
+                            ("room_fixture" variable nil (reparse-symbol function_parameters) [118 130])
+                            ("choose_general_sign_out_fixture" variable nil (reparse-symbol function_parameters) [150 181])
+                            ("sign_out_fixture" variable nil (reparse-symbol function_parameters) [183 199]))                          )
+                        (reparse-symbol indented_block_body) [26 228]))                  
+                :type "class")
+                nil [1 228]))          
+      :file "test_sign_out.py"
+      :pointmax 228
+      :fsize 227
+      :lastmodtime '(25055 53174 452076 506000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!iPad_ZR!Unlicensed_Room!Sign_in!Email!Select_Room!Licensed_Room!Setting!Sign_out!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

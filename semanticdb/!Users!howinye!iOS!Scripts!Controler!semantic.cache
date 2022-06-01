@@ -1,0 +1,37 @@
+;; Object semanticdb-project-database-file-541f4188
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-541f4188"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4811af46"
+      :major-mode python-mode
+      :tags 
+        '( ("pytest" include nil nil [1 14])
+            ("basic_xpath" include nil nil [15 39])
+            ("logging" include nil nil [40 54])
+            ("selenium.webdriver.common.by" include nil nil [55 98])
+            ("" code nil nil [293 303])
+            ("Test_Controller" type
+               (:members 
+                  ( ("test_choose_controller" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [360 364])
+                            ("driver" variable nil (reparse-symbol function_parameters) [366 372]))                          )
+                        (reparse-symbol indented_block_body) [333 500])
+                    ("test_next_button" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [534 538])
+                            ("driver" variable nil (reparse-symbol function_parameters) [540 546]))                          )
+                        (reparse-symbol indented_block_body) [513 678]))                  
+                :type "class")
+                nil [304 678]))          
+      :file "test.py"
+      :pointmax 678
+      :fsize 677
+      :lastmodtime '(25028 19062 877332 479000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!Controler!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

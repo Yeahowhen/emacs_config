@@ -1,0 +1,99 @@
+;; Object semanticdb-project-database-file-47aa38be
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-47aa38be"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-47aa385e"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"
+--------------------------------------
+@Project: iPad_ZR_auto_test
+@Time: 2021/1/10
+@Auth: Howin Ye
+@Email: howin.ye@zoom.us
+@File: Select_Room.py
+@Tools: Emacs
+--------------------------------------
+\"\"\"" code nil nil [65 272])
+            ("appium.webdriver.common.appiumby" include nil nil [274 333])
+            ("selenium.webdriver.support.ui" include nil nil [334 389])
+            ("selenium.webdriver.support" include nil nil [390 454])
+            ("Select_Room" type
+               (:members 
+                  ( ("SELECT_ROOM_SEARCH_FIELD" variable nil (reparse-symbol indented_block_body) [480 558])
+                    ("SELECT_ROOM_SEARCH_FIELD_CANCEL" variable nil (reparse-symbol indented_block_body) [563 643])
+                    ("SELECT_ROOM_SIGN_OUT" variable nil (reparse-symbol indented_block_body) [648 714])
+                    ("SELECT_ROOM_TAG" variable nil (reparse-symbol indented_block_body) [719 787])
+                    ("SELECT_ROOM_FIRST" variable nil (reparse-symbol indented_block_body) [793 1180])
+                    ("SELECT_ROOM_CREATE_ROOM" variable nil (reparse-symbol indented_block_body) [1186 1264])
+                    ("room" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [1296 1299])
+                            ("driver" variable nil (reparse-symbol function_parameters) [1301 1307])
+                            ("room_name" variable nil (reparse-symbol function_parameters) [1309 1318]))                          )
+                        (reparse-symbol indented_block_body) [1270 1653]))                  
+                :type "class")
+                nil [457 1653]))          
+      :file "Select_Room.py"
+      :pointmax 1653
+      :fsize 1379
+      :lastmodtime '(25053 14902 471076 239000)
+      :unmatched-syntax '(($EOI 1653 . 1653)))
+    (semanticdb-table "semanticdb-table-47aa387e"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"
+--------------------------------------
+@Project: iPad_ZR_auto_test
+@Time: 2021/1/10
+@Auth: Howin Ye
+@Email: howin.ye@zoom.us
+@File: conftest.py
+@Tools: Emacs
+--------------------------------------
+\"\"\"" code nil nil [65 269])
+            ("pytest" include nil nil [271 284])
+            ("Select_Room" include nil nil [285 309])
+            ("json" include nil nil [310 321])
+            ("basic_xpath" include nil nil [322 346])
+            ("" code nil nil [442 460])
+            ("room_fixed_email_fixed_fixture" function (:arguments 
+              ( ("email_login_fixed_fixture" variable nil (reparse-symbol function_parameters) [496 521]))              ) nil [461 678])
+            ("" code nil nil [742 760])
+            ("room_fixed_email_alternative_fixture" function (:arguments 
+              ( ("email_login_alternative_fixture" variable nil (reparse-symbol function_parameters) [802 833]))              ) nil [761 1102])
+            ("" code nil nil [1166 1184])
+            ("room_alternative_email_fixed_fixture" function (:arguments 
+              ( ("email_login_fixed_fixture" variable nil (reparse-symbol function_parameters) [1226 1251]))              ) nil [1185 1361])
+            ("" code nil nil [1423 1441])
+            ("room_alternative_email_alternative_fixture" function (:arguments 
+              ( ("email_login_alternative_fixture" variable nil (reparse-symbol function_parameters) [1489 1520]))              ) nil [1442 1692]))          
+      :file "conftest.py"
+      :pointmax 1692
+      :fsize 1691
+      :lastmodtime '(25057 11756 883676 680000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-47aa389e"
+      :major-mode python-mode
+      :tags 
+        '( ("Test_select_room" type
+               (:members 
+                  ( ("test_select_room" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [50 54])
+                            ("room_fixture" variable nil (reparse-symbol function_parameters) [56 68]))                          )
+                        (reparse-symbol indented_block_body) [29 100]))                  
+                :type "class")
+                nil [1 100]))          
+      :file "test_select_room.py"
+      :pointmax 100
+      :fsize 234
+      :lastmodtime '(25057 11969 607707 894000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!iPad_ZR!Unlicensed_Room!Sign_in!Email!Select_Room!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

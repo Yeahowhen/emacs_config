@@ -1,0 +1,37 @@
+;; Object semanticdb-project-database-file-4e1e5be0
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-4e1e5be0"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4e1e5bf2"
+      :major-mode python-mode
+      :tags 
+        '( ("appium.webdriver.common.appiumby" include nil nil [1 60])
+            ("selenium.webdriver.support.ui" include nil nil [61 116])
+            ("selenium.webdriver.support" include nil nil [117 181])
+            ("Select_Room" type
+               (:members 
+                  ( ("SELECT_ROOM_SEARCH_FIELD" variable nil (reparse-symbol indented_block_body) [207 285])
+                    ("SELECT_ROOM_SEARCH_FIELD_CANCEL" variable nil (reparse-symbol indented_block_body) [290 370])
+                    ("SELECT_ROOM_SIGN_OUT" variable nil (reparse-symbol indented_block_body) [375 441])
+                    ("SELECT_ROOM_TAG" variable nil (reparse-symbol indented_block_body) [446 514])
+                    ("SELECT_ROOM_FIRST" variable nil (reparse-symbol indented_block_body) [520 907])
+                    ("SELECT_ROOM_CREATE_ROOM" variable nil (reparse-symbol indented_block_body) [913 991])
+                    ("room" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [1023 1026])
+                            ("driver" variable nil (reparse-symbol function_parameters) [1028 1034])
+                            ("room_name" variable nil (reparse-symbol function_parameters) [1036 1045]))                          )
+                        (reparse-symbol indented_block_body) [997 1380]))                  
+                :type "class")
+                nil [184 1380]))          
+      :file "Select_Room.py"
+      :pointmax 1380
+      :fsize 1379
+      :lastmodtime '(25053 14902 471076 239000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!Unlicensed_Room!Sign_in!Email!Select_Room!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,671 @@
+;; Object semanticdb-project-database-file-500e8260
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-500e8260"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-500e8272"
+      :major-mode c-mode
+      :tags 
+        '( ("unity_fixture.h" include nil nil [354 380])
+            ("unity_internals.h" include nil nil [381 409])
+            ("string.h" include (:system-flag t) nil [410 429])
+            ("UnityFixture" variable (:type ("UNITY_FIXTURE_T" type
+                 (:prototype t
+                  :type "struct")
+                  nil nil)) nil [431 467])
+            ("setUp" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [644 649]))                  
+                :type "void")
+                nil [633 673])
+            ("tearDown" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [688 693]))                  
+                :type "void")
+                nil [674 714])
+            ("announceTestRun" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("runNumber" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [744 767]))                  
+                :type "void")
+                nil [716 952])
+            ("UnityMain" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [968 977])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [978 997])
+                    ("runAllTests" function
+                       (:function-pointer t
+                        :arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1018 1023]))                          
+                        :type "void")
+                        nil nil))                  
+                :type "int")
+                nil [954 1405])
+            ("selected" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("filter" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1427 1446])
+                    ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1447 1464]))                  
+                :type "int")
+                nil [1407 1548])
+            ("testSelected" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("test" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1574 1591]))                  
+                :type "int")
+                nil [1550 1647])
+            ("groupSelected" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("group" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1674 1692]))                  
+                :type "int")
+                nil [1649 1750])
+            ("UnityTestRunner" function
+               (:arguments 
+                  ( ("setup" variable
+                       (:pointer 1
+                        :type ("unityfunction" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1773 1794])
+                    ("testBody" variable
+                       (:pointer 1
+                        :type ("unityfunction" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1816 1840])
+                    ("teardown" variable
+                       (:pointer 1
+                        :type ("unityfunction" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1862 1886])
+                    ("printableName" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1908 1934])
+                    ("group" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1956 1974])
+                    ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1996 2013])
+                    ("file" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2035 2052])
+                    ("line" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [2074 2092]))                  
+                :type "void")
+                nil [1752 3012])
+            ("UnityIgnoreTest" function
+               (:arguments 
+                  ( ("printableName" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [3035 3061])
+                    ("group" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [3062 3080])
+                    ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [3081 3098]))                  
+                :type "void")
+                nil [3014 3506])
+            ("PointerPair" type
+               (:members 
+                  ( ("pointer" variable
+                       (:pointer 2
+                        :type "void")
+                        (reparse-symbol classsubparts) [3640 3655])
+                    ("old_value" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [3660 3676]))                  
+                :type "struct")
+                nil [3615 3679])
+            ("pointer_store" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :type ("PointerPair" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [3681 3741])
+            ("pointer_index" variable
+               (:typemodifiers ("static")
+                :default-value "0"
+                :type "int")
+                nil [3742 3771])
+            ("UnityPointer_Init" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3796 3801]))                  
+                :type "void")
+                nil [3773 3828])
+            ("UnityPointer_Set" function
+               (:arguments 
+                  ( ("pointer" variable
+                       (:pointer 2
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [3852 3867])
+                    ("newValue" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [3868 3883])
+                    ("line" variable (:type ("UNITY_LINE_TYPE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3884 3905]))                  
+                :type "void")
+                nil [3830 4212])
+            ("UnityPointer_UndoAllSets" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4244 4249]))                  
+                :type "void")
+                nil [4214 4422])
+            ("UnityGetCommandLineOptions" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [4455 4464])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [4465 4484]))                  
+                :type "int")
+                nil [4424 7798])
+            ("UnityConcludeFixtureTest" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [7830 7835]))                  
+                :type "void")
+                nil [7800 8393]))          
+      :file "unity_fixture.c"
+      :pointmax 8394
+      :fsize 8392
+      :lastmodtime '(25037 6564 293483 108000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-5525bf64"
+      :major-mode c-mode
+      :tags 
+        '( ("UNITY_FIXTURE_H_" variable (:constant-flag t) nil [387 403])
+            ("unity.h" include nil nil [405 423])
+            ("unity_fixture_internals.h" include nil nil [424 460])
+            ("unity_memory.h" include nil nil [494 519])
+            ("DOUBLES_EQUAL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3121 3134])
+            ("STRCMP_EQUAL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3019 3031])
+            ("LONGS_EQUAL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2920 2931])
+            ("CHECK" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2835 2840])
+            ("FAIL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2751 2755])
+            ("TEST_ASSERT_BYTES_EQUAL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2637 2660])
+            ("TEST_ASSERT_POINTERS_EQUAL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2538 2564])
+            ("UT_PTR_SET" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2414 2424])
+            ("RUN_TEST_GROUP" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2138 2152])
+            ("TEST_GROUP_RUNNER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1989 2006])
+            ("RUN_TEST_CASE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1793 1806])
+            ("IGNORE_TEST" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1425 1436])
+            ("TEST" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [967 971])
+            ("TEST_TEAR_DOWN" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [857 871])
+            ("TEST_SETUP" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [760 770])
+            ("TEST_GROUP" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [681 691])
+            ("UnityMain" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [613 622])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [623 642])
+                    ("runAllTests" function
+                       (:function-pointer t
+                        :arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [663 668]))                          
+                        :type "void")
+                        nil nil))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [599 670])
+            ("unity_internals.h" include (:typemodifiers ("extern" "\"C\"")) (reparse-symbol extern-c-contents) [568 596])
+            ("DOUBLES_EQUAL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3121 3134])
+            ("STRCMP_EQUAL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3019 3031])
+            ("LONGS_EQUAL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2920 2931])
+            ("CHECK" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2835 2840])
+            ("FAIL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2751 2755])
+            ("TEST_ASSERT_BYTES_EQUAL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2637 2660])
+            ("TEST_ASSERT_POINTERS_EQUAL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2538 2564])
+            ("UT_PTR_SET" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2414 2424])
+            ("RUN_TEST_GROUP" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2138 2152])
+            ("TEST_GROUP_RUNNER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1989 2006])
+            ("RUN_TEST_CASE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1793 1806])
+            ("IGNORE_TEST" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1425 1436])
+            ("TEST" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [967 971])
+            ("TEST_TEAR_DOWN" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [857 871])
+            ("TEST_SETUP" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [760 770])
+            ("TEST_GROUP" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [681 691])
+            ("UnityMain" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [613 622])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [623 642])
+                    ("runAllTests" function
+                       (:function-pointer t
+                        :arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [663 668]))                          
+                        :type "void")
+                        nil nil))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [599 670])
+            ("unity_internals.h" include (:typemodifiers ("extern" "\"C\"")) (reparse-symbol extern-c-contents) [568 596])
+            ("DOUBLES_EQUAL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3121 3134])
+            ("STRCMP_EQUAL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3019 3031])
+            ("LONGS_EQUAL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2920 2931])
+            ("CHECK" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2835 2840])
+            ("FAIL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2751 2755])
+            ("TEST_ASSERT_BYTES_EQUAL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2637 2660])
+            ("TEST_ASSERT_POINTERS_EQUAL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2538 2564])
+            ("UT_PTR_SET" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2414 2424])
+            ("RUN_TEST_GROUP" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2138 2152])
+            ("TEST_GROUP_RUNNER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1989 2006])
+            ("RUN_TEST_CASE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1793 1806])
+            ("IGNORE_TEST" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1425 1436])
+            ("TEST" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [967 971])
+            ("TEST_TEAR_DOWN" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [857 871])
+            ("TEST_SETUP" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [760 770])
+            ("TEST_GROUP" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [681 691])
+            ("UnityMain" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [613 622])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [623 642])
+                    ("runAllTests" function
+                       (:function-pointer t
+                        :arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [663 668]))                          
+                        :type "void")
+                        nil nil))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [599 670])
+            ("unity_internals.h" include (:typemodifiers ("extern" "\"C\"")) (reparse-symbol extern-c-contents) [568 596]))          
+      :file "unity_fixture.h"
+      :pointmax 3292
+      :fsize 3291
+      :lastmodtime '(25037 6564 293574 525000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("TEST_SETUP" (spp-arg-list ("group") 770 . 777) . 
+              ((VOID "void" 778 . 782) (spp-symbol-merge ((spp-symbol-merge ((symbol "TEST_" 783 . 788) (symbol "group" 790 . 795)) 783 . 795) (symbol "_SETUP" 797 . 803)) 783 . 803) (semantic-list "(void)" 803 . 809) (punctuation ";" 809 . 810) (VOID "void" 816 . 820) (spp-symbol-merge ((spp-symbol-merge ((symbol "TEST_" 821 . 826) (symbol "group" 828 . 833)) 821 . 833) (symbol "_SETUP" 835 . 841)) 821 . 841) (semantic-list "(void)" 841 . 847)))
+          ("UT_PTR_SET" (spp-arg-list ("ptr" "newPointerValue") 2424 . 2446) . ((symbol "UnityPointer_Set" 2461 . 2477) (semantic-list "((void**)&(ptr), (void*)(newPointerValue), __LINE__)" 2477 . 2529)))
+          ("CHECK" (spp-arg-list ("condition") 2840 . 2851) . ((symbol "TEST_ASSERT_TRUE" 2882 . 2898) (semantic-list "((condition))" 2898 . 2911)))
+          ("LONGS_EQUAL" (spp-arg-list ("expected" "actual") 2931 . 2949) . ((symbol "TEST_ASSERT_EQUAL_INT" 2967 . 2988) (semantic-list "((expected), (actual))" 2988 . 3010)))
+          ("UNITY_FIXTURE_H_")
+          ("FAIL" (spp-arg-list ("message") 2755 . 2764) . ((symbol "TEST_FAIL_MESSAGE" 2798 . 2815) (semantic-list "((message))" 2815 . 2826)))
+          ("STRCMP_EQUAL" (spp-arg-list ("expected" "actual") 3031 . 3049) . ((symbol "TEST_ASSERT_EQUAL_STRING" 3066 . 3090) (semantic-list "((expected), (actual))" 3090 . 3112)))
+          ("RUN_TEST_GROUP" (spp-arg-list ("group") 2152 . 2159) . ((semantic-list "{ void TEST_##group##_GROUP_RUNNER(void);\\
+      TEST_##group##_GROUP_RUNNER(); }" 2165 . 2246)))
+          ("DOUBLES_EQUAL" (spp-arg-list ("expected" "actual" "delta") 3134 . 3159) . ((symbol "TEST_ASSERT_DOUBLE_WITHIN" 3168 . 3193) (semantic-list "((delta), (expected), (actual))" 3193 . 3224)))
+          ("IGNORE_TEST" (spp-arg-list ("group" "name") 1436 . 1449) . 
+              ((VOID "void" 1456 . 1460) (spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((symbol "TEST_" 1461 . 1466) (symbol "group" 1468 . 1473)) 1461 . 1473) (symbol "_" 1475 . 1476)) 1461 . 1476) (symbol "name" 1478 . 1482)) 1461 . 1482) (symbol "_" 1484 . 1485)) 1461 . 1485) (semantic-list "(void)" 1485 . 1491) (punctuation ";" 1491 . 1492) (VOID "void" 1498 . 1502) (spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((symbol "TEST_" 1503 . 1508) (symbol "group" 1510 . 1515)) 1503 . 1515) (symbol "_" 1517 . 1518)) 1503 . 1518) (symbol "name" 1520 . 1524)) 1503 . 1524) (symbol "_run" 1526 . 1530)) 1503 . 1530) (semantic-list "(void)" 1530 . 1536) (punctuation ";" 1536 . 1537) (VOID "void" 1543 . 1547) (spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((symbol "TEST_" 1548 . 1553) (symbol "group" 1555 . 1560)) 1548 . 1560) (symbol "_" 1562 . 1563)) 1548 . 1563) (symbol "name" 1565 . 1569)) 1548 . 1569) (symbol "_run" 1571 . 1575)) 1548 . 1575) (semantic-list "(void)" 1575 . 1581) (semantic-list "{\\
+        UnityIgnoreTest(\"IGNORE_TEST(\" #group \", \" #name \")\", TEST_GROUP_##group, #name);\\
+    }" 1587 . 1686) (VOID "void" 1692 . 1696) (spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((symbol "TEST_" 1697 . 1702) (symbol "group" 1704 . 1709)) 1697 . 1709) (symbol "_" 1711 . 1712)) 1697 . 1712) (symbol "name" 1714 . 1718)) 1697 . 1718) (symbol "_" 1720 . 1721)) 1697 . 1721) (semantic-list "(void)" 1721 . 1727)))
+          ("TEST_ASSERT_POINTERS_EQUAL" (spp-arg-list ("expected" "actual") 2564 . 2582) . ((symbol "TEST_ASSERT_EQUAL_PTR" 2585 . 2606) (semantic-list "((expected), (actual))" 2606 . 2628)))
+          ("TEST_TEAR_DOWN" (spp-arg-list ("group") 871 . 878) . 
+              ((VOID "void" 879 . 883) (spp-symbol-merge ((spp-symbol-merge ((symbol "TEST_" 884 . 889) (symbol "group" 891 . 896)) 884 . 896) (symbol "_TEAR_DOWN" 898 . 908)) 884 . 908) (semantic-list "(void)" 908 . 914) (punctuation ";" 914 . 915) (VOID "void" 921 . 925) (spp-symbol-merge ((spp-symbol-merge ((symbol "TEST_" 926 . 931) (symbol "group" 933 . 938)) 926 . 938) (symbol "_TEAR_DOWN" 940 . 950)) 926 . 950) (semantic-list "(void)" 950 . 956)))
+          ("RUN_TEST_CASE" (spp-arg-list ("group" "name") 1806 . 1819) . ((semantic-list "{ void TEST_##group##_##name##_run(void);\\
+      TEST_##group##_##name##_run(); }" 1826 . 1907)))
+          ("TEST_GROUP_RUNNER" (spp-arg-list ("group") 2006 . 2013) . 
+              ((VOID "void" 2019 . 2023) (spp-symbol-merge ((spp-symbol-merge ((symbol "TEST_" 2024 . 2029) (symbol "group" 2031 . 2036)) 2024 . 2036) (symbol "_GROUP_RUNNER" 2038 . 2051)) 2024 . 2051) (semantic-list "(void)" 2051 . 2057) (punctuation ";" 2057 . 2058) (VOID "void" 2064 . 2068) (spp-symbol-merge ((spp-symbol-merge ((symbol "TEST_" 2069 . 2074) (symbol "group" 2076 . 2081)) 2069 . 2081) (symbol "_GROUP_RUNNER" 2083 . 2096)) 2069 . 2096) (semantic-list "(void)" 2096 . 2102)))
+          ("TEST_ASSERT_BYTES_EQUAL" (spp-arg-list ("expected" "actual") 2660 . 2678) . ((symbol "TEST_ASSERT_EQUAL_HEX8" 2684 . 2706) (semantic-list "(0xff & (expected), 0xff & (actual))" 2706 . 2742)))
+          ("TEST_GROUP" (spp-arg-list ("group") 691 . 698) . 
+              ((STATIC "static" 704 . 710) (CONST "const" 711 . 716) (CHAR "char" 717 . 721) (punctuation "*" 721 . 722) (spp-symbol-merge ((symbol "TEST_GROUP_" 723 . 734) (symbol "group" 736 . 741)) 723 . 741) (punctuation "=" 742 . 743) (punctuation "#" 744 . 745) (symbol "group" 745 . 750)))
+          ("TEST" (spp-arg-list ("group" "name") 971 . 984) . 
+              ((VOID "void" 991 . 995) (spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((symbol "TEST_" 996 . 1001) (symbol "group" 1003 . 1008)) 996 . 1008) (symbol "_" 1010 . 1011)) 996 . 1011) (symbol "name" 1013 . 1017)) 996 . 1017) (symbol "_" 1019 . 1020)) 996 . 1020) (semantic-list "(void)" 1020 . 1026) (punctuation ";" 1026 . 1027) (VOID "void" 1033 . 1037) (spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((symbol "TEST_" 1038 . 1043) (symbol "group" 1045 . 1050)) 1038 . 1050) (symbol "_" 1052 . 1053)) 1038 . 1053) (symbol "name" 1055 . 1059)) 1038 . 1059) (symbol "_run" 1061 . 1065)) 1038 . 1065) (semantic-list "(void)" 1065 . 1071) (punctuation ";" 1071 . 1072) (VOID "void" 1078 . 1082) (spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((symbol "TEST_" 1083 . 1088) (symbol "group" 1090 . 1095)) 1083 . 1095) (symbol "_" 1097 . 1098)) 1083 . 1098) (symbol "name" 1100 . 1104)) 1083 . 1104) (symbol "_run" 1106 . 1110)) 1083 . 1110) (semantic-list "(void)" 1110 . 1116) (semantic-list "{\\
+        UnityTestRunner(TEST_##group##_SETUP,\\
+            TEST_##group##_##name##_,\\
+            TEST_##group##_TEAR_DOWN,\\
+            \"TEST(\" #group \", \" #name \")\",\\
+            TEST_GROUP_##group, #name,\\
+            __FILE__, __LINE__);\\
+    }" 1122 . 1373) (VOID "void" 1379 . 1383) (spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((spp-symbol-merge ((symbol "TEST_" 1385 . 1390) (symbol "group" 1392 . 1397)) 1385 . 1397) (symbol "_" 1399 . 1400)) 1385 . 1400) (symbol "name" 1402 . 1406)) 1385 . 1406) (symbol "_" 1408 . 1409)) 1385 . 1409) (semantic-list "(void)" 1409 . 1415)))
+          )
+)
+    (semanticdb-table "semanticdb-table-501ca756"
+      :major-mode c-mode
+      :tags 
+        '( ("UNITY_FIXTURE_INTERNALS_H_" variable (:constant-flag t) nil [397 423])
+            ("UNITY_MAX_POINTERS" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1379 1397])
+            ("UnityPointer_Init" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1337 1342]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1314 1343])
+            ("UnityPointer_UndoAllSets" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1307 1312]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1277 1313])
+            ("UnityPointer_Set" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("pointer" variable
+                       (:pointer 2
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [1222 1237])
+                    ("newValue" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [1238 1253])
+                    ("line" variable (:type ("UNITY_LINE_TYPE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1254 1275]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1200 1276])
+            ("UnityConcludeFixtureTest" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1192 1197]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1162 1198])
+            ("UnityGetCommandLineOptions" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1131 1140])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1141 1160]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1100 1161])
+            ("UnityIgnoreTest" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("printableName" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1035 1061])
+                    ("group" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1062 1080])
+                    ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1081 1098]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1014 1099])
+            ("UnityTestRunner" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("setup" variable
+                       (:pointer 1
+                        :type ("unityfunction" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [713 734])
+                    ("testBody" variable
+                       (:pointer 1
+                        :type ("unityfunction" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [756 780])
+                    ("teardown" variable
+                       (:pointer 1
+                        :type ("unityfunction" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [802 826])
+                    ("printableName" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [848 874])
+                    ("group" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [896 914])
+                    ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [936 953])
+                    ("file" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [975 992])
+                    ("line" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [993 1011]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [692 1012])
+            ("unityfunction" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [685 690]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [666 691])
+            ("UnityFixture" variable
+               (:type ("UNITY_FIXTURE_T" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern"))
+                (reparse-symbol extern-c-contents) [613 656])
+            ("UNITY_FIXTURE_T" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("Verbose" variable (:type "int") (reparse-symbol classsubparts) [494 506])
+                    ("Silent" variable (:type "int") (reparse-symbol classsubparts) [511 522])
+                    ("RepeatCount" variable (:type "unsigned int") (reparse-symbol classsubparts) [527 552])
+                    ("NameFilter" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol classsubparts) [557 580])
+                    ("GroupFilter" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol classsubparts) [585 609]))                  )
+                (reparse-symbol extern-c-contents) [465 612]))          
+      :file "unity_fixture_internals.h"
+      :pointmax 1477
+      :fsize 1476
+      :lastmodtime '(25037 6564 293677 192000)
+      :unmatched-syntax '((TYPEDEF 658 . 665))
+      :lexical-table 
+        '(("UNITY_MAX_POINTERS" . ((number "5" 1398 . 1399)))
+          ("UNITY_FIXTURE_INTERNALS_H_")
+          )
+))
+  :file "!Users!howinye!Unity!extras!fixture!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

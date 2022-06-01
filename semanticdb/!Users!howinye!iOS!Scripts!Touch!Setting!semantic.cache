@@ -1,0 +1,25 @@
+;; Object semanticdb-project-database-file-4a888ecc
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-4a888ecc"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4a888ede"
+      :major-mode python-mode
+      :tags 
+        '( ("Setting" type
+               (:members 
+                  ( ("SETTING_BAR_XPATH" variable nil (reparse-symbol indented_block_body) [20 90])
+                    ("SETTING_CLOSE_XPATH" variable nil (reparse-symbol indented_block_body) [95 157])
+                    ("SETTING_GENERAL_XPATH" variable nil (reparse-symbol indented_block_body) [163 632])
+                    ("SETTING_MICROPHONE_XPATH" variable nil (reparse-symbol indented_block_body) [637 1133])
+                    ("SETTING_CAMERA_XPATH" variable nil (reparse-symbol indented_block_body) [1138 1630]))                  
+                :type "class")
+                nil [1 1631]))          
+      :file "Setting.py"
+      :pointmax 1631
+      :fsize 1630
+      :lastmodtime '(25052 62250 900774 793000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!Touch!Setting!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

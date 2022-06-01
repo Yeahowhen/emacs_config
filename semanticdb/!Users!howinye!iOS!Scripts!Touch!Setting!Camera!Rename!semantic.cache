@@ -1,0 +1,24 @@
+;; Object semanticdb-project-database-file-47968a88
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-47968a88"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-47968a9a"
+      :major-mode python-mode
+      :tags 
+        '( ("Rename" type
+               (:members 
+                  ( ("RENAME_TAG" variable nil (reparse-symbol indented_block_body) [19 84])
+                    ("RENAME_TEXT_BAR" variable nil (reparse-symbol indented_block_body) [89 344])
+                    ("RENAME_CANCEL" variable nil (reparse-symbol indented_block_body) [349 406])
+                    ("RENAME_SAVE" variable nil (reparse-symbol indented_block_body) [411 464]))                  
+                :type "class")
+                nil [1 465]))          
+      :file "Rename.py"
+      :pointmax 465
+      :fsize 464
+      :lastmodtime '(25052 64298 127347 773000)
+      :unmatched-syntax '(($EOI 19 . 19))))
+  :file "!Users!howinye!iOS!Scripts!Touch!Setting!Camera!Rename!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

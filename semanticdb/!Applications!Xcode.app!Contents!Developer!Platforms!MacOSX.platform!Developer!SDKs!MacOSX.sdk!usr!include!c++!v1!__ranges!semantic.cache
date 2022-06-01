@@ -1,0 +1,86 @@
+;; Object semanticdb-project-database-file-53f2ab10
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-53f2ab10"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-53f2bf6c"
+      :major-mode c++-mode
+      :tags 
+        '( ("_LIBCPP___RANGES_ACCESS_H" variable (:constant-flag t) nil [427 452])
+            ("__config" include (:system-flag t) nil [454 473])
+            ("__iterator/concepts.h" include (:system-flag t) nil [474 506])
+            ("__iterator/readable_traits.h" include (:system-flag t) nil [507 546])
+            ("__ranges/enable_borrowed_range.h" include (:system-flag t) nil [547 590])
+            ("__utility/__decay_copy.h" include (:system-flag t) nil [591 626])
+            ("__utility/forward.h" include (:system-flag t) nil [627 657])
+            ("concepts" include (:system-flag t) nil [658 677])
+            ("type_traits" include (:system-flag t) nil [678 700])
+            ("__undef_macros" include (:system-flag t) nil [806 831])
+            ("ranges" type
+               (:members 
+                  ( ("enable_borrowed_range" variable (:type "int") (reparse-symbol namespacesubparts) [1023 1067])
+                    ("requires" variable (:type "int") (reparse-symbol namespacesubparts) [1117 1143]))                  
+                :type "namespace")
+                nil [920 1145])
+            ("ranges" type
+               (:members 
+                  ( ("__cpo" type
+                       (:members 
+                          ( ("__begin::__fn" variable (:type "int") (reparse-symbol namespacesubparts) [2854 2870]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [2802 2874])
+                    ("iterator_t" variable
+                       (:default-value "decltype(ranges::begin(declval<_Tp&>()))"
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [2926 2980]))                  
+                :type "namespace")
+                nil [2774 2982]))          
+      :file "access.h"
+      :pointmax 6590
+      :fsize 6589
+      :lastmodtime '(25095 32637 0 0)
+      :unmatched-syntax '((symbol 6534 . 6552) (symbol 6507 . 6532) (semantic-list 6364 . 6414) (symbol 6358 . 6363) (INLINE 6351 . 6357) (punctuation 6350 . 6351) (punctuation 6349 . 6350) (symbol 6343 . 6349) (NAMESPACE 6333 . 6342) (semantic-list 5662 . 6303) (symbol 5655 . 5661) (punctuation 5654 . 5655) (punctuation 5653 . 5654) (symbol 5647 . 5653) (NAMESPACE 5637 . 5646) (semantic-list 5554 . 5608) (symbol 5548 . 5553) (INLINE 5541 . 5547) (punctuation 5540 . 5541) (punctuation 5539 . 5540) (symbol 5533 . 5539) (NAMESPACE 5523 . 5532) (semantic-list 4838 . 5491) (symbol 4829 . 4837) (punctuation 4828 . 4829) (punctuation 4827 . 4828) (symbol 4821 . 4827) (NAMESPACE 4811 . 4820) (semantic-list 4734 . 4782) (symbol 4728 . 4733) (INLINE 4721 . 4727) (punctuation 4720 . 4721) (punctuation 4719 . 4720) (symbol 4713 . 4719) (NAMESPACE 4703 . 4712) (semantic-list 3050 . 4674) (symbol 3044 . 3049) (punctuation 3043 . 3044) (punctuation 3042 . 3043) (symbol 3036 . 3042) (NAMESPACE 3026 . 3035) (USING 2920 . 2925) (punctuation 2916 . 2917) (symbol 2913 . 2916) (CLASS 2907 . 2912) (punctuation 2906 . 2907) (TEMPLATE 2897 . 2905) (punctuation 2852 . 2853) (symbol 2846 . 2851) (symbol 2841 . 2845) (symbol 2831 . 2840) (INLINE 2824 . 2830) (INLINE 2795 . 2801) (semantic-list 1217 . 2743) (symbol 1209 . 1216) (punctuation 1208 . 1209) (punctuation 1207 . 1208) (symbol 1201 . 1207) (NAMESPACE 1191 . 1200) (punctuation 1115 . 1116) (symbol 1101 . 1114) (symbol 1093 . 1100) (punctuation 1089 . 1090) (symbol 1086 . 1089) (CLASS 1080 . 1085) (punctuation 1079 . 1080) (TEMPLATE 1071 . 1079) (punctuation 1021 . 1022) (punctuation 1020 . 1021) (punctuation 1018 . 1019) (symbol 1015 . 1018) (punctuation 1014 . 1015) (symbol 993 . 1014) (punctuation 985 . 986) (symbol 972 . 984) (symbol 964 . 971) (punctuation 960 . 961) (symbol 957 . 960) (CLASS 951 . 956) (punctuation 950 . 951) (TEMPLATE 941 . 949) (symbol 833 . 860) (symbol 786 . 805) (symbol 764 . 777) (symbol 760 . 763) (symbol 753 . 759) (punctuation 752 . 753))
+      :lexical-table 
+        '(("_LIBCPP___RANGES_ACCESS_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-432625dc"
+      :major-mode c++-mode
+      :tags 
+        '( ("_LIBCPP___RANGES_ENABLE_BORROWED_RANGE_H" variable (:constant-flag t) nil [443 483])
+            ("__config" include (:system-flag t) nil [666 685])
+            ("__undef_macros" include (:system-flag t) nil [791 816]))          
+      :file "enable_borrowed_range.h"
+      :pointmax 1213
+      :fsize 1212
+      :lastmodtime '(25095 32637 0 0)
+      :unmatched-syntax '((symbol 1142 . 1160) (symbol 1115 . 1140) (symbol 818 . 845) (symbol 771 . 790) (symbol 749 . 762) (symbol 745 . 748) (symbol 738 . 744) (punctuation 737 . 738))
+      :lexical-table 
+        '(("_LIBCPP___RANGES_ENABLE_BORROWED_RANGE_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-43243f38"
+      :major-mode c++-mode
+      :tags 
+        '( ("_LIBCPP___RANGES_ENABLE_VIEW_H" variable (:constant-flag t) nil [433 463])
+            ("__config" include (:system-flag t) nil [465 484])
+            ("concepts" include (:system-flag t) nil [485 504])
+            ("__undef_macros" include (:system-flag t) nil [610 635])
+            ("ranges" type
+               (:members 
+                  ( ("view_base" type (:type "struct") (reparse-symbol namespacesubparts) [723 744])
+                    ("derived_from" variable (:type "int") (reparse-symbol namespacesubparts) [803 832]))                  
+                :type "namespace")
+                nil [703 835]))          
+      :file "enable_view.h"
+      :pointmax 983
+      :fsize 982
+      :lastmodtime '(25095 32637 0 0)
+      :unmatched-syntax '((symbol 922 . 940) (symbol 895 . 920) (punctuation 801 . 802) (symbol 789 . 800) (BOOL 784 . 788) (symbol 774 . 783) (INLINE 767 . 773) (punctuation 765 . 766) (symbol 762 . 765) (CLASS 756 . 761) (punctuation 755 . 756) (TEMPLATE 746 . 754) (symbol 637 . 664) (symbol 590 . 609) (symbol 568 . 581) (symbol 564 . 567) (symbol 557 . 563) (punctuation 556 . 557))
+      :lexical-table 
+        '(("_LIBCPP___RANGES_ENABLE_VIEW_H")
+          )
+))
+  :file "!Applications!Xcode.app!Contents!Developer!Platforms!MacOSX.platform!Developer!SDKs!MacOSX.sdk!usr!include!c++!v1!__ranges!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

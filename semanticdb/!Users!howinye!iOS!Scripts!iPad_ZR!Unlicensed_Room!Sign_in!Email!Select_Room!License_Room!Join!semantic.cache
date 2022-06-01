@@ -1,0 +1,37 @@
+;; Object semanticdb-project-database-file-4eb9663c
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-4eb9663c"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4eb9664e"
+      :major-mode python-mode
+      :tags 
+        '( ("appium.webdriver.common.appiumby" include nil nil [1 60])
+            ("selenium.webdriver.support.ui" include nil nil [61 116])
+            ("selenium.webdriver.support" include nil nil [117 181])
+            ("appium.webdriver.common.touch_action" include nil nil [182 242])
+            ("Join" type
+               (:members 
+                  ( ("JOIN_TAG" variable nil (reparse-symbol indented_block_body) [260 322])
+                    ("JOIN_INNER_JOIN" variable nil (reparse-symbol indented_block_body) [327 389])
+                    ("JOIN_WITH_PERSONAL_LINK_NAME" variable nil (reparse-symbol indented_block_body) [394 490])
+                    ("JOIN_MEETING_DICT" variable nil (reparse-symbol indented_block_body) [496 1032])
+                    ("JOIN_MEETING_WITH_PERNONAL_LINK_NAME_BOX" variable nil (reparse-symbol indented_block_body) [1038 1381])
+                    ("JOIN_MEETING_WITH_PERNONAL_LINK_NAME_JOIN" variable nil (reparse-symbol indented_block_body) [1386 1474])
+                    ("join_meeting" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [1514 1517])
+                            ("meeting_id" variable nil (reparse-symbol function_parameters) [1519 1529]))                          )
+                        (reparse-symbol indented_block_body) [1480 1642]))                  
+                :type "class")
+                nil [244 1642]))          
+      :file "Join.py"
+      :pointmax 1642
+      :fsize 0
+      :lastmodtime '(25054 28478 577527 825000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!iPad_ZR!Unlicensed_Room!Sign_in!Email!Select_Room!License_Room!Join!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

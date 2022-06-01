@@ -1,0 +1,87 @@
+;; Object semanticdb-project-database-file-47df1788
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-47df1788"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-47df179a"
+      :major-mode python-mode
+      :tags 
+        '( ("appium.webdriver.common.appiumby" include nil nil [1 60])
+            ("selenium.webdriver.support.ui" include nil nil [61 116])
+            ("selenium.webdriver.support" include nil nil [117 181])
+            ("Microphone" type
+               (:members 
+                  ( ("MICROPHONE_SOURCE" variable nil (reparse-symbol indented_block_body) [206 671])
+                    ("MICROPHONE_MODERATE" variable nil (reparse-symbol indented_block_body) [1070 1582])
+                    ("MICROPHONE_AGGRESSIVE" variable nil (reparse-symbol indented_block_body) [1587 2101])
+                    ("toggle_ANS" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [2569 2572])
+                            ("driver" variable nil (reparse-symbol function_parameters) [2574 2580]))                          )
+                        (reparse-symbol indented_block_body) [2537 2741])
+                    ("choose_moderate" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [2783 2786])
+                            ("driver" variable nil (reparse-symbol function_parameters) [2788 2794]))                          )
+                        (reparse-symbol indented_block_body) [2746 2960])
+                    ("choose_aggressive" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [3004 3007])
+                            ("driver" variable nil (reparse-symbol function_parameters) [3009 3015]))                          )
+                        (reparse-symbol indented_block_body) [2965 3183]))                  
+                :type "class")
+                nil [184 3183]))          
+      :file "Options.py"
+      :pointmax 3183
+      :fsize 3182
+      :lastmodtime '(25057 5067 790386 728000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-47e4f1b0"
+      :major-mode python-mode
+      :tags 
+        '( ("pytest" include nil nil [1 14])
+            ("Options" include nil nil [15 29])
+            ("" code nil nil [46 64])
+            ("choose_unlicensed_microphone_moderate_fixture" function (:arguments 
+              ( ("choose_unlicensed_microphone_fixture" variable nil (reparse-symbol function_parameters) [115 151]))              ) nil [65 231])
+            ("" code nil nil [247 265])
+            ("choose_unlicensed_microphone_aggressive_fixture" function (:arguments 
+              ( ("choose_unlicensed_microphone_fixture" variable nil (reparse-symbol function_parameters) [318 354]))              ) nil [266 436])
+            ("" code nil nil [452 470])
+            ("close_unlicensed_ASAP_fixture" function (:arguments 
+              ( ("choose_unlicensed_microphone_fixture" variable nil (reparse-symbol function_parameters) [505 541]))              ) nil [471 616])
+            ("" code nil nil [632 650])
+            ("open_unlicensed_ASAP_fixture" function (:arguments 
+              ( ("choose_unlicensed_microphone_fixture" variable nil (reparse-symbol function_parameters) [684 720]))              ) nil [651 794]))          
+      :file "conftest.py"
+      :pointmax 794
+      :fsize 793
+      :lastmodtime '(25057 5099 457200 350000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-47e475e0"
+      :major-mode python-mode
+      :tags 
+        '( ("Test_microphone" type
+               (:members 
+                  ( ("test_aggressive" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [48 52])
+                            ("choose_unlicensed_microphone_aggressive_fixture" variable nil (reparse-symbol function_parameters) [54 101]))                          )
+                        (reparse-symbol indented_block_body) [28 127]))                  
+                :type "class")
+                nil [1 127]))          
+      :file "test_options.py"
+      :pointmax 127
+      :fsize 139
+      :lastmodtime '(25057 5182 91023 376000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!iPad_ZR!Unlicensed_Room!Setting!Microphone!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

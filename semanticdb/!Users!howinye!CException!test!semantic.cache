@@ -1,0 +1,126 @@
+;; Object semanticdb-project-database-file-48c21608
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-48c21608"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-48c2161a"
+      :major-mode c-mode
+      :tags 
+        '( ("unity.h" include nil nil [1 19])
+            ("CException.h" include nil nil [20 43])
+            ("TestingTheFallback" variable
+               (:typemodifiers ("volatile")
+                :type "int")
+                nil [45 77])
+            ("TestingTheFallbackId" variable
+               (:typemodifiers ("volatile")
+                :type "int")
+                nil [78 112])
+            ("setUp" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [125 130]))                  
+                :type "void")
+                nil [114 201])
+            ("tearDown" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [217 222]))                  
+                :type "void")
+                nil [203 229])
+            ("test_BasicTryDoesNothingIfNoThrow" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [270 275]))                  
+                :type "void")
+                nil [231 557])
+            ("test_BasicThrowAndCatch" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [588 593]))                  
+                :type "void")
+                nil [559 865])
+            ("test_BasicThrowAndCatch_WithMiniSyntax" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [911 916]))                  
+                :type "void")
+                nil [867 1213])
+            ("test_VerifyVolatilesSurviveThrowAndCatch" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1261 1266]))                  
+                :type "void")
+                nil [1215 1557])
+            ("HappyExceptionThrower" function
+               (:arguments 
+                  ( ("ID" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [1586 1602]))                  
+                :type "void")
+                nil [1559 1644])
+            ("test_ThrowFromASubFunctionAndCatchInRootFunc" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1696 1701]))                  
+                :type "void")
+                nil [1646 2053])
+            ("HappyExceptionRethrower" function
+               (:arguments 
+                  ( ("ID" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [2084 2100]))                  
+                :type "void")
+                nil [2055 2271])
+            ("test_ThrowAndCatchFromASubFunctionAndRethrowToCatchInRootFunc" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2340 2345]))                  
+                :type "void")
+                nil [2273 2597])
+            ("test_ThrowAndCatchFromASubFunctionAndNoRethrowToCatchInRootFunc" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2668 2673]))                  
+                :type "void")
+                nil [2599 2970])
+            ("test_ThrowAnErrorThenEnterATryBlockFromWithinCatch_VerifyThisDoesntCorruptExceptionId" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3063 3068]))                  
+                :type "void")
+                nil [2972 3341])
+            ("test_ThrowAnErrorThenEnterATryBlockFromWithinCatch_VerifyThatEachExceptionIdIndependent" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3436 3441]))                  
+                :type "void")
+                nil [3343 3868])
+            ("test_CanHaveMultipleTryBlocksInASingleFunction" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3922 3927]))                  
+                :type "void")
+                nil [3870 4257])
+            ("test_CanHaveNestedTryBlocksInASingleFunction_ThrowInside" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4321 4326]))                  
+                :type "void")
+                nil [4259 4708])
+            ("test_CanHaveNestedTryBlocksInASingleFunction_ThrowOutside" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4773 4778]))                  
+                :type "void")
+                nil [4710 5133])
+            ("test_AThrowWithoutATryCatchWillUseDefaultHandlerIfSpecified" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5200 5205]))                  
+                :type "void")
+                nil [5135 5519])
+            ("test_AThrowWithoutOutsideATryCatchWillUseDefaultHandlerEvenAfterTryCatch" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5599 5604]))                  
+                :type "void")
+                nil [5521 6161])
+            ("test_AbilityToExitTryWithoutThrowingAnError" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [6212 6217]))                  
+                :type "void")
+                nil [6163 6537])
+            ("test_AbilityToExitTryWillOnlyExitOneLevel" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [6586 6591]))                  
+                :type "void")
+                nil [6539 7099]))          
+      :file "TestException.c"
+      :pointmax 7100
+      :fsize 7099
+      :lastmodtime '(25062 24360 823268 647000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!CException!test!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

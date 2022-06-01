@@ -1,0 +1,390 @@
+;; Object semanticdb-project-database-file-4158cae6
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-4158cae6"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4158caa6"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"
+--------------------------------------
+@Project: iPad_ZR_auto_test
+@Time: 2021/1/10
+@Auth: Howin Ye
+@Email: howin.ye@zoom.us
+@File: Setting.py
+@Tools: Emacs
+--------------------------------------
+\"\"\"" code nil nil [65 268])
+            ("appium.webdriver.common.appiumby" include nil nil [271 330])
+            ("selenium.webdriver.support.ui" include nil nil [331 386])
+            ("selenium.webdriver.support" include nil nil [387 451])
+            ("iPad_ZR" include nil nil [452 466])
+            ("Setting" type
+               (:members 
+                  ( ("SETTING_TAG" variable nil (reparse-symbol indented_block_body) [487 548])
+                    ("SETTING_CLOSE" variable nil (reparse-symbol indented_block_body) [553 609])
+                    ("LEFT_ELEMENT_PREFIX" variable nil (reparse-symbol indented_block_body) [615 1059])
+                    ("GENERAL" variable nil (reparse-symbol indented_block_body) [1064 1099])
+                    ("MICROPHONE" variable nil (reparse-symbol indented_block_body) [1104 1142])
+                    ("CAMERA" variable nil (reparse-symbol indented_block_body) [1147 1181])
+                    ("VIRTUAL_BACKGROUD" variable nil (reparse-symbol indented_block_body) [1186 1231])
+                    ("HELP" variable nil (reparse-symbol indented_block_body) [1236 1268])
+                    ("LOCK_SETTING" variable nil (reparse-symbol indented_block_body) [1273 1313])
+                    ("GENERAL_XPATH" code nil (reparse-symbol indented_block_body) [1319 1364])
+                    ("MICROPHONE_XPATH" code nil (reparse-symbol indented_block_body) [1369 1420])
+                    ("CAMERA_XPATH" code nil (reparse-symbol indented_block_body) [1425 1468])
+                    ("VIRTUAL_BACKGROUD_XPATH" code nil (reparse-symbol indented_block_body) [1473 1538])
+                    ("HELP_XPATH" code nil (reparse-symbol indented_block_body) [1543 1582])
+                    ("LOCK_SETTING_XPATH" code nil (reparse-symbol indented_block_body) [1587 1642])
+                    ("GENERAL_PRIVACY" variable nil (reparse-symbol indented_block_body) [1648 2156])
+                    ("GENERAL_OPEN_SOURCE" variable nil (reparse-symbol indented_block_body) [2161 2673])
+                    ("GENERAL_SIGN_OUT" variable nil (reparse-symbol indented_block_body) [2678 3187])
+                    ("OPEN_SOURCE_CONTENTS" variable nil (reparse-symbol indented_block_body) [3193 3268])
+                    ("PRIVACY_CONTENTS" variable nil (reparse-symbol indented_block_body) [3273 3340])
+                    ("CLOSE" variable nil (reparse-symbol indented_block_body) [3345 3398])
+                    ("SIGN_OUT_PIN_FIELD" variable nil (reparse-symbol indented_block_body) [3408 3672])
+                    ("SIGN_OUT_CANCEL" variable nil (reparse-symbol indented_block_body) [3677 3736])
+                    ("SIGN_OUT_OK" variable nil (reparse-symbol indented_block_body) [3741 3792])
+                    ("MICROPHONE_ASAP_SWITCH" variable nil (reparse-symbol indented_block_body) [3802 4012])
+                    ("MICROPHONE_ANS_SWITCH" variable nil (reparse-symbol indented_block_body) [4017 4102])
+                    ("MICROPHONE_MODERATE" variable nil (reparse-symbol indented_block_body) [4107 4574])
+                    ("MICROPHONE_AGGRESSIVE" variable nil (reparse-symbol indented_block_body) [4579 5048])
+                    ("CAMERA_FRONT" variable nil (reparse-symbol indented_block_body) [5054 5514])
+                    ("CAMERA_FRONT_MORE" variable nil (reparse-symbol indented_block_body) [5519 5598])
+                    ("CAMERA_BACK" variable nil (reparse-symbol indented_block_body) [5603 6062])
+                    ("CAMERA_BACK_MORE" variable nil (reparse-symbol indented_block_body) [6067 6145])
+                    ("CAMERA_RENAME" variable nil (reparse-symbol indented_block_body) [6150 6207])
+                    ("VIRTUAL_BACKGROUD_NONE" variable nil (reparse-symbol indented_block_body) [6213 6276])
+                    ("VIRTUAL_BACKGROUD_FIRST" variable nil (reparse-symbol indented_block_body) [6281 6476])
+                    ("VIRTUAL_BACKGROUD_SECOND" variable nil (reparse-symbol indented_block_body) [6481 6677])
+                    ("VIRTUAL_BACKGROUD_THIRD" variable nil (reparse-symbol indented_block_body) [6682 6877])
+                    ("HELP_SEND_INFORMATION" variable nil (reparse-symbol indented_block_body) [6883 7349])
+                    ("LOCK_SETTING_SWITCH" variable nil (reparse-symbol indented_block_body) [7355 7425])
+                    ("ROOM_PIN_TAG" variable nil (reparse-symbol indented_block_body) [7431 7511])
+                    ("ROOM_PIN_FIELD" variable nil (reparse-symbol indented_block_body) [7516 7776])
+                    ("ROOM_PIN_CANCEL" variable nil (reparse-symbol indented_block_body) [7781 7840])
+                    ("ROOM_PIN_OK" variable nil (reparse-symbol indented_block_body) [7845 7896])
+                    ("RENAME_FIELD" variable nil (reparse-symbol indented_block_body) [7902 8154])
+                    ("RENAME_CANCEL" variable nil (reparse-symbol indented_block_body) [8159 8216])
+                    ("RENAME_SAVE" variable nil (reparse-symbol indented_block_body) [8221 8274])
+                    ("choose_general" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [8322 8325])
+                            ("driver" variable nil (reparse-symbol function_parameters) [8327 8333]))                          )
+                        (reparse-symbol indented_block_body) [8286 8495])
+                    ("choose_general_privacy" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [8544 8547])
+                            ("driver" variable nil (reparse-symbol function_parameters) [8549 8555]))                          )
+                        (reparse-symbol indented_block_body) [8500 8719])
+                    ("choose_general_open_source" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [8772 8775])
+                            ("driver" variable nil (reparse-symbol function_parameters) [8777 8783]))                          )
+                        (reparse-symbol indented_block_body) [8724 8941])
+                    ("choose_general_sign_out" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [8991 8994])
+                            ("driver" variable nil (reparse-symbol function_parameters) [8996 9002]))                          )
+                        (reparse-symbol indented_block_body) [8946 9157])
+                    ("choose_microphone" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [9201 9204])
+                            ("driver" variable nil (reparse-symbol function_parameters) [9206 9212]))                          )
+                        (reparse-symbol indented_block_body) [9162 9383])
+                    ("toggle_microphone_asap" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [9432 9435])
+                            ("driver" variable nil (reparse-symbol function_parameters) [9437 9443])
+                            ("pin_num" variable nil (reparse-symbol function_parameters) [9445 9452]))                          )
+                        (reparse-symbol indented_block_body) [9388 9917])
+                    ("toggle_microphone_ans" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [9965 9968])
+                            ("driver" variable nil (reparse-symbol function_parameters) [9970 9976])
+                            ("pin_num" variable nil (reparse-symbol function_parameters) [9978 9985]))                          )
+                        (reparse-symbol indented_block_body) [9922 10447])
+                    ("choose_microphone_moderate" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [10500 10503])
+                            ("driver" variable nil (reparse-symbol function_parameters) [10505 10511])
+                            ("pin_num" variable nil (reparse-symbol function_parameters) [10513 10520]))                          )
+                        (reparse-symbol indented_block_body) [10452 10976])
+                    ("choose_microphone_aggressive" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [11031 11034])
+                            ("driver" variable nil (reparse-symbol function_parameters) [11036 11042])
+                            ("pin_num" variable nil (reparse-symbol function_parameters) [11044 11051]))                          )
+                        (reparse-symbol indented_block_body) [10981 11513])
+                    ("choose_camera" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [11553 11556])
+                            ("driver" variable nil (reparse-symbol function_parameters) [11558 11564]))                          )
+                        (reparse-symbol indented_block_body) [11518 11723])
+                    ("choose_camera_front" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [11769 11772])
+                            ("driver" variable nil (reparse-symbol function_parameters) [11774 11780])
+                            ("pin_num" variable nil (reparse-symbol function_parameters) [11782 11789]))                          )
+                        (reparse-symbol indented_block_body) [11728 12246])
+                    ("choose_camera_front_more" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [12297 12300])
+                            ("driver" variable nil (reparse-symbol function_parameters) [12302 12308]))                          )
+                        (reparse-symbol indented_block_body) [12251 12484])
+                    ("choose_camera_back" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [12529 12532])
+                            ("driver" variable nil (reparse-symbol function_parameters) [12534 12540])
+                            ("pin_num" variable nil (reparse-symbol function_parameters) [12542 12549]))                          )
+                        (reparse-symbol indented_block_body) [12489 13003])
+                    ("choose_camera_back_more" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [13053 13056])
+                            ("driver" variable nil (reparse-symbol function_parameters) [13058 13064]))                          )
+                        (reparse-symbol indented_block_body) [13008 13237])
+                    ("rename_front_camera" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [13283 13286])
+                            ("driver" variable nil (reparse-symbol function_parameters) [13288 13294])
+                            ("pin_num" variable nil (reparse-symbol function_parameters) [13296 13303])
+                            ("name" variable nil (reparse-symbol function_parameters) [13305 13309]))                          )
+                        (reparse-symbol indented_block_body) [13242 14052])
+                    ("rename_back_camera" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [14097 14100])
+                            ("driver" variable nil (reparse-symbol function_parameters) [14102 14108])
+                            ("pin_num" variable nil (reparse-symbol function_parameters) [14110 14117])
+                            ("name" variable nil (reparse-symbol function_parameters) [14119 14123]))                          )
+                        (reparse-symbol indented_block_body) [14057 14865])
+                    ("choose_virtual_backgroud" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [14916 14919])
+                            ("driver" variable nil (reparse-symbol function_parameters) [14921 14927]))                          )
+                        (reparse-symbol indented_block_body) [14870 15090])
+                    ("choose_virtual_backgroud_first" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [15147 15150])
+                            ("driver" variable nil (reparse-symbol function_parameters) [15152 15158])
+                            ("pin_num" variable nil (reparse-symbol function_parameters) [15160 15167]))                          )
+                        (reparse-symbol indented_block_body) [15095 15618])
+                    ("choose_virtual_backgroud_second" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [15676 15679])
+                            ("driver" variable nil (reparse-symbol function_parameters) [15681 15687])
+                            ("pin_num" variable nil (reparse-symbol function_parameters) [15689 15696]))                          )
+                        (reparse-symbol indented_block_body) [15623 16148])
+                    ("choose_virtual_backgroud_third" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [16205 16208])
+                            ("driver" variable nil (reparse-symbol function_parameters) [16210 16216])
+                            ("pin_num" variable nil (reparse-symbol function_parameters) [16218 16225]))                          )
+                        (reparse-symbol indented_block_body) [16153 16676])
+                    ("choose_help" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [16714 16717])
+                            ("driver" variable nil (reparse-symbol function_parameters) [16719 16725]))                          )
+                        (reparse-symbol indented_block_body) [16681 16878])
+                    ("send_information" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [16921 16924])
+                            ("driver" variable nil (reparse-symbol function_parameters) [16926 16932]))                          )
+                        (reparse-symbol indented_block_body) [16883 17092])
+                    ("choose_lock_setting" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [17138 17141])
+                            ("driver" variable nil (reparse-symbol function_parameters) [17143 17149]))                          )
+                        (reparse-symbol indented_block_body) [17097 17306])
+                    ("toggle_lock_setting" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [17352 17355])
+                            ("driver" variable nil (reparse-symbol function_parameters) [17357 17363])
+                            ("pin_num" variable nil (reparse-symbol function_parameters) [17365 17372]))                          )
+                        (reparse-symbol indented_block_body) [17311 17818])
+                    ("privacy_close" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [17858 17861])
+                            ("driver" variable nil (reparse-symbol function_parameters) [17863 17869]))                          )
+                        (reparse-symbol indented_block_body) [17823 18139])
+                    ("open_source_close" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [18183 18186])
+                            ("driver" variable nil (reparse-symbol function_parameters) [18188 18194]))                          )
+                        (reparse-symbol indented_block_body) [18144 18468]))                  
+                :type "class")
+                nil [468 18978]))          
+      :file "Setting.py"
+      :pointmax 18978
+      :fsize 18977
+      :lastmodtime '(25057 16083 471224 344000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4158cac6"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"
+--------------------------------------
+@Project: iPad_ZR_auto_test
+@Time: 2021/1/10
+@Auth: Howin Ye
+@Email: howin.ye@zoom.us
+@File: conftest.py
+@Tools: Emacs
+--------------------------------------
+\"\"\"" code nil nil [65 269])
+            ("Setting" include nil nil [271 285])
+            ("pytest" include nil nil [286 299])
+            ("" code nil nil [317 335])
+            ("choose_general_fixture" function (:arguments 
+              ( ("licensed_settings_fixture" variable nil (reparse-symbol function_parameters) [363 388]))              ) nil [336 459])
+            ("" code nil nil [475 493])
+            ("choose_microphone_fixture" function (:arguments 
+              ( ("licensed_settings_fixture" variable nil (reparse-symbol function_parameters) [524 549]))              ) nil [494 623])
+            ("" code nil nil [639 657])
+            ("choose_camera_fixture" function (:arguments 
+              ( ("licensed_settings_fixture" variable nil (reparse-symbol function_parameters) [684 709]))              ) nil [658 779])
+            ("" code nil nil [795 813])
+            ("choose_virtual_backgroud_fixture" function (:arguments 
+              ( ("licensed_settings_fixture" variable nil (reparse-symbol function_parameters) [851 876]))              ) nil [814 957])
+            ("" code nil nil [973 991])
+            ("choose_help_fixture" function (:arguments 
+              ( ("licensed_settings_fixture" variable nil (reparse-symbol function_parameters) [1016 1041]))              ) nil [992 1109])
+            ("" code nil nil [1125 1143])
+            ("choose_lock_setting_fixture" function (:arguments 
+              ( ("licensed_settings_fixture" variable nil (reparse-symbol function_parameters) [1176 1201]))              ) nil [1144 1277])
+            ("" code nil nil [1293 1311])
+            ("choose_general_privacy_fixture" function (:arguments 
+              ( ("choose_general_fixture" variable nil (reparse-symbol function_parameters) [1347 1369]))              ) nil [1312 1503])
+            ("" code nil nil [1519 1537])
+            ("choose_general_open_source_fixture" function (:arguments 
+              ( ("choose_general_fixture" variable nil (reparse-symbol function_parameters) [1577 1599]))              ) nil [1538 1741])
+            ("" code nil nil [1757 1775])
+            ("choose_general_sign_out_fixture" function (:arguments 
+              ( ("choose_general_fixture" variable nil (reparse-symbol function_parameters) [1812 1834]))              ) nil [1776 1911])
+            ("" code nil nil [1927 1945])
+            ("toggle_microphone_ASAP_fixture" function (:arguments 
+              ( ("choose_microphone_fixture" variable nil (reparse-symbol function_parameters) [1981 2006]))              ) nil [1946 2141])
+            ("" code nil nil [2157 2175])
+            ("toggle_microphone_ANS_fixture" function (:arguments 
+              ( ("choose_microphone_fixture" variable nil (reparse-symbol function_parameters) [2210 2235]))              ) nil [2176 2367])
+            ("" code nil nil [2383 2401])
+            ("choose_microphone_moderate_fixture" function (:arguments 
+              ( ("choose_microphone_fixture" variable nil (reparse-symbol function_parameters) [2441 2466]))              ) nil [2402 2613])
+            ("" code nil nil [2629 2647])
+            ("choose_microphone_aggressive_fixture" function (:arguments 
+              ( ("choose_microphone_fixture" variable nil (reparse-symbol function_parameters) [2689 2714]))              ) nil [2648 2867])
+            ("" code nil nil [2883 2901])
+            ("choose_camera_front_fixture" function (:arguments 
+              ( ("choose_camera_fixture" variable nil (reparse-symbol function_parameters) [2934 2955]))              ) nil [2902 3085])
+            ("" code nil nil [3101 3119])
+            ("choose_camera_front_more_fixture" function (:arguments 
+              ( ("choose_camera_fixture" variable nil (reparse-symbol function_parameters) [3157 3178]))              ) nil [3120 3255])
+            ("" code nil nil [3271 3289])
+            ("choose_camera_back_fixture" function (:arguments 
+              ( ("choose_camera_fixture" variable nil (reparse-symbol function_parameters) [3321 3342]))              ) nil [3290 3469])
+            ("" code nil nil [3485 3503])
+            ("choose_camera_back_more_fixture" function (:arguments 
+              ( ("choose_camera_fixture" variable nil (reparse-symbol function_parameters) [3540 3561]))              ) nil [3504 3637])
+            ("" code nil nil [3653 3671])
+            ("rename_front_camera_fixture" function (:arguments 
+              ( ("choose_front_camera_more_fixture" variable nil (reparse-symbol function_parameters) [3704 3736]))              ) nil [3672 3889])
+            ("" code nil nil [3905 3923])
+            ("rename_back_camera_fixture" function (:arguments 
+              ( ("choose_back_camera_more_fixture" variable nil (reparse-symbol function_parameters) [3955 3986]))              ) nil [3924 4135])
+            ("" code nil nil [4151 4169])
+            ("choose_virtual_backgroud_first_fixture" function (:arguments 
+              ( ("choose_virtual_backgroud_fixture" variable nil (reparse-symbol function_parameters) [4213 4245]))              ) nil [4170 4401])
+            ("" code nil nil [4417 4435])
+            ("choose_virtual_backgroud_second_fixture" function (:arguments 
+              ( ("choose_virtual_backgroud_fixture" variable nil (reparse-symbol function_parameters) [4480 4512]))              ) nil [4436 4669])
+            ("" code nil nil [4685 4703])
+            ("choose_virtual_backgroud_third_fixture" function (:arguments 
+              ( ("choose_virtual_backgroud_fixture" variable nil (reparse-symbol function_parameters) [4747 4779]))              ) nil [4704 4935])
+            ("" code nil nil [4951 4969])
+            ("send_information_fixture" function (:arguments 
+              ( ("choose_help_fixture" variable nil (reparse-symbol function_parameters) [4999 5018]))              ) nil [4970 5080])
+            ("" code nil nil [5096 5114])
+            ("toggle_lock_setting_fixture" function (:arguments 
+              ( ("choose_lock_setting_fixture" variable nil (reparse-symbol function_parameters) [5147 5174]))              ) nil [5115 5252])
+            ("" code nil nil [5268 5286])
+            ("sign_out_fixture" function (:arguments 
+              ( ("choose_general_sign_out_fixture" variable nil (reparse-symbol function_parameters) [5308 5339]))              ) nil [5287 5476]))          
+      :file "conftest.py"
+      :pointmax 5476
+      :fsize 5475
+      :lastmodtime '(25057 15744 616221 258000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4158c294"
+      :major-mode python-mode
+      :tags 
+        '( ("Test_Setting" type
+               (:members 
+                  ( ("test_sign_out" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [43 47])
+                            ("choose_general_privacy_fixture" variable nil (reparse-symbol function_parameters) [49 79])
+                            ("choose_general_sign_out_fixture" variable nil (reparse-symbol function_parameters) [81 112]))                          )
+                        (reparse-symbol indented_block_body) [25 141]))                  
+                :type "class")
+                nil [1 141]))          
+      :file "test_setting.py"
+      :pointmax 141
+      :fsize 126
+      :lastmodtime '(25057 15302 121056 478000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!iPad_ZR!Unlicensed_Room!Sign_in!Email!Select_Room!Licensed_Room!Setting!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

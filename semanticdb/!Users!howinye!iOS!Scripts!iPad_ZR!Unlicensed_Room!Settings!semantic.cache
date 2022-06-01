@@ -1,0 +1,41 @@
+;; Object semanticdb-project-database-file-47f85dbc
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-47f85dbc"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-47f85dde"
+      :major-mode python-mode
+      :tags 
+        '( ("pytest" include nil nil [1 14])
+            ("Setting" include nil nil [15 34])
+            ("" code nil nil [51 69])
+            ("choose_general_fixture" function (:arguments 
+              ( ("unlicensed_setting_fixture" variable nil (reparse-symbol function_parameters) [97 123]))              ) nil [70 189])
+            ("" code nil nil [205 223])
+            ("choose_microphone_fixture" function (:arguments 
+              ( ("unlicensed_setting_fixture" variable nil (reparse-symbol function_parameters) [254 280]))              ) nil [224 349])
+            ("" code nil nil [365 383])
+            ("choose_camera_fixture" function (:arguments 
+              ( ("unlicensed_setting_fixture" variable nil (reparse-symbol function_parameters) [410 436]))              ) nil [384 501]))          
+      :file "conftest.py"
+      :pointmax 501
+      :fsize 500
+      :lastmodtime '(25056 55835 872684 15000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-47ff795e"
+      :major-mode python-mode
+      :tags 
+        '( ("Test_unlicense_setting" type
+               (:members 
+                  ( ("test_select_camera" function (:arguments 
+                      ( ("choose_camera_fixture" variable nil (reparse-symbol function_parameters) [58 79]))                      ) (reparse-symbol indented_block_body) [35 113]))                  
+                :type "class")
+                nil [1 113]))          
+      :file "test_setting.py"
+      :pointmax 113
+      :fsize 112
+      :lastmodtime '(25056 55878 150184 416000)
+      :unmatched-syntax '(($EOI 35 . 35) ($EOI 29 . 29))))
+  :file "!Users!howinye!iOS!Scripts!iPad_ZR!Unlicensed_Room!Settings!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

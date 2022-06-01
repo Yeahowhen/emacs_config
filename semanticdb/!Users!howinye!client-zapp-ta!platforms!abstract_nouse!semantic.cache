@@ -1,0 +1,48 @@
+;; Object semanticdb-project-database-file-47c2f610
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-47c2f610"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-47c2f622"
+      :major-mode python-mode
+      :tags 
+        '( ("abc" include nil nil [43 53])
+            ("BaseUI" type
+               (:superclasses ("abc.ABCMeta")
+                :members 
+                  ( ("client_login" function
+                       (:decorators 
+                          ( ("abc.abstractstaticmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("email" variable nil (reparse-symbol function_parameters) [143 148])
+                            ("password" variable nil (reparse-symbol function_parameters) [150 158]))                          )
+                        (reparse-symbol indented_block_body) [95 174])
+                    ("client_logout_login" function
+                       (:decorators 
+                          ( ("abc.abstractstaticmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("email" variable nil (reparse-symbol function_parameters) [242 247])
+                            ("password" variable nil (reparse-symbol function_parameters) [249 257]))                          )
+                        (reparse-symbol indented_block_body) [187 273])
+                    ("choose_chat_session" function
+                       (:decorators 
+                          ( ("abc.abstractstaticmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("name" variable nil (reparse-symbol function_parameters) [341 345]))                          )
+                        (reparse-symbol indented_block_body) [286 361])
+                    ("switch_to_tab" function
+                       (:decorators 
+                          ( ("abc.abstractstaticmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("name" variable nil (reparse-symbol function_parameters) [419 423]))                          )
+                        (reparse-symbol indented_block_body) [370 439]))                  
+                :type "class")
+                nil [54 439]))          
+      :file "base_ui.py"
+      :pointmax 440
+      :fsize 439
+      :lastmodtime '(24989 55956 0 0)
+      :unmatched-syntax '((NAME 67 . 76) (ASSIGN 76 . 77))))
+  :file "!Users!howinye!client-zapp-ta!platforms!abstract_nouse!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

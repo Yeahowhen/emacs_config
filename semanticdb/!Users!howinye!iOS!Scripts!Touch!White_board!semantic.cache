@@ -1,0 +1,28 @@
+;; Object semanticdb-project-database-file-4fdb540e
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-4fdb540e"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4ff2e3bc"
+      :major-mode python-mode
+      :tags 
+        '( ("White_board" type
+               (:members 
+                  ( ("WHITE_BOARD_TAG" variable nil (reparse-symbol indented_block_body) [24 302])
+                    ("WHITE_BOARD_TAG_SERVICE" variable nil (reparse-symbol indented_block_body) [307 382])
+                    ("WHITE_BOARD_TAG_PRIVACY" variable nil (reparse-symbol indented_block_body) [387 460])
+                    ("WHITE_BOARD_DISAGREE" variable nil (reparse-symbol indented_block_body) [465 533])
+                    ("WHITE_BOARD_AGREE" variable nil (reparse-symbol indented_block_body) [538 600])
+                    ("WHITE_BOARD_DISAGREE_ALERT" variable nil (reparse-symbol indented_block_body) [606 871])
+                    ("WHITE_BOARD_DISAGREE_ALERT_CANCEL" variable nil (reparse-symbol indented_block_body) [876 953])
+                    ("WHITE_BOARD_DISAGREE_ALERT_AGREE" variable nil (reparse-symbol indented_block_body) [958 1035]))                  
+                :type "class")
+                nil [1 1036]))          
+      :file "white_board.py"
+      :pointmax 1036
+      :fsize 1035
+      :lastmodtime '(25052 61945 149782 961000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!Touch!White_board!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

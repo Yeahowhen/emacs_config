@@ -1,0 +1,92 @@
+;; Object semanticdb-project-database-file-4368c84a
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-4368c84a"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4368c7ea"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"
+--------------------------------------
+@Project: iPad_ZR_auto_test
+@Time: 2021/1/10
+@Auth: Howin Ye
+@Email: howin.ye@zoom.us
+@File: Activation.py
+@Tools: Emacs
+--------------------------------------
+\"\"\"" code nil nil [65 271])
+            ("selenium.webdriver.support.ui" include nil nil [333 388])
+            ("selenium.webdriver.support" include nil nil [389 453])
+            ("appium.webdriver.common.touch_action" include nil nil [454 514])
+            ("Activation" type
+               (:members 
+                  ( ("ACTIVATION_TAG" variable nil (reparse-symbol indented_block_body) [539 616])
+                    ("NUMBER_BUTTON_DICT" variable nil (reparse-symbol indented_block_body) [621 1228])
+                    ("activation" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [1266 1269])
+                            ("driver" variable nil (reparse-symbol function_parameters) [1271 1277])
+                            ("activation_code" variable nil (reparse-symbol function_parameters) [1279 1294]))                          )
+                        (reparse-symbol indented_block_body) [1234 1816]))                  
+                :type "class")
+                nil [517 1816]))          
+      :file "Activation.py"
+      :pointmax 1816
+      :fsize 1815
+      :lastmodtime '(25060 51462 911941 491000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4368c80a"
+      :major-mode python-mode
+      :tags 
+        '( ("Test_activation" type
+               (:members 
+                  ( ("test_activation" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [48 52])
+                            ("activation_alternative_login_fixture" variable nil (reparse-symbol function_parameters) [54 90]))                          )
+                        (reparse-symbol indented_block_body) [28 192]))                  
+                :type "class")
+                nil [1 192]))          
+      :file "test_activation.py"
+      :pointmax 192
+      :fsize 191
+      :lastmodtime '(25057 16583 266080 157000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4368c82a"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"
+--------------------------------------
+@Project: iPad_ZR_auto_test
+@Time: 2021/1/10
+@Auth: Howin Ye
+@Email: howin.ye@zoom.us
+@File: conftest.py
+@Tools: Emacs
+--------------------------------------
+\"\"\"" code nil nil [65 269])
+            ("pytest" include nil nil [271 284])
+            ("Activation" include nil nil [285 302])
+            ("json" include nil nil [303 314])
+            ("basic_xpath" include nil nil [315 339])
+            ("'''
+fixed activation code from ~/iOS/Config/activation_code.json
+'''" code nil nil [342 410])
+            ("" code nil nil [426 444])
+            ("activation_fixed_login_fixture" function (:arguments 
+              ( ("activation_fixture" variable nil (reparse-symbol function_parameters) [480 498]))              ) nil [445 722])
+            ("" code nil nil [775 793])
+            ("activation_alternative_login_fixture" function (:arguments 
+              ( ("activation_fixture" variable nil (reparse-symbol function_parameters) [835 853]))              ) nil [794 1003]))          
+      :file "conftest.py"
+      :pointmax 1003
+      :fsize 1002
+      :lastmodtime '(25057 16519 657880 963000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!iPad_ZR!Unlicensed_Room!Sign_in!Activation!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,2022 @@
+;; Object semanticdb-project-database-file-438ea9f6
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-438ea9f6"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-438eaa00"
+      :major-mode c-mode
+      :tags 
+        '( ("linux/export.h" include (:system-flag t) nil [314 339])
+            ("linux/compiler.h" include (:system-flag t) nil [340 367])
+            ("linux/dax.h" include (:system-flag t) nil [368 390])
+            ("linux/fs.h" include (:system-flag t) nil [391 412])
+            ("linux/sched/signal.h" include (:system-flag t) nil [413 444])
+            ("linux/uaccess.h" include (:system-flag t) nil [445 471])
+            ("linux/capability.h" include (:system-flag t) nil [472 501])
+            ("linux/kernel_stat.h" include (:system-flag t) nil [502 532])
+            ("linux/gfp.h" include (:system-flag t) nil [533 555])
+            ("linux/mm.h" include (:system-flag t) nil [556 577])
+            ("linux/swap.h" include (:system-flag t) nil [578 601])
+            ("linux/mman.h" include (:system-flag t) nil [602 625])
+            ("linux/pagemap.h" include (:system-flag t) nil [626 652])
+            ("linux/file.h" include (:system-flag t) nil [653 676])
+            ("linux/uio.h" include (:system-flag t) nil [677 699])
+            ("linux/error-injection.h" include (:system-flag t) nil [700 734])
+            ("linux/hash.h" include (:system-flag t) nil [735 758])
+            ("linux/writeback.h" include (:system-flag t) nil [759 787])
+            ("linux/backing-dev.h" include (:system-flag t) nil [788 818])
+            ("linux/pagevec.h" include (:system-flag t) nil [819 845])
+            ("linux/blkdev.h" include (:system-flag t) nil [846 871])
+            ("linux/security.h" include (:system-flag t) nil [872 899])
+            ("linux/cpuset.h" include (:system-flag t) nil [900 925])
+            ("linux/hugetlb.h" include (:system-flag t) nil [926 952])
+            ("linux/memcontrol.h" include (:system-flag t) nil [953 982])
+            ("linux/cleancache.h" include (:system-flag t) nil [983 1012])
+            ("linux/shmem_fs.h" include (:system-flag t) nil [1013 1040])
+            ("linux/rmap.h" include (:system-flag t) nil [1041 1064])
+            ("linux/delayacct.h" include (:system-flag t) nil [1065 1093])
+            ("linux/psi.h" include (:system-flag t) nil [1094 1116])
+            ("linux/ramfs.h" include (:system-flag t) nil [1117 1141])
+            ("linux/page_idle.h" include (:system-flag t) nil [1142 1170])
+            ("asm/pgalloc.h" include (:system-flag t) nil [1171 1195])
+            ("asm/tlbflush.h" include (:system-flag t) nil [1196 1221])
+            ("internal.h" include nil nil [1222 1243])
+            ("CREATE_TRACE_POINTS" variable (:constant-flag t) nil [1253 1272])
+            ("trace/events/filemap.h" include (:system-flag t) nil [1273 1306])
+            ("linux/buffer_head.h" include (:system-flag t) nil [1383 1413])
+            ("asm/mman.h" include (:system-flag t) nil [1445 1466])
+            ("page_cache_delete" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [3658 3688])
+                    ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [3696 3714])
+                    ("shadow" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [3715 3728]))                  
+                :type "void")
+                nil [3628 4306])
+            ("unaccount_page_cache_page" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [4346 4376])
+                    ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [4387 4405]))                  
+                :type "void")
+                nil [4308 6463])
+            ("__delete_from_page_cache" function
+               (:arguments 
+                  ( ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [6695 6713])
+                    ("shadow" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [6714 6727]))                  
+                :type "void")
+                nil [6665 6915])
+            ("page_cache_free_page" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [6950 6980])
+                    ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [6985 7003]))                  
+                :type "void")
+                nil [6917 7281])
+            ("delete_from_page_cache" function
+               (:arguments 
+                  ( ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [7641 7659]))                  
+                :type "void")
+                nil [7613 7891])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("delete_from_page_cache" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7906 7929]))                  
+                :type "int")
+                nil [7892 7930])
+            ("page_cache_delete_batch" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [8538 8568])
+                    ("pvec" variable
+                       (:pointer 1
+                        :type ("pagevec" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [8577 8598]))                  
+                :type "void")
+                nil [8502 9792])
+            ("delete_from_page_cache_batch" function
+               (:arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [9828 9858])
+                    ("pvec" variable
+                       (:pointer 1
+                        :type ("pagevec" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [9865 9886]))                  
+                :type "void")
+                nil [9794 10301])
+            ("filemap_check_errors" function
+               (:arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [10328 10358]))                  
+                :type "int")
+                nil [10303 10652])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("filemap_check_errors" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10667 10688]))                  
+                :type "int")
+                nil [10653 10689])
+            ("filemap_check_and_keep_errors" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [10732 10762]))                  
+                :type "int")
+                nil [10691 10935])
+            ("filemap_fdatawrite_wbc" function
+               (:arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [11298 11328])
+                    ("wbc" variable
+                       (:pointer 1
+                        :type ("writeback_control" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [11335 11365]))                  
+                :type "int")
+                nil [11271 11608])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("filemap_fdatawrite_wbc" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11623 11646]))                  
+                :type "int")
+                nil [11609 11647])
+            ("__filemap_fdatawrite_range" function
+               (:arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [12428 12458])
+                    ("start" variable (:type ("loff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12459 12472])
+                    ("end" variable (:type ("loff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12477 12488])
+                    ("sync_mode" variable (:type "int") (reparse-symbol arg-sub-list) [12489 12503]))                  
+                :type "int")
+                nil [12397 12690])
+            ("__filemap_fdatawrite" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [12731 12761])
+                    ("sync_mode" variable (:type "int") (reparse-symbol arg-sub-list) [12763 12777]))                  
+                :type "int")
+                nil [12692 12851])
+            ("filemap_fdatawrite" function
+               (:arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [12876 12906]))                  
+                :type "int")
+                nil [12853 12962])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("filemap_fdatawrite" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12977 12996]))                  
+                :type "int")
+                nil [12963 12997])
+            ("filemap_fdatawrite_range" function
+               (:arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [13028 13058])
+                    ("start" variable (:type ("loff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13059 13072])
+                    ("end" variable (:type ("loff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13077 13088]))                  
+                :type "int")
+                nil [12999 13162])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("filemap_fdatawrite_range" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13177 13202]))                  
+                :type "int")
+                nil [13163 13203])
+            ("filemap_flush" function
+               (:arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [13510 13540]))                  
+                :type "int")
+                nil [13492 13597])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("filemap_flush" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13612 13626]))                  
+                :type "int")
+                nil [13598 13627])
+            ("filemap_range_has_page" function
+               (:arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [14147 14177])
+                    ("start_byte" variable (:type ("loff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14184 14202])
+                    ("end_byte" variable (:type ("loff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14203 14219]))                  
+                :type "bool")
+                nil [14119 14787])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("filemap_range_has_page" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14802 14825]))                  
+                :type "int")
+                nil [14788 14826])
+            ("__filemap_fdatawait_range" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [14866 14896])
+                    ("start_byte" variable (:type ("loff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14906 14924])
+                    ("end_byte" variable (:type ("loff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14925 14941]))                  
+                :type "void")
+                nil [14828 15473])
+            ("filemap_fdatawait_range" function
+               (:arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [16149 16179])
+                    ("start_byte" variable (:type ("loff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [16180 16198])
+                    ("end_byte" variable (:type ("loff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [16206 16222]))                  
+                :type "int")
+                nil [16121 16324])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("filemap_fdatawait_range" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [16339 16363]))                  
+                :type "int")
+                nil [16325 16364])
+            ("filemap_fdatawait_range_keep_errors" function
+               (:arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [17047 17077])
+                    ("start_byte" variable (:type ("loff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17080 17098])
+                    ("end_byte" variable (:type ("loff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17099 17115]))                  
+                :type "int")
+                nil [17007 17226])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("filemap_fdatawait_range_keep_errors" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17241 17277]))                  
+                :type "int")
+                nil [17227 17278])
+            ("file_fdatawait_range" function
+               (:arguments 
+                  ( ("file" variable
+                       (:pointer 1
+                        :type ("file" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [18029 18047])
+                    ("start_byte" variable (:type ("loff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [18048 18066])
+                    ("end_byte" variable (:type ("loff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [18067 18083]))                  
+                :type "int")
+                nil [18004 18242])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("file_fdatawait_range" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [18257 18278]))                  
+                :type "int")
+                nil [18243 18279])
+            ("filemap_fdatawait_keep_errors" function
+               (:arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [18865 18895]))                  
+                :type "int")
+                nil [18831 18998])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("filemap_fdatawait_keep_errors" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [19013 19043]))                  
+                :type "int")
+                nil [18999 19044])
+            ("mapping_needs_writeback" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [19154 19184]))                  
+                :type "bool")
+                nil [19118 19214])
+            ("filemap_range_needs_writeback" function
+               (:arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [19943 19973])
+                    ("start_byte" variable (:type ("loff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [19981 19999])
+                    ("end_byte" variable (:type ("loff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [20000 20016]))                  
+                :type "bool")
+                nil [19908 20620])
+            ("EXPORT_SYMBOL_GPL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("filemap_range_needs_writeback" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [20639 20669]))                  
+                :type "int")
+                nil [20621 20670])
+            ("filemap_write_and_wait_range" function
+               (:arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [21209 21239])
+                    ("lstart" variable (:type ("loff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [21245 21259])
+                    ("lend" variable (:type ("loff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [21260 21272]))                  
+                :type "int")
+                nil [21176 21933])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("filemap_write_and_wait_range" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [21948 21977]))                  
+                :type "int")
+                nil [21934 21978])
+            ("__filemap_set_wb_err" function
+               (:arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [22006 22036])
+                    ("err" variable (:type "int") (reparse-symbol arg-sub-list) [22037 22045]))                  
+                :type "void")
+                nil [21980 22144])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("__filemap_set_wb_err" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [22159 22180]))                  
+                :type "int")
+                nil [22145 22181])
+            ("file_check_and_advance_wb_err" function
+               (:arguments 
+                  ( ("file" variable
+                       (:pointer 1
+                        :type ("file" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [23377 23395]))                  
+                :type "int")
+                nil [23343 24167])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("file_check_and_advance_wb_err" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [24182 24212]))                  
+                :type "int")
+                nil [24168 24213])
+            ("file_write_and_wait_range" function
+               (:arguments 
+                  ( ("file" variable
+                       (:pointer 1
+                        :type ("file" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [24916 24934])
+                    ("lstart" variable (:type ("loff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [24935 24949])
+                    ("lend" variable (:type ("loff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [24950 24962]))                  
+                :type "int")
+                nil [24886 25363])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("file_write_and_wait_range" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [25378 25404]))                  
+                :type "int")
+                nil [25364 25405])
+            ("replace_page_cache_page" function
+               (:arguments 
+                  ( ("old" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [25933 25950])
+                    ("" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [25951 25967]))                  
+                :type "void")
+                nil [25904 26843])
+            ("EXPORT_SYMBOL_GPL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("replace_page_cache_page" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [26862 26886]))                  
+                :type "int")
+                nil [26844 26887])
+            ("__add_to_page_cache_locked" function
+               (:arguments 
+                  ( ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [26929 26947])
+                    ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [26953 26983])
+                    ("offset" variable (:type ("pgoff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [26989 27004])
+                    ("gfp" variable (:type ("gfp_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [27005 27015])
+                    ("shadowp" variable
+                       (:pointer 2
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [27021 27036]))                  
+                :type "int")
+                nil [26898 28661])
+            ("ALLOW_ERROR_INJECTION" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("__add_to_page_cache_locked" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [28684 28711])
+                    ("" variable (:type ("ERRNO" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [28712 28718]))                  
+                :type "int")
+                nil [28662 28719])
+            ("add_to_page_cache_locked" function
+               (:arguments 
+                  ( ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [29157 29175])
+                    ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [29176 29206])
+                    ("offset" variable (:type ("pgoff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [29209 29224])
+                    ("gfp_mask" variable (:type ("gfp_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [29225 29240]))                  
+                :type "int")
+                nil [29128 29326])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("add_to_page_cache_locked" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [29341 29366]))                  
+                :type "int")
+                nil [29327 29367])
+            ("add_to_page_cache_lru" function
+               (:arguments 
+                  ( ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [29395 29413])
+                    ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [29414 29444])
+                    ("offset" variable (:type ("pgoff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [29449 29464])
+                    ("gfp_mask" variable (:type ("gfp_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [29465 29480]))                  
+                :type "int")
+                nil [29369 30182])
+            ("EXPORT_SYMBOL_GPL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("add_to_page_cache_lru" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [30201 30223]))                  
+                :type "int")
+                nil [30183 30224])
+            ("filemap_invalidate_lock_two" function
+               (:arguments 
+                  ( ("mapping1" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [30955 30986])
+                    ("mapping2" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [30992 31023]))                  
+                :type "void")
+                nil [30922 31229])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("filemap_invalidate_lock_two" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [31244 31272]))                  
+                :type "int")
+                nil [31230 31273])
+            ("filemap_invalidate_unlock_two" function
+               (:arguments 
+                  ( ("mapping1" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [31559 31590])
+                    ("mapping2" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [31598 31629]))                  
+                :type "void")
+                nil [31524 31767])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("filemap_invalidate_unlock_two" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [31782 31812]))                  
+                :type "int")
+                nil [31768 31813])
+            ("PAGE_WAIT_TABLE_BITS" variable (:constant-flag t) nil [32284 32304])
+            ("PAGE_WAIT_TABLE_SIZE" variable (:constant-flag t) nil [32315 32335])
+            ("__cacheline_aligned" variable (:type "int") nil [32427 32447])
+            ("page_waitqueue" function
+               (:pointer 1
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [32490 32508]))                  
+                :type ("wait_queue_head_t" type (:type "class") nil nil))
+                nil [32449 32576])
+            ("pagecache_init" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [32605 32610]))                  
+                :type ("__init" type (:type "class") nil nil))
+                nil [32583 32736])
+            ("wake_page_function" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("wait" variable
+                       (:pointer 1
+                        :type ("wait_queue_entry_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [33910 33935])
+                    ("mode" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [33936 33950])
+                    ("sync" variable (:type "int") (reparse-symbol arg-sub-list) [33951 33960])
+                    ("arg" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [33961 33971]))                  
+                :type "int")
+                nil [33880 35417])
+            ("wake_up_page_bit" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [35448 35466])
+                    ("bit_nr" variable (:type "int") (reparse-symbol arg-sub-list) [35467 35478]))                  
+                :type "void")
+                nil [35419 36943])
+            ("wake_up_page" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [36970 36988])
+                    ("bit" variable (:type "int") (reparse-symbol arg-sub-list) [36989 36997]))                  
+                :type "void")
+                nil [36945 37066])
+            ("behavior" type
+               (:members 
+                  ( ("EXCLUSIVE" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [37154 37164])
+                    ("SHARED" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [37282 37289])
+                    ("DROP" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [37410 37415]))                  
+                :type "enum")
+                nil [37137 37535])
+            ("trylock_page_bit_common" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [37665 37683])
+                    ("bit_nr" variable (:type "int") (reparse-symbol arg-sub-list) [37684 37695])
+                    ("wait" variable
+                       (:pointer 1
+                        :type ("wait_queue_entry" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [37701 37731]))                  
+                :type "bool")
+                nil [37622 37959])
+            ("sysctl_page_lock_unfairness" variable
+               (:default-value "5"
+                :type "int")
+                nil [38030 38066])
+            ("wait_on_page_bit_common" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("q" variable
+                       (:pointer 1
+                        :type ("wait_queue_head_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [38110 38131])
+                    ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [38133 38151])
+                    ("bit_nr" variable (:type "int") (reparse-symbol arg-sub-list) [38152 38163])
+                    ("state" variable (:type "int") (reparse-symbol arg-sub-list) [38164 38174])
+                    ("behavior" variable (:type ("behavior" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [38175 38198]))                  
+                :type "int")
+                nil [38068 41773])
+            ("wait_on_page_bit" function
+               (:arguments 
+                  ( ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [41797 41815])
+                    ("bit_nr" variable (:type "int") (reparse-symbol arg-sub-list) [41816 41827]))                  
+                :type "void")
+                nil [41775 41950])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("wait_on_page_bit" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [41965 41982]))                  
+                :type "int")
+                nil [41951 41983])
+            ("wait_on_page_bit_killable" function
+               (:arguments 
+                  ( ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [42015 42033])
+                    ("bit_nr" variable (:type "int") (reparse-symbol arg-sub-list) [42034 42045]))                  
+                :type "int")
+                nil [41985 42168])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("wait_on_page_bit_killable" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [42183 42209]))                  
+                :type "int")
+                nil [42169 42210])
+            ("put_and_wait_on_page_locked" function
+               (:arguments 
+                  ( ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [42828 42846])
+                    ("state" variable (:type "int") (reparse-symbol arg-sub-list) [42847 42857]))                  
+                :type "int")
+                nil [42796 43007])
+            ("add_page_wait_queue" function
+               (:arguments 
+                  ( ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [43278 43296])
+                    ("waiter" variable
+                       (:pointer 1
+                        :type ("wait_queue_entry_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [43297 43324]))                  
+                :type "void")
+                nil [43253 43540])
+            ("EXPORT_SYMBOL_GPL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("add_page_wait_queue" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [43559 43579]))                  
+                :type "int")
+                nil [43541 43580])
+            ("clear_bit_unlock_is_negative_byte" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("nr" variable (:type "long") (reparse-symbol arg-sub-list) [44149 44157])
+                    ("mem" variable
+                       (:pointer 1
+                        :typemodifiers ("volatile")
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [44158 44177]))                  
+                :type "bool")
+                nil [44096 44275])
+            ("unlock_page" function
+               (:arguments 
+                  ( ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [44973 44991]))                  
+                :type "void")
+                nil [44956 45200])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("unlock_page" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [45215 45227]))                  
+                :type "int")
+                nil [45201 45228])
+            ("end_page_private_2" function
+               (:arguments 
+                  ( ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [45666 45684]))                  
+                :type "void")
+                nil [45642 45864])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("end_page_private_2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [45879 45898]))                  
+                :type "int")
+                nil [45865 45899])
+            ("wait_on_page_private_2" function
+               (:arguments 
+                  ( ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [46111 46129]))                  
+                :type "void")
+                nil [46083 46230])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("wait_on_page_private_2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [46245 46268]))                  
+                :type "int")
+                nil [46231 46269])
+            ("wait_on_page_private_2_killable" function
+               (:arguments 
+                  ( ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [46640 46658]))                  
+                :type "int")
+                nil [46604 46833])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("wait_on_page_private_2_killable" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [46848 46880]))                  
+                :type "int")
+                nil [46834 46881])
+            ("end_page_writeback" function
+               (:arguments 
+                  ( ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [46987 47005]))                  
+                :type "void")
+                nil [46963 47760])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("end_page_writeback" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [47775 47794]))                  
+                :type "int")
+                nil [47761 47795])
+            ("page_endio" function
+               (:arguments 
+                  ( ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [47915 47933])
+                    ("is_write" variable (:type "bool") (reparse-symbol arg-sub-list) [47934 47948])
+                    ("err" variable (:type "int") (reparse-symbol arg-sub-list) [47949 47957]))                  
+                :type "void")
+                nil [47899 48308])
+            ("EXPORT_SYMBOL_GPL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("page_endio" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [48327 48338]))                  
+                :type "int")
+                nil [48309 48339])
+            ("__lock_page" function
+               (:arguments 
+                  ( ("__page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [48472 48492]))                  
+                :type "void")
+                nil [48455 48669])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("__lock_page" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [48684 48696]))                  
+                :type "int")
+                nil [48670 48697])
+            ("__lock_page_killable" function
+               (:arguments 
+                  ( ("__page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [48724 48744]))                  
+                :type "int")
+                nil [48699 48922])
+            ("EXPORT_SYMBOL_GPL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("__lock_page_killable" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [48941 48962]))                  
+                :type "int")
+                nil [48923 48963])
+            ("__lock_page_async" function
+               (:arguments 
+                  ( ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [48987 49005])
+                    ("wait" variable
+                       (:pointer 1
+                        :type ("wait_page_queue" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [49006 49035]))                  
+                :type "int")
+                nil [48965 49611])
+            ("__lock_page_or_retry" function
+               (:arguments 
+                  ( ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [50052 50070])
+                    ("mm" variable
+                       (:pointer 1
+                        :type ("mm_struct" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [50071 50092])
+                    ("flags" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [50097 50116]))                  
+                :type "int")
+                nil [50027 50644])
+            ("page_cache_next_miss" function
+               (:arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [51499 51529])
+                    ("index" variable (:type ("pgoff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [51538 51552])
+                    ("max_scan" variable (:type "unsigned long") (reparse-symbol arg-sub-list) [51553 51576]))                  
+                :type ("pgoff_t" type (:type "class") nil nil))
+                nil [51470 51784])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("page_cache_next_miss" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [51799 51820]))                  
+                :type "int")
+                nil [51785 51821])
+            ("page_cache_prev_miss" function
+               (:arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [52676 52706])
+                    ("index" variable (:type ("pgoff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [52715 52729])
+                    ("max_scan" variable (:type "unsigned long") (reparse-symbol arg-sub-list) [52730 52753]))                  
+                :type ("pgoff_t" type (:type "class") nil nil))
+                nil [52647 52969])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("page_cache_prev_miss" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [52984 53005]))                  
+                :type "int")
+                nil [52970 53006])
+            ("mapping_get_entry" function
+               (:pointer 1
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [53514 53544])
+                    ("index" variable (:type ("pgoff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [53547 53561]))                  
+                :type ("page" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [53476 54250])
+            ("pagecache_get_page" function
+               (:pointer 1
+                :arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [55840 55870])
+                    ("index" variable (:type ("pgoff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [55871 55885])
+                    ("fgp_flags" variable (:type "int") (reparse-symbol arg-sub-list) [55888 55902])
+                    ("gfp_mask" variable (:type ("gfp_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [55903 55918]))                  
+                :type ("page" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [55808 57577])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("pagecache_get_page" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [57592 57611]))                  
+                :type "int")
+                nil [57578 57612])
+            ("find_get_entry" function
+               (:pointer 1
+                :typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("xas" variable
+                       (:pointer 1
+                        :type ("xa_state" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [57656 57677])
+                    ("max" variable (:type ("pgoff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [57678 57690])
+                    ("mark" variable (:type ("xa_mark_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [57693 57708]))                  
+                :type ("page" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [57614 58319])
+            ("find_get_entries" function
+               (:arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [59476 59506])
+                    ("start" variable (:type ("pgoff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [59507 59521])
+                    ("end" variable (:type ("pgoff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [59524 59536])
+                    ("pvec" variable
+                       (:pointer 1
+                        :type ("pagevec" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [59537 59558])
+                    ("indices" variable
+                       (:pointer 1
+                        :type ("pgoff_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [59559 59576]))                  
+                :type "unsigned int")
+                nil [59450 60212])
+            ("find_lock_entries" function
+               (:arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [61144 61174])
+                    ("start" variable (:type ("pgoff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [61175 61189])
+                    ("end" variable (:type ("pgoff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [61192 61204])
+                    ("pvec" variable
+                       (:pointer 1
+                        :type ("pagevec" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [61205 61226])
+                    ("indices" variable
+                       (:pointer 1
+                        :type ("pgoff_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [61227 61244]))                  
+                :type "unsigned int")
+                nil [61117 62152])
+            ("find_get_pages_range" function
+               (:arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [63084 63114])
+                    ("start" variable
+                       (:pointer 1
+                        :type ("pgoff_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [63115 63130])
+                    ("end" variable (:type ("pgoff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [63140 63152])
+                    ("nr_pages" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [63153 63175])
+                    ("pages" variable
+                       (:pointer 2
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [63185 63205]))                  
+                :type "unsigned int")
+                nil [63054 63983])
+            ("find_get_pages_contig" function
+               (:arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [64446 64476])
+                    ("index" variable (:type ("pgoff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [64477 64491])
+                    ("nr_pages" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [64502 64524])
+                    ("pages" variable
+                       (:pointer 2
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [64525 64545]))                  
+                :type "unsigned int")
+                nil [64415 65299])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("find_get_pages_contig" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [65314 65336]))                  
+                :type "int")
+                nil [65300 65337])
+            ("find_get_pages_range_tag" function
+               (:arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [65937 65967])
+                    ("index" variable
+                       (:pointer 1
+                        :type ("pgoff_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [65968 65983])
+                    ("end" variable (:type ("pgoff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [65987 65999])
+                    ("tag" variable (:type ("xa_mark_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [66000 66014])
+                    ("nr_pages" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [66015 66037])
+                    ("pages" variable
+                       (:pointer 2
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [66041 66061]))                  
+                :type "unsigned int")
+                nil [65903 66939])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("find_get_pages_range_tag" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [66954 66979]))                  
+                :type "int")
+                nil [66940 66980])
+            ("shrink_readahead_size_eio" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("ra" variable
+                       (:pointer 1
+                        :type ("file_ra_state" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [67721 67746]))                  
+                :type "void")
+                nil [67683 67770])
+            ("filemap_get_read_batch" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [68194 68224])
+                    ("index" variable (:type ("pgoff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [68227 68241])
+                    ("max" variable (:type ("pgoff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [68242 68254])
+                    ("pvec" variable
+                       (:pointer 1
+                        :type ("pagevec" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [68255 68276]))                  
+                :type "void")
+                nil [68159 69006])
+            ("filemap_read_page" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("file" variable
+                       (:pointer 1
+                        :type ("file" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [69037 69055])
+                    ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [69056 69086])
+                    ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [69089 69107]))                  
+                :type "int")
+                nil [69008 69601])
+            ("filemap_range_uptodate" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [69638 69668])
+                    ("pos" variable (:type ("loff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [69671 69682])
+                    ("iter" variable
+                       (:pointer 1
+                        :type ("iov_iter" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [69683 69705])
+                    ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [69706 69724]))                  
+                :type "bool")
+                nil [69603 70228])
+            ("filemap_update_page" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("iocb" variable
+                       (:pointer 1
+                        :type ("kiocb" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [70261 70280])
+                    ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [70283 70313])
+                    ("iter" variable
+                       (:pointer 1
+                        :type ("iov_iter" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [70314 70336])
+                    ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [70339 70357]))                  
+                :type "int")
+                nil [70230 71413])
+            ("filemap_create_page" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("file" variable
+                       (:pointer 1
+                        :type ("file" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [71446 71464])
+                    ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [71467 71497])
+                    ("index" variable (:type ("pgoff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [71498 71512])
+                    ("pvec" variable
+                       (:pointer 1
+                        :type ("pagevec" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [71515 71536]))                  
+                :type "int")
+                nil [71415 72764])
+            ("filemap_readahead" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("iocb" variable
+                       (:pointer 1
+                        :type ("kiocb" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [72795 72814])
+                    ("file" variable
+                       (:pointer 1
+                        :type ("file" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [72815 72833])
+                    ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [72836 72866])
+                    ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [72867 72885])
+                    ("last_index" variable (:type ("pgoff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [72888 72907]))                  
+                :type "int")
+                nil [72766 73078])
+            ("filemap_get_pages" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("iocb" variable
+                       (:pointer 1
+                        :type ("kiocb" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [73109 73128])
+                    ("iter" variable
+                       (:pointer 1
+                        :type ("iov_iter" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [73129 73151])
+                    ("pvec" variable
+                       (:pointer 1
+                        :type ("pagevec" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [73154 73175]))                  
+                :type "int")
+                nil [73080 74586])
+            ("filemap_read" function
+               (:arguments 
+                  ( ("iocb" variable
+                       (:pointer 1
+                        :type ("kiocb" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [75120 75139])
+                    ("iter" variable
+                       (:pointer 1
+                        :type ("iov_iter" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [75140 75162])
+                    ("already_read" variable (:type ("ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [75165 75186]))                  
+                :type ("ssize_t" type (:type "class") nil nil))
+                nil [75099 78022])
+            ("EXPORT_SYMBOL_GPL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("filemap_read" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [78041 78054]))                  
+                :type "int")
+                nil [78023 78055])
+            ("generic_file_read_iter" function
+               (:arguments 
+                  ( ("iocb" variable
+                       (:pointer 1
+                        :type ("kiocb" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [78928 78947])
+                    ("iter" variable
+                       (:pointer 1
+                        :type ("iov_iter" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [78948 78970]))                  
+                :type ("ssize_t" type (:type "class") nil nil))
+                nil [78897 80366])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("generic_file_read_iter" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [80381 80404]))                  
+                :type "int")
+                nil [80367 80405])
+            ("page_seek_hole_data" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("xas" variable
+                       (:pointer 1
+                        :type ("xa_state" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [80448 80469])
+                    ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [80472 80502])
+                    ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [80503 80521])
+                    ("start" variable (:type ("loff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [80524 80537])
+                    ("end" variable (:type ("loff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [80538 80549])
+                    ("seek_data" variable (:type "bool") (reparse-symbol arg-sub-list) [80550 80565]))                  
+                :type ("loff_t" type (:type "class") nil nil))
+                nil [80407 81229])
+            ("seek_page_size" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("xas" variable
+                       (:pointer 1
+                        :type ("xa_state" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [81273 81294])
+                    ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [81295 81313]))                  
+                :type "unsigned int")
+                nil [81231 81425])
+            ("mapping_seek_hole_data" function
+               (:arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [82257 82287])
+                    ("start" variable (:type ("loff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [82288 82301])
+                    ("end" variable (:type ("loff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [82304 82315])
+                    ("whence" variable (:type "int") (reparse-symbol arg-sub-list) [82316 82327]))                  
+                :type ("loff_t" type (:type "class") nil nil))
+                nil [82227 83253])
+            ("filemap_page_mkwrite" function
+               (:arguments 
+                  ( ("vmf" variable
+                       (:pointer 1
+                        :type ("vm_fault" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [97268 97289]))                  
+                :type ("vm_fault_t" type (:type "class") nil nil))
+                nil [97236 97318])
+            ("generic_file_mmap" function
+               (:arguments 
+                  ( ("file" variable
+                       (:pointer 1
+                        :type ("file" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [97341 97359])
+                    ("vma" variable
+                       (:pointer 1
+                        :type ("vm_area_struct" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [97360 97387]))                  
+                :type "int")
+                nil [97319 97408])
+            ("generic_file_readonly_mmap" function
+               (:arguments 
+                  ( ("file" variable
+                       (:pointer 1
+                        :type ("file" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [97440 97458])
+                    ("vma" variable
+                       (:pointer 1
+                        :type ("vm_area_struct" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [97459 97486]))                  
+                :type "int")
+                nil [97409 97507])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("filemap_page_mkwrite" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [97547 97568]))                  
+                :type "int")
+                nil [97533 97569])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("generic_file_mmap" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [97584 97602]))                  
+                :type "int")
+                nil [97570 97603])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("generic_file_readonly_mmap" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [97618 97645]))                  
+                :type "int")
+                nil [97604 97646])
+            ("wait_on_page_read" function
+               (:pointer 1
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [97686 97704]))                  
+                :type ("page" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [97648 97853])
+            ("do_read_cache_page" function
+               (:pointer 1
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [97894 97924])
+                    ("index" variable (:type ("pgoff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [97929 97943])
+                    ("filler" function
+                       (:function-pointer t
+                        :arguments 
+                          ( ("" variable
+                               (:pointer 1
+                                :type "void")
+                                (reparse-symbol arg-sub-list) [97962 97969])
+                            ("" variable
+                               (:pointer 1
+                                :type ("page" type
+                                     (:prototype t
+                                      :type "struct")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [97970 97984]))                          
+                        :type "int")
+                        nil nil)
+                    ("data" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [97990 98001])
+                    ("gfp" variable (:type ("gfp_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [98006 98016]))                  
+                :type ("page" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [97855 101050])
+            ("read_cache_page" function
+               (:pointer 1
+                :arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [101673 101703])
+                    ("index" variable (:type ("pgoff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [101708 101722])
+                    ("filler" function
+                       (:function-pointer t
+                        :arguments 
+                          ( ("" variable
+                               (:pointer 1
+                                :type "void")
+                                (reparse-symbol arg-sub-list) [101741 101748])
+                            ("" variable
+                               (:pointer 1
+                                :type ("page" type
+                                     (:prototype t
+                                      :type "struct")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [101749 101763]))                          
+                        :type "int")
+                        nil nil)
+                    ("data" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [101769 101780]))                  
+                :type ("page" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [101644 101872])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("read_cache_page" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [101887 101903]))                  
+                :type "int")
+                nil [101873 101904])
+            ("read_cache_page_gfp" function
+               (:pointer 1
+                :arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [102499 102529])
+                    ("index" variable (:type ("pgoff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [102534 102548])
+                    ("gfp" variable (:type ("gfp_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [102553 102563]))                  
+                :type ("page" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [102466 102628])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("read_cache_page_gfp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [102643 102663]))                  
+                :type "int")
+                nil [102629 102664])
+            ("pagecache_write_begin" function
+               (:arguments 
+                  ( ("file" variable
+                       (:pointer 1
+                        :type ("file" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [102692 102710])
+                    ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [102711 102741])
+                    ("pos" variable (:type ("loff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [102746 102757])
+                    ("len" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [102758 102771])
+                    ("flags" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [102772 102787])
+                    ("pagep" variable
+                       (:pointer 2
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [102792 102812])
+                    ("fsdata" variable
+                       (:pointer 2
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [102813 102827]))                  
+                :type "int")
+                nil [102666 102976])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("pagecache_write_begin" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [102991 103013]))                  
+                :type "int")
+                nil [102977 103014])
+            ("pagecache_write_end" function
+               (:arguments 
+                  ( ("file" variable
+                       (:pointer 1
+                        :type ("file" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [103040 103058])
+                    ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [103059 103089])
+                    ("pos" variable (:type ("loff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [103094 103105])
+                    ("len" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [103106 103119])
+                    ("copied" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [103120 103136])
+                    ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [103141 103159])
+                    ("fsdata" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [103160 103173]))                  
+                :type "int")
+                nil [103016 103313])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("pagecache_write_end" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [103328 103348]))                  
+                :type "int")
+                nil [103314 103349])
+            ("dio_warn_stale_pagecache" function
+               (:arguments 
+                  ( ("filp" variable
+                       (:pointer 1
+                        :type ("file" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [103463 103481]))                  
+                :type "void")
+                nil [103433 103973])
+            ("generic_file_direct_write" function
+               (:arguments 
+                  ( ("iocb" variable
+                       (:pointer 1
+                        :type ("kiocb" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [104009 104028])
+                    ("from" variable
+                       (:pointer 1
+                        :type ("iov_iter" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [104029 104051]))                  
+                :type ("ssize_t" type (:type "class") nil nil))
+                nil [103975 106445])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("generic_file_direct_write" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [106460 106486]))                  
+                :type "int")
+                nil [106446 106487])
+            ("grab_cache_page_write_begin" function
+               (:pointer 1
+                :arguments 
+                  ( ("mapping" variable
+                       (:pointer 1
+                        :type ("address_space" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [106673 106703])
+                    ("index" variable (:type ("pgoff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [106709 106723])
+                    ("flags" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [106724 106739]))                  
+                :type ("page" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [106632 107006])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("grab_cache_page_write_begin" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [107021 107049]))                  
+                :type "int")
+                nil [107007 107050])
+            ("generic_perform_write" function
+               (:arguments 
+                  ( ("file" variable
+                       (:pointer 1
+                        :type ("file" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [107082 107100])
+                    ("i" variable
+                       (:pointer 1
+                        :type ("iov_iter" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [107105 107124])
+                    ("pos" variable (:type ("loff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [107125 107136]))                  
+                :type ("ssize_t" type (:type "class") nil nil))
+                nil [107052 108970])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("generic_perform_write" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [108985 109007]))                  
+                :type "int")
+                nil [108971 109008])
+            ("__generic_file_write_iter" function
+               (:arguments 
+                  ( ("iocb" variable
+                       (:pointer 1
+                        :type ("kiocb" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [109910 109929])
+                    ("from" variable
+                       (:pointer 1
+                        :type ("iov_iter" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [109930 109952]))                  
+                :type ("ssize_t" type (:type "class") nil nil))
+                nil [109876 112011])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("__generic_file_write_iter" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [112026 112052]))                  
+                :type "int")
+                nil [112012 112053])
+            ("generic_file_write_iter" function
+               (:arguments 
+                  ( ("iocb" variable
+                       (:pointer 1
+                        :type ("kiocb" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [112582 112601])
+                    ("from" variable
+                       (:pointer 1
+                        :type ("iov_iter" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [112602 112624]))                  
+                :type ("ssize_t" type (:type "class") nil nil))
+                nil [112550 112936])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("generic_file_write_iter" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [112951 112975]))                  
+                :type "int")
+                nil [112937 112976])
+            ("try_to_release_page" function
+               (:arguments 
+                  ( ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [113659 113677])
+                    ("gfp_mask" variable (:type ("gfp_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [113678 113693]))                  
+                :type "int")
+                nil [113635 113954])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("try_to_release_page" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [113970 113990]))                  
+                :type "int")
+                nil [113956 113991]))          
+      :file "filemap.c"
+      :pointmax 113992
+      :fsize 113991
+      :lastmodtime '(25008 26409 0 0)
+      :unmatched-syntax '((VOID 32578 . 32582) (semantic-list 32404 . 32426) (symbol 32389 . 32404) (symbol 32371 . 32388) (STATIC 32364 . 32370) (symbol 26889 . 26897) (NEW 25964 . 25967))
+      :lexical-table 
+        '(("CREATE_TRACE_POINTS")
+          ("PAGE_WAIT_TABLE_SIZE" . ((semantic-list "(1 << PAGE_WAIT_TABLE_BITS)" 32336 . 32363)))
+          ("PAGE_WAIT_TABLE_BITS" . ((number "8" 32305 . 32306)))
+          )
+)
+    (semanticdb-table "semanticdb-table-4b252194"
+      :file "internal.h"
+      :fsize 21326
+      :lastmodtime '(25008 26409 0 0)))
+  :file "!Users!howinye!linux-5.15.7!mm!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,194 @@
+;; Object semanticdb-project-database-file-41a07ff8
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-41a07ff8"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-41a07fd8"
+      :major-mode python-mode
+      :tags 
+        '( ("time" include nil nil [1 21])
+            ("sys" include nil nil [1 21])
+            ("os" include nil nil [1 21])
+            ("platforms.mac.base_method.ClientElement" include nil nil [23 107])
+            ("sys" code nil nil [109 192])
+            ("platforms.mac.src.base.PyConsts" include nil nil [193 262])
+            ("platforms.mac.src.base.PyApplicationUIElement" include nil nil [263 342])
+            ("platforms.mac.src.base.PyWindow" include nil nil [343 488])
+            ("pynput.keyboard" include nil nil [489 532])
+            ("pynput.mouse" include nil nil [533 595])
+            ("platforms.mac.src.base.PyLog" include nil nil [596 643])
+            ("platforms.mac.src.base.PyUtil" include nil nil [644 729])
+            ("platforms.mac.base_method.ClientElement" include nil nil [730 783])
+            ("platforms.mac.base_method.IM_method" include nil nil [784 833])
+            ("switch_apps" function nil nil [836 1324])
+            ("switch_chat" function nil nil [1326 1814])
+            ("switch_Contacts" function nil nil [1816 2320])
+            ("switch_discover" function nil nil [2322 2587])
+            ("switch_myapps" function nil nil [2589 2852])
+            ("Get_apps_tab" function nil nil [2854 3354])
+            ("open_app" function (:arguments 
+              ( ("name" variable nil (reparse-symbol function_parameters) [3369 3373]))              ) nil [3356 3843])
+            ("pop_out_back" function (:arguments 
+              ( ("name" variable nil (reparse-symbol function_parameters) [3862 3866]))              ) nil [3845 4456])
+            ("config_sdkapp" function nil nil [4458 4889])
+            ("start_meeting" function nil nil [4890 5115])
+            ("back_Myapps" function nil nil [5117 5352])
+            ("close_app" function nil nil [5353 5654])
+            ("send_app" function nil nil [5655 6053])
+            ("if" code nil nil [6059 6102]))          
+      :file "Zoomapp_method.py"
+      :pointmax 6103
+      :fsize 6102
+      :lastmodtime '(24989 55956 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4bd2d734"
+      :major-mode python-mode
+      :tags 
+        '( ("time" include nil nil [1 21])
+            ("sys" include nil nil [1 21])
+            ("os" include nil nil [1 21])
+            ("platforms.mac.base_method.ClientElement" include nil nil [23 107])
+            ("sys" code nil nil [109 192])
+            ("platforms.mac.src.base.PyConsts" include nil nil [193 262])
+            ("platforms.mac.src.base.PyApplicationUIElement" include nil nil [263 342])
+            ("platforms.mac.src.base.PyWindow" include nil nil [343 488])
+            ("pynput.keyboard" include nil nil [489 532])
+            ("pynput.mouse" include nil nil [533 595])
+            ("platforms.mac.src.base.PyLog" include nil nil [596 643])
+            ("platforms.mac.src.base.PyUtil" include nil nil [644 729])
+            ("platforms.mac.base_method.ClientElement" include nil nil [730 783])
+            ("platforms.mac.base_method.IM_method" include nil nil [784 833])
+            ("platforms.mac.base_method.meeting_method" include nil nil [834 888])
+            ("getZoomMeetingWindow" function nil nil [891 1125])
+            ("get_share_window" function nil nil [1126 1379])
+            ("getMeetingAppWindow" function (:arguments 
+              ( ("name" variable nil (reparse-symbol function_parameters) [1405 1409]))              ) nil [1381 1657])
+            ("one_click_Apps" function nil nil [1658 1923])
+            ("double_click_Apps" function nil nil [1925 2213])
+            ("open_app_meeting" function (:arguments 
+              ( ("name" variable nil (reparse-symbol function_parameters) [2236 2240]))              ) nil [2215 2746])
+            ("back_Myapps_meeting" function nil nil [2748 2999])
+            ("expend_app_meeting" function nil nil [3001 3244])
+            ("collapse_app_meeting" function nil nil [3246 3495])
+            ("start_share_app_meeting" function nil nil [3496 3755])
+            ("stop_share_app_meeting" function nil nil [3757 4065])
+            ("close_app_meeting" function nil nil [4067 4383])
+            ("pop_out_back_meeting" function (:arguments 
+              ( ("name" variable nil (reparse-symbol function_parameters) [4409 4413]))              ) nil [4384 5027])
+            ("if" code nil nil [5029 5446]))          
+      :file "Zoomapp_meeting_method.py"
+      :pointmax 5446
+      :fsize 5445
+      :lastmodtime '(24989 55956 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-47b2efd6"
+      :major-mode python-mode
+      :tags 
+        '( ("time" include nil nil [15 26])
+            ("selenium.webdriver.support.ui" include nil nil [28 83])
+            ("platforms.mac.base_method.edit_driver_options" include nil nil [84 143])
+            ("platforms.mac.base_method.meeting_method" include nil nil [144 198])
+            ("close_chrome" function nil nil [254 390])
+            ("close_safari" function nil nil [391 512])
+            ("apps_setting_on" function
+               (:documentation "
+  turn on zoomapps
+    "
+                :arguments 
+                  ( ("log" variable nil (reparse-symbol function_parameters) [676 679])
+                    ("sign_in_page_url" variable nil (reparse-symbol function_parameters) [681 697]))                  )
+                nil [656 2160])
+            ("apps_setting_off" function
+               (:documentation "
+     turn off zoomapps
+       "
+                :arguments 
+                  ( ("log" variable nil (reparse-symbol function_parameters) [2183 2186])
+                    ("sign_in_page_url" variable nil (reparse-symbol function_parameters) [2188 2204]))                  )
+                nil [2162 3681])
+            ("if" code nil nil [3683 3798]))          
+      :file "web_method.py"
+      :pointmax 3804
+      :fsize 3835
+      :lastmodtime '(24989 55956 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4bddb4c2"
+      :major-mode python-mode
+      :tags 
+        '( ("sys" include nil nil [16 26])
+            ("sys" code nil nil [28 111])
+            ("platforms.mac.base_method.edit_driver_options" include nil nil [112 197])
+            ("selenium.webdriver.support.ui" include nil nil [198 253])
+            ("platforms.mac.base_method.meeting_method" include nil nil [254 323])
+            ("platforms.mac.base_method.IM_method" include nil nil [324 373])
+            ("platforms.mac.base_method.initializeEnvironment" include nil nil [374 455])
+            ("selenium" include nil nil [456 486])
+            ("platforms.mac.base_method.domain_switch" include nil nil [487 540])
+            ("platforms.mac.base_method.web_method" include nil nil [541 591])
+            ("platforms.mac.release_check.Mac_Sign_Check" include nil nil [592 657])
+            ("platforms.mac.base_method.web_method" include nil nil [658 708])
+            ("logs" variable nil nil [709 766])
+            ("SignInBaseCase" type
+               (:superclasses ("object")
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("if" code nil (reparse-symbol indented_block_body) [899 1017])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1025 1061])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1070 1086])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1095 1109])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1118 1156])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1165 1180])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1189 1209]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [815 819])
+                            ("domain" variable nil (reparse-symbol function_parameters) [821 827])
+                            ("logs" variable nil (reparse-symbol function_parameters) [829 833])
+                            ("name" variable nil (reparse-symbol function_parameters) [835 839])
+                            ("pwd" variable nil (reparse-symbol function_parameters) [841 844])
+                            ("keep_me_sign_in" variable nil (reparse-symbol function_parameters) [846 861])
+                            ("clear_local_db" variable nil (reparse-symbol function_parameters) [869 883]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [802 1210])
+                    ("__pre_sign_in" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1271 1275]))                          )
+                        (reparse-symbol indented_block_body) [1253 1836])
+                    ("normal_SignIn" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1859 1863]))                          )
+                        (reparse-symbol indented_block_body) [1841 3883])
+                    ("facebook_sign_in" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3909 3913]))                          )
+                        (reparse-symbol indented_block_body) [3888 5540])
+                    ("google_sign_in" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5564 5568]))                          )
+                        (reparse-symbol indented_block_body) [5545 7589])
+                    ("sso_sign_in" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [7610 7614])
+                            ("company_domain" variable nil (reparse-symbol function_parameters) [7616 7630]))                          )
+                        (reparse-symbol indented_block_body) [7594 9726]))                  
+                :type "class")
+                nil [768 9726])
+            ("Auto_SignIn" function (:arguments 
+              ( ("log" variable nil (reparse-symbol function_parameters) [9743 9746]))              ) nil [9727 10135])
+            ("SignOut" function (:arguments 
+              ( ("log" variable nil (reparse-symbol function_parameters) [10148 10151]))              ) nil [10136 10307])
+            ("if" code nil nil [10308 10518]))          
+      :file "login_logout.py"
+      :pointmax 11286
+      :fsize 11313
+      :lastmodtime '(24989 55956 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!client-zapp-ta!platforms!mac!Zoomapps_base_method!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

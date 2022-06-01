@@ -1,0 +1,26 @@
+;; Object semanticdb-project-database-file-432595a6
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-432595a6"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4325a854"
+      :major-mode c-mode
+      :tags 
+        '( ("_NL_ITEM" variable (:constant-flag t) nil [1351 1359])
+            ("_types.h" include (:system-flag t) nil [1361 1380])
+            ("nl_item" type
+               (:typedef ("__darwin_nl_item" type (:type "class") nil nil)
+                :type "typedef")
+                nil [1381 1414]))          
+      :file "_nl_item.h"
+      :pointmax 1436
+      :fsize 1435
+      :lastmodtime '(25095 30223 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_NL_ITEM")
+          )
+))
+  :file "!Applications!Xcode.app!Contents!Developer!Platforms!MacOSX.platform!Developer!SDKs!MacOSX.sdk!usr!include!_types!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

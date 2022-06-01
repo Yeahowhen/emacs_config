@@ -1,0 +1,63 @@
+;; Object semanticdb-project-database-file-43fb4308
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-43fb4308"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-43fb431a"
+      :major-mode python-mode
+      :tags 
+        '( ("appium.webdriver.common.appiumby" include nil nil [1 60])
+            ("selenium.webdriver.support.ui" include nil nil [61 116])
+            ("selenium.webdriver.support" include nil nil [117 181])
+            ("Open_source" type
+               (:members 
+                  ( ("OPEN_SOURCE_CLOSE" variable nil (reparse-symbol indented_block_body) [207 272])
+                    ("OPEN_SOURCE_CONTENTS" variable nil (reparse-symbol indented_block_body) [277 352]))                  
+                :type "class")
+                nil [184 694]))          
+      :file "Open_source.py"
+      :pointmax 694
+      :fsize 693
+      :lastmodtime '(25055 55089 657909 219000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-43fdebb0"
+      :major-mode python-mode
+      :tags 
+        '( ("pytest" include nil nil [1 14])
+            ("Open_source" include nil nil [15 39])
+            ("" code nil nil [56 58])
+            ("open_source_close_fixture" function (:arguments 
+              ( ("driver" variable nil (reparse-symbol function_parameters) [89 95]))              ) nil [59 149]))          
+      :file "conftest.py"
+      :pointmax 149
+      :fsize 148
+      :lastmodtime '(25055 55734 500117 143000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-43fe7bb0"
+      :major-mode python-mode
+      :tags 
+        '( ("Test_open_source" type
+               (:members 
+                  ( ("test_privacy" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [46 50])
+                            ("touch_fixture" variable nil (reparse-symbol function_parameters) [52 65])
+                            ("sign_in_fixture" variable nil (reparse-symbol function_parameters) [67 82])
+                            ("email_fixture" variable nil (reparse-symbol function_parameters) [84 97])
+                            ("email_login_fixture" variable nil (reparse-symbol function_parameters) [99 118])
+                            ("room_fixture" variable nil (reparse-symbol function_parameters) [120 132])
+                            ("settings_fixture" variable nil (reparse-symbol function_parameters) [134 150])
+                            ("choose_general_open_source_fixture" variable nil (reparse-symbol function_parameters) [152 186])
+                            ("open_source_close_fixture" variable nil (reparse-symbol function_parameters) [188 213]))                          )
+                        (reparse-symbol indented_block_body) [29 250]))                  
+                :type "class")
+                nil [1 250]))          
+      :file "test_open_source.py"
+      :pointmax 250
+      :fsize 249
+      :lastmodtime '(25055 55817 248632 786000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!iPad_ZR!Unlicensed_Room!Sign_in!Email!Select_Room!Licensed_Room!Setting!Open_source!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

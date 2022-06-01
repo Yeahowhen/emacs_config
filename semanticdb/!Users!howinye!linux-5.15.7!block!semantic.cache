@@ -1,0 +1,2388 @@
+;; Object semanticdb-project-database-file-43fb56e8
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-43fb56e8"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-54c6382a"
+      :major-mode c-mode
+      :tags 
+        '( ("linux/module.h" include (:system-flag t) nil [99 124])
+            ("linux/slab.h" include (:system-flag t) nil [125 148])
+            ("linux/blkdev.h" include (:system-flag t) nil [149 174])
+            ("linux/cgroup.h" include (:system-flag t) nil [175 200])
+            ("linux/elevator.h" include (:system-flag t) nil [201 228])
+            ("linux/ktime.h" include (:system-flag t) nil [229 253])
+            ("linux/rbtree.h" include (:system-flag t) nil [254 279])
+            ("linux/ioprio.h" include (:system-flag t) nil [280 305])
+            ("linux/sbitmap.h" include (:system-flag t) nil [306 332])
+            ("linux/delay.h" include (:system-flag t) nil [333 357])
+            ("bfq-iosched.h" include nil nil [359 383])
+            ("bfqg_stats_update_io_add" function
+               (:arguments 
+                  ( ("bfqg" variable
+                       (:pointer 1
+                        :type ("bfq_group" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [6417 6440])
+                    ("bfqq" variable
+                       (:pointer 1
+                        :type ("bfq_queue" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [6441 6464])
+                    ("op" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [6474 6490]))                  
+                :type "void")
+                nil [6387 6494])
+            ("bfqg_stats_update_io_remove" function
+               (:arguments 
+                  ( ("bfqg" variable
+                       (:pointer 1
+                        :type ("bfq_group" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [6528 6551])
+                    ("op" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [6552 6568]))                  
+                :type "void")
+                nil [6495 6572])
+            ("bfqg_stats_update_io_merged" function
+               (:arguments 
+                  ( ("bfqg" variable
+                       (:pointer 1
+                        :type ("bfq_group" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [6606 6629])
+                    ("op" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [6630 6646]))                  
+                :type "void")
+                nil [6573 6650])
+            ("bfqg_stats_update_completion" function
+               (:arguments 
+                  ( ("bfqg" variable
+                       (:pointer 1
+                        :type ("bfq_group" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [6685 6708])
+                    ("start_time_ns" variable (:type ("u64" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6709 6727])
+                    ("io_start_time_ns" variable (:type ("u64" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6734 6755])
+                    ("op" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [6756 6772]))                  
+                :type "void")
+                nil [6651 6776])
+            ("bfqg_stats_update_dequeue" function
+               (:arguments 
+                  ( ("bfqg" variable
+                       (:pointer 1
+                        :type ("bfq_group" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [6808 6831]))                  
+                :type "void")
+                nil [6777 6835])
+            ("bfqg_stats_set_start_empty_time" function
+               (:arguments 
+                  ( ("bfqg" variable
+                       (:pointer 1
+                        :type ("bfq_group" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [6873 6896]))                  
+                :type "void")
+                nil [6836 6900])
+            ("bfqg_stats_update_idle_time" function
+               (:arguments 
+                  ( ("bfqg" variable
+                       (:pointer 1
+                        :type ("bfq_group" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [6934 6957]))                  
+                :type "void")
+                nil [6901 6961])
+            ("bfqg_stats_set_start_idle_time" function
+               (:arguments 
+                  ( ("bfqg" variable
+                       (:pointer 1
+                        :type ("bfq_group" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [6998 7021]))                  
+                :type "void")
+                nil [6962 7025])
+            ("bfqg_stats_update_avg_queue_size" function
+               (:arguments 
+                  ( ("bfqg" variable
+                       (:pointer 1
+                        :type ("bfq_group" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [7064 7087]))                  
+                :type "void")
+                nil [7026 7091])
+            ("bfq_bfqq_move" function
+               (:arguments 
+                  ( ("bfqd" variable
+                       (:pointer 1
+                        :type ("bfq_data" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [38355 38377])
+                    ("bfqq" variable
+                       (:pointer 1
+                        :type ("bfq_queue" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [38378 38401])
+                    ("bfqg" variable
+                       (:pointer 1
+                        :type ("bfq_group" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [38407 38430]))                  
+                :type "void")
+                nil [38336 38433])
+            ("bfq_init_entity" function
+               (:arguments 
+                  ( ("entity" variable
+                       (:pointer 1
+                        :type ("bfq_entity" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [38456 38482])
+                    ("bfqg" variable
+                       (:pointer 1
+                        :type ("bfq_group" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [38483 38506]))                  
+                :type "void")
+                nil [38435 38785])
+            ("bfq_bic_update_cgroup" function
+               (:arguments 
+                  ( ("bic" variable
+                       (:pointer 1
+                        :type ("bfq_io_cq" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [38814 38836])
+                    ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [38837 38853]))                  
+                :type "void")
+                nil [38787 38856])
+            ("bfq_end_wr_async" function
+               (:arguments 
+                  ( ("bfqd" variable
+                       (:pointer 1
+                        :type ("bfq_data" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [38880 38902]))                  
+                :type "void")
+                nil [38858 38956])
+            ("bfq_find_set_group" function
+               (:pointer 1
+                :arguments 
+                  ( ("bfqd" variable
+                       (:pointer 1
+                        :type ("bfq_data" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [38995 39017])
+                    ("blkcg" variable
+                       (:pointer 1
+                        :type ("blkcg" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [39018 39038]))                  
+                :type ("bfq_group" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [38958 39068])
+            ("bfqq_group" function
+               (:pointer 1
+                :arguments 
+                  ( ("bfqq" variable
+                       (:pointer 1
+                        :type ("bfq_queue" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [39099 39122]))                  
+                :type ("bfq_group" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [39070 39158])
+            ("bfqg_and_blkg_get" function
+               (:arguments 
+                  ( ("bfqg" variable
+                       (:pointer 1
+                        :type ("bfq_group" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [39183 39206]))                  
+                :type "void")
+                nil [39160 39209])
+            ("bfqg_and_blkg_put" function
+               (:arguments 
+                  ( ("bfqg" variable
+                       (:pointer 1
+                        :type ("bfq_group" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [39234 39257]))                  
+                :type "void")
+                nil [39211 39260])
+            ("bfq_create_group_hierarchy" function
+               (:pointer 1
+                :arguments 
+                  ( ("bfqd" variable
+                       (:pointer 1
+                        :type ("bfq_data" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [39307 39329])
+                    ("node" variable (:type "int") (reparse-symbol arg-sub-list) [39330 39339]))                  
+                :type ("bfq_group" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [39262 39590]))          
+      :file "bfq-cgroup.c"
+      :pointmax 39629
+      :fsize 39628
+      :lastmodtime '(25008 26409 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-43fb56c8"
+      :file "bfq-iosched.h"
+      :fsize 38306
+      :lastmodtime '(25008 26409 0 0))
+    (semanticdb-table "semanticdb-table-549248e0"
+      :major-mode c-mode
+      :tags 
+        '( ("linux/mm.h" include (:system-flag t) nil [95 116])
+            ("linux/swap.h" include (:system-flag t) nil [117 140])
+            ("linux/bio.h" include (:system-flag t) nil [141 163])
+            ("linux/blkdev.h" include (:system-flag t) nil [164 189])
+            ("linux/uio.h" include (:system-flag t) nil [190 212])
+            ("linux/iocontext.h" include (:system-flag t) nil [213 241])
+            ("linux/slab.h" include (:system-flag t) nil [242 265])
+            ("linux/init.h" include (:system-flag t) nil [266 289])
+            ("linux/kernel.h" include (:system-flag t) nil [290 315])
+            ("linux/export.h" include (:system-flag t) nil [316 341])
+            ("linux/mempool.h" include (:system-flag t) nil [342 368])
+            ("linux/workqueue.h" include (:system-flag t) nil [369 397])
+            ("linux/cgroup.h" include (:system-flag t) nil [398 423])
+            ("linux/blk-cgroup.h" include (:system-flag t) nil [424 453])
+            ("linux/highmem.h" include (:system-flag t) nil [454 480])
+            ("linux/sched/sysctl.h" include (:system-flag t) nil [481 512])
+            ("linux/blk-crypto.h" include (:system-flag t) nil [513 542])
+            ("linux/xarray.h" include (:system-flag t) nil [543 568])
+            ("trace/events/block.h" include (:system-flag t) nil [570 601])
+            ("blk.h" include nil nil [602 618])
+            ("blk-rq-qos.h" include nil nil [619 642])
+            ("bio_alloc_cache" type
+               (:members 
+                  ( ("free_list" variable (:type ("bio_list" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [670 697])
+                    ("nr" variable (:type "unsigned int") (reparse-symbol classsubparts) [699 716]))                  
+                :type "struct")
+                nil [644 719])
+            ("__read_mostly" variable
+               (:default-value "{
+	{ .nr_vecs = 16, .name = \"biovec-16\" },
+	{ .nr_vecs = 64, .name = \"biovec-64\" },
+	{ .nr_vecs = 128, .name = \"biovec-128\" },
+	{ .nr_vecs = BIO_MAX_VECS, .name = \"biovec-max\" },
+}"
+                :type "int")
+                nil [817 1014])
+            ("biovec_slab" function
+               (:pointer 1
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("nr_vecs" variable (:type "unsigned short") (reparse-symbol arg-sub-list) [1055 1078]))                  
+                :type ("biovec_slab" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [1016 1354])
+            ("fs_bio_set" variable (:type ("bio_set" type
+                 (:prototype t
+                  :type "struct")
+                  nil nil)) nil [1490 1516])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("fs_bio_set" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1531 1542]))                  
+                :type "int")
+                nil [1517 1543])
+            ("bio_slab" type
+               (:members 
+                  ( ("slab" variable
+                       (:pointer 1
+                        :type ("kmem_cache" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [1599 1623])
+                    ("slab_ref" variable (:type "unsigned int") (reparse-symbol classsubparts) [1625 1647])
+                    ("slab_size" variable (:type "unsigned int") (reparse-symbol classsubparts) [1649 1672])
+                    ("name" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [1674 1687]))                  
+                :type "struct")
+                nil [1580 1690])
+            ("DEFINE_MUTEX" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("" variable (:type ("bio_slab_lock" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1711 1725]))                  
+                :type "int")
+                nil [1691 1726])
+            ("DEFINE_XARRAY" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("" variable (:type ("bio_slabs" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1748 1758]))                  
+                :type "int")
+                nil [1727 1759])
+            ("create_bio_slab" function
+               (:pointer 1
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("size" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [1801 1819]))                  
+                :type ("bio_slab" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [1761 2334])
+            ("bs_bio_slab_size" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("bs" variable
+                       (:pointer 1
+                        :type ("bio_set" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [2380 2399]))                  
+                :type "unsigned int")
+                nil [2336 2462])
+            ("bio_find_or_create_slab" function
+               (:pointer 1
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("bs" variable
+                       (:pointer 1
+                        :type ("bio_set" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [2514 2533]))                  
+                :type ("kmem_cache" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [2464 2823])
+            ("bio_put_slab" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("bs" variable
+                       (:pointer 1
+                        :type ("bio_set" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [2850 2869]))                  
+                :type "void")
+                nil [2825 3329])
+            ("bvec_free" function
+               (:arguments 
+                  ( ("pool" variable
+                       (:pointer 1
+                        :type ("mempool_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3346 3362])
+                    ("bv" variable
+                       (:pointer 1
+                        :type ("bio_vec" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [3363 3382])
+                    ("nr_vecs" variable (:type "unsigned short") (reparse-symbol arg-sub-list) [3383 3406]))                  
+                :type "void")
+                nil [3331 3592])
+            ("bvec_alloc_gfp" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("gfp" variable (:type ("gfp_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3780 3790]))                  
+                :type ("gfp_t" type (:type "class") nil nil))
+                nil [3745 3898])
+            ("bvec_alloc" function
+               (:pointer 1
+                :arguments 
+                  ( ("pool" variable
+                       (:pointer 1
+                        :type ("mempool_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3927 3943])
+                    ("nr_vecs" variable
+                       (:pointer 1
+                        :type "unsigned short")
+                        (reparse-symbol arg-sub-list) [3944 3968])
+                    ("gfp_mask" variable (:type ("gfp_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3971 3986]))                  
+                :type ("bio_vec" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [3900 4709])
+            ("bio_uninit" function
+               (:arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [4727 4743]))                  
+                :type "void")
+                nil [4711 4931])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("bio_uninit" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4946 4957]))                  
+                :type "int")
+                nil [4932 4958])
+            ("bio_free" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [4981 4997]))                  
+                :type "void")
+                nil [4960 5360])
+            ("bio_init" function
+               (:arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [5580 5596])
+                    ("table" variable
+                       (:pointer 1
+                        :type ("bio_vec" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [5597 5619])
+                    ("max_vecs" variable (:type "unsigned short") (reparse-symbol arg-sub-list) [5627 5651]))                  
+                :type "void")
+                nil [5566 6420])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("bio_init" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6435 6444]))                  
+                :type "int")
+                nil [6421 6445])
+            ("bio_reset" function
+               (:arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [6803 6819]))                  
+                :type "void")
+                nil [6788 6913])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("bio_reset" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6928 6938]))                  
+                :type "int")
+                nil [6914 6939])
+            ("__bio_chain_endio" function
+               (:pointer 1
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [6978 6994]))                  
+                :type ("bio" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [6941 7150])
+            ("bio_chain_endio" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [7180 7196]))                  
+                :type "void")
+                nil [7152 7236])
+            ("bio_chain" function
+               (:arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [7638 7654])
+                    ("parent" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [7655 7674]))                  
+                :type "void")
+                nil [7623 7813])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("bio_chain" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7828 7838]))                  
+                :type "int")
+                nil [7814 7839])
+            ("bio_alloc_rescue" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("work" variable
+                       (:pointer 1
+                        :type ("work_struct" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [7870 7895]))                  
+                :type "void")
+                nil [7841 8159])
+            ("punt_bios_to_rescuer" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("bs" variable
+                       (:pointer 1
+                        :type ("bio_set" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [8194 8213]))                  
+                :type "void")
+                nil [8161 9287])
+            ("bio_alloc_bioset" function
+               (:pointer 1
+                :arguments 
+                  ( ("gfp_mask" variable (:type ("gfp_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10782 10797])
+                    ("nr_iovecs" variable (:type "unsigned short") (reparse-symbol arg-sub-list) [10798 10823])
+                    ("bs" variable
+                       (:pointer 1
+                        :type ("bio_set" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [10832 10851]))                  
+                :type ("bio" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [10753 12932])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("bio_alloc_bioset" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12947 12964]))                  
+                :type "int")
+                nil [12933 12965])
+            ("bio_kmalloc" function
+               (:pointer 1
+                :arguments 
+                  ( ("gfp_mask" variable (:type ("gfp_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13260 13275])
+                    ("nr_iovecs" variable (:type "unsigned short") (reparse-symbol arg-sub-list) [13276 13301]))                  
+                :type ("bio" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [13236 13578])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("bio_kmalloc" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13593 13605]))                  
+                :type "int")
+                nil [13579 13606])
+            ("zero_fill_bio" function
+               (:arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [13627 13643]))                  
+                :type "void")
+                nil [13608 13750])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("zero_fill_bio" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13765 13779]))                  
+                :type "int")
+                nil [13751 13780])
+            ("bio_truncate" function
+               (:arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [14160 14176])
+                    ("new_size" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [14177 14195]))                  
+                :type "void")
+                nil [14142 15017])
+            ("guard_bio_eod" function
+               (:arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [15532 15548]))                  
+                :type "void")
+                nil [15513 15966])
+            ("ALLOC_CACHE_MAX" variable (:constant-flag t) nil [15976 15991])
+            ("ALLOC_CACHE_SLACK" variable (:constant-flag t) nil [16005 16022])
+            ("bio_alloc_cache_prune" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("cache" variable
+                       (:pointer 1
+                        :type ("bio_alloc_cache" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [16062 16092])
+                    ("nr" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [16099 16115]))                  
+                :type "void")
+                nil [16028 16280])
+            ("bio_cpu_dead" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("cpu" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [16306 16323])
+                    ("node" variable
+                       (:pointer 1
+                        :type ("hlist_node" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [16324 16348]))                  
+                :type "int")
+                nil [16282 16565])
+            ("bio_alloc_cache_destroy" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("bs" variable
+                       (:pointer 1
+                        :type ("bio_set" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [16603 16622]))                  
+                :type "void")
+                nil [16567 16904])
+            ("bio_put" function
+               (:arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [17175 17191]))                  
+                :type "void")
+                nil [17162 17693])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("bio_put" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17708 17716]))                  
+                :type "int")
+                nil [17694 17717])
+            ("__bio_clone_fast" function
+               (:arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [18085 18101])
+                    ("bio_src" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [18102 18122]))                  
+                :type "void")
+                nil [18063 18798])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("__bio_clone_fast" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [18813 18830]))                  
+                :type "int")
+                nil [18799 18831])
+            ("bio_clone_fast" function
+               (:pointer 1
+                :arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [19094 19110])
+                    ("gfp_mask" variable (:type ("gfp_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [19111 19126])
+                    ("bs" variable
+                       (:pointer 1
+                        :type ("bio_set" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [19127 19146]))                  
+                :type ("bio" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [19067 19461])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("bio_clone_fast" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [19476 19491]))                  
+                :type "int")
+                nil [19462 19492])
+            ("bio_devname" function
+               (:pointer 1
+                :constant-flag t
+                :arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [19518 19534])
+                    ("buf" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [19535 19545]))                  
+                :type "char")
+                nil [19494 19586])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("bio_devname" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [19601 19613]))                  
+                :type "int")
+                nil [19587 19614])
+            ("page_is_mergeable" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("bv" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("bio_vec" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [19653 19678])
+                    ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [19681 19699])
+                    ("len" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [19700 19717])
+                    ("off" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [19718 19735])
+                    ("same_page" variable
+                       (:pointer 1
+                        :type "bool")
+                        (reparse-symbol arg-sub-list) [19738 19754]))                  
+                :type "bool")
+                nil [19616 20212])
+            ("bio_try_merge_hw_seg" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("q" variable
+                       (:pointer 1
+                        :type ("request_queue" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [20454 20478])
+                    ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [20479 20495])
+                    ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [20501 20519])
+                    ("len" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [20520 20533])
+                    ("offset" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [20539 20555])
+                    ("same_page" variable
+                       (:pointer 1
+                        :type "bool")
+                        (reparse-symbol arg-sub-list) [20556 20572]))                  
+                :type "bool")
+                nil [20421 20994])
+            ("bio_add_hw_page" function
+               (:arguments 
+                  ( ("q" variable
+                       (:pointer 1
+                        :type ("request_queue" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [21462 21486])
+                    ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [21487 21503])
+                    ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [21506 21524])
+                    ("len" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [21525 21542])
+                    ("offset" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [21543 21563])
+                    ("max_sectors" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [21566 21591])
+                    ("same_page" variable
+                       (:pointer 1
+                        :type "bool")
+                        (reparse-symbol arg-sub-list) [21592 21608]))                  
+                :type "int")
+                nil [21442 22356])
+            ("bio_add_pc_page" function
+               (:arguments 
+                  ( ("q" variable
+                       (:pointer 1
+                        :type ("request_queue" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [22908 22932])
+                    ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [22933 22949])
+                    ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [22952 22970])
+                    ("len" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [22971 22988])
+                    ("offset" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [22989 23009]))                  
+                :type "int")
+                nil [22888 23130])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("bio_add_pc_page" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [23145 23161]))                  
+                :type "int")
+                nil [23131 23162])
+            ("bio_add_zone_append_page" function
+               (:arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [23864 23880])
+                    ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [23881 23899])
+                    ("len" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [23908 23925])
+                    ("offset" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [23926 23946]))                  
+                :type "int")
+                nil [23835 24264])
+            ("EXPORT_SYMBOL_GPL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("bio_add_zone_append_page" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [24283 24308]))                  
+                :type "int")
+                nil [24265 24309])
+            ("__bio_try_merge_page" function
+               (:arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [24913 24929])
+                    ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [24930 24948])
+                    ("len" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [24951 24968])
+                    ("off" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [24969 24986])
+                    ("same_page" variable
+                       (:pointer 1
+                        :type "bool")
+                        (reparse-symbol arg-sub-list) [24987 25003]))                  
+                :type "bool")
+                nil [24887 25402])
+            ("EXPORT_SYMBOL_GPL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("__bio_try_merge_page" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [25421 25442]))                  
+                :type "int")
+                nil [25403 25443])
+            ("__bio_add_page" function
+               (:arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [25822 25838])
+                    ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [25839 25857])
+                    ("len" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [25860 25877])
+                    ("off" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [25878 25895]))                  
+                :type "void")
+                nil [25802 26256])
+            ("EXPORT_SYMBOL_GPL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("__bio_add_page" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [26275 26290]))                  
+                :type "int")
+                nil [26257 26291])
+            ("bio_add_page" function
+               (:arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [26667 26683])
+                    ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [26684 26702])
+                    ("len" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [26706 26723])
+                    ("offset" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [26724 26744]))                  
+                :type "int")
+                nil [26650 26937])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("bio_add_page" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [26952 26965]))                  
+                :type "int")
+                nil [26938 26966])
+            ("bio_release_pages" function
+               (:arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [26991 27007])
+                    ("mark_dirty" variable (:type "bool") (reparse-symbol arg-sub-list) [27008 27024]))                  
+                :type "void")
+                nil [26968 27303])
+            ("EXPORT_SYMBOL_GPL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("bio_release_pages" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [27322 27340]))                  
+                :type "int")
+                nil [27304 27341])
+            ("__bio_iov_bvec_set" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [27374 27390])
+                    ("iter" variable
+                       (:pointer 1
+                        :type ("iov_iter" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [27391 27413]))                  
+                :type "void")
+                nil [27343 27683])
+            ("bio_iov_bvec_set" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [27713 27729])
+                    ("iter" variable
+                       (:pointer 1
+                        :type ("iov_iter" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [27730 27752]))                  
+                :type "int")
+                nil [27685 27837])
+            ("bio_iov_bvec_set_append" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [27874 27890])
+                    ("iter" variable
+                       (:pointer 1
+                        :type ("iov_iter" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [27891 27913]))                  
+                :type "int")
+                nil [27839 28141])
+            ("bio_put_pages" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("pages" variable
+                       (:pointer 2
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [28169 28189])
+                    ("size" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [28190 28202])
+                    ("off" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [28203 28214]))                  
+                :type "void")
+                nil [28143 28335])
+            ("PAGE_PTRS_PER_BVEC" variable (:constant-flag t) nil [28345 28363])
+            ("__bio_iov_iter_get_pages" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [28873 28889])
+                    ("iter" variable
+                       (:pointer 1
+                        :type ("iov_iter" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [28890 28912]))                  
+                :type "int")
+                nil [28837 30111])
+            ("__bio_iov_append_get_pages" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [30151 30167])
+                    ("iter" variable
+                       (:pointer 1
+                        :type ("iov_iter" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [30168 30190]))                  
+                :type "int")
+                nil [30113 31524])
+            ("bio_iov_iter_get_pages" function
+               (:arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [32794 32810])
+                    ("iter" variable
+                       (:pointer 1
+                        :type ("iov_iter" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [32811 32833]))                  
+                :type "int")
+                nil [32767 33341])
+            ("EXPORT_SYMBOL_GPL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("bio_iov_iter_get_pages" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [33360 33383]))                  
+                :type "int")
+                nil [33342 33384])
+            ("submit_bio_wait_endio" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [33420 33436]))                  
+                :type "void")
+                nil [33386 33468])
+            ("submit_bio_wait" function
+               (:arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [33894 33910]))                  
+                :type "int")
+                nil [33874 34430])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("submit_bio_wait" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [34445 34461]))                  
+                :type "int")
+                nil [34431 34462])
+            ("bio_advance" function
+               (:arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [34890 34906])
+                    ("bytes" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [34907 34922]))                  
+                :type "void")
+                nil [34873 35067])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("bio_advance" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [35082 35094]))                  
+                :type "int")
+                nil [35068 35095])
+            ("bio_copy_data_iter" function
+               (:arguments 
+                  ( ("dst" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [35121 35137])
+                    ("dst_iter" variable
+                       (:pointer 1
+                        :type ("bvec_iter" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [35138 35165])
+                    ("src" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [35169 35185])
+                    ("src_iter" variable
+                       (:pointer 1
+                        :type ("bvec_iter" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [35186 35213]))                  
+                :type "void")
+                nil [35097 35660])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("bio_copy_data_iter" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [35675 35694]))                  
+                :type "int")
+                nil [35661 35695])
+            ("bio_copy_data" function
+               (:arguments 
+                  ( ("dst" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [35999 36015])
+                    ("src" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [36016 36032]))                  
+                :type "void")
+                nil [35980 36176])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("bio_copy_data" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [36191 36205]))                  
+                :type "int")
+                nil [36177 36206])
+            ("bio_free_pages" function
+               (:arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [36228 36244]))                  
+                :type "void")
+                nil [36208 36381])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("bio_free_pages" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [36396 36411]))                  
+                :type "int")
+                nil [36382 36412])
+            ("bio_set_pages_dirty" function
+               (:arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [37784 37800]))                  
+                :type "void")
+                nil [37759 37987])
+            ("bio_dirty_fn" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("work" variable
+                       (:pointer 1
+                        :type ("work_struct" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [38496 38521]))                  
+                :type "void")
+                nil [38471 38522])
+            ("DECLARE_WORK" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("" variable (:type ("bio_dirty_work" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [38544 38559])
+                    ("" variable (:type ("bio_dirty_fn" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [38560 38573]))                  
+                :type "int")
+                nil [38524 38574])
+            ("DEFINE_SPINLOCK" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("" variable (:type ("bio_dirty_lock" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [38598 38613]))                  
+                :type "int")
+                nil [38575 38614])
+            ("bio_dirty_list" variable
+               (:pointer 1
+                :typemodifiers ("static")
+                :type ("bio" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [38615 38649])
+            ("bio_dirty_fn" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("work" variable
+                       (:pointer 1
+                        :type ("work_struct" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [38715 38740]))                  
+                :type "void")
+                nil [38690 38997])
+            ("bio_check_pages_dirty" function
+               (:arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [39026 39042]))                  
+                :type "void")
+                nil [38999 39504])
+            ("bio_remaining_done" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [39544 39560]))                  
+                :type "bool")
+                nil [39506 39903])
+            ("bio_endio" function
+               (:arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [40390 40406]))                  
+                :type "void")
+                nil [40375 41372])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("bio_endio" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [41387 41397]))                  
+                :type "int")
+                nil [41373 41398])
+            ("bio_split" function
+               (:pointer 1
+                :arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [41941 41957])
+                    ("sectors" variable (:type "int") (reparse-symbol arg-sub-list) [41958 41970])
+                    ("gfp" variable (:type ("gfp_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [41979 41989])
+                    ("bs" variable
+                       (:pointer 1
+                        :type ("bio_set" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [41990 42009]))                  
+                :type ("bio" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [41919 42526])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("bio_split" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [42541 42551]))                  
+                :type "int")
+                nil [42527 42552])
+            ("bio_trim" function
+               (:arguments 
+                  ( ("bio" variable
+                       (:pointer 1
+                        :type ("bio" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [42849 42865])
+                    ("offset" variable (:type ("sector_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [42866 42882])
+                    ("size" variable (:type ("sector_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [42883 42897]))                  
+                :type "void")
+                nil [42835 43216])
+            ("EXPORT_SYMBOL_GPL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("bio_trim" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [43235 43244]))                  
+                :type "int")
+                nil [43217 43245])
+            ("biovec_init_pool" function
+               (:arguments 
+                  ( ("pool" variable
+                       (:pointer 1
+                        :type ("mempool_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [43381 43397])
+                    ("pool_entries" variable (:type "int") (reparse-symbol arg-sub-list) [43398 43415]))                  
+                :type "int")
+                nil [43360 43549])
+            ("bioset_exit" function
+               (:arguments 
+                  ( ("bs" variable
+                       (:pointer 1
+                        :type ("bio_set" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [43730 43749]))                  
+                :type "void")
+                nil [43713 44035])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("bioset_exit" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [44050 44062]))                  
+                :type "int")
+                nil [44036 44063])
+            ("bioset_init" function
+               (:arguments 
+                  ( ("bs" variable
+                       (:pointer 1
+                        :type ("bio_set" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [45134 45153])
+                    ("pool_size" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [45156 45179])
+                    ("front_pad" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [45182 45205])
+                    ("flags" variable (:type "int") (reparse-symbol arg-sub-list) [45208 45218]))                  
+                :type "int")
+                nil [45118 46153])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("bioset_init" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [46168 46180]))                  
+                :type "int")
+                nil [46154 46181])
+            ("bioset_init_from_src" function
+               (:arguments 
+                  ( ("bs" variable
+                       (:pointer 1
+                        :type ("bio_set" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [46301 46320])
+                    ("src" variable
+                       (:pointer 1
+                        :type ("bio_set" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [46321 46341]))                  
+                :type "int")
+                nil [46276 46559])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("bioset_init_from_src" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [46574 46595]))                  
+                :type "int")
+                nil [46560 46596])
+            ("bio_alloc_kiocb" function
+               (:pointer 1
+                :arguments 
+                  ( ("kiocb" variable
+                       (:pointer 1
+                        :type ("kiocb" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [47181 47201])
+                    ("nr_vecs" variable (:type "unsigned short") (reparse-symbol arg-sub-list) [47202 47225])
+                    ("bs" variable
+                       (:pointer 1
+                        :type ("bio_set" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [47233 47252]))                  
+                :type ("bio" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [47153 47811])
+            ("EXPORT_SYMBOL_GPL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("bio_alloc_kiocb" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [47830 47846]))                  
+                :type "int")
+                nil [47812 47847])
+            ("init_bio" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [47876 47881]))                  
+                :type ("__init" type (:type "class") nil nil))
+                nil [47860 48459])
+            ("subsys_initcall" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("init_bio" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [48476 48485]))                  
+                :type "int")
+                nil [48460 48486]))          
+      :file "bio.c"
+      :pointmax 48487
+      :fsize 48486
+      :lastmodtime '(25008 26409 0 0)
+      :unmatched-syntax '((INT 47856 . 47859) (STATIC 47849 . 47855) (semantic-list 814 . 816) (symbol 804 . 814) (semantic-list 747 . 803) (symbol 735 . 746) (STRUCT 728 . 734) (STATIC 721 . 727) (semantic-list 814 . 816) (symbol 804 . 814) (semantic-list 747 . 803) (symbol 735 . 746) (STRUCT 728 . 734) (STATIC 721 . 727))
+      :lexical-table 
+        '(("ALLOC_CACHE_MAX" . ((number "512" 15993 . 15996)))
+          ("PAGE_PTRS_PER_BVEC" . ((semantic-list "(sizeof(struct bio_vec) / sizeof(struct page *))" 28368 . 28416)))
+          ("ALLOC_CACHE_SLACK" . ((number "64" 16024 . 16026)))
+          )
+)
+    (semanticdb-table "semanticdb-table-549355ee"
+      :file "blk.h"
+      :fsize 12337
+      :lastmodtime '(25008 26409 0 0))
+    (semanticdb-table "semanticdb-table-45441e4e"
+      :file "blk-rq-qos.h"
+      :fsize 5458
+      :lastmodtime '(25008 26409 0 0))
+    (semanticdb-table "semanticdb-table-54daf632"
+      :major-mode c-mode
+      :tags 
+        '( ("linux/init.h" include (:system-flag t) nil [206 229])
+            ("linux/mm.h" include (:system-flag t) nil [230 251])
+            ("linux/slab.h" include (:system-flag t) nil [252 275])
+            ("linux/kmod.h" include (:system-flag t) nil [276 299])
+            ("linux/major.h" include (:system-flag t) nil [300 324])
+            ("linux/device_cgroup.h" include (:system-flag t) nil [325 357])
+            ("linux/blkdev.h" include (:system-flag t) nil [358 383])
+            ("linux/backing-dev.h" include (:system-flag t) nil [384 414])
+            ("linux/module.h" include (:system-flag t) nil [415 440])
+            ("linux/blkpg.h" include (:system-flag t) nil [441 465])
+            ("linux/magic.h" include (:system-flag t) nil [466 490])
+            ("linux/buffer_head.h" include (:system-flag t) nil [491 521])
+            ("linux/swap.h" include (:system-flag t) nil [522 545])
+            ("linux/writeback.h" include (:system-flag t) nil [546 574])
+            ("linux/mount.h" include (:system-flag t) nil [575 599])
+            ("linux/pseudo_fs.h" include (:system-flag t) nil [600 628])
+            ("linux/uio.h" include (:system-flag t) nil [629 651])
+            ("linux/namei.h" include (:system-flag t) nil [652 676])
+            ("linux/cleancache.h" include (:system-flag t) nil [677 706])
+            ("linux/part_stat.h" include (:system-flag t) nil [707 735])
+            ("linux/uaccess.h" include (:system-flag t) nil [736 762])
+            ("../fs/internal.h" include nil nil [763 790])
+            ("blk.h" include nil nil [791 807])
+            ("bdev_inode" type
+               (:members 
+                  ( ("bdev" variable (:type ("block_device" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [830 855])
+                    ("vfs_inode" variable (:type ("inode" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [857 880]))                  
+                :type "struct")
+                nil [809 883])
+            ("BDEV_I" function
+               (:pointer 1
+                :typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("inode" variable
+                       (:pointer 1
+                        :type ("inode" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [925 945]))                  
+                :type ("bdev_inode" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [885 1008])
+            ("I_BDEV" function
+               (:pointer 1
+                :arguments 
+                  ( ("inode" variable
+                       (:pointer 1
+                        :type ("inode" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1038 1058]))                  
+                :type ("block_device" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [1010 1092])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("I_BDEV" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1107 1114]))                  
+                :type "int")
+                nil [1093 1115])
+            ("bdev_write_inode" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("bdev" variable
+                       (:pointer 1
+                        :type ("block_device" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1146 1172]))                  
+                :type "void")
+                nil [1117 1608])
+            ("kill_bdev" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("bdev" variable
+                       (:pointer 1
+                        :type ("block_device" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1688 1714]))                  
+                :type "void")
+                nil [1666 1877])
+            ("invalidate_bdev" function
+               (:arguments 
+                  ( ("bdev" variable
+                       (:pointer 1
+                        :type ("block_device" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1953 1979]))                  
+                :type "void")
+                nil [1932 2377])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("invalidate_bdev" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2392 2408]))                  
+                :type "int")
+                nil [2378 2409])
+            ("truncate_bdev_range" function
+               (:arguments 
+                  ( ("bdev" variable
+                       (:pointer 1
+                        :type ("block_device" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [2587 2613])
+                    ("mode" variable (:type ("fmode_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2614 2627])
+                    ("lstart" variable (:type ("loff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2631 2645])
+                    ("lend" variable (:type ("loff_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2646 2658]))                  
+                :type "int")
+                nil [2563 3395])
+            ("set_init_blocksize" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("bdev" variable
+                       (:pointer 1
+                        :type ("block_device" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [3428 3454]))                  
+                :type "void")
+                nil [3397 3683])
+            ("set_blocksize" function
+               (:arguments 
+                  ( ("bdev" variable
+                       (:pointer 1
+                        :type ("block_device" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [3703 3729])
+                    ("size" variable (:type "int") (reparse-symbol arg-sub-list) [3730 3739]))                  
+                :type "int")
+                nil [3685 4235])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("set_blocksize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4251 4265]))                  
+                :type "int")
+                nil [4237 4266])
+            ("sb_set_blocksize" function
+               (:arguments 
+                  ( ("sb" variable
+                       (:pointer 1
+                        :type ("super_block" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [4289 4312])
+                    ("size" variable (:type "int") (reparse-symbol arg-sub-list) [4313 4322]))                  
+                :type "int")
+                nil [4268 4570])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("sb_set_blocksize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4586 4603]))                  
+                :type "int")
+                nil [4572 4604])
+            ("sb_min_blocksize" function
+               (:arguments 
+                  ( ("sb" variable
+                       (:pointer 1
+                        :type ("super_block" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [4627 4650])
+                    ("size" variable (:type "int") (reparse-symbol arg-sub-list) [4651 4660]))                  
+                :type "int")
+                nil [4606 4791])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("sb_min_blocksize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4807 4824]))                  
+                :type "int")
+                nil [4793 4825])
+            ("__sync_blockdev" function
+               (:arguments 
+                  ( ("bdev" variable
+                       (:pointer 1
+                        :type ("block_device" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [4847 4873])
+                    ("wait" variable (:type "int") (reparse-symbol arg-sub-list) [4874 4883]))                  
+                :type "int")
+                nil [4827 5033])
+            ("sync_blockdev" function
+               (:arguments 
+                  ( ("bdev" variable
+                       (:pointer 1
+                        :type ("block_device" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [5193 5219]))                  
+                :type "int")
+                nil [5175 5257])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("sync_blockdev" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5272 5286]))                  
+                :type "int")
+                nil [5258 5287])
+            ("fsync_bdev" function
+               (:arguments 
+                  ( ("bdev" variable
+                       (:pointer 1
+                        :type ("block_device" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [5474 5500]))                  
+                :type "int")
+                nil [5459 5655])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("fsync_bdev" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5670 5681]))                  
+                :type "int")
+                nil [5656 5682])
+            ("freeze_bdev" function
+               (:arguments 
+                  ( ("bdev" variable
+                       (:pointer 1
+                        :type ("block_device" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [6283 6309]))                  
+                :type "int")
+                nil [6267 6800])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("freeze_bdev" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6815 6827]))                  
+                :type "int")
+                nil [6801 6828])
+            ("thaw_bdev" function
+               (:arguments 
+                  ( ("bdev" variable
+                       (:pointer 1
+                        :type ("block_device" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [6998 7024]))                  
+                :type "int")
+                nil [6984 7505])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("thaw_bdev" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7520 7530]))                  
+                :type "int")
+                nil [7506 7531])
+            ("bdev_read_page" function
+               (:arguments 
+                  ( ("bdev" variable
+                       (:pointer 1
+                        :type ("block_device" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [8276 8302])
+                    ("sector" variable (:type ("sector_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8303 8319])
+                    ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [8323 8341]))                  
+                :type "int")
+                nil [8257 8731])
+            ("bdev_write_page" function
+               (:arguments 
+                  ( ("bdev" variable
+                       (:pointer 1
+                        :type ("block_device" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [9680 9706])
+                    ("sector" variable (:type ("sector_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9707 9723])
+                    ("page" variable
+                       (:pointer 1
+                        :type ("page" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [9727 9745])
+                    ("wbc" variable
+                       (:pointer 1
+                        :type ("writeback_control" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [9746 9776]))                  
+                :type "int")
+                nil [9660 10290])
+            ("DEFINE_SPINLOCK" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("" variable (:type ("bdev_lock" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10364 10374]))                  
+                :type ("__cacheline_aligned_in_smp" type (:type "class") nil nil))
+                nil [10313 10375])
+            ("__read_mostly" variable (:type ("bdev_cachep" type (:type "class") nil nil)) nil [10403 10429])
+            ("bdev_alloc_inode" function
+               (:pointer 1
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("sb" variable
+                       (:pointer 1
+                        :type ("super_block" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [10469 10492]))                  
+                :type ("inode" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [10431 10655])
+            ("bdev_free_inode" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("inode" variable
+                       (:pointer 1
+                        :type ("inode" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [10685 10705]))                  
+                :type "void")
+                nil [10657 11084])
+            ("init_once" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("data" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [11108 11119]))                  
+                :type "void")
+                nil [11086 11189])
+            ("bdev_evict_inode" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("inode" variable
+                       (:pointer 1
+                        :type ("inode" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [11220 11240]))                  
+                :type "void")
+                nil [11191 11369])
+            ("bdev_sops" variable
+               (:typemodifiers ("static")
+                :constant-flag t
+                :default-value "{
+	.statfs = simple_statfs,
+	.alloc_inode = bdev_alloc_inode,
+	.free_inode = bdev_free_inode,
+	.drop_inode = generic_delete_inode,
+	.evict_inode = bdev_evict_inode,
+}"
+                :type ("super_operations" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [11371 11587])
+            ("bd_init_fs_context" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("fc" variable
+                       (:pointer 1
+                        :type ("fs_context" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [11619 11641]))                  
+                :type "int")
+                nil [11589 11805])
+            ("bd_type" variable
+               (:typemodifiers ("static")
+                :default-value "{
+	.name		= \"bdev\",
+	.init_fs_context = bd_init_fs_context,
+	.kill_sb	= kill_anon_super,
+}"
+                :type ("file_system_type" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [11807 11939])
+            ("__read_mostly" variable (:type ("blockdev_superblock" type (:type "class") nil nil)) nil [11961 11995])
+            ("EXPORT_SYMBOL_GPL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("blockdev_superblock" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12014 12034]))                  
+                :type "int")
+                nil [11996 12035])
+            ("bdev_cache_init" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [12065 12070]))                  
+                :type ("__init" type (:type "class") nil nil))
+                nil [12042 12547])
+            ("bdev_alloc" function
+               (:pointer 1
+                :arguments 
+                  ( ("disk" variable
+                       (:pointer 1
+                        :type ("gendisk" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [12581 12602])
+                    ("partno" variable (:type ("u8" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12603 12613]))                  
+                :type ("block_device" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [12549 13168])
+            ("bdev_add" function
+               (:arguments 
+                  ( ("bdev" variable
+                       (:pointer 1
+                        :type ("block_device" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [13184 13210])
+                    ("dev" variable (:type ("dev_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13211 13221]))                  
+                :type "void")
+                nil [13170 13343])
+            ("nr_blockdev_pages" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [13368 13373]))                  
+                :type "long")
+                nil [13345 13644])
+            ("bd_may_claim" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("bdev" variable
+                       (:pointer 1
+                        :type ("block_device" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [14040 14066])
+                    ("whole" variable
+                       (:pointer 1
+                        :type ("block_device" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [14067 14094])
+                    ("holder" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [14099 14112]))                  
+                :type "bool")
+                nil [14015 14627])
+            ("bd_prepare_to_claim" function
+               (:arguments 
+                  ( ("bdev" variable
+                       (:pointer 1
+                        :type ("block_device" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [15050 15076])
+                    ("holder" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [15077 15090]))                  
+                :type "int")
+                nil [15026 15752])
+            ("EXPORT_SYMBOL_GPL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("bd_prepare_to_claim" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15771 15791]))                  
+                :type "int")
+                nil [15753 15792])
+            ("bd_clear_claiming" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("whole" variable
+                       (:pointer 1
+                        :type ("block_device" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [15855 15882])
+                    ("holder" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [15883 15896]))                  
+                :type "void")
+                nil [15825 16074])
+            ("bd_finish_claiming" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("bdev" variable
+                       (:pointer 1
+                        :type ("block_device" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [16403 16429])
+                    ("holder" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [16430 16443]))                  
+                :type "void")
+                nil [16372 16883])
+            ("bd_abort_claiming" function
+               (:arguments 
+                  ( ("bdev" variable
+                       (:pointer 1
+                        :type ("block_device" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [17257 17283])
+                    ("holder" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [17284 17297]))                  
+                :type "void")
+                nil [17234 17397])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("bd_abort_claiming" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17412 17430]))                  
+                :type "int")
+                nil [17398 17431])
+            ("blkdev_flush_mapping" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("bdev" variable
+                       (:pointer 1
+                        :type ("block_device" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [17466 17492]))                  
+                :type "void")
+                nil [17433 17594])
+            ("blkdev_get_whole" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("bdev" variable
+                       (:pointer 1
+                        :type ("block_device" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [17624 17650])
+                    ("mode" variable (:type ("fmode_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17651 17664]))                  
+                :type "int")
+                nil [17596 18154])
+            ("blkdev_put_whole" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("bdev" variable
+                       (:pointer 1
+                        :type ("block_device" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [18185 18211])
+                    ("mode" variable (:type ("fmode_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [18212 18225]))                  
+                :type "void")
+                nil [18156 18373])
+            ("blkdev_get_part" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("part" variable
+                       (:pointer 1
+                        :type ("block_device" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [18402 18428])
+                    ("mode" variable (:type ("fmode_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [18429 18442]))                  
+                :type "int")
+                nil [18375 18839])
+            ("blkdev_put_part" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("part" variable
+                       (:pointer 1
+                        :type ("block_device" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [18869 18895])
+                    ("mode" variable (:type ("fmode_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [18896 18909]))                  
+                :type "void")
+                nil [18841 19094])
+            ("blkdev_get_no_open" function
+               (:pointer 1
+                :arguments 
+                  ( ("dev" variable (:type ("dev_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [19136 19146]))                  
+                :type ("block_device" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [19096 19734])
+            ("blkdev_put_no_open" function
+               (:arguments 
+                  ( ("bdev" variable
+                       (:pointer 1
+                        :type ("block_device" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [19760 19786]))                  
+                :type "void")
+                nil [19736 19862])
+            ("blkdev_get_by_dev" function
+               (:pointer 1
+                :arguments 
+                  ( ("dev" variable (:type ("dev_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [20677 20687])
+                    ("mode" variable (:type ("fmode_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [20688 20701])
+                    ("holder" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [20702 20715]))                  
+                :type ("block_device" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [20638 22321])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("blkdev_get_by_dev" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [22336 22354]))                  
+                :type "int")
+                nil [22322 22355])
+            ("blkdev_get_by_path" function
+               (:pointer 1
+                :arguments 
+                  ( ("path" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [22944 22961])
+                    ("mode" variable (:type ("fmode_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [22962 22975])
+                    ("holder" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [22981 22994]))                  
+                :type ("block_device" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [22904 23310])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("blkdev_get_by_path" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [23325 23344]))                  
+                :type "int")
+                nil [23311 23345])
+            ("blkdev_put" function
+               (:arguments 
+                  ( ("bdev" variable
+                       (:pointer 1
+                        :type ("block_device" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [23363 23389])
+                    ("mode" variable (:type ("fmode_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [23390 23403]))                  
+                :type "void")
+                nil [23347 24983])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("blkdev_put" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [24998 25009]))                  
+                :type "int")
+                nil [24984 25010])
+            ("lookup_bdev" function
+               (:arguments 
+                  ( ("pathname" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [25344 25365])
+                    ("dev" variable
+                       (:pointer 1
+                        :type ("dev_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [25366 25377]))                  
+                :type "int")
+                nil [25328 25823])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("lookup_bdev" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [25838 25850]))                  
+                :type "int")
+                nil [25824 25851])
+            ("__invalidate_device" function
+               (:arguments 
+                  ( ("bdev" variable
+                       (:pointer 1
+                        :type ("block_device" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [25877 25903])
+                    ("kill_dirty" variable (:type "bool") (reparse-symbol arg-sub-list) [25904 25920]))                  
+                :type "int")
+                nil [25853 26294])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("__invalidate_device" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [26309 26329]))                  
+                :type "int")
+                nil [26295 26330])
+            ("iterate_bdevs" function
+               (:arguments 
+                  ( ("func" function
+                       (:function-pointer t
+                        :arguments 
+                          ( ("" variable
+                               (:pointer 1
+                                :type ("block_device" type
+                                     (:prototype t
+                                      :type "struct")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [26364 26386])
+                            ("" variable
+                               (:pointer 1
+                                :type "void")
+                                (reparse-symbol arg-sub-list) [26387 26394]))                          
+                        :type "void")
+                        nil nil)
+                    ("arg" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [26396 26406]))                  
+                :type "void")
+                nil [26332 27579]))          
+      :file "bdev.c"
+      :pointmax 27580
+      :fsize 27579
+      :lastmodtime '(25008 26409 0 0)
+      :unmatched-syntax '((VOID 12037 . 12041) (punctuation 11960 . 11961) (symbol 11948 . 11959) (STRUCT 11941 . 11947) (punctuation 10401 . 10402) (symbol 10390 . 10400) (STRUCT 10383 . 10389) (STATIC 10376 . 10382))))
+  :file "!Users!howinye!linux-5.15.7!block!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

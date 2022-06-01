@@ -1,0 +1,96 @@
+;; Object semanticdb-project-database-file-436aa6ae
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-436aa6ae"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-436aa64e"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"
+--------------------------------------
+@Project: iPad_ZR_auto_test
+@Time: 2021/1/10
+@Auth: Howin Ye
+@Email: howin.ye@zoom.us
+@File: conftest.py
+@Tools: Emacs
+--------------------------------------
+\"\"\"" code nil nil [65 269])
+            ("pytest" include nil nil [271 284])
+            ("iPad_ZR" include nil nil [285 299])
+            ("" code nil nil [317 335])
+            ("touch_fixture" function (:arguments 
+              ( ("driver" variable nil (reparse-symbol function_parameters) [354 360]))              ) nil [336 534]))          
+      :file "conftest.py"
+      :pointmax 534
+      :fsize 533
+      :lastmodtime '(25057 9635 993370 106000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-436aa66e"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"
+--------------------------------------
+@Project: iPad_ZR_auto_test
+@Time: 2021/12/10
+@Auth: Howin Ye
+@Email: howin.ye@zoom.us
+@File: conftest.py
+@Tools: Emacs
+--------------------------------------
+\"\"\"" code nil nil [65 270])
+            ("appium.webdriver.common.appiumby" include nil nil [272 331])
+            ("selenium.webdriver.support.ui" include nil nil [332 387])
+            ("selenium.webdriver.support" include nil nil [388 452])
+            ("App" type
+               (:members 
+                  ( ("PREFIX" variable nil (reparse-symbol indented_block_body) [470 727])
+                    ("SUFFIX" variable nil (reparse-symbol indented_block_body) [732 764])
+                    ("TOUCH" variable nil (reparse-symbol indented_block_body) [769 826])
+                    ("CONTROLLER" variable nil (reparse-symbol indented_block_body) [831 893])
+                    ("ORIGIN_TAG_XPATH" variable nil (reparse-symbol indented_block_body) [899 997])
+                    ("CONTROLLER_XPATH" code nil (reparse-symbol indented_block_body) [1003 1050])
+                    ("TOUCH_XPATH" code nil (reparse-symbol indented_block_body) [1055 1092])
+                    ("NEXT_BUTTON_XPATH" variable nil (reparse-symbol indented_block_body) [1098 1157])
+                    ("touch" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [1190 1193])
+                            ("driver" variable nil (reparse-symbol function_parameters) [1195 1201]))                          )
+                        (reparse-symbol indented_block_body) [1163 1502])
+                    ("controller" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [1539 1542])
+                            ("driver" variable nil (reparse-symbol function_parameters) [1544 1550]))                          )
+                        (reparse-symbol indented_block_body) [1507 1856]))                  
+                :type "class")
+                nil [455 1856]))          
+      :file "iPad_ZR.py"
+      :pointmax 1856
+      :fsize 1855
+      :lastmodtime '(25057 5892 142015 254000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-436aa68e"
+      :major-mode python-mode
+      :tags 
+        '( ("Test_touch" type
+               (:members 
+                  ( ("test_touch" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [38 42])
+                            ("touch_fixture" variable nil (reparse-symbol function_parameters) [44 57]))                          )
+                        (reparse-symbol indented_block_body) [23 83]))                  
+                :type "class")
+                nil [1 83]))          
+      :file "test_touch.py"
+      :pointmax 83
+      :fsize 82
+      :lastmodtime '(25057 9662 849199 729000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!iPad_ZR!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

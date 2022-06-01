@@ -1,0 +1,17 @@
+;; Object semanticdb-project-database-file-49c08638
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-49c08638"
+  :tables
+  (list
+
+    (semanticdb-table "semanticdb-table-456991e8"
+      :major-mode js-mode
+      :tags nil
+      :file "config_firstdevice.json"
+      :pointmax 191
+      :fsize 190
+      :lastmodtime '(25009 24745 249263 549000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Config!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

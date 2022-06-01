@@ -1,0 +1,96 @@
+;; Object semanticdb-project-database-file-462a4334
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-462a4334"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-462a4346"
+      :major-mode python-mode
+      :tags 
+        '( ("os" include nil nil [1 10])
+            ("platforms.win.utils.basic_funcs" include nil nil [11 49])
+            ("Utils" type
+               (:members 
+                  ( ("set_zoom_ini_file" function
+                       (:typemodifiers ("static")
+                        :arguments 
+                          ( ("domain" variable nil (reparse-symbol function_parameters) [110 116]))                          
+                        :decorators 
+                          ( ("staticmethod" function (:type "decorator") nil nil))                          )
+                        (reparse-symbol indented_block_body) [70 185])
+                    ("clear_zoom_data_dir" function
+                       (:typemodifiers ("static")
+                        :decorators 
+                          ( ("staticmethod" function (:type "decorator") nil nil))                          )
+                        (reparse-symbol indented_block_body) [190 297])
+                    ("kill_zoom_process" function
+                       (:typemodifiers ("static")
+                        :decorators 
+                          ( ("staticmethod" function (:type "decorator") nil nil))                          )
+                        (reparse-symbol indented_block_body) [302 392])
+                    ("kill_process_by_name" function
+                       (:typemodifiers ("static")
+                        :arguments 
+                          ( ("processName" variable nil (reparse-symbol function_parameters) [440 451]))                          
+                        :decorators 
+                          ( ("staticmethod" function (:type "decorator") nil nil))                          )
+                        (reparse-symbol indented_block_body) [397 545]))                  
+                :type "class")
+                nil [51 545]))          
+      :file "utils.py"
+      :pointmax 546
+      :fsize 545
+      :lastmodtime '(24989 55957 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4ffd3152"
+      :major-mode python-mode
+      :tags 
+        '( ("os" include nil nil [43 52])
+            ("platforms.win.utils.basic_funcs" include nil nil [53 91])
+            ("platforms.win.ui.zoom_chat" include nil nil [92 125])
+            ("platforms.win.export.utils" include nil nil [126 159])
+            ("BaseUI" type
+               (:members 
+                  ( ("client_login" function
+                       (:typemodifiers ("static")
+                        :arguments 
+                          ( ("domain" variable nil (reparse-symbol function_parameters) [343 349])
+                            ("logs" variable nil (reparse-symbol function_parameters) [351 355])
+                            ("name" variable nil (reparse-symbol function_parameters) [357 361])
+                            ("pwd" variable nil (reparse-symbol function_parameters) [363 366])
+                            ("keep_me_sign_in" variable nil (reparse-symbol function_parameters) [368 383])
+                            ("clear_local_db" variable nil (reparse-symbol function_parameters) [391 405]))                          
+                        :decorators 
+                          ( ("staticmethod" function (:type "decorator") nil nil))                          )
+                        (reparse-symbol indented_block_body) [308 646])
+                    ("client_logout_login" function
+                       (:typemodifiers ("static")
+                        :arguments 
+                          ( ("email" variable nil (reparse-symbol function_parameters) [693 698])
+                            ("password" variable nil (reparse-symbol function_parameters) [700 708]))                          
+                        :decorators 
+                          ( ("staticmethod" function (:type "decorator") nil nil))                          )
+                        (reparse-symbol indented_block_body) [651 783])
+                    ("choose_chat_session" function
+                       (:typemodifiers ("static")
+                        :arguments 
+                          ( ("name" variable nil (reparse-symbol function_parameters) [837 841]))                          
+                        :decorators 
+                          ( ("staticmethod" function (:type "decorator") nil nil))                          )
+                        (reparse-symbol indented_block_body) [795 905])
+                    ("switch_to_tab" function
+                       (:typemodifiers ("static")
+                        :arguments 
+                          ( ("name" variable nil (reparse-symbol function_parameters) [946 950]))                          
+                        :decorators 
+                          ( ("staticmethod" function (:type "decorator") nil nil))                          )
+                        (reparse-symbol indented_block_body) [910 1297]))                  
+                :type "class")
+                nil [162 1297]))          
+      :file "base_ui.py"
+      :pointmax 1298
+      :fsize 1297
+      :lastmodtime '(24989 55957 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!client-zapp-ta!platforms!win!export!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

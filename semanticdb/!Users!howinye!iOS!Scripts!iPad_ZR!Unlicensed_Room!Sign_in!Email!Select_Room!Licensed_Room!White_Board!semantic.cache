@@ -1,0 +1,21 @@
+;; Object semanticdb-project-database-file-486ae6d8
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-486ae6d8"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-486ae6ea"
+      :major-mode python-mode
+      :tags 
+        '( ("White_board" type
+               (:members 
+                  ( ("None" code nil (reparse-symbol indented_block_body) [24 28]))                  
+                :type "class")
+                nil [1 29]))          
+      :file "White_board.py"
+      :pointmax 29
+      :fsize 28
+      :lastmodtime '(25054 33868 95596 433000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!iPad_ZR!Unlicensed_Room!Sign_in!Email!Select_Room!Licensed_Room!White_Board!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

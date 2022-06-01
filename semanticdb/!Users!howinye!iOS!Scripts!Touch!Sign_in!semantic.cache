@@ -1,0 +1,40 @@
+;; Object semanticdb-project-database-file-47866588
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-47866588"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4786659a"
+      :major-mode python-mode
+      :tags 
+        '( ("Sign_in" type
+               (:members 
+                  ( ("ZOOM_LOGO_XPATH" variable nil (reparse-symbol indented_block_body) [20 87])
+                    ("EMAIL_BUTTON_XPATH" variable nil (reparse-symbol indented_block_body) [92 153])
+                    ("ACTIVATION_BUTTON_XPATH" variable nil (reparse-symbol indented_block_body) [159 235]))                  
+                :type "class")
+                nil [1 236]))          
+      :file "sign_in.py"
+      :pointmax 236
+      :fsize 235
+      :lastmodtime '(25053 5942 942920 643000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4fdee394"
+      :major-mode python-mode
+      :tags 
+        '( ("Unlicensed_Room" include nil nil [1 23])
+            ("pytest" include nil nil [24 37])
+            ("" code nil nil [64 74])
+            ("Test_sign_in" type
+               (:members 
+                  ( ("test_sign_in" function (:arguments 
+                      ( ("driver" variable nil (reparse-symbol function_parameters) [116 122]))                      ) (reparse-symbol indented_block_body) [99 165]))                  
+                :type "class")
+                nil [75 165]))          
+      :file "test_sign_in.py"
+      :pointmax 165
+      :fsize 164
+      :lastmodtime '(25052 60093 755806 52000)
+      :unmatched-syntax '((CLASS 40 . 45) ($EOI 64 . 64) (CLASS 40 . 45) ($EOI 58 . 58) (CLASS 40 . 45) ($EOI 51 . 51))))
+  :file "!Users!howinye!iOS!Scripts!Touch!Sign_in!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

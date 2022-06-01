@@ -1,0 +1,76 @@
+;; Object semanticdb-project-database-file-47c9f828
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-47c9f828"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-47c9f83a"
+      :major-mode python-mode
+      :tags 
+        '( ("appium.webdriver.common.appiumby" include nil nil [1 60])
+            ("selenium.webdriver.support.ui" include nil nil [61 116])
+            ("selenium.webdriver.support" include nil nil [117 181])
+            ("Domain" type
+               (:members 
+                  ( ("DOMAIN_TAG" variable nil (reparse-symbol indented_block_body) [202 260])
+                    ("DOMAIN_GENERAL" variable nil (reparse-symbol indented_block_body) [265 324])
+                    ("DOMAIN_CUSTOMIZE" variable nil (reparse-symbol indented_block_body) [329 396])
+                    ("DOMAIN_ZOOM" variable nil (reparse-symbol indented_block_body) [402 861])
+                    ("DOMAIN_ZOOMGOV" variable nil (reparse-symbol indented_block_body) [867 1329])
+                    ("choose_gov_domain" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [1688 1691])
+                            ("driver" variable nil (reparse-symbol function_parameters) [1693 1699]))                          )
+                        (reparse-symbol indented_block_body) [1649 1960])
+                    ("back" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [1991 1994])
+                            ("driver" variable nil (reparse-symbol function_parameters) [1996 2002]))                          )
+                        (reparse-symbol indented_block_body) [1965 2163]))                  
+                :type "class")
+                nil [184 2163]))          
+      :file "Domain.py"
+      :pointmax 2164
+      :fsize 2163
+      :lastmodtime '(25056 61771 925128 931000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4600ce58"
+      :major-mode python-mode
+      :tags 
+        '( ("pytest" include nil nil [1 14])
+            ("Domain" include nil nil [15 28])
+            ("" code nil nil [46 64])
+            ("choose_unlicensed_domain_norm_fixture" function (:arguments 
+              ( ("choose_unlicensed_domain_fixture" variable nil (reparse-symbol function_parameters) [107 139]))              ) nil [65 219])
+            ("" code nil nil [239 257])
+            ("choose_unlicensed_domain_gov_fixture" function (:arguments 
+              ( ("choose_unlicensed_domain_fixture" variable nil (reparse-symbol function_parameters) [299 331]))              ) nil [258 410]))          
+      :file "conftest.py"
+      :pointmax 410
+      :fsize 409
+      :lastmodtime '(25056 61910 916928 132000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-471fcd28"
+      :major-mode python-mode
+      :tags 
+        '( ("Test_domain" type
+               (:members 
+                  ( ("test_gov_domain" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [44 48])
+                            ("choose_unlicensed_domain_gov_fixture" variable nil (reparse-symbol function_parameters) [50 86]))                          )
+                        (reparse-symbol indented_block_body) [24 120]))                  
+                :type "class")
+                nil [1 120]))          
+      :file "test_domain.py"
+      :pointmax 120
+      :fsize 119
+      :lastmodtime '(25056 61843 638900 540000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!iPad_ZR!Unlicensed_Room!Setting!General!Domain!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

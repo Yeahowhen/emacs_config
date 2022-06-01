@@ -1,0 +1,25 @@
+;; Object semanticdb-project-database-file-43a1eea8
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-43a1eea8"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-43a1eeba"
+      :major-mode python-mode
+      :tags 
+        '( ("Share_ZR" type
+               (:members 
+                  ( ("SHARE_ZR_TAG" variable nil (reparse-symbol indented_block_body) [21 92])
+                    ("SHARE_ZR_CLOSE" variable nil (reparse-symbol indented_block_body) [97 154])
+                    ("SHARE_ZR_BACK" variable nil (reparse-symbol indented_block_body) [159 227])
+                    ("SHARE_ZR_FIELD" variable nil (reparse-symbol indented_block_body) [233 553])
+                    ("SHARE_ZR_NEXT" variable nil (reparse-symbol indented_block_body) [559 614]))                  
+                :type "class")
+                nil [1 615]))          
+      :file "Share_ZR.py"
+      :pointmax 615
+      :fsize 614
+      :lastmodtime '(25053 7985 117628 93000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!Touch!Sign_in!Email!Select_Room!Create_new_room!Share_ZR!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

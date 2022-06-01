@@ -1,0 +1,422 @@
+;; Object semanticdb-project-database-file-4321860a
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-4321860a"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-42ac4734"
+      :major-mode c++-mode
+      :tags 
+        '( ("_LIBCPP___RANDOM_UNIFORM_INT_DISTRIBUTION_H" variable (:constant-flag t) nil [431 474])
+            ("__bits" include (:system-flag t) nil [476 493])
+            ("__config" include (:system-flag t) nil [494 513])
+            ("cstddef" include (:system-flag t) nil [514 532])
+            ("cstdint" include (:system-flag t) nil [533 551])
+            ("iosfwd" include (:system-flag t) nil [552 569])
+            ("limits" include (:system-flag t) nil [570 587])
+            ("type_traits" include (:system-flag t) nil [588 610])
+            ("__undef_macros" include (:system-flag t) nil [716 741])
+            ("__log2_imp" type
+               (:template 
+                  ( ("unsigned long long" type (:typevar "_Xp") nil nil)
+                    ("size_t" type (:typevar "_Rp") nil nil))                  
+                :type "struct"
+                :members 
+                  ( ("value" variable (:type "int") (reparse-symbol classsubparts) [1016 1022]))                  )
+                nil [802 1025])
+            ("__log2_imp" type
+               (:template 
+                  ( ("unsigned long long" type (:typevar "_Xp") nil nil))                  
+                :type "struct"
+                :members 
+                  ( ("value" variable
+                       (:typemodifiers ("static")
+                        :constant-flag t
+                        :default-value "0"
+                        :type ("size_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1093 1123]))                  
+                :template-specifier 
+                  ( ("_Xp" type nil nil nil)
+                    ("0"))                  )
+                nil [1027 1126])
+            ("__log2_imp" type
+               (:template 
+                  ( ("size_t" type (:typevar "_Rp") nil nil))                  
+                :type "struct"
+                :members 
+                  ( ("value" variable
+                       (:typemodifiers ("static")
+                        :constant-flag t
+                        :default-value "_Rp + 1"
+                        :type ("size_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1182 1218]))                  
+                :template-specifier (("0") ("_Rp" type nil nil nil)))
+                nil [1128 1221])
+            ("__log2" type
+               (:template 
+                  ( ("_UIntType" type (:type "class") nil nil)
+                    ("_UIntType" type (:typevar "_Xp") nil nil))                  
+                :type "struct"
+                :members 
+                  ( ("value" variable (:type "int") (reparse-symbol classsubparts) [1409 1415]))                  )
+                nil [1223 1418])
+            ("__independent_bits_engine" type
+               (:template 
+                  ( ("_Engine" type (:type "class") nil nil)
+                    ("_UIntType" type (:type "class") nil nil))                  
+                :type "class"
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [1495 1502])
+                    ("result_type" type
+                       (:typedef ("_UIntType" type (:type "class") nil nil)
+                        :type "typedef")
+                        (reparse-symbol classsubparts) [1520 1550])
+                    ("private" label nil (reparse-symbol classsubparts) [1552 1560])
+                    ("_Engine_result_type" type
+                       (:typedef ("_Engine::result_type" type (:type "class") nil nil)
+                        :type "typedef")
+                        (reparse-symbol classsubparts) [1565 1623])
+                    ("_Working_result_type" variable (:type ("type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1807 1833])
+                    ("__e_" variable (:type ("_Engine" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1839 1853])
+                    ("__w_" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1858 1870])
+                    ("__w0_" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1875 1888])
+                    ("__n_" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1893 1905])
+                    ("__n0_" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1910 1923])
+                    ("__y0_" variable (:type ("_Working_result_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1928 1955])
+                    ("__y1_" variable (:type ("_Working_result_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1960 1987])
+                    ("__mask0_" variable (:type ("_Engine_result_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1992 2021])
+                    ("__mask1_" variable (:type ("_Engine_result_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2026 2055])
+                    ("_Working_result_type" function
+                       (:prototype-flag t
+                        :type "int")
+                        (reparse-symbol classsubparts) [2382 2406])
+                    ("__log2::value" variable (:type "int") (reparse-symbol classsubparts) [2462 2503])
+                    ("numeric_limits::digits" variable (:type "int") (reparse-symbol classsubparts) [2553 2598])
+                    ("numeric_limits::digits" variable (:type "int") (reparse-symbol classsubparts) [2648 2692])
+                    ("public" label nil (reparse-symbol classsubparts) [2694 2701])
+                    ("__independent_bits_engine" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("__e" variable
+                               (:reference 1
+                                :type ("_Engine" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2774 2787])
+                            ("__w" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2788 2799]))                          
+                        :type ("__independent_bits_engine" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [2748 2800])
+                    ("()" function
+                       (:operator-flag t
+                        :type ("result_type" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [2834 2912])
+                    ("private" label nil (reparse-symbol classsubparts) [2914 2922])
+                    ("__eval" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type ("false_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2946 2957]))                          
+                        :type ("result_type" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [2927 2958])
+                    ("__eval" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type ("true_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2982 2992]))                          
+                        :type ("result_type" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [2963 2993]))                  )
+                nil [1420 2996])
+            ("__independent_bits_engine" function
+               (:template 
+                  ( ("_Engine" type (:type "class") nil nil)
+                    ("_UIntType" type (:type "class") nil nil))                  
+                :type ("__independent_bits_engine" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__e" variable
+                       (:reference 1
+                        :type ("_Engine" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3117 3130])
+                    ("__w" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3131 3142]))                  
+                :parent "__independent_bits_engine"
+                :constructor-flag t)
+                nil [2998 4021])
+            ("__eval" function
+               (:template 
+                  ( ("_Engine" type (:type "class") nil nil)
+                    ("_UIntType" type (:type "class") nil nil))                  
+                :type ("_UIntType" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable (:type ("false_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4135 4146]))                  
+                :typemodifiers ("inline")
+                :parent "__independent_bits_engine")
+                nil [4023 4206])
+            ("__eval" function
+               (:template 
+                  ( ("_Engine" type (:type "class") nil nil)
+                    ("_UIntType" type (:type "class") nil nil))                  
+                :type ("_UIntType" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable (:type ("true_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4313 4323]))                  
+                :parent "__independent_bits_engine")
+                nil [4208 5048])
+            ("uniform_int_distribution" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [5114 5121])
+                    ("result_type" type
+                       (:typedef ("_IntType" type (:type "class") nil nil)
+                        :type "typedef")
+                        (reparse-symbol classsubparts) [5139 5168])
+                    ("param_type" type
+                       (:members 
+                          ( ("__a_" variable (:type ("result_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [5205 5222])
+                            ("__b_" variable (:type ("result_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [5231 5248])
+                            ("public" label nil (reparse-symbol classsubparts) [5253 5260])
+                            ("distribution_type" type
+                               (:typedef ("uniform_int_distribution" type (:type "class") nil nil)
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [5269 5320])
+                            ("param_type" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("__a" variable
+                                       (:default-value "0"
+                                        :type ("result_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5350 5369])
+                                    ("__b" variable
+                                       (:default-value "numeric_limits<result_type>::max()"
+                                        :type ("result_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5399 5451]))                                  
+                                :type ("param_type" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5339 5490])
+                            ("a" function
+                               (:methodconst-flag t
+                                :type ("result_type" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5500 5536])
+                            ("b" function
+                               (:methodconst-flag t
+                                :type ("result_type" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5545 5581])
+                            ("==" function
+                               (:operator-flag t
+                                :typemodifiers ("friend")
+                                :arguments 
+                                  ( ("__x" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("param_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5614 5636])
+                                    ("__y" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("param_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5637 5659]))                                  
+                                :type "bool")
+                                (reparse-symbol classsubparts) [5591 5726])
+                            ("!=" function
+                               (:operator-flag t
+                                :typemodifiers ("friend")
+                                :arguments 
+                                  ( ("__x" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("param_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5758 5780])
+                                    ("__y" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("param_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5781 5803]))                                  
+                                :type "bool")
+                                (reparse-symbol classsubparts) [5735 5839]))                          
+                        :type "class")
+                        (reparse-symbol classsubparts) [5174 5846])
+                    ("private" label nil (reparse-symbol classsubparts) [5848 5856])
+                    ("__p_" variable (:type ("param_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [5861 5877])
+                    ("public" label nil (reparse-symbol classsubparts) [5879 5886])
+                    ("uniform_int_distribution" function
+                       (:constructor-flag t
+                        :type ("uniform_int_distribution" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [5958 6017])
+                    ("uniform_int_distribution" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("__a" variable (:type ("result_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6065 6081])
+                            ("__b" variable
+                               (:default-value "numeric_limits<result_type>::max()"
+                                :type ("result_type" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6082 6134]))                          
+                        :type ("uniform_int_distribution" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [6031 6175])
+                    ("uniform_int_distribution" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("__p" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("param_type" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6397 6419]))                          
+                        :type ("uniform_int_distribution" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [6372 6434])
+                    ("reset" function (:type "void") (reparse-symbol classsubparts) [6439 6454])
+                    ("()" function
+                       (:template 
+                          ( ("_URNG" type (:type "class") nil nil))                          
+                        :type ("result_type" type (:type "class") nil nil)
+                        :arguments 
+                          ( ("__g" variable
+                               (:reference 1
+                                :type ("_URNG" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6533 6544]))                          
+                        :operator-flag t)
+                        (reparse-symbol classsubparts) [6488 6581])
+                    ("()" function
+                       (:template 
+                          ( ("_URNG" type (:type "class") nil nil))                          
+                        :type ("result_type" type (:type "class") nil nil)
+                        :arguments 
+                          ( ("__g" variable
+                               (:reference 1
+                                :type ("_URNG" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6631 6642])
+                            ("__p" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("param_type" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6643 6665]))                          
+                        :operator-flag t
+                        :prototype-flag t)
+                        (reparse-symbol classsubparts) [6586 6666])
+                    ("a" function
+                       (:methodconst-flag t
+                        :type ("result_type" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [6698 6738])
+                    ("b" function
+                       (:methodconst-flag t
+                        :type ("result_type" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [6743 6783])
+                    ("param" function
+                       (:methodconst-flag t
+                        :type ("param_type" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [6789 6828])
+                    ("param" function
+                       (:arguments 
+                          ( ("__p" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("param_type" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6844 6866]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [6833 6880])
+                    ("min" function
+                       (:methodconst-flag t
+                        :type ("result_type" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [6886 6923])
+                    ("max" function
+                       (:methodconst-flag t
+                        :type ("result_type" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [6928 6965])
+                    ("==" function
+                       (:operator-flag t
+                        :typemodifiers ("friend")
+                        :arguments 
+                          ( ("__x" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("uniform_int_distribution" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6994 7030])
+                            ("__y" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("uniform_int_distribution" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [7058 7094]))                          
+                        :type "bool")
+                        (reparse-symbol classsubparts) [6971 7133])
+                    ("!=" function
+                       (:operator-flag t
+                        :typemodifiers ("friend")
+                        :arguments 
+                          ( ("__x" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("uniform_int_distribution" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [7161 7197])
+                            ("__y" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("uniform_int_distribution" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [7225 7261]))                          
+                        :type "bool")
+                        (reparse-symbol classsubparts) [7138 7297]))                  
+                :type "class")
+                nil [5081 7300])
+            ("<<" function
+               (:template 
+                  ( ("_CharT" type (:type "class") nil nil)
+                    ("_Traits" type (:type "class") nil nil)
+                    ("_IT" type (:type "class") nil nil))                  
+                :type ("basic_ostream" type
+                     (:template-specifier 
+                        ( ("_CharT" type nil nil nil)
+                          ("_Traits" type nil nil nil))                        
+                      :type "class")
+                      nil nil)
+                :arguments 
+                  ( ("__os" variable
+                       (:reference 1
+                        :type ("basic_ostream" type
+                             (:template-specifier 
+                                ( ("_CharT" type nil nil nil)
+                                  ("_Traits" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [8395 8432])
+                    ("__x" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("uniform_int_distribution" type
+                             (:template-specifier 
+                                ( ("_IT" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [8444 8485]))                  
+                :operator-flag t)
+                nil [8302 8739])
+            (">>" function
+               (:template 
+                  ( ("_CharT" type (:type "class") nil nil)
+                    ("_Traits" type (:type "class") nil nil)
+                    ("_IT" type (:type "class") nil nil))                  
+                :type ("basic_istream" type
+                     (:template-specifier 
+                        ( ("_CharT" type nil nil nil)
+                          ("_Traits" type nil nil nil))                        
+                      :type "class")
+                      nil nil)
+                :arguments 
+                  ( ("__is" variable
+                       (:reference 1
+                        :type ("basic_istream" type
+                             (:template-specifier 
+                                ( ("_CharT" type nil nil nil)
+                                  ("_Traits" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [8834 8871])
+                    ("__x" variable
+                       (:reference 1
+                        :type ("uniform_int_distribution" type
+                             (:template-specifier 
+                                ( ("_IT" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [8883 8918]))                  
+                :operator-flag t)
+                nil [8741 9367]))          
+      :file "uniform_int_distribution.h"
+      :pointmax 9470
+      :fsize 9469
+      :lastmodtime '(25092 51054 0 0)
+      :unmatched-syntax '((symbol 9396 . 9414) (symbol 9369 . 9394) (semantic-list 7533 . 8300) (symbol 7488 . 7532) (semantic-list 7452 . 7487) (semantic-list 7450 . 7452) (OPERATOR 7442 . 7450) (punctuation 7441 . 7442) (punctuation 7440 . 7441) (punctuation 7439 . 7440) (symbol 7431 . 7439) (punctuation 7430 . 7431) (symbol 7406 . 7430) (symbol 7394 . 7405) (punctuation 7393 . 7394) (punctuation 7392 . 7393) (punctuation 7391 . 7392) (symbol 7383 . 7391) (punctuation 7382 . 7383) (symbol 7358 . 7382) (TYPENAME 7349 . 7357) (punctuation 7347 . 7348) (symbol 7342 . 7347) (CLASS 7336 . 7341) (punctuation 7335 . 7336) (TEMPLATE 7327 . 7335) (punctuation 7325 . 7326) (symbol 7317 . 7325) (CLASS 7311 . 7316) (punctuation 7310 . 7311) (TEMPLATE 7302 . 7310) (EXPLICIT 6363 . 6371) (EXPLICIT 6022 . 6030) (EXPLICIT 5330 . 5338) (EXPLICIT 5330 . 5338) (punctuation 5079 . 5080) (INT 5076 . 5079) (punctuation 5074 . 5075) (symbol 5065 . 5073) (CLASS 5059 . 5064) (punctuation 5058 . 5059) (TEMPLATE 5050 . 5058) (punctuation 2646 . 2647) (symbol 2641 . 2645) (symbol 2634 . 2640) (CONST 2628 . 2633) (symbol 2610 . 2627) (STATIC 2603 . 2609) (punctuation 2551 . 2552) (symbol 2546 . 2550) (symbol 2539 . 2545) (CONST 2533 . 2538) (symbol 2515 . 2532) (STATIC 2508 . 2514) (punctuation 2460 . 2461) (symbol 2456 . 2459) (symbol 2449 . 2455) (CONST 2443 . 2448) (symbol 2425 . 2442) (STATIC 2418 . 2424) (number 2403 . 2404) (punctuation 2380 . 2381) (semantic-list 2323 . 2325) (symbol 2320 . 2323) (punctuation 2319 . 2320) (punctuation 2318 . 2319) (symbol 2311 . 2318) (punctuation 2309 . 2310) (semantic-list 2306 . 2308) (symbol 2303 . 2306) (punctuation 2302 . 2303) (punctuation 2301 . 2302) (symbol 2294 . 2301) (punctuation 2292 . 2293) (symbol 2288 . 2291) (symbol 2267 . 2287) (CONST 2261 . 2266) (symbol 2243 . 2260) (STATIC 2236 . 2242) (punctuation 1806 . 1807) (punctuation 1805 . 1806) (punctuation 1804 . 1805) (symbol 1776 . 1795) (punctuation 1758 . 1759) (symbol 1747 . 1758) (punctuation 1729 . 1730) (semantic-list 1716 . 1729) (SIZEOF 1710 . 1716) (punctuation 1708 . 1709) (punctuation 1707 . 1708) (semantic-list 1685 . 1706) (SIZEOF 1679 . 1685) (punctuation 1665 . 1666) (symbol 1645 . 1656) (TYPENAME 1636 . 1644) (TYPEDEF 1628 . 1635) (punctuation 1408 . 1409) (punctuation 1407 . 1408) (punctuation 1406 . 1407) (number 1405 . 1406) (punctuation 1403 . 1404) (symbol "8" 1390 . 1402) (punctuation 1388 . 1389) (semantic-list 1376 . 1387) (SIZEOF 1370 . 1376) (punctuation 1327 . 1328) (symbol 1324 . 1327) (punctuation 1323 . 1324) (symbol 1313 . 1323) (punctuation 1311 . 1312) (symbol 1305 . 1310) (symbol 1298 . 1304) (CONST 1292 . 1297) (STATIC 1285 . 1291) (punctuation 1015 . 1016) (punctuation 1014 . 1015) (punctuation 1013 . 1014) (number 1012 . 1013) (punctuation 1010 . 1011) (symbol 1006 . 1009) (punctuation 1004 . 1005) (symbol 1001 . 1004) (punctuation 1000 . 1001) (symbol 990 . 1000) (punctuation 988 . 989) (symbol 941 . 944) (punctuation 939 . 940) (semantic-list 906 . 938) (punctuation 904 . 905) (symbol 900 . 903) (punctuation 898 . 899) (symbol 892 . 897) (symbol 885 . 891) (CONST 879 . 884) (STATIC 872 . 878) (symbol 743 . 770) (symbol 696 . 715) (symbol 674 . 687) (symbol 670 . 673) (symbol 663 . 669) (punctuation 662 . 663))
+      :lexical-table 
+        '(("_LIBCPP___RANDOM_UNIFORM_INT_DISTRIBUTION_H")
+          )
+))
+  :file "!Applications!Xcode.app!Contents!Developer!Platforms!MacOSX.platform!Developer!SDKs!MacOSX.sdk!usr!include!c++!v1!__random!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

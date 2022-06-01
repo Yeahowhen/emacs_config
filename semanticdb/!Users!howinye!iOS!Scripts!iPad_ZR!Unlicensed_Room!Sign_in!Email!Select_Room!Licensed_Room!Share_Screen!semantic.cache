@@ -1,0 +1,115 @@
+;; Object semanticdb-project-database-file-472b23de
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-472b23de"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-436afd5c"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"
+--------------------------------------
+@Project: iPad_ZR_auto_test
+@Time: 2021/1/10
+@Auth: Howin Ye
+@Email: howin.ye@zoom.us
+@File: Share_screen.py
+@Tools: Emacs
+--------------------------------------
+\"\"\"" code nil nil [65 273])
+            ("appium.webdriver.common.appiumby" include nil nil [275 334])
+            ("selenium.webdriver.support.ui" include nil nil [335 390])
+            ("selenium.webdriver.support" include nil nil [391 455])
+            ("appium.webdriver.common.touch_action" include nil nil [456 516])
+            ("Share_screen" type
+               (:members 
+                  ( ("SHARE_SCREEN_TAG" variable nil (reparse-symbol indented_block_body) [543 618])
+                    ("SHARE_SCREEN_MORE" variable nil (reparse-symbol indented_block_body) [623 696])
+                    ("SHARE_SCREEN_CLOSE" variable nil (reparse-symbol indented_block_body) [701 762])
+                    ("SHARE_SCREEN_MORE_TAG" variable nil (reparse-symbol indented_block_body) [767 876])
+                    ("SHARE_SCREEN_MORE_SWITCH" variable nil (reparse-symbol indented_block_body) [881 989])
+                    ("share_screen_close" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [1035 1038])
+                            ("driver" variable nil (reparse-symbol function_parameters) [1040 1046]))                          )
+                        (reparse-symbol indented_block_body) [995 1223])
+                    ("share_screen_more" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [1267 1270])
+                            ("driver" variable nil (reparse-symbol function_parameters) [1272 1278]))                          )
+                        (reparse-symbol indented_block_body) [1228 1692])
+                    ("share_screen_more_switch" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [1743 1746])
+                            ("driver" variable nil (reparse-symbol function_parameters) [1748 1754]))                          )
+                        (reparse-symbol indented_block_body) [1697 2314]))                  
+                :type "class")
+                nil [519 2314]))          
+      :file "Share_screen.py"
+      :pointmax 2314
+      :fsize 2313
+      :lastmodtime '(25057 17952 506438 248000)
+      :unmatched-syntax '(($EOI 2314 . 2314)))
+    (semanticdb-table "semanticdb-table-436aa47a"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"
+--------------------------------------
+@Project: iPad_ZR_auto_test
+@Time: 2021/1/10
+@Auth: Howin Ye
+@Email: howin.ye@zoom.us
+@File: conftest.py
+@Tools: Emacs
+--------------------------------------
+\"\"\"" code nil nil [65 269])
+            ("Share_screen" include nil nil [285 310])
+            ("" code nil nil [327 345])
+            ("share_screen_more_fixture" function (:arguments 
+              ( ("share_screen_fixture" variable nil (reparse-symbol function_parameters) [376 396]))              ) nil [346 465])
+            ("" code nil nil [481 499])
+            ("share_screen_close_fixture" function (:arguments 
+              ( ("share_screen_fixture" variable nil (reparse-symbol function_parameters) [531 551]))              ) nil [500 621])
+            ("" code nil nil [637 655])
+            ("share_screen_more_switch_fixture" function (:arguments 
+              ( ("share_screen_fixture" variable nil (reparse-symbol function_parameters) [693 713]))              ) nil [656 789]))          
+      :file "conftest.py"
+      :pointmax 789
+      :fsize 788
+      :lastmodtime '(25057 17950 561888 790000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4369f8a4"
+      :major-mode python-mode
+      :tags 
+        '( ("Test_share_screen" type
+               (:members 
+                  ( ("'''
+    def test_share_screen_switch(self, touch_fixture, sign_in_fixture, email_fixture, email_login_fixture, room_fixture, share_screen_fixture, share_screen_more_switch_fixture):
+        print('share screen switch')
+    '''" code nil (reparse-symbol indented_block_body) [30 256])
+                    ("test_share_screen_close" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [290 294])
+                            ("touch_fixture" variable nil (reparse-symbol function_parameters) [296 309])
+                            ("sign_in_fixture" variable nil (reparse-symbol function_parameters) [311 326])
+                            ("email_fixture" variable nil (reparse-symbol function_parameters) [328 341])
+                            ("email_login_fixture" variable nil (reparse-symbol function_parameters) [343 362])
+                            ("room_fixture" variable nil (reparse-symbol function_parameters) [364 376])
+                            ("share_screen_fixture" variable nil (reparse-symbol function_parameters) [378 398]))                          )
+                        (reparse-symbol indented_block_body) [262 465]))                  
+                :type "class")
+                nil [1 465]))          
+      :file "test_share_screen.py"
+      :pointmax 465
+      :fsize 128
+      :lastmodtime '(25057 17511 457717 280000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!iPad_ZR!Unlicensed_Room!Sign_in!Email!Select_Room!Licensed_Room!Share_Screen!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

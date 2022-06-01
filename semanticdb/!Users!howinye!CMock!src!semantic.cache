@@ -1,0 +1,334 @@
+;; Object semanticdb-project-database-file-50e0a900
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-50e0a900"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-50e0a8a0"
+      :major-mode c-mode
+      :tags 
+        '( ("cmock.h" include nil nil [290 308])
+            ("CMockStringOutOfMemory" variable
+               (:type "char"
+                :default-value "\"CMock has run out of memory. Please allocate more.\""
+                :constant-flag t
+                :pointer 1)
+                nil [353 443])
+            ("CMockStringCalledMore" variable
+               (:type "char"
+                :default-value "\"Called more times than expected.\""
+                :constant-flag t
+                :pointer 1)
+                nil [444 516])
+            ("CMockStringCalledLess" variable
+               (:type "char"
+                :default-value "\"Called fewer times than expected.\""
+                :constant-flag t
+                :pointer 1)
+                nil [517 590])
+            ("CMockStringCalledEarly" variable
+               (:type "char"
+                :default-value "\"Called earlier than expected.\""
+                :constant-flag t
+                :pointer 1)
+                nil [591 660])
+            ("CMockStringCalledLate" variable
+               (:type "char"
+                :default-value "\"Called later than expected.\""
+                :constant-flag t
+                :pointer 1)
+                nil [661 728])
+            ("CMockStringCallOrder" variable
+               (:type "char"
+                :default-value "\"Called out of order.\""
+                :constant-flag t
+                :pointer 1)
+                nil [729 789])
+            ("CMockStringIgnPreExp" variable
+               (:type "char"
+                :default-value "\"IgnoreArg called before Expect.\""
+                :constant-flag t
+                :pointer 1)
+                nil [790 861])
+            ("CMockStringPtrPreExp" variable
+               (:type "char"
+                :default-value "\"ReturnThruPtr called before Expect.\""
+                :constant-flag t
+                :pointer 1)
+                nil [862 937])
+            ("CMockStringPtrIsNULL" variable
+               (:type "char"
+                :default-value "\"Pointer is NULL.\""
+                :constant-flag t
+                :pointer 1)
+                nil [938 994])
+            ("CMockStringExpNULL" variable
+               (:type "char"
+                :default-value "\"Expected NULL.\""
+                :constant-flag t
+                :pointer 1)
+                nil [995 1049])
+            ("CMockStringMismatch" variable
+               (:type "char"
+                :default-value "\"Function called with unexpected argument value.\""
+                :constant-flag t
+                :pointer 1)
+                nil [1050 1137])
+            ("CMock_Guts_Buffer" variable
+               (:type "unsigned char"
+                :typemodifiers ("static")
+                :dereference 1)
+                nil [1399 1486])
+            ("CMock_Guts_BufferSize" variable
+               (:type ("CMOCK_MEM_INDEX_TYPE" type (:type "class") nil nil)
+                :default-value "CMOCK_MEM_SIZE + CMOCK_MEM_ALIGN_SIZE"
+                :typemodifiers ("static"))
+                nil [1487 1579])
+            ("CMock_Guts_FreePtr" variable
+               (:type ("CMOCK_MEM_INDEX_TYPE" type (:type "class") nil nil)
+                :default-value "CMOCK_MEM_ALIGN_SIZE"
+                :typemodifiers ("static"))
+                nil [1580 1652])
+            ("CMock_Guts_MemNew" function
+               (:type ("CMOCK_MEM_INDEX_TYPE" type (:type "class") nil nil)
+                :arguments 
+                  ( ("size" variable (:type ("CMOCK_MEM_INDEX_TYPE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1839 1865]))                  )
+                nil [1800 3166])
+            ("CMock_Guts_MemChain" function
+               (:type ("CMOCK_MEM_INDEX_TYPE" type (:type "class") nil nil)
+                :arguments 
+                  ( ("root_index" variable (:type ("CMOCK_MEM_INDEX_TYPE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3350 3382])
+                    ("obj_index" variable (:type ("CMOCK_MEM_INDEX_TYPE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3383 3414]))                  )
+                nil [3309 4583])
+            ("CMock_Guts_MemNext" function
+               (:type ("CMOCK_MEM_INDEX_TYPE" type (:type "class") nil nil)
+                :arguments 
+                  ( ("previous_item_index" variable (:type ("CMOCK_MEM_INDEX_TYPE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4765 4806]))                  )
+                nil [4725 5481])
+            ("CMock_Guts_MemEndOfChain" function
+               (:type ("CMOCK_MEM_INDEX_TYPE" type (:type "class") nil nil)
+                :arguments 
+                  ( ("root_index" variable (:type ("CMOCK_MEM_INDEX_TYPE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5675 5707]))                  )
+                nil [5629 5956])
+            ("CMock_Guts_GetAddressFor" function
+               (:type "void"
+                :arguments 
+                  ( ("index" variable (:type ("CMOCK_MEM_INDEX_TYPE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6130 6157]))                  
+                :pointer 1)
+                nil [6099 6319])
+            ("CMock_Guts_MemBytesCapacity" function
+               (:type ("CMOCK_MEM_INDEX_TYPE" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [6519 6524]))                  )
+                nil [6470 6589])
+            ("CMock_Guts_MemBytesFree" function
+               (:type ("CMOCK_MEM_INDEX_TYPE" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [6781 6786]))                  )
+                nil [6736 6843])
+            ("CMock_Guts_MemBytesUsed" function
+               (:type ("CMOCK_MEM_INDEX_TYPE" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [7035 7040]))                  )
+                nil [6990 7096])
+            ("CMock_Guts_MemFreeAll" function
+               (:type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [7268 7273]))                  )
+                nil [7241 7352])
+            ("CMock_Guts_MemFreeFinal" function
+               (:type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [7528 7533]))                  )
+                nil [7499 7706]))          
+      :file "cmock.c"
+      :pointmax 7708
+      :fsize 7707
+      :lastmodtime '(25037 31889 757171 397000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-50e0a8c0"
+      :major-mode c-mode
+      :tags 
+        '( ("CMOCK_FRAMEWORK_H" variable (:constant-flag t) nil [324 341])
+            ("cmock_internals.h" include nil nil [343 371])
+            ("CMOCK_VERSION_MAJOR" variable (:constant-flag t) nil [381 400])
+            ("CMOCK_VERSION_MINOR" variable (:constant-flag t) nil [414 433])
+            ("CMOCK_VERSION_BUILD" variable (:constant-flag t) nil [447 466])
+            ("CMOCK_VERSION" variable (:constant-flag t) nil [480 493])
+            ("stddef.h" include (:system-flag t) nil [678 697])
+            ("CMOCK_MEM_INDEX_TYPE" variable (:constant-flag t) nil [706 726])
+            ("CMOCK_GUTS_NONE" variable (:constant-flag t) nil [751 766])
+            ("CMOCK_FUNCTION_ATTR" variable (:constant-flag t) nil [807 826])
+            ("CMock_Guts_MemNew" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("size" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1083 1109]))                  
+                :type ("size_t" type (:type "class") nil nil))
+                nil [1043 1110])
+            ("CMock_Guts_MemChain" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("root_index" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1153 1185])
+                    ("obj_index" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1186 1217]))                  
+                :type ("size_t" type (:type "class") nil nil))
+                nil [1111 1218])
+            ("CMock_Guts_MemNext" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("previous_item_index" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1260 1301]))                  
+                :type ("size_t" type (:type "class") nil nil))
+                nil [1219 1328])
+            ("CMock_Guts_MemEndOfChain" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("root_index" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1376 1408]))                  
+                :type ("size_t" type (:type "class") nil nil))
+                nil [1329 1435])
+            ("CMock_Guts_GetAddressFor" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("index" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1484 1511]))                  
+                :type "void")
+                nil [1437 1538])
+            ("CMock_Guts_MemBytesCapacity" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1589 1594]))                  
+                :type ("size_t" type (:type "class") nil nil))
+                nil [1540 1622])
+            ("CMock_Guts_MemBytesFree" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1669 1674]))                  
+                :type ("size_t" type (:type "class") nil nil))
+                nil [1623 1701])
+            ("CMock_Guts_MemBytesUsed" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1748 1753]))                  
+                :type ("size_t" type (:type "class") nil nil))
+                nil [1702 1780])
+            ("CMock_Guts_MemFreeAll" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1825 1830]))                  
+                :type "void")
+                nil [1781 1831])
+            ("CMock_Guts_MemFreeFinal" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1878 1883]))                  
+                :type "void")
+                nil [1832 1884]))          
+      :file "cmock.h"
+      :pointmax 1924
+      :fsize 1923
+      :lastmodtime '(25037 31889 757305 650000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("CMOCK_VERSION" . ((semantic-list "((CMOCK_VERSION_MAJOR << 16) | (CMOCK_VERSION_MINOR << 8) | CMOCK_VERSION_BUILD)" 503 . 583)))
+          ("CMOCK_MEM_INDEX_TYPE" . ((symbol "size_t" 728 . 734)))
+          ("CMOCK_VERSION_MAJOR" . ((number "2" 404 . 405)))
+          ("CMOCK_FRAMEWORK_H")
+          ("CMOCK_VERSION_MINOR" . ((number "5" 437 . 438)))
+          ("CMOCK_GUTS_NONE" . ((semantic-list "(0)" 769 . 772)))
+          ("CMOCK_FUNCTION_ATTR" (spp-arg-list ("a") 826 . 829) . ((symbol "__attribute__" 830 . 843) (semantic-list "((a))" 843 . 848)))
+          ("CMOCK_VERSION_BUILD" . ((number "4" 470 . 471)))
+          )
+)
+    (semanticdb-table "semanticdb-table-50e0a8e0"
+      :major-mode c-mode
+      :tags 
+        '( ("CMOCK_FRAMEWORK_INTERNALS_H" variable (:constant-flag t) nil [334 361])
+            ("unity.h" include nil nil [363 381])
+            ("CMockStringOutOfMemory" variable
+               (:pointer 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [449 491])
+            ("CMockStringCalledMore" variable
+               (:pointer 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [492 533])
+            ("CMockStringCalledLess" variable
+               (:pointer 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [534 575])
+            ("CMockStringCalledEarly" variable
+               (:pointer 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [576 618])
+            ("CMockStringCalledLate" variable
+               (:pointer 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [619 660])
+            ("CMockStringCallOrder" variable
+               (:pointer 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [661 701])
+            ("CMockStringIgnPreExp" variable
+               (:pointer 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [702 742])
+            ("CMockStringPtrPreExp" variable
+               (:pointer 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [743 783])
+            ("CMockStringPtrIsNULL" variable
+               (:pointer 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [784 824])
+            ("CMockStringExpNULL" variable
+               (:pointer 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [825 863])
+            ("CMockStringMismatch" variable
+               (:pointer 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [864 903])
+            ("CMOCK_MEM_PTR_AS_INT" variable (:constant-flag t) nil [1812 1832])
+            ("CMOCK_MEM_ALIGN" variable (:constant-flag t) nil [2252 2267])
+            ("CMOCK_MEM_SIZE" variable (:constant-flag t) nil [2386 2400])
+            ("CMOCK_MEM_ALIGN_SIZE" variable (:constant-flag t) nil [2480 2500])
+            ("CMOCK_MEM_ALIGN_MASK" variable (:constant-flag t) nil [2556 2576])
+            ("CMOCK_MEM_INDEX_SIZE" variable (:constant-flag t) nil [2635 2655]))          
+      :file "cmock_internals.h"
+      :pointmax 2861
+      :fsize 2860
+      :lastmodtime '(25037 31889 757433 819000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("CMOCK_MEM_SIZE" . ((semantic-list "(32768)" 2401 . 2408)))
+          ("CMOCK_MEM_INDEX_SIZE" . 
+              ((semantic-list "(CMOCK_MEM_INDEX_TYPE)" 2657 . 2679) (semantic-list "(CMOCK_MEM_PTR_AS_INT)" 2679 . 2701) (semantic-list "((sizeof(CMOCK_MEM_INDEX_TYPE) > CMOCK_MEM_ALIGN_SIZE) ? sizeof(CMOCK_MEM_INDEX_TYPE) : CMOCK_MEM_ALIGN_SIZE)" 2701 . 2810)))
+          ("CMOCK_MEM_ALIGN_MASK" . ((semantic-list "(CMOCK_MEM_INDEX_TYPE)" 2578 . 2600) (semantic-list "(CMOCK_MEM_ALIGN_SIZE - 1)" 2600 . 2626)))
+          ("CMOCK_FRAMEWORK_INTERNALS_H")
+          ("CMOCK_MEM_ALIGN_SIZE" . ((semantic-list "(CMOCK_MEM_INDEX_TYPE)" 2502 . 2524) (semantic-list "(1u << CMOCK_MEM_ALIGN)" 2524 . 2547)))
+          ("CMOCK_MEM_PTR_AS_INT" . ((UNSIGNED "unsigned" 1833 . 1841) (LONG "long" 1842 . 1846)))
+          ("CMOCK_MEM_ALIGN" . ((semantic-list "(2)" 2268 . 2271)))
+          )
+))
+  :file "!Users!howinye!CMock!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

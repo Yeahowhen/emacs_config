@@ -1,0 +1,19 @@
+;; Object semanticdb-project-database-file-467582a6
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-467582a6"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-467582b0"
+      :major-mode python-mode
+      :tags 
+        '( ("sys" include nil nil [43 53])
+            ("os" include nil nil [54 63])
+            ("if" code nil nil [65 1040]))          
+      :file "platforms.py"
+      :pointmax 1040
+      :fsize 1039
+      :lastmodtime '(25011 6523 955062 28000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!client-zapp-ta!platforms!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

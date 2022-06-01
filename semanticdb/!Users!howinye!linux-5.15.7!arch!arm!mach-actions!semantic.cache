@@ -1,0 +1,96 @@
+;; Object semanticdb-project-database-file-54ad8b34
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-54ad8b34"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-54ad8b46"
+      :major-mode c-mode
+      :tags 
+        '( ("linux/delay.h" include (:system-flag t) nil [242 266])
+            ("linux/io.h" include (:system-flag t) nil [267 288])
+            ("linux/of.h" include (:system-flag t) nil [289 310])
+            ("linux/of_address.h" include (:system-flag t) nil [311 340])
+            ("linux/smp.h" include (:system-flag t) nil [341 363])
+            ("linux/soc/actions/owl-sps.h" include (:system-flag t) nil [364 402])
+            ("asm/cacheflush.h" include (:system-flag t) nil [403 430])
+            ("asm/smp_plat.h" include (:system-flag t) nil [431 456])
+            ("asm/smp_scu.h" include (:system-flag t) nil [457 481])
+            ("OWL_CPU1_ADDR" variable (:constant-flag t) nil [491 504])
+            ("OWL_CPU1_FLAG" variable (:constant-flag t) nil [518 531])
+            ("OWL_CPUx_FLAG_BOOT" variable (:constant-flag t) nil [546 564])
+            ("OWL_SPS_PG_CTL_PWR_CPU2" variable (:constant-flag t) nil [581 604])
+            ("OWL_SPS_PG_CTL_PWR_CPU3" variable (:constant-flag t) nil [620 643])
+            ("OWL_SPS_PG_CTL_ACK_CPU2" variable (:constant-flag t) nil [659 682])
+            ("OWL_SPS_PG_CTL_ACK_CPU3" variable (:constant-flag t) nil [699 722])
+            ("scu_base_addr" variable
+               (:pointer 1
+                :type ("__iomem" type (:type "class") nil nil))
+                nil [744 767])
+            ("sps_base_addr" variable
+               (:pointer 1
+                :type ("__iomem" type (:type "class") nil nil))
+                nil [780 803])
+            ("timer_base_addr" variable
+               (:pointer 1
+                :type ("__iomem" type (:type "class") nil nil))
+                nil [816 841])
+            ("ncores" variable
+               (:typemodifiers ("static")
+                :type "int")
+                nil [842 860])
+            ("s500_wakeup_secondary" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("cpu" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [895 912]))                  
+                :type "int")
+                nil [862 1665])
+            ("s500_smp_boot_secondary" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("cpu" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [1702 1719])
+                    ("idle" variable
+                       (:pointer 1
+                        :type ("task_struct" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1720 1745]))                  
+                :type "int")
+                nil [1667 1996])
+            ("s500_smp_prepare_cpus" function
+               (:arguments 
+                  ( ("max_cpus" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [2039 2061]))                  
+                :type ("__init" type (:type "class") nil nil))
+                nil [2010 3245])
+            ("__initconst" variable
+               (:default-value "{
+	.smp_prepare_cpus = s500_smp_prepare_cpus,
+	.smp_boot_secondary = s500_smp_boot_secondary,
+}"
+                :type ("s500_smp_ops" type (:type "class") nil nil))
+                nil [3282 3405])
+            ("CPU_METHOD_OF_DECLARE" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("s500_smp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3428 3437])
+                    ("" variable (:type ("s500_smp_ops" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3459 3472]))                  
+                :type "int")
+                nil [3406 3473]))          
+      :file "platsmp.c"
+      :pointmax 3474
+      :fsize 3474
+      :lastmodtime '(25008 26409 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("OWL_SPS_PG_CTL_PWR_CPU2" . ((symbol "BIT" 605 . 608) (semantic-list "(5)" 608 . 611)))
+          ("OWL_SPS_PG_CTL_PWR_CPU3" . ((symbol "BIT" 644 . 647) (semantic-list "(6)" 647 . 650)))
+          ("OWL_SPS_PG_CTL_ACK_CPU2" . ((symbol "BIT" 683 . 686) (semantic-list "(21)" 686 . 690)))
+          ("OWL_SPS_PG_CTL_ACK_CPU3" . ((symbol "BIT" 723 . 726) (semantic-list "(22)" 726 . 730)))
+          ("OWL_CPU1_ADDR" . ((number "0x50" 505 . 509)))
+          ("OWL_CPUx_FLAG_BOOT" . ((number "0x55aa" 565 . 571)))
+          ("OWL_CPU1_FLAG" . ((number "0x5c" 532 . 536)))
+          )
+))
+  :file "!Users!howinye!linux-5.15.7!arch!arm!mach-actions!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

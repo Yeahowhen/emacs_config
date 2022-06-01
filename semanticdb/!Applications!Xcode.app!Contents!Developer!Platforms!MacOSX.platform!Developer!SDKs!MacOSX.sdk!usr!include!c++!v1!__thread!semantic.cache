@@ -1,0 +1,61 @@
+;; Object semanticdb-project-database-file-42ac5590
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-42ac5590"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-42ac66ec"
+      :major-mode c++-mode
+      :tags 
+        '( ("_LIBCPP___THREAD_POLL_WITH_BACKOFF_H" variable (:constant-flag t) nil [438 474])
+            ("__config" include (:system-flag t) nil [476 495])
+            ("chrono" include (:system-flag t) nil [496 513])
+            ("__libcpp_polling_count" variable
+               (:constant-flag t
+                :default-value "64"
+                :type "int")
+                nil [653 691])
+            ("__libcpp_thread_poll_with_backoff" function
+               (:arguments 
+                  ( ("" variable
+                       (:reference 1
+                        :type ("_Fn" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1514 1519])
+                    ("" variable (:type ("__f" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1520 1524])
+                    ("" variable
+                       (:reference 1
+                        :type ("_BFn" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1525 1531])
+                    ("" variable (:type ("__bf" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1532 1537])
+                    ("__max_elapsed" variable
+                       (:default-value "chrono::nanoseconds::zero()"
+                        :type ("chrono::nanoseconds" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1538 1601]))                  
+                :type "bool")
+                nil [1475 2171])
+            ("__spinning_backoff_policy" type
+               (:members 
+                  ( ("()" function
+                       (:methodconst-flag t
+                        :operator-flag t
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("chrono::nanoseconds" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2569 2596]))                          
+                        :type "bool")
+                        (reparse-symbol classsubparts) [2553 2628]))                  
+                :type "struct")
+                nil [2474 2631]))          
+      :file "poll_with_backoff.h"
+      :pointmax 2707
+      :fsize 2706
+      :lastmodtime '(25095 32640 0 0)
+      :unmatched-syntax '((symbol 2633 . 2658) (symbol 2533 . 2550) (symbol 2511 . 2532) (punctuation 1530 . 1531) (punctuation 1518 . 1519) (symbol 1453 . 1474) (symbol 1427 . 1452) (punctuation 1425 . 1426) (symbol 1421 . 1425) (CLASS 1415 . 1420) (punctuation 1413 . 1414) (symbol 1410 . 1413) (CLASS 1404 . 1409) (punctuation 1403 . 1404) (TEMPLATE 1395 . 1403) (symbol 635 . 652) (STATIC 628 . 634) (symbol 599 . 626) (symbol 577 . 590) (symbol 573 . 576) (symbol 566 . 572) (punctuation 565 . 566))
+      :lexical-table 
+        '(("_LIBCPP___THREAD_POLL_WITH_BACKOFF_H")
+          )
+))
+  :file "!Applications!Xcode.app!Contents!Developer!Platforms!MacOSX.platform!Developer!SDKs!MacOSX.sdk!usr!include!c++!v1!__thread!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

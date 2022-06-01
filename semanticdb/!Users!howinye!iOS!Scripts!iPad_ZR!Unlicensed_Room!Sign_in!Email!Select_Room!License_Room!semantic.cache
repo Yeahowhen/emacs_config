@@ -1,0 +1,362 @@
+;; Object semanticdb-project-database-file-437e4860
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-437e4860"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-437e4414"
+      :major-mode python-mode
+      :tags 
+        '( ("appium.webdriver.common.appiumby" include nil nil [1 60])
+            ("selenium.webdriver.support.ui" include nil nil [61 116])
+            ("selenium.webdriver.support" include nil nil [117 181])
+            ("appium.webdriver.common.touch_action" include nil nil [182 242])
+            ("Licensed_Room" type
+               (:members 
+                  ( ("NEW_MEETING" variable nil (reparse-symbol indented_block_body) [270 329])
+                    ("JOIN" variable nil (reparse-symbol indented_block_body) [334 379])
+                    ("PHONE" variable nil (reparse-symbol indented_block_body) [384 431])
+                    ("WHITE_BOARD" variable nil (reparse-symbol indented_block_body) [436 494])
+                    ("SHARE_SCREEN" variable nil (reparse-symbol indented_block_body) [499 560])
+                    ("CONTACTS" variable nil (reparse-symbol indented_block_body) [565 618])
+                    ("SETTING" variable nil (reparse-symbol indented_block_body) [623 675])
+                    ("ENTIRE_PAGE_XPATH" variable nil (reparse-symbol indented_block_body) [680 948])
+                    ("NEW_MEETING_XPATH" code nil (reparse-symbol indented_block_body) [953 1004])
+                    ("JOIN_XPATH" code nil (reparse-symbol indented_block_body) [1009 1046])
+                    ("PHONE_XPATH" code nil (reparse-symbol indented_block_body) [1051 1090])
+                    ("WHITE_BOARD_XPATH" code nil (reparse-symbol indented_block_body) [1095 1146])
+                    ("CONTACTS_XPATH" code nil (reparse-symbol indented_block_body) [1151 1196])
+                    ("SHARE_SCREEN_XPATH" code nil (reparse-symbol indented_block_body) [1201 1254])
+                    ("SETTING_XPATH" code nil (reparse-symbol indented_block_body) [1259 1302])
+                    ("MEETING_ICON" variable nil (reparse-symbol indented_block_body) [1308 1366])
+                    ("MEETING_VIDEO" variable nil (reparse-symbol indented_block_body) [1371 1451])
+                    ("MEETING_BAR" variable nil (reparse-symbol indented_block_body) [1456 1750])
+                    ("MEETING_JOIN_BY_LAPTOP" variable nil (reparse-symbol indented_block_body) [1756 1830])
+                    ("MEETING_JOIN_BY_PHONE" variable nil (reparse-symbol indented_block_body) [1835 1907])
+                    ("MEETING_ICON_BACKUP" variable nil (reparse-symbol indented_block_body) [1912 1996])
+                    ("MEETING_MUTE" variable nil (reparse-symbol indented_block_body) [2002 2056])
+                    ("MEETING_UNMUTE" variable nil (reparse-symbol indented_block_body) [2061 2119])
+                    ("MEETING_STOP_VIDEO" variable nil (reparse-symbol indented_block_body) [2124 2190])
+                    ("MEETING_START_VIDEO" variable nil (reparse-symbol indented_block_body) [2195 2263])
+                    ("MEETING_SHARE" variable nil (reparse-symbol indented_block_body) [2268 2331])
+                    ("MEETING_VIEW" variable nil (reparse-symbol indented_block_body) [2336 2390])
+                    ("MEETING_WHITE_BOARD" variable nil (reparse-symbol indented_block_body) [2395 2462])
+                    ("MEETING_REACTIONS" variable nil (reparse-symbol indented_block_body) [2467 2531])
+                    ("MEETING_MORE" variable nil (reparse-symbol indented_block_body) [2536 2590])
+                    ("MEETING_END" variable nil (reparse-symbol indented_block_body) [2595 2647])
+                    ("MEETING_CENTER_STAGE" variable nil (reparse-symbol indented_block_body) [2653 2732])
+                    ("MEETING_SHARE_CLOSE" variable nil (reparse-symbol indented_block_body) [2738 2800])
+                    ("MEETING_SHARE_MORE" variable nil (reparse-symbol indented_block_body) [2805 2879])
+                    ("MEETING_SHARE_TAG" variable nil (reparse-symbol indented_block_body) [2884 2960])
+                    ("MEETING_SHARE_MORE_OPTION_CLOSE" variable nil (reparse-symbol indented_block_body) [2965 3085])
+                    ("MEETING_SHARE_MORE_OPTION_BACK" variable nil (reparse-symbol indented_block_body) [3090 3175])
+                    ("MEETING_VIEW_THUMBNAIL" variable nil (reparse-symbol indented_block_body) [3181 3250])
+                    ("MEETING_VIEW_SPEAKER" variable nil (reparse-symbol indented_block_body) [3255 3320])
+                    ("MEETING_VIEW_GALLERY" variable nil (reparse-symbol indented_block_body) [3325 3390])
+                    ("MEETING_WHITE_BOARD_CLOSE" variable nil (reparse-symbol indented_block_body) [3396 3464])
+                    ("MEETING_WHITE_BOARD_TAG" variable nil (reparse-symbol indented_block_body) [3469 3561])
+                    ("MEETING_REACTIONS_YES" variable nil (reparse-symbol indented_block_body) [3567 3629])
+                    ("MEETING_REACTIONS_NO" variable nil (reparse-symbol indented_block_body) [3634 3694])
+                    ("MEETING_REACTIONS_SLOW_DOWN" variable nil (reparse-symbol indented_block_body) [3699 3773])
+                    ("MEETING_REACTIONS_SPEED_UP" variable nil (reparse-symbol indented_block_body) [3778 3850])
+                    ("MEETING_REACTIONS_I_AM_AWAY" variable nil (reparse-symbol indented_block_body) [3855 3928])
+                    ("MEETING_REACTIONS_RAISE_HAND" variable nil (reparse-symbol indented_block_body) [3933 4013])
+                    ("MEETING_MORE_LOW_HAND" variable nil (reparse-symbol indented_block_body) [4019 4088])
+                    ("MEETING_END_FOR_ALL" variable nil (reparse-symbol indented_block_body) [4094 4170])
+                    ("MEETING_END_LEAVE" variable nil (reparse-symbol indented_block_body) [4175 4243])
+                    ("JOIN_INNER_JOIN" variable nil (reparse-symbol indented_block_body) [4316 4378])
+                    ("JOIN_WITH_PERSONAL_LINK_NAME" variable nil (reparse-symbol indented_block_body) [4383 4479])
+                    ("JOIN_MEETING_DICT" variable nil (reparse-symbol indented_block_body) [4485 5021])
+                    ("JOIN_MEETING_WITH_PERNONAL_LINK_NAME_BOX" variable nil (reparse-symbol indented_block_body) [5027 5370])
+                    ("JOIN_MEETING_WITH_PERNONAL_LINK_NAME_JOIN" variable nil (reparse-symbol indented_block_body) [5375 5463])
+                    ("PHONE_XPATH" variable nil (reparse-symbol indented_block_body) [5469 5527])
+                    ("PHONE_CLOSE_XPATH" variable nil (reparse-symbol indented_block_body) [5532 5592])
+                    ("SHARE_SCREEN_TAG" variable nil (reparse-symbol indented_block_body) [5598 5673])
+                    ("SHARE_SCREEN_MORE" variable nil (reparse-symbol indented_block_body) [5678 5751])
+                    ("SHARE_SCREEN_CLOSE" variable nil (reparse-symbol indented_block_body) [5756 5817])
+                    ("SHARE_SCREEN_MORE_TAG" variable nil (reparse-symbol indented_block_body) [5822 5931])
+                    ("SETTING_SIGN_OUT" variable nil (reparse-symbol indented_block_body) [5937 6401])
+                    ("SETTING_SIGN_OUT_BOX" variable nil (reparse-symbol indented_block_body) [6406 6672])
+                    ("SETTING_SIGN_OUT_OK" variable nil (reparse-symbol indented_block_body) [6677 6736])
+                    ("new_meeting" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [6775 6778])
+                            ("driver" variable nil (reparse-symbol function_parameters) [6780 6786]))                          )
+                        (reparse-symbol indented_block_body) [6742 7076])
+                    ("mute" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [9060 9063])
+                            ("driver" variable nil (reparse-symbol function_parameters) [9065 9071]))                          )
+                        (reparse-symbol indented_block_body) [9034 9335])
+                    ("unmute" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [9368 9371])
+                            ("driver" variable nil (reparse-symbol function_parameters) [9373 9379]))                          )
+                        (reparse-symbol indented_block_body) [9340 9645])
+                    ("stop_video" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [9682 9685])
+                            ("driver" variable nil (reparse-symbol function_parameters) [9687 9693]))                          )
+                        (reparse-symbol indented_block_body) [9650 9965])
+                    ("start_video" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [10003 10006])
+                            ("driver" variable nil (reparse-symbol function_parameters) [10008 10014]))                          )
+                        (reparse-symbol indented_block_body) [9970 10287])
+                    ("share_screen" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [10326 10329])
+                            ("driver" variable nil (reparse-symbol function_parameters) [10331 10337]))                          )
+                        (reparse-symbol indented_block_body) [10292 10711])
+                    ("share_screen_close" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [10756 10759])
+                            ("driver" variable nil (reparse-symbol function_parameters) [10761 10767]))                          )
+                        (reparse-symbol indented_block_body) [10716 11040])
+                    ("share_screen_more" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [11084 11087])
+                            ("driver" variable nil (reparse-symbol function_parameters) [11089 11095]))                          )
+                        (reparse-symbol indented_block_body) [11045 11365])
+                    ("share_screen_more_close" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [11415 11418])
+                            ("driver" variable nil (reparse-symbol function_parameters) [11420 11426]))                          )
+                        (reparse-symbol indented_block_body) [11370 11711])
+                    ("view_speaker" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [11750 11753])
+                            ("driver" variable nil (reparse-symbol function_parameters) [11755 11761]))                          )
+                        (reparse-symbol indented_block_body) [11716 12240])
+                    ("view_thumbnail" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [12281 12284])
+                            ("driver" variable nil (reparse-symbol function_parameters) [12286 12292]))                          )
+                        (reparse-symbol indented_block_body) [12245 12777])
+                    ("view_gallery" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [12816 12819])
+                            ("driver" variable nil (reparse-symbol function_parameters) [12821 12827]))                          )
+                        (reparse-symbol indented_block_body) [12782 13306])
+                    ("white_board" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [13344 13347])
+                            ("driver" variable nil (reparse-symbol function_parameters) [13349 13355]))                          )
+                        (reparse-symbol indented_block_body) [13311 13741])
+                    ("white_board_draw" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [13784 13787])
+                            ("driver" variable nil (reparse-symbol function_parameters) [13789 13795]))                          )
+                        (reparse-symbol indented_block_body) [13746 14038])
+                    ("white_board_close" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [14082 14085])
+                            ("driver" variable nil (reparse-symbol function_parameters) [14087 14093]))                          )
+                        (reparse-symbol indented_block_body) [14043 14372])
+                    ("reactions" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [14408 14411])
+                            ("driver" variable nil (reparse-symbol function_parameters) [14413 14419]))                          )
+                        (reparse-symbol indented_block_body) [14377 14698])
+                    ("reactions_raise_hand" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [14745 14748])
+                            ("driver" variable nil (reparse-symbol function_parameters) [14750 14756]))                          )
+                        (reparse-symbol indented_block_body) [14703 15034])
+                    ("more" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [15065 15068])
+                            ("driver" variable nil (reparse-symbol function_parameters) [15070 15076]))                          )
+                        (reparse-symbol indented_block_body) [15039 15340])
+                    ("more_low_hand" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [15380 15383])
+                            ("driver" variable nil (reparse-symbol function_parameters) [15385 15391]))                          )
+                        (reparse-symbol indented_block_body) [15345 15672])
+                    ("icon" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [15703 15706])
+                            ("driver" variable nil (reparse-symbol function_parameters) [15708 15714]))                          )
+                        (reparse-symbol indented_block_body) [15677 15978])
+                    ("icon_laptop" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [16016 16019])
+                            ("driver" variable nil (reparse-symbol function_parameters) [16021 16027]))                          )
+                        (reparse-symbol indented_block_body) [15983 16517])
+                    ("icon_phone" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [16554 16557])
+                            ("driver" variable nil (reparse-symbol function_parameters) [16559 16565]))                          )
+                        (reparse-symbol indented_block_body) [16522 17052])
+                    ("end" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [17082 17085])
+                            ("driver" variable nil (reparse-symbol function_parameters) [17087 17093]))                          )
+                        (reparse-symbol indented_block_body) [17057 17354])
+                    ("end_for_all" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [17392 17395])
+                            ("driver" variable nil (reparse-symbol function_parameters) [17397 17403]))                          )
+                        (reparse-symbol indented_block_body) [17359 17795])
+                    ("end_leave" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [17831 17834])
+                            ("driver" variable nil (reparse-symbol function_parameters) [17836 17842]))                          )
+                        (reparse-symbol indented_block_body) [17800 18236])
+                    ("test_setting" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [18258 18262])
+                            ("driver2" variable nil (reparse-symbol function_parameters) [18264 18271]))                          )
+                        (reparse-symbol indented_block_body) [18241 19276]))                  
+                :type "class")
+                nil [245 19276]))          
+      :file "License_Room.py"
+      :pointmax 19276
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-437acc30"
+      :major-mode python-mode
+      :tags 
+        '( ("appium.webdriver.common.appiumby" include nil nil [1 60])
+            ("selenium.webdriver.support.ui" include nil nil [61 116])
+            ("selenium.webdriver.support" include nil nil [117 181])
+            ("appium.webdriver.common.touch_action" include nil nil [182 242])
+            ("Licensed_Room" type
+               (:members 
+                  ( ("NEW_MEETING" variable nil (reparse-symbol indented_block_body) [270 329])
+                    ("JOIN" variable nil (reparse-symbol indented_block_body) [334 379])
+                    ("PHONE" variable nil (reparse-symbol indented_block_body) [384 431])
+                    ("WHITE_BOARD" variable nil (reparse-symbol indented_block_body) [436 494])
+                    ("SHARE_SCREEN" variable nil (reparse-symbol indented_block_body) [499 560])
+                    ("CONTACTS" variable nil (reparse-symbol indented_block_body) [565 618])
+                    ("SETTING" variable nil (reparse-symbol indented_block_body) [623 675])
+                    ("ENTIRE_PAGE_XPATH" variable nil (reparse-symbol indented_block_body) [680 948])
+                    ("NEW_MEETING_XPATH" code nil (reparse-symbol indented_block_body) [954 1005])
+                    ("JOIN_XPATH" code nil (reparse-symbol indented_block_body) [1010 1047])
+                    ("PHONE_XPATH" code nil (reparse-symbol indented_block_body) [1052 1091])
+                    ("WHITE_BOARD_XPATH" code nil (reparse-symbol indented_block_body) [1096 1147])
+                    ("CONTACTS_XPATH" code nil (reparse-symbol indented_block_body) [1152 1197])
+                    ("SHARE_SCREEN_XPATH" code nil (reparse-symbol indented_block_body) [1202 1255])
+                    ("SETTING_XPATH" code nil (reparse-symbol indented_block_body) [1260 1303])
+                    ("JOIN_TAG" variable nil (reparse-symbol indented_block_body) [1310 1372])
+                    ("JOIN_INNER_JOIN" variable nil (reparse-symbol indented_block_body) [1377 1439])
+                    ("JOIN_WITH_PERSONAL_LINK_NAME" variable nil (reparse-symbol indented_block_body) [1444 1540])
+                    ("JOIN_MEETING_DICT" variable nil (reparse-symbol indented_block_body) [1546 2082])
+                    ("JOIN_MEETING_WITH_PERNONAL_LINK_NAME_BOX" variable nil (reparse-symbol indented_block_body) [2088 2431])
+                    ("JOIN_MEETING_WITH_PERNONAL_LINK_NAME_JOIN" variable nil (reparse-symbol indented_block_body) [2436 2524])
+                    ("PHONE_XPATH" variable nil (reparse-symbol indented_block_body) [2530 2588])
+                    ("PHONE_CLOSE_XPATH" variable nil (reparse-symbol indented_block_body) [2593 2653])
+                    ("SHARE_SCREEN_TAG" variable nil (reparse-symbol indented_block_body) [2659 2734])
+                    ("SHARE_SCREEN_MORE" variable nil (reparse-symbol indented_block_body) [2739 2812])
+                    ("SHARE_SCREEN_CLOSE" variable nil (reparse-symbol indented_block_body) [2817 2878])
+                    ("SHARE_SCREEN_MORE_TAG" variable nil (reparse-symbol indented_block_body) [2883 2992])
+                    ("SETTING_SIGN_OUT" variable nil (reparse-symbol indented_block_body) [2998 3462])
+                    ("SETTING_SIGN_OUT_BOX" variable nil (reparse-symbol indented_block_body) [3467 3733])
+                    ("SETTING_SIGN_OUT_OK" variable nil (reparse-symbol indented_block_body) [3738 3797])
+                    ("new_meeting" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [3836 3839])
+                            ("driver" variable nil (reparse-symbol function_parameters) [3841 3847]))                          )
+                        (reparse-symbol indented_block_body) [3803 4137])
+                    ("join" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [4168 4171])
+                            ("driver" variable nil (reparse-symbol function_parameters) [4173 4179]))                          )
+                        (reparse-symbol indented_block_body) [4142 4444])
+                    ("phone" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [4476 4479])
+                            ("driver" variable nil (reparse-symbol function_parameters) [4481 4487]))                          )
+                        (reparse-symbol indented_block_body) [4449 4756])
+                    ("white_board" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [4794 4797])
+                            ("driver" variable nil (reparse-symbol function_parameters) [4799 4805]))                          )
+                        (reparse-symbol indented_block_body) [4761 5098])
+                    ("share_screen" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [5137 5140])
+                            ("driver" variable nil (reparse-symbol function_parameters) [5142 5148]))                          )
+                        (reparse-symbol indented_block_body) [5103 5445])
+                    ("contacts" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [5480 5483])
+                            ("driver" variable nil (reparse-symbol function_parameters) [5485 5491]))                          )
+                        (reparse-symbol indented_block_body) [5450 5768])
+                    ("test_setting" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5791 5795])
+                            ("driver2" variable nil (reparse-symbol function_parameters) [5797 5804]))                          )
+                        (reparse-symbol indented_block_body) [5774 6809]))                  
+                :type "class")
+                nil [245 6809]))          
+      :file "Licensed_Room.py"
+      :pointmax 6809
+      :fsize 18955
+      :lastmodtime '(25054 16914 383719 764000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!iPad_ZR!Unlicensed_Room!Sign_in!Email!Select_Room!License_Room!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

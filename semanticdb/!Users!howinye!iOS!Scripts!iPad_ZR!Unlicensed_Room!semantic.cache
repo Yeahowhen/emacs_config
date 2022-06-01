@@ -1,0 +1,117 @@
+;; Object semanticdb-project-database-file-436cbaca
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-436cbaca"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-42fddf98"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"
+--------------------------------------
+@Project: iPad_ZR_auto_test
+@Time: 2021/1/10
+@Auth: Howin Ye
+@Email: howin.ye@zoom.us
+@File: conftest.py
+@Tools: Emacs
+--------------------------------------
+\"\"\"" code nil nil [65 269])
+            ("Unlicensed_Room" include nil nil [271 299])
+            ("pytest" include nil nil [300 313])
+            ("" code nil nil [331 349])
+            ("sign_in_fixture" function (:arguments 
+              ( ("touch_fixture" variable nil (reparse-symbol function_parameters) [370 383]))              ) nil [350 438])
+            ("" code nil nil [454 472])
+            ("back_fixture" function (:arguments 
+              ( ("touch_fixture" variable nil (reparse-symbol function_parameters) [490 503]))              ) nil [473 555])
+            ("" code nil nil [571 589])
+            ("test_meeting_fixture" function (:arguments 
+              ( ("touch_fixture" variable nil (reparse-symbol function_parameters) [615 628]))              ) nil [590 688])
+            ("" code nil nil [704 722])
+            ("test_white_board_fixture" function (:arguments 
+              ( ("touch_fixture" variable nil (reparse-symbol function_parameters) [752 765]))              ) nil [723 829])
+            ("" code nil nil [845 863])
+            ("unlicensed_setting_fixture" function (:arguments 
+              ( ("touch_fixture" variable nil (reparse-symbol function_parameters) [895 908]))              ) nil [864 963]))          
+      :file "conftest.py"
+      :pointmax 963
+      :fsize 962
+      :lastmodtime '(25057 9384 813326 380000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-42fe2ca0"
+      :major-mode python-mode
+      :tags 
+        '( ("appium.webdriver.common.appiumby" include nil nil [1 60])
+            ("selenium.webdriver.support.ui" include nil nil [61 116])
+            ("selenium.webdriver.support" include nil nil [117 181])
+            ("Unlicensed_Room" type
+               (:members 
+                  ( ("ORIGIN_SIGN_IN_XPATH" variable nil (reparse-symbol indented_block_body) [211 276])
+                    ("ORIGIN_BACK_XPATH" variable nil (reparse-symbol indented_block_body) [281 340])
+                    ("ORIGIN_NEW_MEETING_XPATH" variable nil (reparse-symbol indented_block_body) [345 418])
+                    ("ORIGIN_WHITE_BOARD_XPATH" variable nil (reparse-symbol indented_block_body) [423 495])
+                    ("SETTING_XPATH" variable nil (reparse-symbol indented_block_body) [500 559])
+                    ("UNLICENSED_ROOM_TAG_XPATH" variable nil (reparse-symbol indented_block_body) [565 647])
+                    ("sign_in" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [682 685])
+                            ("driver" variable nil (reparse-symbol function_parameters) [687 693]))                          )
+                        (reparse-symbol indented_block_body) [653 876])
+                    ("back" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [907 910])
+                            ("driver" variable nil (reparse-symbol function_parameters) [912 918]))                          )
+                        (reparse-symbol indented_block_body) [881 1092])
+                    ("start_test_meeting" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [1137 1140])
+                            ("driver" variable nil (reparse-symbol function_parameters) [1142 1148]))                          )
+                        (reparse-symbol indented_block_body) [1097 1331])
+                    ("white_board" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [1369 1372])
+                            ("driver" variable nil (reparse-symbol function_parameters) [1374 1380]))                          )
+                        (reparse-symbol indented_block_body) [1336 1575])
+                    ("setting" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [1609 1612])
+                            ("driver" variable nil (reparse-symbol function_parameters) [1614 1620]))                          )
+                        (reparse-symbol indented_block_body) [1580 1796]))                  
+                :type "class")
+                nil [184 1796]))          
+      :file "Unlicensed_Room.py"
+      :pointmax 1796
+      :fsize 1795
+      :lastmodtime '(25055 58776 798560 744000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-438d3db6"
+      :major-mode python-mode
+      :tags 
+        '( ("Test_unlicensed_room" type
+               (:members 
+                  ( ("test_back" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [47 51])
+                            ("back_fixture" variable nil (reparse-symbol function_parameters) [53 65]))                          )
+                        (reparse-symbol indented_block_body) [33 90]))                  
+                :type "class")
+                nil [1 90]))          
+      :file "test_unlicensed_room_back.py"
+      :pointmax 90
+      :fsize 89
+      :lastmodtime '(25055 59284 483925 26000)
+      :unmatched-syntax '((INDENT_BLOCK 29 . 90))))
+  :file "!Users!howinye!iOS!Scripts!iPad_ZR!Unlicensed_Room!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

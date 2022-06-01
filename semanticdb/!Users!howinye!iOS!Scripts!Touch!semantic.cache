@@ -1,0 +1,440 @@
+;; Object semanticdb-project-database-file-4fded3e2
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-4fded3e2"
+  :tables
+  (list
+
+    (semanticdb-table "semanticdb-table-4fdecf94"
+      :major-mode python-mode
+      :tags 
+        '( ("pytest" include nil nil [1 14])
+            ("json" include nil nil [15 26])
+            ("appium.webdriver.common.appiumby" include nil nil [52 111])
+            ("selenium.webdriver.support.ui" include nil nil [112 167])
+            ("selenium.webdriver.support" include nil nil [168 232])
+            ("appium.webdriver.common.touch_action" include nil nil [233 293])
+            ("" code nil nil [320 331])
+            ("Test_touch" type
+               (:members 
+                  ( ("" code nil (reparse-symbol indented_block_body) [371 373])
+                    ("choose_touch" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [395 399])
+                            ("driver2" variable nil (reparse-symbol function_parameters) [401 408]))                          )
+                        (reparse-symbol indented_block_body) [378 445])
+                    ("test_choose_touch" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [472 476])
+                            ("choose_touch" variable nil (reparse-symbol function_parameters) [478 490]))                          )
+                        (reparse-symbol indented_block_body) [450 506]))                  
+                :type "class")
+                nil [332 506])
+            ("" code nil nil [532 543])
+            ("Test_Unlicensed_room" type
+               (:members 
+                  ( ("" code nil (reparse-symbol indented_block_body) [593 595])
+                    ("sign_in" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [612 616])
+                            ("driver2" variable nil (reparse-symbol function_parameters) [618 625]))                          )
+                        (reparse-symbol indented_block_body) [600 678])
+                    ("" code nil (reparse-symbol indented_block_body) [698 700])
+                    ("email_sign_in" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [723 727])
+                            ("sign_in" variable nil (reparse-symbol function_parameters) [729 736]))                          )
+                        (reparse-symbol indented_block_body) [705 970])
+                    ("" code nil (reparse-symbol indented_block_body) [990 992])
+                    ("select_room" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1013 1017])
+                            ("email_sign_in" variable nil (reparse-symbol function_parameters) [1019 1032]))                          )
+                        (reparse-symbol indented_block_body) [997 1131])
+                    ("" code nil (reparse-symbol indented_block_body) [1151 1153])
+                    ("activation" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1173 1177])
+                            ("sign_in" variable nil (reparse-symbol function_parameters) [1179 1186]))                          )
+                        (reparse-symbol indented_block_body) [1158 1318])
+                    ("test_enter_room" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1343 1347])
+                            ("select_room" variable nil (reparse-symbol function_parameters) [1349 1360]))                          )
+                        (reparse-symbol indented_block_body) [1323 1376]))                  
+                :type "class")
+                nil [544 1376])
+            ("" code nil nil [1402 1413])
+            ("Test_Licensed_Room" type
+               (:members 
+                  ( ("" code nil (reparse-symbol indented_block_body) [1459 1461])
+                    ("new_meeting_fixture" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1490 1494])
+                            ("driver2" variable nil (reparse-symbol function_parameters) [1496 1503]))                          )
+                        (reparse-symbol indented_block_body) [1466 1558])
+                    ("" code nil (reparse-symbol indented_block_body) [1578 1580])
+                    ("mute_fixture" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1602 1606])
+                            ("driver2" variable nil (reparse-symbol function_parameters) [1608 1615]))                          )
+                        (reparse-symbol indented_block_body) [1585 1663])
+                    ("" code nil (reparse-symbol indented_block_body) [1683 1685])
+                    ("unmute_fixture" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1709 1713])
+                            ("driver2" variable nil (reparse-symbol function_parameters) [1715 1722]))                          )
+                        (reparse-symbol indented_block_body) [1690 1772])
+                    ("" code nil (reparse-symbol indented_block_body) [1792 1794])
+                    ("stop_video_fixture" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1822 1826])
+                            ("driver2" variable nil (reparse-symbol function_parameters) [1828 1835]))                          )
+                        (reparse-symbol indented_block_body) [1799 1889])
+                    ("" code nil (reparse-symbol indented_block_body) [1909 1911])
+                    ("start_video_fixture" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1940 1944])
+                            ("driver2" variable nil (reparse-symbol function_parameters) [1946 1953]))                          )
+                        (reparse-symbol indented_block_body) [1916 2008])
+                    ("" code nil (reparse-symbol indented_block_body) [2028 2030])
+                    ("share_screen_fixture" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2060 2064])
+                            ("driver2" variable nil (reparse-symbol function_parameters) [2066 2073]))                          )
+                        (reparse-symbol indented_block_body) [2035 2129])
+                    ("" code nil (reparse-symbol indented_block_body) [2149 2151])
+                    ("share_screen_close_fixture" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2187 2191])
+                            ("share_screen_fixture" variable nil (reparse-symbol function_parameters) [2193 2213]))                          )
+                        (reparse-symbol indented_block_body) [2156 2288])
+                    ("" code nil (reparse-symbol indented_block_body) [2308 2310])
+                    ("share_screen_more_fixture" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2345 2349])
+                            ("share_screen_fixture" variable nil (reparse-symbol function_parameters) [2351 2371]))                          )
+                        (reparse-symbol indented_block_body) [2315 2445])
+                    ("" code nil (reparse-symbol indented_block_body) [2465 2467])
+                    ("share_screen_more_close_fixture" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2508 2512])
+                            ("share_screen_more_fixture" variable nil (reparse-symbol function_parameters) [2514 2539]))                          )
+                        (reparse-symbol indented_block_body) [2472 2624])
+                    ("" code nil (reparse-symbol indented_block_body) [2644 2646])
+                    ("view_fixture" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2668 2672])
+                            ("driver2" variable nil (reparse-symbol function_parameters) [2674 2681]))                          )
+                        (reparse-symbol indented_block_body) [2651 3108])
+                    ("" code nil (reparse-symbol indented_block_body) [3128 3130])
+                    ("white_board_fixture" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3159 3163])
+                            ("driver2" variable nil (reparse-symbol function_parameters) [3165 3172]))                          )
+                        (reparse-symbol indented_block_body) [3135 3227])
+                    ("" code nil (reparse-symbol indented_block_body) [3247 3249])
+                    ("white_board_draw_fixture" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3283 3287])
+                            ("white_board_fixture" variable nil (reparse-symbol function_parameters) [3289 3308]))                          )
+                        (reparse-symbol indented_block_body) [3254 3380])
+                    ("" code nil (reparse-symbol indented_block_body) [3400 3402])
+                    ("white_board_close_fixture" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3437 3441])
+                            ("white_board_draw_fixture" variable nil (reparse-symbol function_parameters) [3443 3467]))                          )
+                        (reparse-symbol indented_block_body) [3407 3545])
+                    ("" code nil (reparse-symbol indented_block_body) [3565 3567])
+                    ("reactions_fixture" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3594 3598])
+                            ("driver2" variable nil (reparse-symbol function_parameters) [3600 3607]))                          )
+                        (reparse-symbol indented_block_body) [3572 3660])
+                    ("" code nil (reparse-symbol indented_block_body) [3680 3682])
+                    ("reactions_raise_hand_fixture" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3720 3724])
+                            ("reactions_fixture" variable nil (reparse-symbol function_parameters) [3726 3743]))                          )
+                        (reparse-symbol indented_block_body) [3687 3817])
+                    ("" code nil (reparse-symbol indented_block_body) [3837 3839])
+                    ("more_fixture" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3861 3865])
+                            ("driver2" variable nil (reparse-symbol function_parameters) [3867 3874]))                          )
+                        (reparse-symbol indented_block_body) [3844 3922])
+                    ("" code nil (reparse-symbol indented_block_body) [3942 3944])
+                    ("more_low_hand_fixture" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3975 3979])
+                            ("more_fixture" variable nil (reparse-symbol function_parameters) [3981 3993]))                          )
+                        (reparse-symbol indented_block_body) [3949 4055])
+                    ("" code nil (reparse-symbol indented_block_body) [4075 4077])
+                    ("icon_fixture" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [4099 4103])
+                            ("driver2" variable nil (reparse-symbol function_parameters) [4105 4112]))                          )
+                        (reparse-symbol indented_block_body) [4082 4160])
+                    ("" code nil (reparse-symbol indented_block_body) [4180 4182])
+                    ("icon_laptop_fixture" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [4211 4215])
+                            ("icon_fixture" variable nil (reparse-symbol function_parameters) [4217 4229]))                          )
+                        (reparse-symbol indented_block_body) [4187 4289])
+                    ("" code nil (reparse-symbol indented_block_body) [4309 4311])
+                    ("icon_phone_fixture" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [4339 4343])
+                            ("icon_laptop_fixture" variable nil (reparse-symbol function_parameters) [4345 4364]))                          )
+                        (reparse-symbol indented_block_body) [4316 4430])
+                    ("" code nil (reparse-symbol indented_block_body) [4450 4452])
+                    ("icon_close_fixture" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [4480 4484])
+                            ("icon_phone_fixture" variable nil (reparse-symbol function_parameters) [4486 4504]))                          )
+                        (reparse-symbol indented_block_body) [4457 4563])
+                    ("" code nil (reparse-symbol indented_block_body) [4583 4585])
+                    ("end_fixture" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [4606 4610])
+                            ("driver2" variable nil (reparse-symbol function_parameters) [4612 4619]))                          )
+                        (reparse-symbol indented_block_body) [4590 4924])
+                    ("" code nil (reparse-symbol indented_block_body) [4944 4946])
+                    ("end_for_all_fixture" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [4975 4979])
+                            ("end_fixture" variable nil (reparse-symbol function_parameters) [4981 4992]))                          )
+                        (reparse-symbol indented_block_body) [4951 5051])
+                    ("" code nil (reparse-symbol indented_block_body) [5071 5073])
+                    ("end_leave_fixture" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5100 5104])
+                            ("end_fixture" variable nil (reparse-symbol function_parameters) [5106 5117]))                          )
+                        (reparse-symbol indented_block_body) [5078 5174])
+                    ("test_new_meeting" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5200 5204])
+                            ("new_meeting_fixture" variable nil (reparse-symbol function_parameters) [5206 5225]))                          )
+                        (reparse-symbol indented_block_body) [5179 5241])
+                    ("test_mute" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5260 5264])
+                            ("mute_fixture" variable nil (reparse-symbol function_parameters) [5266 5278]))                          )
+                        (reparse-symbol indented_block_body) [5246 5294])
+                    ("test_stop_video" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5319 5323])
+                            ("stop_video_fixture" variable nil (reparse-symbol function_parameters) [5325 5343]))                          )
+                        (reparse-symbol indented_block_body) [5299 5359])
+                    ("test_share_screen" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5386 5390])
+                            ("share_screen_more_close_fixture" variable nil (reparse-symbol function_parameters) [5392 5423]))                          )
+                        (reparse-symbol indented_block_body) [5364 5439])
+                    ("test_view" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5458 5462])
+                            ("view_fixture" variable nil (reparse-symbol function_parameters) [5464 5476]))                          )
+                        (reparse-symbol indented_block_body) [5444 5492])
+                    ("test_white_board" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5518 5522])
+                            ("white_board_close_fixture" variable nil (reparse-symbol function_parameters) [5524 5549]))                          )
+                        (reparse-symbol indented_block_body) [5497 5565])
+                    ("test_reactions" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5589 5593])
+                            ("reactions_raise_hand_fixture" variable nil (reparse-symbol function_parameters) [5595 5623]))                          )
+                        (reparse-symbol indented_block_body) [5570 5639])
+                    ("test_more" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5658 5662])
+                            ("more_low_hand_fixture" variable nil (reparse-symbol function_parameters) [5664 5685]))                          )
+                        (reparse-symbol indented_block_body) [5644 5701])
+                    ("test_icon" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5720 5724])
+                            ("icon_phone_fixture" variable nil (reparse-symbol function_parameters) [5726 5744]))                          )
+                        (reparse-symbol indented_block_body) [5706 5760])
+                    ("test_end" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5778 5782])
+                            ("end_for_all_fixture" variable nil (reparse-symbol function_parameters) [5784 5803]))                          )
+                        (reparse-symbol indented_block_body) [5765 5819]))                  
+                :type "class")
+                nil [1414 5819]))          
+      :file "test_in_email.py"
+      :pointmax 5819
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-43eb1c08"
+      :major-mode python-mode
+      :tags 
+        '( ("Device_type" type
+               (:members 
+                  ( ("PREFIX" variable nil (reparse-symbol indented_block_body) [24 281])
+                    ("SUFFIX" variable nil (reparse-symbol indented_block_body) [286 318])
+                    ("TOUCH" variable nil (reparse-symbol indented_block_body) [323 380])
+                    ("CONTROLLER" variable nil (reparse-symbol indented_block_body) [385 447])
+                    ("ORIGIN_TAG_XPATH" variable nil (reparse-symbol indented_block_body) [453 551])
+                    ("CONTROLLER_XPATH" code nil (reparse-symbol indented_block_body) [557 604])
+                    ("TOUCH_XPATH" code nil (reparse-symbol indented_block_body) [609 646])
+                    ("NEXT_BUTTON_XPATH" variable nil (reparse-symbol indented_block_body) [652 711])
+                    ("touch" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [744 747])
+                            ("driver" variable nil (reparse-symbol function_parameters) [749 755])
+                            ("application" variable nil (reparse-symbol function_parameters) [757 768]))                          )
+                        (reparse-symbol indented_block_body) [717 1050]))                  
+                :type "class")
+                nil [1 1050]))          
+      :file "device_type.py"
+      :pointmax 1050
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4fdf87dc"
+      :major-mode python-mode
+      :tags 
+        '( ("Device_type" include nil nil [1 19])
+            ("pytest" include nil nil [20 33])
+            ("" code nil nil [60 70])
+            ("Test_touch" type
+               (:members 
+                  ( ("test_choose_touch" function (:arguments 
+                      ( ("driver" variable nil (reparse-symbol function_parameters) [115 121]))                      ) (reparse-symbol indented_block_body) [93 158]))                  
+                :type "class")
+                nil [71 158]))          
+      :file "test_device_type.py"
+      :pointmax 158
+      :unmatched-syntax nil)
+
+    (semanticdb-table "semanticdb-table-4fdb8e2c"
+      :major-mode python-mode
+      :tags 
+        '( ("appium.webdriver.common.appiumby" include nil nil [1 60])
+            ("selenium.webdriver.support.ui" include nil nil [61 116])
+            ("selenium.webdriver.support" include nil nil [117 181])
+            ("appium.webdriver.common.touch_action" include nil nil [182 242])
+            ("Unlicensed_Room" type
+               (:members 
+                  ( ("ORIGIN_SIGN_IN_XPATH" variable nil (reparse-symbol indented_block_body) [966 1031])
+                    ("ORIGIN_BACK_XPATH" variable nil (reparse-symbol indented_block_body) [1036 1095])
+                    ("ORIGIN_NEW_MEETING_XPATH" variable nil (reparse-symbol indented_block_body) [1100 1173])
+                    ("SETTING_PREFIX" variable nil (reparse-symbol indented_block_body) [1408 1847])
+                    ("SETTING_SUFFIX" variable nil (reparse-symbol indented_block_body) [1852 1916])
+                    ("MICROPHONE" variable nil (reparse-symbol indented_block_body) [1922 1960])
+                    ("CAMERA" variable nil (reparse-symbol indented_block_body) [1965 1999])
+                    ("GENERAL" variable nil (reparse-symbol indented_block_body) [2004 2039])
+                    ("SETTING_MICROPHONE_XPATH" code nil (reparse-symbol indented_block_body) [2045 2116])
+                    ("SETTING_GENERAL_XPATH" code nil (reparse-symbol indented_block_body) [2121 2186])
+                    ("SETTING_CAMERA_XPATH" code nil (reparse-symbol indented_block_body) [2191 2254])
+                    ("PRIVACY" variable nil (reparse-symbol indented_block_body) [2260 2295])
+                    ("PRIVACY_POLICY_XPATH" code nil (reparse-symbol indented_block_body) [2300 2364])
+                    ("ZOOM_PRIVACY_STATEMENT_XPATH" variable nil (reparse-symbol indented_block_body) [2369 2461])
+                    ("OPEN_SOURCE" variable nil (reparse-symbol indented_block_body) [2467 2506])
+                    ("OPEN_SOURCE_SOFTWARE_XPATH" code nil (reparse-symbol indented_block_body) [2511 2585])
+                    ("OPEN_SOURCE_SOFTWARE_IN_ZOOM_PRODUCT_XPATH" variable nil (reparse-symbol indented_block_body) [2590 2711])
+                    ("MODERATE_XPATH" variable nil (reparse-symbol indented_block_body) [2717 3224])
+                    ("AGGRESSIVE_XPATH" variable nil (reparse-symbol indented_block_body) [3229 3738])
+                    ("FRONT_CAMERA_XPATH" variable nil (reparse-symbol indented_block_body) [3744 4255])
+                    ("BACK_CAMERA_XPATH" variable nil (reparse-symbol indented_block_body) [4260 4767])
+                    ("SEARCH_BOX_XPATH" variable nil (reparse-symbol indented_block_body) [4773 4843])
+                    ("ROOM_XPATH" variable nil (reparse-symbol indented_block_body) [4848 5225])
+                    ("sign_in" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [5260 5263])
+                            ("driver" variable nil (reparse-symbol function_parameters) [5265 5271]))                          )
+                        (reparse-symbol indented_block_body) [5231 5408])
+                    ("email" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [5440 5443])
+                            ("driver" variable nil (reparse-symbol function_parameters) [5445 5451])
+                            ("account" variable nil (reparse-symbol function_parameters) [5453 5460])
+                            ("passwd" variable nil (reparse-symbol function_parameters) [5462 5468]))                          )
+                        (reparse-symbol indented_block_body) [5413 6234])
+                    ("room" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [6265 6268])
+                            ("driver" variable nil (reparse-symbol function_parameters) [6270 6276])
+                            ("room_name" variable nil (reparse-symbol function_parameters) [6278 6287]))                          )
+                        (reparse-symbol indented_block_body) [6239 6724])
+                    ("activation_sign_in" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [6769 6772])
+                            ("driver" variable nil (reparse-symbol function_parameters) [6774 6780])
+                            ("activation_code" variable nil (reparse-symbol function_parameters) [6782 6797]))                          )
+                        (reparse-symbol indented_block_body) [6729 7492])
+                    ("back" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [7523 7527])
+                            ("driver" variable nil (reparse-symbol function_parameters) [7529 7535]))                          
+                        :decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          )
+                        (reparse-symbol indented_block_body) [7497 7709]))                  
+                :type "class")
+                nil [939 7709]))          
+      :file "Unlicensed_Room.py"
+      :pointmax 7709
+      :fsize 7014
+      :lastmodtime '(25052 60466 297871 523000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-43ecd4dc"
+      :major-mode python-mode
+      :tags nil
+      :file "test_unlicensed_room.py"
+      :pointmax 1
+      :fsize 0
+      :lastmodtime '(25052 59062 634836 824000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!Touch!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

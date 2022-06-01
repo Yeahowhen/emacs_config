@@ -1,0 +1,25 @@
+;; Object semanticdb-project-database-file-4d034298
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-4d034298"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4d0342aa"
+      :major-mode python-mode
+      :tags 
+        '( ("appium.webdriver.common.appiumby" include nil nil [1 60])
+            ("selenium.webdriver.support.ui" include nil nil [61 116])
+            ("selenium.webdriver.support" include nil nil [117 181])
+            ("Privacy" type
+               (:members 
+                  ( ("PRIVACY_CLOSE" variable nil (reparse-symbol indented_block_body) [203 264])
+                    ("PRIVACY_CONTENTS" variable nil (reparse-symbol indented_block_body) [269 336]))                  
+                :type "class")
+                nil [184 666]))          
+      :file "Privacy.py"
+      :pointmax 666
+      :fsize 665
+      :lastmodtime '(25055 55072 37698 32000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!iPad_ZR!Unlicensed_Room!Sign_in!Email!Select_Room!Licensed_Room!Setting!Privacy!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

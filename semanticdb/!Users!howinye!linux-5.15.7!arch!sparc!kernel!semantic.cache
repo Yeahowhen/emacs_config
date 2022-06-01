@@ -1,0 +1,363 @@
+;; Object semanticdb-project-database-file-48c24c0e
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-48c24c0e"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-48c24c18"
+      :major-mode c-mode
+      :tags 
+        '( ("asm/head.h" include (:system-flag t) nil [263 284])
+            ("linux/kernel.h" include (:system-flag t) nil [286 311])
+            ("linux/sched.h" include (:system-flag t) nil [312 336])
+            ("linux/threads.h" include (:system-flag t) nil [337 363])
+            ("linux/smp.h" include (:system-flag t) nil [364 386])
+            ("linux/interrupt.h" include (:system-flag t) nil [387 415])
+            ("linux/kernel_stat.h" include (:system-flag t) nil [416 446])
+            ("linux/init.h" include (:system-flag t) nil [447 470])
+            ("linux/spinlock.h" include (:system-flag t) nil [471 498])
+            ("linux/mm.h" include (:system-flag t) nil [499 520])
+            ("linux/fs.h" include (:system-flag t) nil [521 542])
+            ("linux/seq_file.h" include (:system-flag t) nil [543 570])
+            ("linux/cache.h" include (:system-flag t) nil [571 595])
+            ("linux/delay.h" include (:system-flag t) nil [596 620])
+            ("linux/profile.h" include (:system-flag t) nil [621 647])
+            ("linux/cpu.h" include (:system-flag t) nil [648 670])
+            ("asm/ptrace.h" include (:system-flag t) nil [672 695])
+            ("linux/atomic.h" include (:system-flag t) nil [696 721])
+            ("asm/irq.h" include (:system-flag t) nil [723 743])
+            ("asm/page.h" include (:system-flag t) nil [744 765])
+            ("asm/oplib.h" include (:system-flag t) nil [766 788])
+            ("asm/cacheflush.h" include (:system-flag t) nil [789 816])
+            ("asm/tlbflush.h" include (:system-flag t) nil [817 842])
+            ("asm/cpudata.h" include (:system-flag t) nil [843 867])
+            ("asm/timer.h" include (:system-flag t) nil [868 890])
+            ("asm/leon.h" include (:system-flag t) nil [891 912])
+            ("kernel.h" include nil nil [914 933])
+            ("irq.h" include nil nil [934 950])
+            ("cpu_callin_map" variable
+               (:dereference 1
+                :typemodifiers ("volatile")
+                :default-value "{0,}"
+                :type "unsigned long")
+                nil [952 1006])
+            ("smp_commenced_mask" variable
+               (:default-value "CPU_MASK_NONE"
+                :type ("cpumask_t" type (:type "class") nil nil))
+                nil [1008 1053])
+            ("sparc32_ipi_ops" variable
+               (:pointer 1
+                :constant-flag t
+                :type ("sparc32_ipi_ops" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [1055 1101])
+            ("smp_store_cpu_info" function
+               (:arguments 
+                  ( ("id" variable (:type "int") (reparse-symbol arg-sub-list) [1510 1517]))                  
+                :type "void")
+                nil [1486 1916])
+            ("smp_cpus_done" function
+               (:arguments 
+                  ( ("max_cpus" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [1944 1966]))                  
+                :type ("__init" type (:type "class") nil nil))
+                nil [1923 2539])
+            ("cpu_panic" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2556 2561]))                  
+                :type "void")
+                nil [2541 2656])
+            ("smp_penguin_ctable" variable
+               (:default-value "{ 0 }"
+                :type ("linux_prom_registers" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [2658 2713])
+            ("smp_send_reschedule" function
+               (:arguments 
+                  ( ("cpu" variable (:type "int") (reparse-symbol arg-sub-list) [2740 2748]))                  
+                :type "void")
+                nil [2715 2954])
+            ("smp_send_stop" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2975 2980]))                  
+                :type "void")
+                nil [2956 2984])
+            ("arch_send_call_function_single_ipi" function
+               (:arguments 
+                  ( ("cpu" variable (:type "int") (reparse-symbol arg-sub-list) [3026 3034]))                  
+                :type "void")
+                nil [2986 3115])
+            ("arch_send_call_function_ipi_mask" function
+               (:arguments 
+                  ( ("mask" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("cpumask" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [3155 3182]))                  
+                :type "void")
+                nil [3117 3297])
+            ("smp_resched_interrupt" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3326 3331]))                  
+                :type "void")
+                nil [3299 3479])
+            ("smp_call_function_single_interrupt" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3521 3526]))                  
+                :type "void")
+                nil [3481 3640])
+            ("smp_call_function_interrupt" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3675 3680]))                  
+                :type "void")
+                nil [3642 3787])
+            ("setup_profiling_timer" function
+               (:arguments 
+                  ( ("multiplier" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [3815 3839]))                  
+                :type "int")
+                nil [3789 3860])
+            ("smp_prepare_cpus" function
+               (:arguments 
+                  ( ("max_cpus" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [3891 3913]))                  
+                :type ("__init" type (:type "class") nil nil))
+                nil [3867 4565])
+            ("smp_setup_cpu_possible_map" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4759 4764]))                  
+                :type ("__init" type (:type "class") nil nil))
+                nil [4725 4966])
+            ("smp_prepare_boot_cpu" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5001 5006]))                  
+                :type ("__init" type (:type "class") nil nil))
+                nil [4973 5334])
+            ("__cpu_up" function
+               (:arguments 
+                  ( ("cpu" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [5349 5366])
+                    ("tidle" variable
+                       (:pointer 1
+                        :type ("task_struct" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [5367 5393]))                  
+                :type "int")
+                nil [5336 5897])
+            ("arch_cpu_pre_starting" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [5933 5943]))                  
+                :type "void")
+                nil [5899 6208])
+            ("arch_cpu_pre_online" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [6242 6252]))                  
+                :type "void")
+                nil [6210 6637])
+            ("sparc_start_secondary" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [6673 6683]))                  
+                :type "void")
+                nil [6639 7178])
+            ("smp_callin" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [7196 7201]))                  
+                :type "void")
+                nil [7180 7235])
+            ("smp_bogo" function
+               (:arguments 
+                  ( ("m" variable
+                       (:pointer 1
+                        :type ("seq_file" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [7251 7270]))                  
+                :type "void")
+                nil [7237 7461])
+            ("smp_info" function
+               (:arguments 
+                  ( ("m" variable
+                       (:pointer 1
+                        :type ("seq_file" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [7477 7496]))                  
+                :type "void")
+                nil [7463 7604]))          
+      :file "smp_32.c"
+      :pointmax 7605
+      :fsize 7604
+      :lastmodtime '(25008 26409 0 0)
+      :unmatched-syntax '((VOID 4968 . 4972) (VOID 4720 . 4724) (VOID 3862 . 3866) (VOID 1918 . 1922)))
+    (semanticdb-table "semanticdb-table-49948608"
+      :file "kernel.h"
+      :fsize 5787
+      :lastmodtime '(25008 26409 0 0))
+    (semanticdb-table "semanticdb-table-49980fe8"
+      :file "irq.h"
+      :fsize 2732
+      :lastmodtime '(25008 26409 0 0))
+    (semanticdb-table "semanticdb-table-54a488fc"
+      :major-mode c-mode
+      :tags 
+        '( ("linux/kernel.h" include (:system-flag t) nil [334 359])
+            ("linux/threads.h" include (:system-flag t) nil [360 386])
+            ("linux/string.h" include (:system-flag t) nil [387 412])
+            ("linux/init.h" include (:system-flag t) nil [413 436])
+            ("linux/errno.h" include (:system-flag t) nil [437 461])
+            ("asm/page.h" include (:system-flag t) nil [463 484])
+            ("asm/oplib.h" include (:system-flag t) nil [485 507])
+            ("asm/prom.h" include (:system-flag t) nil [508 529])
+            ("asm/smp.h" include (:system-flag t) nil [530 550])
+            ("asm/cpudata.h" include (:system-flag t) nil [551 575])
+            ("asm/cpu_type.h" include (:system-flag t) nil [576 601])
+            ("asm/setup.h" include (:system-flag t) nil [602 624])
+            ("kernel.h" include nil nil [626 645])
+            ("cpu_mid_prop" function
+               (:pointer 1
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [673 678]))                  
+                :type "char")
+                nil [647 747])
+            ("check_cpu_node" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("nd" variable (:type ("phandle" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [775 786])
+                    ("cur_inst" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [787 801])
+                    ("compare" function
+                       (:function-pointer t
+                        :arguments 
+                          ( ("" variable (:type ("phandle" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [819 827])
+                            ("" variable (:type "int") (reparse-symbol arg-sub-list) [828 832])
+                            ("" variable
+                               (:pointer 1
+                                :type "void")
+                                (reparse-symbol arg-sub-list) [833 840]))                          
+                        :type "int")
+                        nil nil)
+                    ("compare_arg" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [842 860])
+                    ("prom_node" variable
+                       (:pointer 1
+                        :type ("phandle" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [863 882])
+                    ("mid" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [883 892]))                  
+                :type "int")
+                nil [749 1146])
+            ("__cpu_find_by" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("compare" function
+                       (:function-pointer t
+                        :arguments 
+                          ( ("" variable (:type ("phandle" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1188 1196])
+                            ("" variable (:type "int") (reparse-symbol arg-sub-list) [1197 1201])
+                            ("" variable
+                               (:pointer 1
+                                :type "void")
+                                (reparse-symbol arg-sub-list) [1202 1209]))                          
+                        :type "int")
+                        nil nil)
+                    ("compare_arg" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [1213 1231])
+                    ("prom_node" variable
+                       (:pointer 1
+                        :type ("phandle" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1232 1251])
+                    ("mid" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [1252 1261]))                  
+                :type "int")
+                nil [1148 1531])
+            ("cpu_instance_compare" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("nd" variable (:type ("phandle" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1565 1576])
+                    ("instance" variable (:type "int") (reparse-symbol arg-sub-list) [1577 1590])
+                    ("_arg" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [1591 1602]))                  
+                :type "int")
+                nil [1533 1707])
+            ("cpu_find_by_instance" function
+               (:arguments 
+                  ( ("instance" variable (:type "int") (reparse-symbol arg-sub-list) [1734 1747])
+                    ("prom_node" variable
+                       (:pointer 1
+                        :type ("phandle" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1748 1767])
+                    ("mid" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [1768 1777]))                  
+                :type "int")
+                nil [1709 1868])
+            ("cpu_mid_compare" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("nd" variable (:type ("phandle" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1897 1908])
+                    ("instance" variable (:type "int") (reparse-symbol arg-sub-list) [1909 1922])
+                    ("_arg" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [1923 1934]))                  
+                :type "int")
+                nil [1870 2167])
+            ("cpu_find_by_mid" function
+               (:arguments 
+                  ( ("mid" variable (:type "int") (reparse-symbol arg-sub-list) [2189 2197])
+                    ("prom_node" variable
+                       (:pointer 1
+                        :type ("phandle" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2198 2217]))                  
+                :type "int")
+                nil [2169 2299])
+            ("cpu_get_hwmid" function
+               (:arguments 
+                  ( ("prom_node" variable (:type ("phandle" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2542 2560]))                  
+                :type "int")
+                nil [2524 2628])
+            ("device_scan" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2654 2659]))                  
+                :type ("__init" type (:type "class") nil nil))
+                nil [2635 3119]))          
+      :file "devices.c"
+      :pointmax 3120
+      :fsize 3119
+      :lastmodtime '(25008 26409 0 0)
+      :unmatched-syntax '((VOID 2630 . 2634))))
+  :file "!Users!howinye!linux-5.15.7!arch!sparc!kernel!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

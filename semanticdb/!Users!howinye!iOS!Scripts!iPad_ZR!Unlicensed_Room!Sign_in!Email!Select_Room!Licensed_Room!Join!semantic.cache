@@ -1,0 +1,118 @@
+;; Object semanticdb-project-database-file-4363aad4
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-4363aad4"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-43e1263e"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"
+--------------------------------------
+@Project: iPad_ZR_auto_test
+@Time: 2021/1/10
+@Auth: Howin Ye
+@Email: howin.ye@zoom.us
+@File: conftest.py
+@Tools: Emacs
+--------------------------------------
+\"\"\"" code nil nil [65 269])
+            ("json" include nil nil [285 296])
+            ("Join" include nil nil [297 308])
+            ("basic_xpath" include nil nil [309 333])
+            ("'''
+Meeting id fixed in ~/iOS/Config/meeting.json
+'''" code nil nil [336 389])
+            ("" code nil nil [405 423])
+            ("join_meeting_fixed_fixture" function (:arguments 
+              ( ("join_fixture" variable nil (reparse-symbol function_parameters) [455 467]))              ) nil [424 614])
+            ("'''
+Meeting id is alternative
+'''" code nil nil [616 649])
+            ("" code nil nil [665 683])
+            ("join_meeting_alternative_fixture" function (:arguments 
+              ( ("join_fixture" variable nil (reparse-symbol function_parameters) [721 733]))              ) nil [684 764])
+            ("'''
+Join personal_link meeting
+'''" code nil nil [847 881])
+            ("" code nil nil [897 915])
+            ("join_personal_meeting_fixture" function (:arguments 
+              ( ("join_fixture" variable nil (reparse-symbol function_parameters) [950 962]))              ) nil [916 1021]))          
+      :file "conftest.py"
+      :pointmax 1021
+      :fsize 750
+      :lastmodtime '(25057 12447 984290 665000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-43e27316"
+      :major-mode python-mode
+      :tags 
+        '( ("Test_join" type
+               (:members 
+                  ( ("test_join_meeting" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [44 48])
+                            ("join_meeting_alternative_fixture" variable nil (reparse-symbol function_parameters) [50 82]))                          )
+                        (reparse-symbol indented_block_body) [22 170]))                  
+                :type "class")
+                nil [1 170]))          
+      :file "test_join.py"
+      :pointmax 170
+      :fsize 169
+      :lastmodtime '(25057 12569 227660 253000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-436531ce"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"
+--------------------------------------
+@Project: iPad_ZR_auto_test
+@Time: 2021/1/10
+@Auth: Howin Ye
+@Email: howin.ye@zoom.us
+@File: Joi.py
+@Tools: Emacs
+--------------------------------------
+\"\"\"" code nil nil [65 264])
+            ("appium.webdriver.common.appiumby" include nil nil [266 325])
+            ("selenium.webdriver.support.ui" include nil nil [326 381])
+            ("selenium.webdriver.support" include nil nil [382 446])
+            ("Join" type
+               (:members 
+                  ( ("JOIN_TAG" variable nil (reparse-symbol indented_block_body) [465 527])
+                    ("JOIN_INNER_JOIN" variable nil (reparse-symbol indented_block_body) [532 594])
+                    ("JOIN_WITH_PERSONAL_LINK_NAME" variable nil (reparse-symbol indented_block_body) [599 695])
+                    ("JOIN_CLOSE" variable nil (reparse-symbol indented_block_body) [700 753])
+                    ("JOIN_SEARCH_FIELD" variable nil (reparse-symbol indented_block_body) [758 1078])
+                    ("JOIN_MEETING_DICT" variable nil (reparse-symbol indented_block_body) [1083 1619])
+                    ("join_meeting" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [1659 1662])
+                            ("driver" variable nil (reparse-symbol function_parameters) [1664 1670])
+                            ("meeting_id" variable nil (reparse-symbol function_parameters) [1672 1682]))                          )
+                        (reparse-symbol indented_block_body) [1625 2045])
+                    ("join_personal_meeting" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [2093 2096])
+                            ("driver" variable nil (reparse-symbol function_parameters) [2098 2104]))                          )
+                        (reparse-symbol indented_block_body) [2050 2297])
+                    ("join_meeting_close" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [2346 2349])
+                            ("driver" variable nil (reparse-symbol function_parameters) [2351 2357]))                          )
+                        (reparse-symbol indented_block_body) [2306 2526]))                  
+                :type "class")
+                nil [449 2526]))          
+      :file "Join.py"
+      :pointmax 2526
+      :fsize 2525
+      :lastmodtime '(25057 13309 676488 370000)
+      :unmatched-syntax '((INDENT_BLOCK 2063 . 2526) (INDENT_BLOCK 1638 . 2526) ($EOI 2456 . 2456))))
+  :file "!Users!howinye!iOS!Scripts!iPad_ZR!Unlicensed_Room!Sign_in!Email!Select_Room!Licensed_Room!Join!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

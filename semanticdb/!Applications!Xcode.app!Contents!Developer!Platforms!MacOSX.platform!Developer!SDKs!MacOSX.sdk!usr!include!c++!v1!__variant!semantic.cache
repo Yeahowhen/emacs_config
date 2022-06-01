@@ -1,0 +1,25 @@
+;; Object semanticdb-project-database-file-4325c204
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-4325c204"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-53bafe68"
+      :major-mode c++-mode
+      :tags 
+        '( ("_LIBCPP___VARIANT_MONOSTATE_H" variable (:constant-flag t) nil [432 461])
+            ("__config" include (:system-flag t) nil [463 482])
+            ("__functional/hash.h" include (:system-flag t) nil [483 513])
+            ("cstddef" include (:system-flag t) nil [514 532])
+            ("__undef_macros" include (:system-flag t) nil [638 663]))          
+      :file "monostate.h"
+      :pointmax 1835
+      :fsize 1834
+      :lastmodtime '(25095 32637 0 0)
+      :unmatched-syntax '((symbol 1775 . 1793) (symbol 1748 . 1773) (symbol 665 . 692) (symbol 618 . 637) (symbol 596 . 609) (symbol 592 . 595) (symbol 585 . 591) (punctuation 584 . 585))
+      :lexical-table 
+        '(("_LIBCPP___VARIANT_MONOSTATE_H")
+          )
+))
+  :file "!Applications!Xcode.app!Contents!Developer!Platforms!MacOSX.platform!Developer!SDKs!MacOSX.sdk!usr!include!c++!v1!__variant!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

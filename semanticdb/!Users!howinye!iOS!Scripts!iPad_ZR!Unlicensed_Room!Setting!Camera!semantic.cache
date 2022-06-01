@@ -1,0 +1,122 @@
+;; Object semanticdb-project-database-file-4bbe6e04
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-4bbe6e04"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4bbe6de4"
+      :major-mode python-mode
+      :tags 
+        '( ("appium.webdriver.common.appiumby" include nil nil [1 60])
+            ("selenium.webdriver.support.ui" include nil nil [61 116])
+            ("selenium.webdriver.support" include nil nil [117 181])
+            ("Camera" type
+               (:members 
+                  ( ("FRONT_CAMERA" variable nil (reparse-symbol indented_block_body) [202 707])
+                    ("BACK_CAMERA" variable nil (reparse-symbol indented_block_body) [712 1213])
+                    ("FRONT_CAMERA_MORE" variable nil (reparse-symbol indented_block_body) [1218 1297])
+                    ("BACK_CAMERA_MORE" variable nil (reparse-symbol indented_block_body) [1302 1380])
+                    ("MORE_RENAME" variable nil (reparse-symbol indented_block_body) [1385 1440])
+                    ("RENAME_TAG" variable nil (reparse-symbol indented_block_body) [1446 1511])
+                    ("RENAME_FIELD" variable nil (reparse-symbol indented_block_body) [1516 1768])
+                    ("RENAME_CANCEL" variable nil (reparse-symbol indented_block_body) [1773 1830])
+                    ("RENAME_SAVE" variable nil (reparse-symbol indented_block_body) [1835 1888])
+                    ("choose_front_camera" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [1936 1939])
+                            ("driver" variable nil (reparse-symbol function_parameters) [1941 1947]))                          )
+                        (reparse-symbol indented_block_body) [1895 2120])
+                    ("choose_back_camera" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [2165 2168])
+                            ("driver" variable nil (reparse-symbol function_parameters) [2170 2176]))                          )
+                        (reparse-symbol indented_block_body) [2125 2348])
+                    ("choose_front_camera_more" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [2399 2402])
+                            ("driver" variable nil (reparse-symbol function_parameters) [2404 2410]))                          )
+                        (reparse-symbol indented_block_body) [2353 2588])
+                    ("choose_back_camera_more" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [2638 2641])
+                            ("driver" variable nil (reparse-symbol function_parameters) [2643 2649]))                          )
+                        (reparse-symbol indented_block_body) [2593 2826])
+                    ("rename_front_camera" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [2872 2875])
+                            ("driver" variable nil (reparse-symbol function_parameters) [2877 2883])
+                            ("name" variable nil (reparse-symbol function_parameters) [2885 2889]))                          )
+                        (reparse-symbol indented_block_body) [2831 3451])
+                    ("rename_back_camera" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [3496 3499])
+                            ("driver" variable nil (reparse-symbol function_parameters) [3501 3507])
+                            ("name" variable nil (reparse-symbol function_parameters) [3509 3513]))                          )
+                        (reparse-symbol indented_block_body) [3456 4074]))                  
+                :type "class")
+                nil [184 4074]))          
+      :file "Options.py"
+      :pointmax 4074
+      :fsize 4073
+      :lastmodtime '(25056 60349 497007 794000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-47e0ac64"
+      :major-mode python-mode
+      :tags 
+        '( ("pytest" include nil nil [1 14])
+            ("Options" include nil nil [15 29])
+            ("" code nil nil [47 65])
+            ("choose_unlicensed_camera_front_camera_fixture" function (:arguments 
+              ( ("choose_unlicensed_camera_fixture" variable nil (reparse-symbol function_parameters) [116 148]))              ) nil [66 230])
+            ("" code nil nil [246 264])
+            ("choose_unlicensed_camera_back_camera_fixture" function (:arguments 
+              ( ("choose_unlicensed_camera_fixture" variable nil (reparse-symbol function_parameters) [314 346]))              ) nil [265 427])
+            ("" code nil nil [443 461])
+            ("choose_unlicensed_camera_front_camera_more_fixture" function (:arguments 
+              ( ("choose_unlicensed_camera_fixture" variable nil (reparse-symbol function_parameters) [517 549]))              ) nil [462 636])
+            ("" code nil nil [652 670])
+            ("choose_unlicensed_camera_back_camera_more_fixture" function (:arguments 
+              ( ("choose_unlicensed_camera_fixture" variable nil (reparse-symbol function_parameters) [725 757]))              ) nil [671 843])
+            ("" code nil nil [859 877])
+            ("rename_front_camera_fixture" function (:arguments 
+              ( ("choose_unlicensed_camera_front_camera_more_fixture" variable nil (reparse-symbol function_parameters) [910 960]))              ) nil [878 1114])
+            ("" code nil nil [1130 1148])
+            ("rename_back_camera_fixture" function (:arguments 
+              ( ("choose_unlicensed_camera_back_camera_more_fixture" variable nil (reparse-symbol function_parameters) [1180 1229]))              ) nil [1149 1382]))          
+      :file "conftest.py"
+      :pointmax 1382
+      :fsize 1381
+      :lastmodtime '(25056 60219 209970 227000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-47e253c2"
+      :major-mode python-mode
+      :tags 
+        '( ("Test_camera" type
+               (:members 
+                  ( ("test_rename_front_camera" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [53 57])
+                            ("rename_front_camera_fixture" variable nil (reparse-symbol function_parameters) [59 86]))                          )
+                        (reparse-symbol indented_block_body) [24 134]))                  
+                :type "class")
+                nil [1 134]))          
+      :file "test_options.py"
+      :pointmax 134
+      :fsize 133
+      :lastmodtime '(25056 59972 493435 782000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!iPad_ZR!Unlicensed_Room!Setting!Camera!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

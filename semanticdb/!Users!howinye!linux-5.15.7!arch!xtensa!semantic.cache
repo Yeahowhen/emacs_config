@@ -1,0 +1,39 @@
+;; Object semanticdb-project-database-file-4710a57a
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-4710a57a"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4710a5a2"
+      :major-mode makefile-bsdmake-mode
+      :tags 
+        '( ("variant-y" variable (:default-value ("$(patsubst \"%\",%,$(CONFIG_XTENSA_VARIANT_NAME))")) nil [603 664])
+            ("VARIANT" variable (:default-value ("$(variant-y)")) nil [665 688])
+            ("platform-" function (:arguments ("=" "xt2000")) nil [850 902])
+            ("platform-" function (:arguments ("=" "iss")) nil [902 949])
+            ("platform-" function (:arguments ("=" "xtfpga")) nil [949 1001])
+            ("KBUILD_CFLAGS" variable (:default-value ("-ffreestanding" "-D__linux__")) nil [1040 1084])
+            ("KBUILD_CFLAGS" variable (:default-value ("-pipe" "-mlongcalls" "-mtext-section-literals")) nil [1084 1143])
+            ("KBUILD_CFLAGS" variable (:default-value ("$(call cc-option,-mforce-no-pic,)")) nil [1143 1194])
+            ("KBUILD_CFLAGS" variable (:default-value ("$(call cc-option,-mno-serialize-volatile,)")) nil [1194 1254])
+            ("KBUILD_AFLAGS" variable (:default-value ("-mlongcalls" "-mtext-section-literals")) nil [1255 1308])
+            ("KBUILD_LDFLAGS" variable (:default-value ("--no-relax")) nil [1340 1369])
+            ("CHECKFLAGS" variable (:default-value ("-D$(if $(CONFIG_CPU_BIG_ENDIAN),__XTENSA_EB__,__XTENSA_EL__)")) nil [1376 1451])
+            ("vardirs" variable (:default-value ("$(patsubst %,arch/xtensa/variants/%/,$(variant-y))")) nil [1452 1514])
+            ("plfdirs" variable (:default-value ("$(patsubst %,arch/xtensa/platforms/%/,$(platform-y))")) nil [1514 1578])
+            ("KBUILD_CPPFLAGS" variable (:default-value ("$(patsubst %,-I$(srctree)/%include,$(vardirs) $(plfdirs))")) nil [1579 1656])
+            ("KBUILD_DEFCONFIG" variable (:default-value ("iss_defconfig")) nil [1657 1691])
+            ("LIBGCC" variable (:default-value ("$(shell $(CC) $(KBUILD_CFLAGS) -print-libgcc-file-name)")) nil [1709 1775])
+            ("head-y" variable (:default-value ("arch/xtensa/kernel/head.o")) nil [1776 1813])
+            ("libs-y" variable (:default-value ("arch/xtensa/lib/" "$(LIBGCC)")) nil [1814 1852])
+            ("boot" variable (:default-value ("arch/xtensa/boot")) nil [1853 1879])
+            ("Image" function (:arguments ("vmlinux")) nil [1880 1955])
+            ("all" function (:arguments ("vmlinux")) nil [1880 1955])
+            ("archheaders" function nil nil [1956 2023]))          
+      :file "Makefile"
+      :pointmax 2275
+      :fsize 2274
+      :lastmodtime '(25008 26409 0 0)
+      :unmatched-syntax '((symbol 2269 . 2274) (bol 2269 . 2269) (string 2241 . 2268) (symbol 2236 . 2240) (punctuation 2235 . 2236) (bol 2233 . 2233) (string 2194 . 2232) (symbol 2189 . 2193) (punctuation 2188 . 2189) (bol 2186 . 2186) (string 2109 . 2185) (symbol 2104 . 2108) (punctuation 2103 . 2104) (bol 2101 . 2101) (string 2048 . 2100) (symbol 2043 . 2047) (punctuation 2042 . 2043) (bol 2040 . 2040) (symbol 2031 . 2039) (symbol 2024 . 2030) (bol 2024 . 2024) (ENDIF 811 . 816) (bol 809 . 809) (ENDIF 803 . 808) (bol 799 . 799) (symbol 797 . 798) (semantic-list 788 . 797) (punctuation 787 . 788) (symbol 780 . 787) (punctuation 778 . 779) (symbol 764 . 777) (bol 758 . 758) (symbol 744 . 757) (IFNDEF 737 . 743) (bol 733 . 733) (symbol 717 . 732) (IFDEF 711 . 716) (bol 709 . 709))))
+  :file "!Users!howinye!linux-5.15.7!arch!xtensa!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

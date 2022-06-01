@@ -1,0 +1,71 @@
+;; Object semanticdb-project-database-file-47949790
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-47949790"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-479497a2"
+      :major-mode python-mode
+      :tags 
+        '( ("appium.webdriver.common.appiumby" include nil nil [1 60])
+            ("selenium.webdriver.support.ui" include nil nil [61 116])
+            ("selenium.webdriver.support" include nil nil [117 181])
+            ("Sign_in" type
+               (:members 
+                  ( ("ZOOM_LOGO_XPATH" variable nil (reparse-symbol indented_block_body) [203 270])
+                    ("EMAIL_BUTTON_XPATH" variable nil (reparse-symbol indented_block_body) [275 336])
+                    ("ACTIVATION_BUTTON_XPATH" variable nil (reparse-symbol indented_block_body) [341 417])
+                    ("choose_email" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [457 460])
+                            ("driver" variable nil (reparse-symbol function_parameters) [462 468]))                          )
+                        (reparse-symbol indented_block_body) [423 631])
+                    ("choose_activation" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [675 678])
+                            ("driver" variable nil (reparse-symbol function_parameters) [680 686]))                          )
+                        (reparse-symbol indented_block_body) [636 864]))                  
+                :type "class")
+                nil [184 864]))          
+      :file "sign_in.py"
+      :pointmax 864
+      :fsize 863
+      :lastmodtime '(25053 15191 849780 380000)
+      :unmatched-syntax '(($EOI 864 . 864)))
+    (semanticdb-table "semanticdb-table-47e2a8ce"
+      :major-mode python-mode
+      :tags 
+        '( ("pytest" include nil nil [1 14])
+            ("sign_in" include nil nil [15 29])
+            ("" code nil nil [56 66])
+            ("Test_sign_in" type
+               (:members 
+                  ( ("" code nil (reparse-symbol indented_block_body) [106 108])
+                    ("email_fixture" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [131 135])
+                            ("driver" variable nil (reparse-symbol function_parameters) [137 143]))                          )
+                        (reparse-symbol indented_block_body) [113 189])
+                    ("" code nil (reparse-symbol indented_block_body) [209 211])
+                    ("activation_fixture" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [239 243])
+                            ("driver" variable nil (reparse-symbol function_parameters) [245 251]))                          )
+                        (reparse-symbol indented_block_body) [216 302])
+                    ("test_choose_email" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [329 333]))                      ) (reparse-symbol indented_block_body) [307 364]))                  
+                :type "class")
+                nil [67 364]))          
+      :file "test_sign_in.py"
+      :pointmax 364
+      :fsize 363
+      :lastmodtime '(25053 15934 795075 810000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!Unlicensed_Room!Sign_in!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

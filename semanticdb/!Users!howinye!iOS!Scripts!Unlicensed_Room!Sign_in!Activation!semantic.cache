@@ -1,0 +1,34 @@
+;; Object semanticdb-project-database-file-43a38138
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-43a38138"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-43a6515a"
+      :major-mode python-mode
+      :tags 
+        '( ("appium.webdriver.common.appiumby" include nil nil [1 60])
+            ("selenium.webdriver.support.ui" include nil nil [61 116])
+            ("selenium.webdriver.support" include nil nil [117 181])
+            ("appium.webdriver.common.touch_action" include nil nil [182 242])
+            ("Activation" type
+               (:members 
+                  ( ("ACTIVATION_TAG" variable nil (reparse-symbol indented_block_body) [267 344])
+                    ("NUMBER_BUTTON_DICT" variable nil (reparse-symbol indented_block_body) [349 956])
+                    ("activation" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [994 997])
+                            ("driver" variable nil (reparse-symbol function_parameters) [999 1005])
+                            ("activation_code" variable nil (reparse-symbol function_parameters) [1007 1022]))                          )
+                        (reparse-symbol indented_block_body) [962 1439]))                  
+                :type "class")
+                nil [245 1439]))          
+      :file "Activation.py"
+      :pointmax 1439
+      :fsize 1438
+      :lastmodtime '(25053 14979 56910 960000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!Unlicensed_Room!Sign_in!Activation!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

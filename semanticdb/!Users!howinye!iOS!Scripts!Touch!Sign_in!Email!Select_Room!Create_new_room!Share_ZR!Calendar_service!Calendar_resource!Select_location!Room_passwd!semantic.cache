@@ -1,0 +1,25 @@
+;; Object semanticdb-project-database-file-479430c4
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-479430c4"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-479430d6"
+      :major-mode python-mode
+      :tags 
+        '( ("Room_passwd" type
+               (:members 
+                  ( ("ROOM_PASSWD_TAG" variable nil (reparse-symbol indented_block_body) [24 100])
+                    ("ROOM_PASSWD_BACK" variable nil (reparse-symbol indented_block_body) [105 176])
+                    ("ROOM_PASSWD_CLOSE" variable nil (reparse-symbol indented_block_body) [181 241])
+                    ("ROOM_PASSWD_FIELD" variable nil (reparse-symbol indented_block_body) [247 570])
+                    ("ROOM_PASSWD_NEXT" variable nil (reparse-symbol indented_block_body) [576 634]))                  
+                :type "class")
+                nil [1 635]))          
+      :file "Room_passwd.py"
+      :pointmax 635
+      :fsize 634
+      :lastmodtime '(25053 9111 699800 350000)
+      :unmatched-syntax nil))
+  :file "!Users!howinye!iOS!Scripts!Touch!Sign_in!Email!Select_Room!Create_new_room!Share_ZR!Calendar_service!Calendar_resource!Select_location!Room_passwd!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

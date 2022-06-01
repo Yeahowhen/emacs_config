@@ -1,0 +1,209 @@
+;; Object semanticdb-project-database-file-44f375a4
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-44f375a4"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-480d199e"
+      :major-mode python-mode
+      :tags 
+        '( ("platforms.mac.src.base.PyUtil" include nil nil [1 61])
+            ("platforms.mac.src.base.PyLog" include nil nil [62 109])
+            ("time" include nil nil [110 129])
+            ("shutil" include nil nil [110 129])
+            ("platforms.mac.base_method.plist_method" include nil nil [130 182])
+            ("platforms.mac.base_method.ClientElement" include nil nil [183 236])
+            ("platforms.mac.zoom_testcase.Download_Install_from_web" include nil nil [237 338])
+            ("platforms.mac.release_check.Mac_Sign_Check" include nil nil [339 404])
+            ("log" variable nil nil [406 462])
+            ("InitializeEnvironment" type
+               (:superclasses ("object")
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("pass" code nil (reparse-symbol indented_block_body) [533 537]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [518 522]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [505 538])
+                    ("uninstallLocalClient" function
+                       (:typemodifiers ("static")
+                        :decorators 
+                          ( ("staticmethod" function (:type "decorator") nil nil))                          )
+                        (reparse-symbol indented_block_body) [543 1441])
+                    ("download_and_install_latest_client" function
+                       (:typemodifiers ("static")
+                        :arguments 
+                          ( ("DownloadLink" variable nil (reparse-symbol function_parameters) [1503 1515]))                          
+                        :decorators 
+                          ( ("staticmethod" function (:type "decorator") nil nil))                          )
+                        (reparse-symbol indented_block_body) [1446 1759])
+                    ("clearLocalDB" function
+                       (:typemodifiers ("static")
+                        :decorators 
+                          ( ("staticmethod" function (:type "decorator") nil nil))                          )
+                        (reparse-symbol indented_block_body) [1764 2635])
+                    ("log" code nil (reparse-symbol indented_block_body) [3372 3441])
+                    ("close_recording_popup_windows" function
+                       (:typemodifiers ("static")
+                        :decorators 
+                          ( ("staticmethod" function (:type "decorator") nil nil))                          )
+                        (reparse-symbol indented_block_body) [3447 4529])
+                    ("close_recording_not_converted_window" function
+                       (:typemodifiers ("static")
+                        :decorators 
+                          ( ("staticmethod" function (:type "decorator") nil nil))                          )
+                        (reparse-symbol indented_block_body) [4534 5025])
+                    ("close_failed_to_convert_recording_window" function
+                       (:typemodifiers ("static")
+                        :decorators 
+                          ( ("staticmethod" function (:type "decorator") nil nil))                          )
+                        (reparse-symbol indented_block_body) [5030 5397])
+                    ("choose_english_input_source" function
+                       (:typemodifiers ("static")
+                        :decorators 
+                          ( ("staticmethod" function (:type "decorator") nil nil))                          )
+                        (reparse-symbol indented_block_body) [5402 6080]))                  
+                :type "class")
+                nil [464 6080])
+            ("make_plist" function
+               (:documentation "
+    ZoomChat.plist
+    "
+                :arguments 
+                  ( ("name" variable nil (reparse-symbol function_parameters) [6096 6100]))                  )
+                nil [6081 6379])
+            ("if" code nil nil [6380 6469]))          
+      :file "initializeEnvironment.py"
+      :pointmax 6469
+      :fsize 6468
+      :lastmodtime '(24989 55956 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-480d19be"
+      :file "plist_method.py"
+      :fsize 732
+      :lastmodtime '(24989 55956 0 0))
+    (semanticdb-table "semanticdb-table-44f37584"
+      :major-mode python-mode
+      :tags 
+        '( ("time" include nil nil [16 36])
+            ("sys" include nil nil [16 36])
+            ("os" include nil nil [16 36])
+            ("platforms.mac.base_method.ClientElement" include nil nil [38 122])
+            ("sys" code nil nil [124 207])
+            ("platforms.mac.src.base.PyConsts" include nil nil [208 277])
+            ("platforms.mac.src.base.PyApplicationUIElement" include nil nil [278 357])
+            ("platforms.mac.src.base.PyWindow" include nil nil [358 497])
+            ("pynput.keyboard" include nil nil [498 541])
+            ("pynput.mouse" include nil nil [542 604])
+            ("platforms.mac.src.base.PyLog" include nil nil [605 652])
+            ("platforms.mac.src.base.PyUtil" include nil nil [653 738])
+            ("platforms.mac.base_method.ClientElement" include nil nil [739 792])
+            ("log" variable nil nil [794 848])
+            ("getZoomWindow" function nil nil [849 1048])
+            ("getAppWindow" function (:arguments 
+              ( ("name" variable nil (reparse-symbol function_parameters) [1066 1070]))              ) nil [1049 1250])
+            ("getLoginWindow" function nil nil [1251 1367])
+            ("click_sign_in_button" function nil nil [1368 1528])
+            ("click_join_meeting_button_on_login_window" function nil nil [1529 1724])
+            ("click_join_meeting_button_on_main_window" function nil nil [1725 1969])
+            ("get_setting_window" function nil nil [1970 2096])
+            ("get_switch_language_window" function nil nil [2097 2511])
+            ("wait_for_login_window" function (:arguments 
+              ( ("max_time" variable nil (reparse-symbol function_parameters) [2538 2546]))              ) nil [2512 2734])
+            ("click_more_button_on_login_window" function nil nil [2735 2942])
+            ("reopen_client_with_keep_sign_in" function nil nil [2943 3280])
+            ("reopen_client_without_keep_sign_in" function nil nil [3281 3621])
+            ("close_zoom_client" function nil nil [3622 3891])
+            ("check_for_updates" function nil nil [3892 4285])
+            ("switch_to_landscape_view" function nil nil [4286 4693])
+            ("sign_out" function nil nil [4694 5069])
+            ("get_menu_window" function nil nil [5070 5192])
+            ("click_code_button" function nil nil [5193 6246])
+            ("get_Download_Code_Snippet_window" function nil nil [6247 6413])
+            ("click_Show_Code_Snippet_button_in_setting_panel" function nil nil [6414 7363])
+            ("click_chat_button_in_zoom_main_window" function nil nil [7364 7879])
+            ("open_setting_panel" function nil nil [7880 7957])
+            ("click_setting_button" function nil nil [7958 8155])
+            ("click_Auto_join_audio_button_in_setting_panel" function (:arguments 
+              ( ("option" variable nil (reparse-symbol function_parameters) [8206 8212]))              ) nil [8156 9174])
+            ("click_always_show_meeting_controls" function nil nil [9175 9607])
+            ("press_esc_to_close_setting_panel" function nil nil [9608 9714])
+            ("click_home_button" function nil nil [9715 10213])
+            ("get_log_in_status" function nil nil [10214 10513])
+            ("click_meeting_button" function nil nil [10514 10999])
+            ("click_zoom_in_dock" function (:arguments 
+              ( ("mousekey" variable nil (reparse-symbol function_parameters) [11023 11031]))              ) nil [11000 11410])
+            ("wait_for_Authentication_window" function (:arguments 
+              ( ("max_time" variable nil (reparse-symbol function_parameters) [11446 11454]))              ) nil [11411 11727])
+            ("fill_in_proxy_account" function (:arguments 
+              ( ("username" variable nil (reparse-symbol function_parameters) [11754 11762])
+                ("pwd" variable nil (reparse-symbol function_parameters) [11771 11774]))              ) nil [11728 12247])
+            ("click_other_calendars_in_schedule_panel" function nil nil [12248 12770])
+            ("click_video_in_schedule_panel" function (:arguments 
+              ( ("host_video" variable nil (reparse-symbol function_parameters) [12805 12815])
+                ("participant_video" variable nil (reparse-symbol function_parameters) [12823 12840]))              ) nil [12771 13577])
+            ("click_pwd_in_schedule_panel" function (:arguments 
+              ( ("pwd" variable nil (reparse-symbol function_parameters) [13610 13613]))              ) nil [13578 13972])
+            ("enter_pwd_in_schedule_panel" function (:arguments 
+              ( ("pwd" variable nil (reparse-symbol function_parameters) [14005 14008]))              ) nil [13973 14352])
+            ("click_waiting_room_in_schedule_panel" function (:arguments 
+              ( ("pwd" variable nil (reparse-symbol function_parameters) [14394 14397]))              ) nil [14353 14698])
+            ("get_schedule_meeting_panel" function nil nil [14699 15074])
+            ("click_next_page_in_schedule_panel" function nil nil [15075 15668])
+            ("click_save_button_in_schedule_panel" function nil nil [15669 15850])
+            ("click_schedule_meeting_button" function nil nil [15851 16061])
+            ("check_meeting_schedule_result" function (:arguments 
+              ( ("log" variable nil (reparse-symbol function_parameters) [16096 16099])
+                ("meeting_topic" variable nil (reparse-symbol function_parameters) [16101 16114]))              ) nil [16062 16553])
+            ("click_generate_meetingid_button" function nil nil [16553 16910])
+            ("click_interpretation_button" function nil nil [16911 18230])
+            ("license_check" function nil nil [18231 18502])
+            ("open_System_Preferences" function nil nil [18503 18906])
+            ("get_setting_panel_tips" function nil nil [18907 19140])
+            ("get_ZoomMeetingPopupMenu_window" function nil nil [19141 19288])
+            ("if" code nil nil [19289 19339]))          
+      :file "IM_method.py"
+      :pointmax 19339
+      :fsize 19352
+      :lastmodtime '(24989 55956 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-44f375ba"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"
+author: Bolton.Ding
+date  : 15/10/2020
+\"\"\"" code nil nil [15 61])
+            ("sys" include nil nil [63 77])
+            ("os" include nil nil [63 77])
+            ("sys" code nil nil [78 161])
+            ("platforms.mac.src.base.PyUtil" include nil nil [162 241])
+            ("platforms.mac.src.base.PyApplicationUIElement" include nil nil [242 321])
+            ("platforms.mac.src.base.PyWindow" include nil nil [322 412])
+            ("platforms.mac.src.base.PyLog" include nil nil [413 460])
+            ("time" include nil nil [461 472])
+            ("pynput.keyboard" include nil nil [473 516])
+            ("platforms.mac.base_method.plist_method" include nil nil [517 569])
+            ("log" variable nil nil [570 626])
+            ("zoom_domain_switcher" function (:arguments 
+              ( ("domain" variable nil (reparse-symbol function_parameters) [654 660])
+                ("symbol" variable nil (reparse-symbol function_parameters) [683 689]))              ) nil [629 3025])
+            ("switcher" function (:arguments 
+              ( ("domain" variable nil (reparse-symbol function_parameters) [3039 3045]))              ) nil [3026 4041])
+            ("make_plist" function
+               (:documentation "
+    ZoomChat.plist
+    "
+                :arguments 
+                  ( ("name" variable nil (reparse-symbol function_parameters) [4057 4061]))                  )
+                nil [4042 4330])
+            ("if" code nil nil [4331 4399]))          
+      :file "domain_switch.py"
+      :pointmax 4399
+      :fsize 4428
+      :lastmodtime '(24989 55956 0 0)
+      :unmatched-syntax '((INDENT_BLOCK 4285 . 4330) (NEWLINE 4284 . 4285) (COLON 4283 . 4284) (TRY 4224 . 4227) (AS 4279 . 4281))))
+  :file "!Users!howinye!client-zapp-ta!platforms!mac!base_method!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
