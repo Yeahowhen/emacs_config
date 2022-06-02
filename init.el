@@ -3,7 +3,7 @@
 ;; Added by Package.el.  This must come before configurations of
 ;; installed packages.  Don't delete this line.  If you don't want it,
 ;; just comment it out by adding a semicolon to the start of the line.
-;; You may delete these explanatory comments.
+;; may delete these explanatory comments.
 
 (require 'package)
 (add-to-list 'package-archives
@@ -12,7 +12,7 @@
 (package-initialize)
 
 (exec-path-from-shell-initialize)
-
+ 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -28,26 +28,23 @@
  '(helm-dictionary-online-dicts
    '(("youdao" . "http://dict.youdao.com/search?q=%s&ue=utf8")
      ("iciba" . "http://www.iciba.com/word?w=%s")))
- '(ivy-mode t)
- '(lsp-keymap-prefix "C-c l")
+ '(lsp-keymap-prefix "C-c l" t)
  '(org-agenda-files nil)
  '(package-selected-packages
-   '(treemacs-all-the-icons treemacs ranger swiper-helm yasnippet-snippets mwim google google-this rainbow-mode rainbow-delimiters posframe exec-path-from-shell helm-flycheck helm-company lsp-pyright helm-lsp lsp-mode org-roam fuzzy auto-compelete org-edit-latex ctable helm-dictionary ace-jump-mode deferred epc helm-descbinds smart-mode-line youdao-dictionary helm-firefox sr-speedbar ztree-dir ztree-diff dashboard good-scrll smart-region good-scroll ace-window pdf-tools dtrt-indent ws-butler function-args auto-complete-clang which-key helm-xref ag helm-gtags helm-ls-git helm-ls-hg duplicate-thing popwin highlight-symbol highlight-numbers nyan-mode flycheck magit diff-hl ztree recentf-ext treemacs-projectile ibuffer-vc clean-aindent-mode smartparens yasnippet undo-tree volatile-highlights helm-projectile expand-region imenu-anywhere helm use-package monokai-theme company ggtags))
+   '(helm-swoop centaur-tabs zoom workgroups2 smooth-scroll sublimity ace-popup-menu helpful treemacs-all-the-icons treemacs ranger swiper-helm yasnippet-snippets mwim google google-this rainbow-mode rainbow-delimiters posframe exec-path-from-shell helm-flycheck helm-company lsp-pyright helm-lsp lsp-mode org-roam fuzzy auto-compelete org-edit-latex ctable helm-dictionary ace-jump-mode deferred epc helm-descbinds smart-mode-line youdao-dictionary helm-firefox sr-speedbar ztree-dir ztree-diff dashboard good-scrll smart-region good-scroll ace-window pdf-tools dtrt-indent ws-butler function-args auto-complete-clang which-key helm-xref ag helm-gtags helm-ls-git helm-ls-hg duplicate-thing popwin highlight-symbol highlight-numbers flycheck magit diff-hl ztree recentf-ext treemacs-projectile ibuffer-vc clean-aindent-mode smartparens yasnippet undo-tree volatile-highlights helm-projectile expand-region imenu-anywhere helm use-package monokai-theme company ggtags))
  '(sr-speedbar-default-width 10)
  '(sr-speedbar-max-width 40)
  '(warning-suppress-types '((use-package)))
  '(wg-first-wg-name ""))
-(custom-set-faces
+
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
 
 (defalias 'yes-or-no-p 'y-or-n-p)
 
 (require 'saveplace)
-(require 'popwin)
 (require 'use-package)
 (require 'function-args)
 
@@ -61,7 +58,6 @@
 (load-theme 'monokai t)
 (semantic-mode t)
 (delete-selection-mode t)
-(rainbow-mode t)
 
 (setq inhibit-splash-screen 1)
 (setq inhibit-startup-message -1)
@@ -71,7 +67,6 @@
 (setq-default tab-width 4)
 (setq-default indent-tabs-mode nil)
 (setq-default save-place t)
-
 
 (org-babel-do-load-languages
  'org-babel-load-languages
@@ -103,8 +98,16 @@
   (setq dashboard-projects-backend 'projectile)
   (setq dashboard-startup-banner 'official)
   (setq dashboard-items '((recents . 5)
-                          (bookmarks . 5)
-                          (projects . 5)))
+                          (projects . 5)
+                          (agenda . 5)
+                          (register . 5)
+                          (bookmarks . 5)))
+  (setq dashboard-set-navigator t)
+  (setq dashboard-footer nil)
+  (setq dashboard-set-init-info t)
+  (setq dashboard-set-heading-icons t)
+  (setq dashboard-set-file-icons t)
+  :config
   (dashboard-setup-startup-hook))
 
 (use-package mwim
@@ -198,13 +201,8 @@
 
 (use-package flycheck
   :ensure t
-  :init
-  (global-flycheck-mode))
-
-(use-package nyan-mode
-  :ensure t
   :config
-  (nyan-mode))
+  (global-flycheck-mode))
 
 (use-package highlight-numbers
   :ensure t
@@ -218,6 +216,11 @@
   ("M-n" . 'highlight-symbol-next)
   :hook
   (prog-mode . highlight-symbol-mode))
+
+(use-package rainbow-mode
+  :ensure t
+  :config
+  (rainbow-mode))
 
 (use-package rainbow-delimiters
   :ensure t
@@ -253,7 +256,7 @@
 
 (use-package good-scroll
   :ensure t
-  :init
+  :config
   (good-scroll-mode))
 
 (use-package ctable
@@ -312,20 +315,20 @@
 
 (use-package lsp-mode
   :ensure t
+  :init
+  (setq lsp-keymap-prefix "C-c l")
+  (setq gc-cons-threshold 100000000)
+  (setq read-process-output-max (* 2014 1024))
+  :commands
+  (lsp lsp-deferred)
   :hook
   ((c-mode . lsp)
    (latex-mode . lsp)
    (c++-mode . lsp)
    (cmake-mode . lsp)
-   (python-mode . lsp)
-   (lsp-mode . lsp-enable-which-key-integration))
-  :config
-  ((setq lsp-keymap-prefix "C-c l")
-   (setq gc-cons-threshold 100000000)
-   (setq read-process-output-max (* 2014 1024)))
-  :commands
-  lsp)
-
+   (python-mode . lsp))
+   (lsp . lsp-enable-which-key-integration))
+  
 (use-package ranger
   :ensure t
   :config
@@ -343,7 +346,90 @@
   :bind
   ("C-c t" . 'treemacs)
   :config
-  (treemacs-follow-mode))
+  (treemacs-mode))
+
+(use-package helpful
+  :ensure t
+  :bind
+  (("C-h c" . helpful-callable)
+   ("C-h f" . helpful-function)
+   ("C-h v" . helpful-variable)
+   ("C-h k" . helpful-key)
+   ("C-h a" . helpful-command)
+   ("C-h m" . helpful-macro)
+   ("C-h s" . helpful-symbol)
+   ("C-c C-d" . helpful-at-point)))
+
+(use-package popwin
+  :ensure t
+  :config
+  (popwin-mode))
+
+(use-package ace-popup-menu
+  :ensure t
+  :config
+  (ace-popup-menu-mode))
+
+(use-package sublimity
+  :ensure t
+  :config
+  (sublimity-mode))
+  
+(use-package workgroups2
+  :ensure t
+  :init
+  (setq wg-prefix-key "C-c z")
+  :config
+  (workgroups-mode t))
+
+(use-package zoom
+  :ensure t
+  :init
+  (setq zoom-size '(0.618 0.618))
+  :bind
+  ("C-x +" . zoom)
+  :config
+  (zoom-mode))
+
+(use-package windmove
+  :ensure t
+  :bind
+  ("C-c <left>" . windmove-left)
+  ("C-c <right>" . windmove-right)
+  ("C-c <down>" . windmove-down)
+  ("C-c <up>" . windmove-up)
+  :config
+  (windmove-mode))
+
+(use-package centaur-tabs
+  :ensure t
+  :init
+  (setq centaur-tabs-style "bar")
+  (setq centaur-tabs-height 30)
+  (setq centaur-tabs-set-icons t)
+  (setq centaur-tabs-plain-icons t)
+  (setq centaur-tabs-gray-out-icons 'buffer)
+  (setq centaur-tabs-set-bar 'left)
+  (setq centaur-tabs-set-close-button nil)
+  (setq centaur-tabs-set-modified-marker t)
+  (setq centaur-tabs-modified-marker "M")
+  :bind
+  ("C-c C-b" . centaur-tabs-backward)
+  ("C-c C-f" . centaur-tabs-forward)
+  :config
+  (centaur-tabs-headline-match)
+  (centaur-tabs-mode t))
+
+(use-package helm-swoop
+  :ensure t
+  :bind
+  ("M-i" . helm-swoop))
 
 (provide 'init)
 ;;; init.el ends here
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

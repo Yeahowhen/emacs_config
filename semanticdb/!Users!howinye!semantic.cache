@@ -1,9 +1,9 @@
-;; Object semanticdb-project-database-file-5040722a
+;; Object semanticdb-project-database-file-4f06a8ba
 ;; SEMANTICDB Tags save file
-(semanticdb-project-database-file "semanticdb-project-database-file-5040722a"
+(semanticdb-project-database-file "semanticdb-project-database-file-4f06a8ba"
   :tables
   (list
-    (semanticdb-table "semanticdb-table-504071ca"
+    (semanticdb-table "semanticdb-table-4f06a85a"
       :major-mode c++-mode
       :tags 
         '( ("algorithm" include (:system-flag t) nil [1 21])
@@ -37,7 +37,7 @@
       :fsize 824
       :lastmodtime '(25237 57876 588034 236000)
       :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table-504071ea"
+    (semanticdb-table "semanticdb-table-4f06a87a"
       :major-mode c++-mode
       :tags 
         '( ("iostream" include (:system-flag t) nil [1 20])
@@ -57,7 +57,7 @@
       :fsize 356
       :lastmodtime '(25189 8125 211576 579000)
       :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table-5040720a"
+    (semanticdb-table "semanticdb-table-4f06a89a"
       :major-mode python-mode
       :tags 
         '( ("os" include nil nil [1 10])
