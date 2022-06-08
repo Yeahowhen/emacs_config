@@ -1,12 +1,3 @@
-"ac*"
-"auto-save-list/"
-"eshell/"
-"bookmark"
-"org*"
-"projectile*"
-"recentf"
-"semanticdb/"
-"snippets/"
-"tramp"
-"transient/"
-"url/"
+*
+
+!init.el

@@ -7,12 +7,13 @@
 
 (require 'package)
 (add-to-list 'package-archives
-	     '("melpa" . "https://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/") t)
+	         '("melpa" . "https://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/"))
+
 ;;; Code:
 (package-initialize)
 
 (exec-path-from-shell-initialize)
- 
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -28,12 +29,12 @@
  '(helm-dictionary-online-dicts
    '(("youdao" . "http://dict.youdao.com/search?q=%s&ue=utf8")
      ("iciba" . "http://www.iciba.com/word?w=%s")))
- '(lsp-keymap-prefix "C-c l" t)
+ '(lsp-keymap-prefix "C-c l")
  '(org-agenda-files nil)
  '(package-selected-packages
-   '(helm-swoop centaur-tabs zoom workgroups2 smooth-scroll sublimity ace-popup-menu helpful treemacs-all-the-icons treemacs ranger swiper-helm yasnippet-snippets mwim google google-this rainbow-mode rainbow-delimiters posframe exec-path-from-shell helm-flycheck helm-company lsp-pyright helm-lsp lsp-mode org-roam fuzzy auto-compelete org-edit-latex ctable helm-dictionary ace-jump-mode deferred epc helm-descbinds smart-mode-line youdao-dictionary helm-firefox sr-speedbar ztree-dir ztree-diff dashboard good-scrll smart-region good-scroll ace-window pdf-tools dtrt-indent ws-butler function-args auto-complete-clang which-key helm-xref ag helm-gtags helm-ls-git helm-ls-hg duplicate-thing popwin highlight-symbol highlight-numbers flycheck magit diff-hl ztree recentf-ext treemacs-projectile ibuffer-vc clean-aindent-mode smartparens yasnippet undo-tree volatile-highlights helm-projectile expand-region imenu-anywhere helm use-package monokai-theme company ggtags))
- '(sr-speedbar-default-width 10)
- '(sr-speedbar-max-width 40)
+   '(paradox nyan-mode doom-themes doom-modeline emojify mode-icons auto-package-update howdoi auctex-latexmk company-auctex auctex pdf-view-restore let-alist hexo ripgrep multi-term restart-emacs helm-system-packages dumb-jump lsp-pyright flycheck-pos-tip company-quickhelp apheleia json-rpc consult-eglot eglot lsp-treemacs aggresive-indent indent-guide clipmon move-dup zzz-to-char fix-word pangu-spacing crux multiple-cursor multiple-cursors dimmer focus beacon highlight-parentheses color-identifiers-mode goto-line-preview ctrlf helm-swoop centaur-tabs zoom workgroups2 smooth-scroll sublimity ace-popup-menu helpful treemacs-all-the-icons treemacs yasnippet-snippets mwim google google-this rainbow-mode rainbow-delimiters posframe exec-path-from-shell helm-flycheck helm-company helm-lsp org-roam fuzzy auto-compelete org-edit-latex ctable helm-dictionary ace-jump-mode deferred epc helm-descbinds youdao-dictionary helm-firefox ztree-dir ztree-diff dashboard good-scrll smart-region good-scroll ace-window pdf-tools dtrt-indent ws-butler function-args auto-complete-clang which-key helm-xref ag helm-gtags helm-ls-git helm-ls-hg duplicate-thing popwin highlight-symbol highlight-numbers flycheck magit diff-hl ztree recentf-ext treemacs-projectile ibuffer-vc clean-aindent-mode smartparens yasnippet undo-tree volatile-highlights helm-projectile expand-region imenu-anywhere helm use-package company ggtags))
+ '(paradox-github-token t)
+ '(symon-sparkline-type 'plain)
  '(warning-suppress-types '((use-package)))
  '(wg-first-wg-name ""))
 
@@ -46,7 +47,6 @@
 
 (require 'saveplace)
 (require 'use-package)
-(require 'function-args)
 
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
@@ -55,14 +55,16 @@
 (menu-bar-mode -1)
 (fa-config-default)
 (global-auto-revert-mode t)
-(load-theme 'monokai t)
 (semantic-mode t)
 (delete-selection-mode t)
 
 (setq inhibit-splash-screen 1)
+(setq load-prefer-newer t)
 (setq inhibit-startup-message -1)
 (setq make-backup-files nil)
 (setq auto-save-default nil)
+(setq byte-compile-warnings '(cl-function))
+(setq python-shell-completion-native-enable nil)
 (setq-default dired-dwim-target 1)
 (setq-default tab-width 4)
 (setq-default indent-tabs-mode nil)
@@ -100,7 +102,7 @@
   (setq dashboard-items '((recents . 5)
                           (projects . 5)
                           (agenda . 5)
-                          (register . 5)
+                          (registers . 5)
                           (bookmarks . 5)))
   (setq dashboard-set-navigator t)
   (setq dashboard-footer nil)
@@ -140,59 +142,50 @@
   :config
   (global-company-mode))
 
+(use-package company-quickhelp
+  :ensure t
+  :hook
+  (company-mode . company-quickhelp-mode))
+
 (use-package duplicate-thing
   :ensure t
   :bind
-  ("C--" . 'duplicate-thing))
+  ("C--" . duplicate-thing))
 
 (use-package expand-region
   :ensure t
   :bind
-  ("C-=" . 'er/expand-region))
+  ("C-=" . er/expand-region))
 
 (use-package ibuffer-vc
   :ensure t
   :bind
-  ("C-x C-b" . 'ibuffer))
+  ("C-x C-b" . ibuffer))
 
 (use-package helm
   :ensure t
   :init
   (setq-default helm-buffers-fuzzy-matching t)
   :bind
-  (("M-x" . 'helm-M-x)
-  ("C-x r b" . 'helm-filtered-bookmarks)
-  ("C-x C-f" . 'helm-find-files)
-  ("M-y" . 'helm-show-kill-ring)
-  ("C-x b" . 'helm-mini)
-  ("C-x c C-SPC" . 'helm-mark-ring)
-  ("C-x C-d" . 'helm-browse-project)
-  ("C-x c p" . 'helm-projects-history)
-  ("C-j" . 'helm-gtags-select)
-  ("M-." . 'helm-gtags-dwim)
-  ("M-," . 'helm-gtags-pop-stack)
-  ("C-z" . 'helm-descbinds))
+  (("M-x" . helm-M-x)
+  ("C-x r b" . helm-filtered-bookmarks)
+  ("C-x C-f" . helm-find-files)
+  ("M-y" . helm-show-kill-ring)
+  ("C-x b" . helm-mini)
+  ("C-x c C-SPC" . helm-mark-ring)
+  ("C-x C-d" . helm-browse-project)
+  ("C-x c p" . helm-projects-history)
+  ("C-j" . helm-gtags-select)
+  ("C-z" . helm-descbinds))
   :config
   (helm-mode))
 
-(use-package swiper
-  :ensure t
-  :bind
-  (("C-s" . 'swiper-isearch)
-   ("C-r" . 'swiper-isearch-backward)))
-
-(use-package swiper-helm
-  :ensure t
-  :bind
-  ("C-M-s" . 'swiper-helm))
-   
 (use-package projectile
   :ensure t
   :init
   (setq projectile-completion-system 'helm)
-  :bind
-  (:map projectile-mode-map
-        ("C-c p" . projectile-command-map))
+  :bind-keymap
+  ("C-c p" . projectile-command-map)
   :config
   (projectile-mode))
 
@@ -223,20 +216,14 @@
   (rainbow-mode))
 
 (use-package rainbow-delimiters
-  :ensure t
+  :e3nsure t
   :hook
   (prog-mode . rainbow-delimiters-mode))
-
-(use-package sr-speedbar
-  :ensure t
-  :init
-  (setq sr-speedbar-right-side nil)
-  (setq sr-speedbar-width 2))
 
 (use-package ws-butler
   :ensure t
   :hook
-  (c-mode-common . ws-butler-mode))
+  (prog-mode . ws-butler-mode))
 
 (use-package youdao-dictionary
   :ensure t
@@ -244,15 +231,10 @@
   :config
   (setq-default url-automatic-caching t)
   :bind
-  ("C-c y s" . youdao-dictionary-search-at-point-posframe)
-  ("C-c y p" . youdao-dictionary-play-voice-at-point)
-  ("C-c y r" . youdao-dictionary-search-and-replace)
-  ("C-c y i" . youdao-dictionary-search-from-input))
-
-(use-package smart-mode-line
-  :ensure t
-  :config
-  (sml/setup))
+  (("C-c y s" . youdao-dictionary-search-at-point-posframe)
+   ("C-c y p" . youdao-dictionary-play-voice-at-point)
+   ("C-c y r" . youdao-dictionary-search-and-replace)
+   ("C-c y i" . youdao-dictionary-search-from-input)))
 
 (use-package good-scroll
   :ensure t
@@ -280,8 +262,6 @@
 
 (use-package diff-hl
   :ensure t
-  :hook
-  (dired-mode . diff-hl-dir-mode)
   :config
   (global-diff-hl-mode))
 
@@ -313,47 +293,34 @@
   :config
   (org-roam-db-autosync-enable))
 
-(use-package lsp-mode
+(use-package eglot
   :ensure t
-  :init
-  (setq lsp-keymap-prefix "C-c l")
-  (setq gc-cons-threshold 100000000)
-  (setq read-process-output-max (* 2014 1024))
-  :commands
-  (lsp lsp-deferred)
   :hook
-  ((c-mode . lsp)
-   (latex-mode . lsp)
-   (c++-mode . lsp)
-   (cmake-mode . lsp)
-   (python-mode . lsp))
-   (lsp . lsp-enable-which-key-integration))
-  
-(use-package ranger
-  :ensure t
-  :config
-  (setq ranger-cleanup-on-disable t)
-  (ranger-override-dired-mode t))
+  ((c-mode . eglot-ensure)
+   (latex-mode . eglot-ensure)
+   (c++-mode . eglot-ensure)
+   (cmake-mode . eglot-ensure)
+   (python-mode . eglot-ensure)))
 
 (use-package helm-lsp
   :ensure t
-  :commands
-  helm-lsp-workspace-symbol)
+  :bind
+  ("C-M-." . helm-lsp-workspace-symbol))
 
 (use-package treemacs
   :ensure t
   :defer t
   :bind
-  ("C-c t" . 'treemacs)
+  (("C-c t" . treemacs)
+   ("C-c w" . treemacs-select-window))
   :config
-  (treemacs-mode))
+  (treemacs-follow-mode))
 
 (use-package helpful
   :ensure t
   :bind
   (("C-h c" . helpful-callable)
    ("C-h f" . helpful-function)
-   ("C-h v" . helpful-variable)
    ("C-h k" . helpful-key)
    ("C-h a" . helpful-command)
    ("C-h m" . helpful-macro)
@@ -374,7 +341,7 @@
   :ensure t
   :config
   (sublimity-mode))
-  
+
 (use-package workgroups2
   :ensure t
   :init
@@ -414,8 +381,8 @@
   (setq centaur-tabs-set-modified-marker t)
   (setq centaur-tabs-modified-marker "M")
   :bind
-  ("C-c C-b" . centaur-tabs-backward)
-  ("C-c C-f" . centaur-tabs-forward)
+  (("C-c C-b" . centaur-tabs-backward)
+   ("C-c C-f" . centaur-tabs-forward))
   :config
   (centaur-tabs-headline-match)
   (centaur-tabs-mode t))
@@ -424,6 +391,187 @@
   :ensure t
   :bind
   ("M-i" . helm-swoop))
+
+(use-package ctrlf
+  :ensure t
+  :bind
+  (("C-s" . ctrlf-forward-default)
+   ("C-r" . ctrlf-backward-default)
+   ("C-M-s" . ctrlf-forward-alternate)
+   ("C-M-r" . ctrlf-backward-alternate)
+   ("M-s _" . ctrlf-forward-symbol)
+   ("M-s ." . ctrlf-forward-symbol-at-point))
+  :config
+  (ctrlf-mode))
+
+(use-package goto-line-preview
+  :ensure t
+  :bind
+  ("M-g g" . goto-line-preview))
+
+(use-package color-identifiers-mode
+  :ensure t
+  :hook
+  (prog-mode . color-identifiers-mode))
+
+(use-package highlight-parentheses
+  :ensure t
+  :config
+  (global-highlight-parentheses-mode))
+
+(use-package beacon
+  :ensure t
+  :config
+  (beacon-mode))
+
+(use-package focus
+  :ensure t)
+
+(use-package dimmer
+  :ensure t
+  :config
+  ((dimmer-configure-which-key)
+   (dimmer-configure-helm)
+   (dimmer-mode)))
+
+(use-package multiple-cursor
+  :ensure t
+  :bind
+  (("C-<" . mc/mark-previous-like-this)
+   ("C->" . mc/mark-next-like-this)
+   ("C-c C-<" . mc/mark-all-like-this)))
+
+(use-package pangu-spacing
+  :ensure t
+  :init
+  (setq pangu-spacing-real-insert-separtor t)
+  :config
+  (pangu-spacing-mode))
+
+(use-package fix-word
+  :ensure t
+  :bind
+  ("M-u" . fix-word-upcase)
+  ("M-l" . fix-word-downcase)
+  ("M-c" . fix-word-capitalize))
+
+(use-package zzz-to-char
+  :ensure t
+  :bind
+  ("M-z" . zzz-to-char))
+
+(use-package move-dup
+  :ensure t
+  :config
+  (global-move-dup-mode))
+
+(use-package crux
+  :ensure t
+  :bind
+  ("C-k" . crux-smart-kill-line)
+  ("M-k" . crux-kill-whole-line)
+  ("C-u" . crux-kill-line-backwards)
+  ("C-j" . crux-top-join-line)
+  ("C-M-t" . crux-visit-term-buffer)
+  ("C-o" . crux-smart-open-line)
+  ("M-o" . crux-smart-open-line-above))
+
+(use-package clipmon
+  :ensure t
+  :config
+  (clipmon-mode))
+
+(use-package indent-guide
+  :ensure t
+  :config
+  (indent-guide-global-mode))
+
+(use-package ggtags
+  :ensure t)
+
+(use-package apheleia
+  :ensure t
+  :config
+  (apheleia-mode))
+
+(use-package lsp-treemacs
+  :ensure t
+  :config
+  (lsp-treemacs-sync-mode))
+
+(use-package dumb-jump
+  :ensure t
+  :hook
+  (xref-backend-functions . dumb-jump-xref-activate))
+
+(use-package multi-term
+  :ensure t
+  :init
+  (setq multi-term-program "/bin/zsh"))
+
+(use-package hexo
+  :ensure t
+  :config
+  (hexo "~/blog"))
+
+(use-package pdf-tools
+  :ensure t
+  :init
+  (setq pdf-view-use-scaling t))
+
+(use-package pdf-view-restore
+  :ensure t
+  :after pdf-tools
+  :hook
+  (pdf-view-mode . pdf-view-restore-mode))
+
+(use-package auto-package-update
+  :ensure t
+  :config
+  (auto-package-update-maybe))
+
+(use-package mode-icons
+  :ensure t
+  :init
+  (setq mode-icons-change-mode-name nil)
+  :config
+  (mode-icons-mode))
+
+(use-package emojify
+  :ensure t
+  :hook
+  (after-init . global-emojify-mode))
+
+(use-package all-the-icons
+  :ensure t
+  :if (display-graphic-p))
+
+(use-package doom-modeline
+  :ensure t
+  :hook
+  (after-init . doom-modeline-mode))
+
+(use-package doom-themes
+  :ensure t
+  :init
+  (setq doom-themes-enable-bold t)
+  (setq doom-themes-enable-italic t)
+  (setq doom-themes-treemacs-theme "doom-atom")
+  :config
+  (load-theme 'doom-molokai t)
+  (doom-themes-visual-bell-config)
+  (doom-themes-treemacs-config)
+  (doom-themes-org-config))
+
+(use-package nyan-mode
+  :ensure t
+  :init
+  (setq nyan-animate-nyancat t))
+
+(use-package paradox
+  :ensuret t
+  :config
+  (paradox-enable))
 
 (provide 'init)
 ;;; init.el ends here
