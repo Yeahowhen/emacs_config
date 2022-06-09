@@ -30,9 +30,13 @@
  '(lsp-keymap-prefix "C-c l")
  '(org-agenda-files nil)
  '(package-selected-packages
-   '(theme-magic paradox nyan-mode doom-themes doom-modeline emojify mode-icons auto-package-update howdoi auctex-latexmk company-auctex auctex pdf-view-restore let-alist hexo ripgrep multi-term restart-emacs helm-system-packages dumb-jump lsp-pyright flycheck-pos-tip company-quickhelp apheleia json-rpc consult-eglot eglot lsp-treemacs aggresive-indent indent-guide clipmon move-dup zzz-to-char fix-word pangu-spacing crux multiple-cursor multiple-cursors dimmer focus beacon highlight-parentheses color-identifiers-mode goto-line-preview ctrlf helm-swoop centaur-tabs zoom workgroups2 smooth-scroll sublimity ace-popup-menu helpful treemacs-all-the-icons treemacs yasnippet-snippets mwim google google-this rainbow-mode rainbow-delimiters posframe exec-path-from-shell helm-flycheck helm-company helm-lsp org-roam fuzzy auto-compelete org-edit-latex ctable helm-dictionary ace-jump-mode deferred epc helm-descbinds youdao-dictionary helm-firefox ztree-dir ztree-diff dashboard good-scrll smart-region good-scroll ace-window pdf-tools dtrt-indent ws-butler function-args auto-complete-clang which-key helm-xref ag helm-gtags helm-ls-git helm-ls-hg duplicate-thing popwin highlight-symbol highlight-numbers flycheck magit diff-hl ztree recentf-ext treemacs-projectile ibuffer-vc clean-aindent-mode smartparens yasnippet undo-tree volatile-highlights helm-projectile expand-region imenu-anywhere helm use-package company ggtags))
+   '(helm-flymake helm-fuzzy helm-fuzzy-find helm-google helm-org helm-osx-app theme-magic paradox nyan-mode doom-themes doom-modeline emojify mode-icons auto-package-update howdoi auctex-latexmk company-auctex auctex pdf-view-restore let-alist hexo ripgrep multi-term restart-emacs helm-system-packages dumb-jump lsp-pyright flycheck-pos-tip company-quickhelp apheleia json-rpc consult-eglot eglot lsp-treemacs aggresive-indent indent-guide clipmon move-dup zzz-to-char fix-word pangu-spacing crux multiple-cursors dimmer focus beacon highlight-parentheses color-identifiers-mode goto-line-preview ctrlf helm-swoop centaur-tabs zoom workgroups2 smooth-scroll sublimity ace-popup-menu helpful treemacs-all-the-icons treemacs yasnippet-snippets mwim google google-this rainbow-mode rainbow-delimiters posframe exec-path-from-shell helm-flycheck helm-company helm-lsp org-roam fuzzy auto-compelete org-edit-latex ctable helm-dictionary ace-jump-mode deferred epc helm-descbinds youdao-dictionary helm-firefox ztree-dir ztree-diff dashboard good-scrll smart-region good-scroll ace-window pdf-tools dtrt-indent ws-butler function-args auto-complete-clang which-key helm-xref ag helm-gtags helm-ls-git helm-ls-hg duplicate-thing popwin highlight-symbol highlight-numbers flycheck magit diff-hl ztree recentf-ext treemacs-projectile ibuffer-vc clean-aindent-mode smartparens yasnippet undo-tree volatile-highlights helm-projectile expand-region imenu-anywhere helm use-package company ggtags))
  '(paradox-github-token t)
+ '(python-indent-offset 4)
+ '(python-shell-completion-native-enable nil)
  '(python-shell-exec-path '("/usr/bin"))
+ '(symon-monitors
+   '(symon-darwin-memory-monitor symon-darwin-cpu-monitor symon-darwin-network-rx-monitor symon-darwin-network-tx-monitor))
  '(symon-sparkline-type 'plain)
  '(warning-suppress-types '((use-package)))
  '(wg-first-wg-name ""))
@@ -58,7 +62,6 @@
 (setq load-prefer-newer t)
 (setq inhibit-startup-message -1)
 (setq make-backup-files nil)
-(setq auto-save-default nil)
 (setq byte-compile-warnings '(cl-function))
 (setq-default dired-dwim-target 1)
 (setq-default tab-width 4)
@@ -174,15 +177,15 @@
   (setq-default helm-buffers-fuzzy-matching t)
   :bind
   (("M-x" . helm-M-x)
-  ("C-x r b" . helm-filtered-bookmarks)
-  ("C-x C-f" . helm-find-files)
-  ("M-y" . helm-show-kill-ring)
-  ("C-x b" . helm-mini)
-  ("C-x c C-SPC" . helm-mark-ring)
-  ("C-x C-d" . helm-browse-project)
-  ("C-x c p" . helm-projects-history)
-  ("C-j" . helm-gtags-select)
-  ("C-z" . helm-descbinds))
+   ("C-x r b" . helm-filtered-bookmarks)
+   ("C-x C-f" . helm-find-files)
+   ("M-y" . helm-show-kill-ring)
+   ("C-x b" . helm-mini)
+   ("C-x c C-SPC" . helm-mark-ring)
+   ("C-x C-d" . helm-browse-project)
+   ("C-x c p" . helm-projects-history)
+   ("C-j" . helm-gtags-select)
+   ("C-z" . helm-descbinds))
   :config
   (helm-mode))
 
@@ -306,13 +309,20 @@
    (sh-mode . eglot-ensure)
    (latex-mode . eglot-ensure)
    (c++-mode . eglot-ensure)
-   (cmake-mode . eglot-ensure)
-   (python-mode . eglot-ensure)))
+   (cmake-mode . eglot-ensure)))
 
 (use-package helm-lsp
   :ensure t
   :bind
   ("C-M-." . helm-lsp-workspace-symbol))
+
+(use-package elpy
+  :ensure t
+  :defer t
+  :init
+  (elpy-enable)
+  :hook
+  (python-mode . elpy-mode))
 
 (use-package treemacs
   :ensure t
@@ -344,11 +354,6 @@
   :config
   (ace-popup-menu-mode))
 
-(use-package sublimity
-  :ensure t
-  :config
-  (sublimity-mode))
-
 (use-package workgroups2
   :ensure t
   :init
@@ -379,7 +384,7 @@
   :ensure t
   :init
   (setq centaur-tabs-style "bar")
-  (setq centaur-tabs-height 30)
+  (setq centaur-tabs-height 25)
   (setq centaur-tabs-set-icons t)
   (setq centaur-tabs-plain-icons t)
   (setq centaur-tabs-gray-out-icons 'buffer)
@@ -387,12 +392,11 @@
   (setq centaur-tabs-set-close-button nil)
   (setq centaur-tabs-set-modified-marker t)
   (setq centaur-tabs-modified-marker "M")
-  :bind
-  (("C-c C-b" . centaur-tabs-backward)
-   ("C-c C-f" . centaur-tabs-forward))
+  (setq centaur-tabs-enable-key-bindings t)
+  :hook
+  (dired-mode . centaur-tabs-local-mode)
   :config
-  (centaur-tabs-headline-match)
-  (centaur-tabs-mode t))
+  (centaur-tabs-mode))
 
 (use-package helm-swoop
   :ensure t
@@ -440,7 +444,7 @@
   :config
   (dimmer-mode))
 
-(use-package multiple-cursor
+(use-package multiple-cursors
   :ensure t
   :bind
   (("C-<" . mc/mark-previous-like-this)
@@ -572,11 +576,13 @@
 (use-package nyan-mode
   :ensure t
   :init
-  (setq nyan-animate-nyancat t))
+  (setq nyan-animate-nyancat t)
+  :config
+  (nyan-mode))
 
 (use-package paradox
   :ensure t
-  :config
+  :init
   (paradox-enable))
 
 (use-package theme-magic
