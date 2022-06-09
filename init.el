@@ -8,11 +8,9 @@
 (require 'package)
 (add-to-list 'package-archives
 	         '("melpa" . "https://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/"))
-
-;;; Code:
 (package-initialize)
 
-(exec-path-from-shell-initialize)
+;;; Code:
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -32,8 +30,9 @@
  '(lsp-keymap-prefix "C-c l")
  '(org-agenda-files nil)
  '(package-selected-packages
-   '(paradox nyan-mode doom-themes doom-modeline emojify mode-icons auto-package-update howdoi auctex-latexmk company-auctex auctex pdf-view-restore let-alist hexo ripgrep multi-term restart-emacs helm-system-packages dumb-jump lsp-pyright flycheck-pos-tip company-quickhelp apheleia json-rpc consult-eglot eglot lsp-treemacs aggresive-indent indent-guide clipmon move-dup zzz-to-char fix-word pangu-spacing crux multiple-cursor multiple-cursors dimmer focus beacon highlight-parentheses color-identifiers-mode goto-line-preview ctrlf helm-swoop centaur-tabs zoom workgroups2 smooth-scroll sublimity ace-popup-menu helpful treemacs-all-the-icons treemacs yasnippet-snippets mwim google google-this rainbow-mode rainbow-delimiters posframe exec-path-from-shell helm-flycheck helm-company helm-lsp org-roam fuzzy auto-compelete org-edit-latex ctable helm-dictionary ace-jump-mode deferred epc helm-descbinds youdao-dictionary helm-firefox ztree-dir ztree-diff dashboard good-scrll smart-region good-scroll ace-window pdf-tools dtrt-indent ws-butler function-args auto-complete-clang which-key helm-xref ag helm-gtags helm-ls-git helm-ls-hg duplicate-thing popwin highlight-symbol highlight-numbers flycheck magit diff-hl ztree recentf-ext treemacs-projectile ibuffer-vc clean-aindent-mode smartparens yasnippet undo-tree volatile-highlights helm-projectile expand-region imenu-anywhere helm use-package company ggtags))
+   '(theme-magic paradox nyan-mode doom-themes doom-modeline emojify mode-icons auto-package-update howdoi auctex-latexmk company-auctex auctex pdf-view-restore let-alist hexo ripgrep multi-term restart-emacs helm-system-packages dumb-jump lsp-pyright flycheck-pos-tip company-quickhelp apheleia json-rpc consult-eglot eglot lsp-treemacs aggresive-indent indent-guide clipmon move-dup zzz-to-char fix-word pangu-spacing crux multiple-cursor multiple-cursors dimmer focus beacon highlight-parentheses color-identifiers-mode goto-line-preview ctrlf helm-swoop centaur-tabs zoom workgroups2 smooth-scroll sublimity ace-popup-menu helpful treemacs-all-the-icons treemacs yasnippet-snippets mwim google google-this rainbow-mode rainbow-delimiters posframe exec-path-from-shell helm-flycheck helm-company helm-lsp org-roam fuzzy auto-compelete org-edit-latex ctable helm-dictionary ace-jump-mode deferred epc helm-descbinds youdao-dictionary helm-firefox ztree-dir ztree-diff dashboard good-scrll smart-region good-scroll ace-window pdf-tools dtrt-indent ws-butler function-args auto-complete-clang which-key helm-xref ag helm-gtags helm-ls-git helm-ls-hg duplicate-thing popwin highlight-symbol highlight-numbers flycheck magit diff-hl ztree recentf-ext treemacs-projectile ibuffer-vc clean-aindent-mode smartparens yasnippet undo-tree volatile-highlights helm-projectile expand-region imenu-anywhere helm use-package company ggtags))
  '(paradox-github-token t)
+ '(python-shell-exec-path '("/usr/bin"))
  '(symon-sparkline-type 'plain)
  '(warning-suppress-types '((use-package)))
  '(wg-first-wg-name ""))
@@ -44,9 +43,6 @@
  ;; If there is more than one, they won't work right.
 
 (defalias 'yes-or-no-p 'y-or-n-p)
-
-(require 'saveplace)
-(require 'use-package)
 
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
@@ -64,11 +60,9 @@
 (setq make-backup-files nil)
 (setq auto-save-default nil)
 (setq byte-compile-warnings '(cl-function))
-(setq python-shell-completion-native-enable nil)
 (setq-default dired-dwim-target 1)
 (setq-default tab-width 4)
 (setq-default indent-tabs-mode nil)
-(setq-default save-place t)
 
 (org-babel-do-load-languages
  'org-babel-load-languages
@@ -83,10 +77,22 @@
 (global-set-key (kbd "C-c a") #'org-agenda)
 (global-set-key (kbd "C-c c") #'org-capture)
 
+(require 'use-package)
+
+(use-package exec-path-from-shell
+  :ensure t
+  :hook
+  (after-init . exec-path-from-shell-initialize))
+
 (use-package ace-window
   :ensure t
   :bind
-  ("C-x o" . 'ace-window))
+  ("C-x o" . ace-window))
+
+(use-package saveplace
+  :ensure t
+  :config
+  (save-place-mode))
 
 (use-package undo-tree
   :ensure t
@@ -216,7 +222,7 @@
   (rainbow-mode))
 
 (use-package rainbow-delimiters
-  :e3nsure t
+  :ensure t
   :hook
   (prog-mode . rainbow-delimiters-mode))
 
@@ -297,6 +303,7 @@
   :ensure t
   :hook
   ((c-mode . eglot-ensure)
+   (sh-mode . eglot-ensure)
    (latex-mode . eglot-ensure)
    (c++-mode . eglot-ensure)
    (cmake-mode . eglot-ensure)
@@ -412,7 +419,7 @@
 (use-package color-identifiers-mode
   :ensure t
   :hook
-  (prog-mode . color-identifiers-mode))
+  (after-init . color-identifiers-mode))
 
 (use-package highlight-parentheses
   :ensure t
@@ -429,10 +436,9 @@
 
 (use-package dimmer
   :ensure t
+  :init
   :config
-  ((dimmer-configure-which-key)
-   (dimmer-configure-helm)
-   (dimmer-mode)))
+  (dimmer-mode))
 
 (use-package multiple-cursor
   :ensure t
@@ -569,11 +575,17 @@
   (setq nyan-animate-nyancat t))
 
 (use-package paradox
-  :ensuret t
+  :ensure t
   :config
   (paradox-enable))
 
+(use-package theme-magic
+  :ensure t
+  :config
+  (theme-magic-export-theme-mode))
+
 (provide 'init)
+
 ;;; init.el ends here
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

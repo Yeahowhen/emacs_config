@@ -1,20 +1,20 @@
-;; Object semanticdb-project-database-file-b2a2abd4
+;; Object semanticdb-project-database-file-af64d86c
 ;; SEMANTICDB Tags save file
-(semanticdb-project-database-file "semanticdb-project-database-file-b2a2abd4"
+(semanticdb-project-database-file "semanticdb-project-database-file-af64d86c"
   :tables
   (list
-    (semanticdb-table "semanticdb-table-41c31762"
+    (semanticdb-table "semanticdb-table-afab9ace"
       :major-mode c++-mode
       :tags 
-        '( ("algorithm" include (:system-flag t) nil [1 21])
-            ("bitset" include (:system-flag t) nil [22 39])
-            ("iostream" include (:system-flag t) nil [40 59])
-            ("queue" include (:system-flag t) nil [60 76])
-            ("vector" include (:system-flag t) nil [77 94])
+        '( ("algorithm" include (:system-flag t) nil [1 22])
+            ("bitset" include (:system-flag t) nil [23 40])
+            ("iostream" include (:system-flag t) nil [41 60])
+            ("queue" include (:system-flag t) nil [61 77])
+            ("vector" include (:system-flag t) nil [78 95])
             ("std" using (:type ("std" type
                  (:prototype t
                   :type "namespace")
-                  nil nil)) nil [95 115])
+                  nil nil)) nil [96 116])
             ("print" function
                (:arguments 
                   ( ("vec" variable
@@ -24,20 +24,20 @@
                                 ( ("int" type nil nil nil))                                
                               :type "class")
                               nil nil))
-                        (reparse-symbol arg-sub-list) [128 145]))                  
+                        (reparse-symbol arg-sub-list) [129 146]))                  
                 :type "void")
-                nil [117 208])
+                nil [118 209])
             ("main" function
                (:arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [219 224]))                  
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [220 225]))                  
                 :type "int")
-                nil [210 824]))          
+                nil [211 825]))          
       :file "reverse.cpp"
-      :pointmax 825
+      :pointmax 826
       :fsize 824
       :lastmodtime '(25246 61052 691851 935000)
       :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table-b1895642"
+    (semanticdb-table "semanticdb-table-46bf3472"
       :major-mode c++-mode
       :tags 
         '( ("iostream" include (:system-flag t) nil [1 20])
@@ -57,7 +57,7 @@
       :fsize 354
       :lastmodtime '(25245 53500 294788 399000)
       :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table-b18499c4"
+    (semanticdb-table "semanticdb-table-46bf3492"
       :major-mode python-mode
       :tags 
         '( ("os" include nil nil [1 10])
