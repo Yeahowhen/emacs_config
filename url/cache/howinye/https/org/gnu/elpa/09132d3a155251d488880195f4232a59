@@ -1,10 +1,10 @@
 HTTP/1.1 200 OK
-Date: Wed, 15 Jun 2022 07:59:12 GMT
+Date: Wed, 15 Jun 2022 09:23:26 GMT
 Server: Apache/2.4.53 (Debian)
-Last-Modified: Tue, 14 Jun 2022 21:05:11 GMT
-ETag: "1cf0c-5e16ec2a730d6"
+Last-Modified: Wed, 15 Jun 2022 09:02:27 GMT
+ETag: "1cf17-5e178c7cbb0d0"
 Accept-Ranges: bytes
-Content-Length: 118540
+Content-Length: 118551
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 
@@ -499,18 +499,18 @@ Connection: Keep-Alive
 			("Ingo Lohmar" . "i.lohmar@gmail.com"))
 		       (:keywords "abbrev" "convenience" "matching"))])
  (compat .
-	 [(28 1 1 1)
+	 [(28 1 1 2)
 	  ((emacs
 	    (24 3))
 	   (nadvice
 	    (0 3)))
-	  "Compatibility Library" tar
+	  "Emacs Lisp Compatibility Library" tar
 	  ((:url . "https://sr.ht/~pkal/compat")
 	   (:keywords "lisp")
 	   (:maintainer "Compat Development" . "~pkal/compat-devel@lists.sr.ht")
 	   (:authors
 	    ("Philip Kaludercic" . "philipk@posteo.net"))
-	   (:commit . "5f1f156d8048c44e727cf3dd9a55422822562c3e"))])
+	   (:commit . "b75491b95ead07ca2cd02c128037c08882b046b4"))])
  (consult .
 	  [(0 18)
 	   ((emacs
