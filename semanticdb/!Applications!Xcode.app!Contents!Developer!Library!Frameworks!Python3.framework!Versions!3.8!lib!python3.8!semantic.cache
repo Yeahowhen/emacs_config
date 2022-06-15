@@ -1,0 +1,440 @@
+;; Object semanticdb-project-database-file-b1ce05de
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-b1ce05de"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4da55350"
+      :major-mode python-mode
+      :tags 
+        '( ("r\"\"\"OS routines for NT or Posix depending on what system we're on.
+
+This exports:
+  - all functions from posix or nt, e.g. unlink, stat, etc.
+  - os.path is either posixpath or ntpath
+  - os.name is either 'posix' or 'nt'
+  - os.curdir is a string representing the current directory (always '.')
+  - os.pardir is a string representing the parent directory (always '..')
+  - os.sep is the (or a most common) pathname separator ('/' or '\\\\')
+  - os.extsep is the extension separator (always '.')
+  - os.altsep is the alternate pathname separator (None or '/')
+  - os.pathsep is the component separator used in $PATH etc
+  - os.linesep is the line separator in text files ('\\r' or '\\n' or '\\r\\n')
+  - os.defpath is the default search path for executables
+  - os.devnull is the file path of the null device ('/dev/null', etc.)
+
+Programs that import and use 'os' stand a better chance of being
+portable between different platforms.  Of course, they must then
+only use functions that are defined by all platforms (e.g., unlink
+and opendir), and leave all pathname manipulation to os.path
+(e.g., split and join).
+\"\"\"" code nil nil [1 1110])
+            ("abc" include nil nil [1115 1125])
+            ("sys" include nil nil [1126 1136])
+            ("stat" include nil nil [1137 1154])
+            ("_collections_abc" include nil nil [1156 1199])
+            ("_names" variable nil nil [1201 1234])
+            ("__all__" variable nil nil [1284 1530])
+            ("_exists" function (:arguments 
+              ( ("name" variable nil (reparse-symbol function_parameters) [1544 1548]))              ) nil [1532 1580])
+            ("_get_exports_list" function (:arguments 
+              ( ("module" variable nil (reparse-symbol function_parameters) [1603 1609]))              ) nil [1581 1739])
+            ("if" code nil nil [1852 2668])
+            ("sys" variable nil nil [2669 2698])
+            ("" code nil nil [2719 2787])
+            ("del" code nil nil [2789 2799])
+            ("if" code nil nil [2802 6063])
+            ("SEEK_SET" variable nil nil [6255 6267])
+            ("SEEK_CUR" variable nil nil [6268 6280])
+            ("SEEK_END" variable nil nil [6281 6293])
+            ("makedirs" function
+               (:documentation "makedirs(name [, mode=0o777][, exist_ok=False])
+
+    Super-mkdir; create a leaf directory and all intermediate ones.  Works like
+    mkdir, except that any intermediate path segment (not just the rightmost)
+    will be created if it does not exist. If the target directory already
+    exists, raise an OSError if exist_ok is False. Otherwise no exception is
+    raised.  This is recursive.
+
+    "
+                :arguments 
+                  ( ("name" variable nil (reparse-symbol function_parameters) [6399 6403])
+                    ("mode" variable nil (reparse-symbol function_parameters) [6405 6409])
+                    ("exist_ok" variable nil (reparse-symbol function_parameters) [6417 6425]))                  )
+                nil [6386 7618])
+            ("removedirs" function
+               (:documentation "removedirs(name)
+
+    Super-rmdir; remove a leaf directory and all empty intermediate
+    ones.  Works like rmdir except that, if the leaf directory is
+    successfully removed, directories corresponding to rightmost path
+    segments will be pruned away until either the whole path is
+    consumed or an error occurs.  Errors during this latter phase are
+    ignored -- they generally mean that a directory was not empty.
+
+    "
+                :arguments 
+                  ( ("name" variable nil (reparse-symbol function_parameters) [7634 7638]))                  )
+                nil [7619 8327])
+            ("renames" function
+               (:documentation "renames(old, new)
+
+    Super-rename; create directories as necessary and delete any left
+    empty.  Works like rename, except creation of any intermediate
+    directories needed to make the new pathname good is attempted
+    first.  After the rename, directories corresponding to rightmost
+    path segments of the old name will be pruned until either the
+    whole path is consumed or a nonempty directory is found.
+
+    Note: this function can fail with the new directory structure made
+    if you lack permissions needed to unlink the leaf directory or
+    file.
+
+    "
+                :arguments 
+                  ( ("old" variable nil (reparse-symbol function_parameters) [8340 8343])
+                    ("new" variable nil (reparse-symbol function_parameters) [8345 8348]))                  )
+                nil [8328 9197])
+            ("__all__" code nil nil [9198 9251])
+            ("walk" function
+               (:documentation "Directory tree generator.
+
+    For each directory in the directory tree rooted at top (including top
+    itself, but excluding '.' and '..'), yields a 3-tuple
+
+        dirpath, dirnames, filenames
+
+    dirpath is a string, the path to the directory.  dirnames is a list of
+    the names of the subdirectories in dirpath (excluding '.' and '..').
+    filenames is a list of the names of the non-directory files in dirpath.
+    Note that the names in the lists are just names, with no path components.
+    To get a full path (which begins with top) to a file or directory in
+    dirpath, do os.path.join(dirpath, name).
+
+    If optional arg 'topdown' is true or not specified, the triple for a
+    directory is generated before the triples for any of its subdirectories
+    (directories are generated top down).  If topdown is false, the triple
+    for a directory is generated after the triples for all of its
+    subdirectories (directories are generated bottom up).
+
+    When topdown is true, the caller can modify the dirnames list in-place
+    (e.g., via del or slice assignment), and walk will only recurse into the
+    subdirectories whose names remain in dirnames; this can be used to prune the
+    search, or to impose a specific order of visiting.  Modifying dirnames when
+    topdown is false has no effect on the behavior of os.walk(), since the
+    directories in dirnames have already been generated by the time dirnames
+    itself is generated. No matter the value of topdown, the list of
+    subdirectories is retrieved before the tuples for the directory and its
+    subdirectories are generated.
+
+    By default errors from the os.scandir() call are ignored.  If
+    optional arg 'onerror' is specified, it should be a function; it
+    will be called with one argument, an OSError instance.  It can
+    report the error to continue with the walk, or raise the exception
+    to abort the walk.  Note that the filename is available as the
+    filename attribute of the exception object.
+
+    By default, os.walk does not follow symbolic links to subdirectories on
+    systems that support them.  In order to get this functionality, set the
+    optional argument 'followlinks' to true.
+
+    Caution:  if you pass a relative pathname for top, don't change the
+    current working directory between resumptions of walk.  walk never
+    changes the current directory, and assumes that the client doesn't
+    either.
+
+    Example:
+
+    import os
+    from os.path import join, getsize
+    for root, dirs, files in os.walk('python/Lib/email'):
+        print(root, \"consumes\", end=\"\")
+        print(sum(getsize(join(root, name)) for name in files), end=\"\")
+        print(\"bytes in\", len(files), \"non-directory files\")
+        if 'CVS' in dirs:
+            dirs.remove('CVS')  # don't visit CVS directories
+
+    "
+                :arguments 
+                  ( ("top" variable nil (reparse-symbol function_parameters) [9262 9265])
+                    ("topdown" variable nil (reparse-symbol function_parameters) [9267 9274])
+                    ("onerror" variable nil (reparse-symbol function_parameters) [9281 9288])
+                    ("followlinks" variable nil (reparse-symbol function_parameters) [9295 9306]))                  )
+                nil [9253 15105])
+            ("__all__" code nil nil [15106 15128])
+            ("if" code nil nil [15130 19430])
+            ("execl" function
+               (:documentation "execl(file, *args)
+
+    Execute the executable file with argument list args, replacing the
+    current process. "
+                :arguments 
+                  ( ("file" variable nil (reparse-symbol function_parameters) [19441 19445])
+                    ("args" variable nil (reparse-symbol function_parameters) [19447 19452]))                  )
+                nil [19431 19600])
+            ("execle" function
+               (:documentation "execle(file, *args, env)
+
+    Execute the executable file with argument list args and
+    environment env, replacing the current process. "
+                :arguments 
+                  ( ("file" variable nil (reparse-symbol function_parameters) [19612 19616])
+                    ("args" variable nil (reparse-symbol function_parameters) [19618 19623]))                  )
+                nil [19601 19827])
+            ("execlp" function
+               (:documentation "execlp(file, *args)
+
+    Execute the executable file (which is searched for along $PATH)
+    with argument list args, replacing the current process. "
+                :arguments 
+                  ( ("file" variable nil (reparse-symbol function_parameters) [19839 19843])
+                    ("args" variable nil (reparse-symbol function_parameters) [19845 19850]))                  )
+                nil [19828 20036])
+            ("execlpe" function
+               (:documentation "execlpe(file, *args, env)
+
+    Execute the executable file (which is searched for along $PATH)
+    with argument list args and environment env, replacing the current
+    process. "
+                :arguments 
+                  ( ("file" variable nil (reparse-symbol function_parameters) [20049 20053])
+                    ("args" variable nil (reparse-symbol function_parameters) [20055 20060]))                  )
+                nil [20037 20306])
+            ("execvp" function
+               (:documentation "execvp(file, args)
+
+    Execute the executable file (which is searched for along $PATH)
+    with argument list args, replacing the current process.
+    args may be a list or tuple of strings. "
+                :arguments 
+                  ( ("file" variable nil (reparse-symbol function_parameters) [20318 20322])
+                    ("args" variable nil (reparse-symbol function_parameters) [20324 20328]))                  )
+                nil [20307 20559])
+            ("execvpe" function
+               (:documentation "execvpe(file, args, env)
+
+    Execute the executable file (which is searched for along $PATH)
+    with argument list args and environment env, replacing the
+    current process.
+    args may be a list or tuple of strings. "
+                :arguments 
+                  ( ("file" variable nil (reparse-symbol function_parameters) [20572 20576])
+                    ("args" variable nil (reparse-symbol function_parameters) [20578 20582])
+                    ("env" variable nil (reparse-symbol function_parameters) [20584 20587]))                  )
+                nil [20560 20853])
+            ("__all__" code nil nil [20854 20926])
+            ("_execvpe" function (:arguments 
+              ( ("file" variable nil (reparse-symbol function_parameters) [20941 20945])
+                ("args" variable nil (reparse-symbol function_parameters) [20947 20951])
+                ("env" variable nil (reparse-symbol function_parameters) [20953 20956]))              ) nil [20928 21756])
+            ("get_exec_path" function
+               (:documentation "Returns the sequence of directories that will be searched for the
+    named executable (similar to a shell) when launching a process.
+
+    *env* must be an environment variable dict or None.  If *env* is None,
+    os.environ will be used.
+    "
+                :arguments 
+                  ( ("env" variable nil (reparse-symbol function_parameters) [21776 21779]))                  )
+                nil [21758 23229])
+            ("_collections_abc" include nil nil [23304 23347])
+            ("_Environ" type
+               (:superclasses ("MutableMapping")
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [23485 23511])
+                            ("self" variable nil (reparse-symbol indented_block_body) [23520 23546])
+                            ("self" variable nil (reparse-symbol indented_block_body) [23555 23585])
+                            ("self" variable nil (reparse-symbol indented_block_body) [23594 23624])
+                            ("self" variable nil (reparse-symbol indented_block_body) [23633 23653])
+                            ("self" variable nil (reparse-symbol indented_block_body) [23662 23686])
+                            ("self" variable nil (reparse-symbol indented_block_body) [23695 23712]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [23398 23402])
+                            ("data" variable nil (reparse-symbol function_parameters) [23404 23408])
+                            ("encodekey" variable nil (reparse-symbol function_parameters) [23410 23419])
+                            ("decodekey" variable nil (reparse-symbol function_parameters) [23421 23430])
+                            ("encodevalue" variable nil (reparse-symbol function_parameters) [23432 23443])
+                            ("decodevalue" variable nil (reparse-symbol function_parameters) [23445 23456])
+                            ("putenv" variable nil (reparse-symbol function_parameters) [23458 23464])
+                            ("unsetenv" variable nil (reparse-symbol function_parameters) [23466 23474]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [23385 23713])
+                    ("__getitem__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [23734 23738])
+                            ("key" variable nil (reparse-symbol function_parameters) [23740 23743]))                          )
+                        (reparse-symbol indented_block_body) [23718 23974])
+                    ("__setitem__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [23995 23999])
+                            ("key" variable nil (reparse-symbol function_parameters) [24001 24004])
+                            ("value" variable nil (reparse-symbol function_parameters) [24006 24011]))                          )
+                        (reparse-symbol indented_block_body) [23979 24152])
+                    ("__delitem__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [24173 24177])
+                            ("key" variable nil (reparse-symbol function_parameters) [24179 24182]))                          )
+                        (reparse-symbol indented_block_body) [24157 24436])
+                    ("__iter__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [24454 24458]))                          )
+                        (reparse-symbol indented_block_body) [24441 24613])
+                    ("__len__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [24630 24634]))                          )
+                        (reparse-symbol indented_block_body) [24618 24668])
+                    ("__repr__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [24686 24690]))                          )
+                        (reparse-symbol indented_block_body) [24673 24875])
+                    ("copy" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [24889 24893]))                          )
+                        (reparse-symbol indented_block_body) [24880 24922])
+                    ("setdefault" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [24942 24946])
+                            ("key" variable nil (reparse-symbol function_parameters) [24948 24951])
+                            ("value" variable nil (reparse-symbol function_parameters) [24953 24958]))                          )
+                        (reparse-symbol indented_block_body) [24927 25044]))                  
+                :type "class")
+                nil [23349 25044])
+            ("try" code nil nil [25045 25198])
+            ("try" code nil nil [25199 25367])
+            ("_createenviron" function nil nil [25368 26411])
+            ("environ" variable nil nil [26430 26456])
+            ("del" code nil nil [26457 26475])
+            ("getenv" function
+               (:documentation "Get an environment variable, return None if it doesn't exist.
+    The optional second argument can specify an alternate default.
+    key, default and the result are str."
+                :arguments 
+                  ( ("key" variable nil (reparse-symbol function_parameters) [26489 26492])
+                    ("default" variable nil (reparse-symbol function_parameters) [26494 26501]))                  )
+                nil [26478 26726])
+            ("supports_bytes_environ" variable nil nil [26727 26766])
+            ("__all__" code nil nil [26767 26819])
+            ("if" code nil nil [26821 27501])
+            ("_fscodec" function nil nil [27502 28697])
+            ("fsencode, fsdecode" code nil nil [28698 28729])
+            ("del" code nil nil [28730 28742])
+            ("if" code nil nil [28787 32030])
+            ("if" code nil nil [32032 33007])
+            ("if" code nil nil [33009 34091])
+            ("popen" function (:arguments 
+              ( ("cmd" variable nil (reparse-symbol function_parameters) [34123 34126])
+                ("mode" variable nil (reparse-symbol function_parameters) [34128 34132])
+                ("buffering" variable nil (reparse-symbol function_parameters) [34138 34147]))              ) nil [34113 35020])
+            ("_wrap_close" type
+               (:members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [35163 35184])
+                            ("self" variable nil (reparse-symbol indented_block_body) [35193 35210]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [35134 35138])
+                            ("stream" variable nil (reparse-symbol function_parameters) [35140 35146])
+                            ("proc" variable nil (reparse-symbol function_parameters) [35148 35152]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [35121 35211])
+                    ("close" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [35225 35229]))                          )
+                        (reparse-symbol indented_block_body) [35215 35492])
+                    ("__enter__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [35510 35514]))                          )
+                        (reparse-symbol indented_block_body) [35496 35537])
+                    ("__exit__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [35554 35558])
+                            ("args" variable nil (reparse-symbol function_parameters) [35560 35565]))                          )
+                        (reparse-symbol indented_block_body) [35541 35589])
+                    ("__getattr__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [35609 35613])
+                            ("name" variable nil (reparse-symbol function_parameters) [35615 35619]))                          )
+                        (reparse-symbol indented_block_body) [35593 35665])
+                    ("__iter__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [35682 35686]))                          )
+                        (reparse-symbol indented_block_body) [35669 35723]))                  
+                :type "class")
+                nil [35098 35723])
+            ("fdopen" function (:arguments 
+              ( ("fd" variable nil (reparse-symbol function_parameters) [35756 35758])
+                ("args" variable nil (reparse-symbol function_parameters) [35760 35765])
+                ("kwargs" variable nil (reparse-symbol function_parameters) [35767 35775]))              ) nil [35745 35941])
+            ("_fspath" function
+               (:documentation "Return the path representation of a path-like object.
+
+    If str or bytes is passed in, it is returned unchanged. Otherwise the
+    os.PathLike interface is used to get the path representation. If the
+    path representation is not str or bytes, TypeError is raised. If the
+    provided path is not str, bytes, or os.PathLike, TypeError is raised.
+    "
+                :arguments 
+                  ( ("path" variable nil (reparse-symbol function_parameters) [36051 36055]))                  )
+                nil [36039 37173])
+            ("if" code nil nil [37289 37367])
+            ("PathLike" type
+               (:documentation "Abstract base class for implementing the file system path protocol."
+                :superclasses ("abc")
+                :members 
+                  ( ("__fspath__" function
+                       (:parent "dummy"
+                        :decorators 
+                          ( ("abc.abstractmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [37517 37521]))                          
+                        :documentation "Return the file system path representation of the object.")
+                        (reparse-symbol indented_block_body) [37478 37630])
+                    ("__subclasshook__" function
+                       (:decorators 
+                          ( ("classmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [37673 37676])
+                            ("subclass" variable nil (reparse-symbol function_parameters) [37678 37686]))                          )
+                        (reparse-symbol indented_block_body) [37635 37805]))                  
+                :type "class")
+                nil [37369 37805])
+            ("if" code nil nil [37807 38996])
+            ("_system" variable nil nil [38998 39014])
+            ("system" function (:arguments 
+              ( ("cmd" variable nil (reparse-symbol function_parameters) [39027 39030]))              ) nil [39016 39335]))          
+      :file "os.py"
+      :pointmax 39335
+      :fsize 39334
+      :lastmodtime '(25174 62767 0 0)
+      :unmatched-syntax '((INDENT_BLOCK 39099 . 39335) (NEWLINE 39098 . 39099) (COLON 39097 . 39098) (TRY 39037 . 39040) (AS 39093 . 39095) (NAME 25251 . 25260) (NEWLINE 25291 . 25292) (NAME 25093 . 25100) (NEWLINE 25126 . 25127) (RAISE 24406 . 24411) (FROM 24426 . 24430) (NEWLINE 24435 . 24436) (RAISE 23905 . 23910) (FROM 23925 . 23929) (NEWLINE 23934 . 23935) (INDENT_BLOCK 21594 . 21683) (NEWLINE 21593 . 21594) (COLON 21592 . 21593) (AS 21588 . 21590) (EXCEPT 21573 . 21579) (INDENT_BLOCK 21540 . 21565) (NEWLINE 21539 . 21540) (COLON 21538 . 21539) (TRY 21432 . 21435) (AS 21534 . 21536) (INDENT_BLOCK 18444 . 19328) (NEWLINE 18443 . 18444) (COLON 18442 . 18443) (FOR 18383 . 18386) (IF 18400 . 18402) (ELSE 18419 . 18423) (NAME 17620 . 17627) (IF 17635 . 17637) (ELSE 17665 . 17669) (MULT 15253 . 15254) (COMMA 15254 . 15255) (INDENT_BLOCK 13000 . 13098) (NEWLINE 12999 . 13000) (COLON 12998 . 12999) (TRY 12828 . 12831) (AS 12990 . 12992) (INDENT_BLOCK 12700 . 12774) (NEWLINE 12699 . 12700) (COLON 12698 . 12699) (TRY 12544 . 12547) (AS 12690 . 12692)))
+    (semanticdb-table "semanticdb-table-b02303e2"
+      :file "abc.py"
+      :fsize 4489
+      :lastmodtime '(25174 62766 0 0))
+    (semanticdb-table "semanticdb-table-b0230442"
+      :file "stat.py"
+      :fsize 5485
+      :lastmodtime '(25174 62768 0 0))
+    (semanticdb-table "semanticdb-table-b023048a"
+      :file "_collections_abc.py"
+      :fsize 26136
+      :lastmodtime '(25174 62766 0 0)))
+  :file "!Applications!Xcode.app!Contents!Developer!Library!Frameworks!Python3.framework!Versions!3.8!lib!python3.8!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

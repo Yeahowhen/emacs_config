@@ -21,16 +21,17 @@
    '("3c83b3676d796422704082049fc38b6966bcad960f896669dfc21a7a37a748fa" default))
  '(exec-path
    '("/Library/TeX/texbin" "/usr/bin" "/bin" "/usr/sbin" "/sbin" "/Applications/Emacs.app/Contents/MacOS/bin-arm64-12" "/Applications/Emacs.app/Contents/MacOS/libexec-arm64-12" "/Applications/Emacs.app/Contents/MacOS/libexec" "/Applications/Emacs.app/Contents/MacOS/bin" "/opt/homebrew/bin"))
+ '(global-pangu-spacing-mode t)
  '(helm-completion-style 'helm)
  '(helm-dictionary-browser-function 'browse-url-firefox)
  '(helm-dictionary-database "/usr/bin/youdao-dict")
  '(helm-dictionary-online-dicts
    '(("youdao" . "http://dict.youdao.com/search?q=%s&ue=utf8")
      ("iciba" . "http://www.iciba.com/word?w=%s")))
- '(lsp-keymap-prefix "C-c l")
  '(org-agenda-files nil)
  '(package-selected-packages
-   '(helm-flymake helm-fuzzy helm-fuzzy-find helm-google helm-org helm-osx-app theme-magic paradox nyan-mode doom-themes doom-modeline emojify mode-icons auto-package-update howdoi auctex-latexmk company-auctex auctex pdf-view-restore let-alist hexo ripgrep multi-term restart-emacs helm-system-packages dumb-jump lsp-pyright flycheck-pos-tip company-quickhelp apheleia json-rpc consult-eglot eglot lsp-treemacs aggresive-indent indent-guide clipmon move-dup zzz-to-char fix-word pangu-spacing crux multiple-cursors dimmer focus beacon highlight-parentheses color-identifiers-mode goto-line-preview ctrlf helm-swoop centaur-tabs zoom workgroups2 smooth-scroll sublimity ace-popup-menu helpful treemacs-all-the-icons treemacs yasnippet-snippets mwim google google-this rainbow-mode rainbow-delimiters posframe exec-path-from-shell helm-flycheck helm-company helm-lsp org-roam fuzzy auto-compelete org-edit-latex ctable helm-dictionary ace-jump-mode deferred epc helm-descbinds youdao-dictionary helm-firefox ztree-dir ztree-diff dashboard good-scrll smart-region good-scroll ace-window pdf-tools dtrt-indent ws-butler function-args auto-complete-clang which-key helm-xref ag helm-gtags helm-ls-git helm-ls-hg duplicate-thing popwin highlight-symbol highlight-numbers flycheck magit diff-hl ztree recentf-ext treemacs-projectile ibuffer-vc clean-aindent-mode smartparens yasnippet undo-tree volatile-highlights helm-projectile expand-region imenu-anywhere helm use-package company ggtags))
+   '(whole-line-or-region dap-mode symon-lingr symon hlinum command-log-mode nlinum helm-flymake helm-fuzzy helm-fuzzy-find helm-google helm-org helm-osx-app paradox nyan-mode doom-themes doom-modeline emojify mode-icons auto-package-update howdoi auctex-latexmk company-auctex auctex pdf-view-restore let-alist ripgrep multi-term restart-emacs helm-system-packages dumb-jump flycheck-pos-tip company-quickhelp apheleia json-rpc consult-eglot eglot lsp-treemacs aggresive-indent indent-guide clipmon move-dup zzz-to-char fix-word pangu-spacing crux multiple-cursors dimmer focus beacon highlight-parentheses color-identifiers-mode goto-line-preview ctrlf helm-swoop centaur-tabs zoom workgroups2 smooth-scroll sublimity ace-popup-menu helpful treemacs-all-the-icons treemacs yasnippet-snippets mwim google google-this rainbow-mode rainbow-delimiters posframe exec-path-from-shell helm-flycheck helm-company helm-lsp org-roam fuzzy auto-compelete org-edit-latex ctable helm-dictionary ace-jump-mode deferred epc helm-descbinds youdao-dictionary helm-firefox ztree-dir ztree-diff dashboard good-scrll smart-region good-scroll ace-window pdf-tools dtrt-indent ws-butler function-args auto-complete-clang which-key helm-xref ag helm-gtags helm-ls-git helm-ls-hg duplicate-thing popwin highlight-symbol highlight-numbers flycheck magit diff-hl ztree recentf-ext treemacs-projectile clean-aindent-mode smartparens yasnippet undo-tree volatile-highlights helm-projectile expand-region imenu-anywhere helm use-package company ggtags))
+ '(paradox-execute-asynchronously t)
  '(paradox-github-token t)
  '(python-indent-offset 4)
  '(python-shell-completion-native-enable nil)
@@ -49,12 +50,15 @@
 (defalias 'yes-or-no-p 'y-or-n-p)
 
 (tool-bar-mode -1)
+(tooltip-mode -1)
 (scroll-bar-mode -1)
 (global-linum-mode t)
+(column-number-mode t)
 (show-paren-mode 1)
 (menu-bar-mode -1)
 (fa-config-default)
 (global-auto-revert-mode t)
+(global-hl-line-mode t)
 (semantic-mode t)
 (delete-selection-mode t)
 
@@ -127,14 +131,21 @@
   ("C-a" . mwim-beginning-of-code-or-line)
   ("C-e" . mwim-end-of-code-or-line))
 
+(use-package hlinum
+  :ensure t
+  :config
+  (hlinum-activate))
+
 (use-package which-key
   :ensure t
+  :defer 3
   :config
   (which-key-setup-minibuffer)
   (which-key-mode))
 
 (use-package smartparens
   :ensure t
+  :defer 3
   :bind
   ("C-M-k" . sp-kill-sexp)
   ("C-M-c" . sp-copy-sexp)
@@ -143,33 +154,33 @@
 
 (use-package yasnippet
   :ensure t
+  :defer 3
   :config
   (yas-global-mode))
 
 (use-package company
   :ensure t
+  :defer 3
   :config
   (global-company-mode))
 
 (use-package company-quickhelp
   :ensure t
+  :defer 3
   :hook
   (company-mode . company-quickhelp-mode))
 
 (use-package duplicate-thing
   :ensure t
+  :defer 3
   :bind
   ("C--" . duplicate-thing))
 
 (use-package expand-region
   :ensure t
+  :defer 3
   :bind
   ("C-=" . er/expand-region))
-
-(use-package ibuffer-vc
-  :ensure t
-  :bind
-  ("C-x C-b" . ibuffer))
 
 (use-package helm
   :ensure t
@@ -181,6 +192,7 @@
    ("C-x C-f" . helm-find-files)
    ("M-y" . helm-show-kill-ring)
    ("C-x b" . helm-mini)
+   ("C-x C-b" . helm-buffers-list)
    ("C-x c C-SPC" . helm-mark-ring)
    ("C-x C-d" . helm-browse-project)
    ("C-x c p" . helm-projects-history)
@@ -199,7 +211,8 @@
   (projectile-mode))
 
 (use-package recentf-ext
-  :ensure t)
+  :ensure t
+  :defer 3)
 
 (use-package flycheck
   :ensure t
@@ -208,11 +221,13 @@
 
 (use-package highlight-numbers
   :ensure t
+  :defer 3
   :hook
   (prog-mode . highlight-numbers-mode))
 
 (use-package highlight-symbol
   :ensure t
+  :defer 3
   :bind
   ("M-p" . 'highlight-symbol-prev)
   ("M-n" . 'highlight-symbol-next)
@@ -221,22 +236,25 @@
 
 (use-package rainbow-mode
   :ensure t
+  :defer 3
   :config
   (rainbow-mode))
 
 (use-package rainbow-delimiters
   :ensure t
+  :defer 3
   :hook
   (prog-mode . rainbow-delimiters-mode))
 
 (use-package ws-butler
   :ensure t
+  :defer 3
   :hook
   (prog-mode . ws-butler-mode))
 
 (use-package youdao-dictionary
   :ensure t
-  :defer 2
+  :defer 3
   :config
   (setq-default url-automatic-caching t)
   :bind
@@ -247,15 +265,18 @@
 
 (use-package good-scroll
   :ensure t
+  :defer 3
   :config
   (good-scroll-mode))
 
 (use-package ctable
   :ensure t
+  :defer 3
   :load-path "~/.emacs.d/site-lisp/emacs-ctable")
 
 (use-package ace-jump-mode
   :ensure t
+  :defer 3
   :bind
   ("C-c SPC" . 'ace-jump-mode))
 
@@ -266,31 +287,37 @@
 
 (use-package clean-aindent-mode
   :ensure t
+  :defer 3
   :hook
   (prog-mode . clean-aindent-mode))
 
 (use-package diff-hl
   :ensure t
+  :defer 3
   :config
   (global-diff-hl-mode))
 
 (use-package dtrt-indent
   :ensure t
+  :defer 3
   :config
   (dtrt-indent-mode))
 
 (use-package volatile-highlights
   :ensure t
+  :defer 3
   :config
   (volatile-highlights-mode))
 
 (use-package google-this
   :ensure t
+  :defer 3
   :config
   (google-this-mode))
 
 (use-package org-roam
   :ensure t
+  :defer 3
   :init
   (setq org-roam-v2-ack t)
   :custom
@@ -304,6 +331,7 @@
 
 (use-package eglot
   :ensure t
+  :defer 3
   :hook
   ((c-mode . eglot-ensure)
    (sh-mode . eglot-ensure)
@@ -313,12 +341,13 @@
 
 (use-package helm-lsp
   :ensure t
+  :defer 3
   :bind
   ("C-M-." . helm-lsp-workspace-symbol))
 
 (use-package elpy
   :ensure t
-  :defer t
+  :defer 3
   :init
   (elpy-enable)
   :hook
@@ -326,15 +355,16 @@
 
 (use-package treemacs
   :ensure t
-  :defer t
+  :defer 3
   :bind
   (("C-c t" . treemacs)
    ("C-c w" . treemacs-select-window))
   :config
-  (treemacs-follow-mode))
+  (treemacs-follow-mode t))
 
 (use-package helpful
   :ensure t
+  :defer 3
   :bind
   (("C-h c" . helpful-callable)
    ("C-h f" . helpful-function)
@@ -346,16 +376,19 @@
 
 (use-package popwin
   :ensure t
+  :defer 3
   :config
   (popwin-mode))
 
 (use-package ace-popup-menu
   :ensure t
+  :defer 3
   :config
   (ace-popup-menu-mode))
 
 (use-package workgroups2
   :ensure t
+  :defer 3
   :init
   (setq wg-prefix-key "C-c z")
   :config
@@ -363,6 +396,7 @@
 
 (use-package zoom
   :ensure t
+  :defer 3
   :init
   (setq zoom-size '(0.618 0.618))
   :bind
@@ -372,6 +406,7 @@
 
 (use-package windmove
   :ensure t
+  :defer 3
   :bind
   ("C-c <left>" . windmove-left)
   ("C-c <right>" . windmove-right)
@@ -382,6 +417,7 @@
 
 (use-package centaur-tabs
   :ensure t
+  :defer 3
   :init
   (setq centaur-tabs-style "bar")
   (setq centaur-tabs-height 25)
@@ -393,18 +429,24 @@
   (setq centaur-tabs-set-modified-marker t)
   (setq centaur-tabs-modified-marker "M")
   (setq centaur-tabs-enable-key-bindings t)
+  :bind
+  ("C-c C-b" . centaur-tabs-backward)
+  ("C-c C-f" . centaur-tabs-forward)
   :hook
   (dired-mode . centaur-tabs-local-mode)
   :config
+  (centaur-tabs-headline-match)
   (centaur-tabs-mode))
 
 (use-package helm-swoop
   :ensure t
+  :defer 3
   :bind
   ("M-i" . helm-swoop))
 
 (use-package ctrlf
   :ensure t
+  :defer 3
   :bind
   (("C-s" . ctrlf-forward-default)
    ("C-r" . ctrlf-backward-default)
@@ -413,39 +455,46 @@
    ("M-s _" . ctrlf-forward-symbol)
    ("M-s ." . ctrlf-forward-symbol-at-point))
   :config
-  (ctrlf-mode))
+  (ctrlf-mode t))
 
 (use-package goto-line-preview
   :ensure t
+  :defer 3
   :bind
   ("M-g g" . goto-line-preview))
 
 (use-package color-identifiers-mode
   :ensure t
+  :defer 3
   :hook
   (after-init . color-identifiers-mode))
 
 (use-package highlight-parentheses
   :ensure t
+  :defer 3
   :config
   (global-highlight-parentheses-mode))
 
 (use-package beacon
   :ensure t
+  :defer 3
   :config
   (beacon-mode))
 
 (use-package focus
-  :ensure t)
+  :ensure t
+  :defer 3)
 
 (use-package dimmer
   :ensure t
+  :defer 3
   :init
   :config
   (dimmer-mode))
 
 (use-package multiple-cursors
   :ensure t
+  :defer 3
   :bind
   (("C-<" . mc/mark-previous-like-this)
    ("C->" . mc/mark-next-like-this)
@@ -453,6 +502,7 @@
 
 (use-package pangu-spacing
   :ensure t
+  :defer 3
   :init
   (setq pangu-spacing-real-insert-separtor t)
   :config
@@ -460,6 +510,7 @@
 
 (use-package fix-word
   :ensure t
+  :defer 3
   :bind
   ("M-u" . fix-word-upcase)
   ("M-l" . fix-word-downcase)
@@ -484,10 +535,12 @@
   ("C-j" . crux-top-join-line)
   ("C-M-t" . crux-visit-term-buffer)
   ("C-o" . crux-smart-open-line)
+  ("M-o" . crux-smart-open-line-above)
   ("M-o" . crux-smart-open-line-above))
 
 (use-package clipmon
   :ensure t
+  :defer 3
   :config
   (clipmon-mode))
 
@@ -497,46 +550,49 @@
   (indent-guide-global-mode))
 
 (use-package ggtags
-  :ensure t)
+  :ensure t
+  :defer 3)
 
 (use-package apheleia
   :ensure t
+  :defer 3
   :config
-  (apheleia-mode))
+  (apheleia-mode t))
 
 (use-package lsp-treemacs
   :ensure t
+  :defer 3
   :config
   (lsp-treemacs-sync-mode))
 
 (use-package dumb-jump
   :ensure t
+  :defer 3
   :hook
   (xref-backend-functions . dumb-jump-xref-activate))
 
 (use-package multi-term
   :ensure t
+  :defer 3
   :init
   (setq multi-term-program "/bin/zsh"))
 
-(use-package hexo
-  :ensure t
-  :config
-  (hexo "~/blog"))
-
 (use-package pdf-tools
   :ensure t
+  :defer 3
   :init
   (setq pdf-view-use-scaling t))
 
 (use-package pdf-view-restore
   :ensure t
+  :defer 3
   :after pdf-tools
   :hook
   (pdf-view-mode . pdf-view-restore-mode))
 
 (use-package auto-package-update
   :ensure t
+  :defer 3
   :config
   (auto-package-update-maybe))
 
@@ -549,6 +605,7 @@
 
 (use-package emojify
   :ensure t
+  :defer 3
   :hook
   (after-init . global-emojify-mode))
 
@@ -575,6 +632,7 @@
 
 (use-package nyan-mode
   :ensure t
+  :defer 3
   :init
   (setq nyan-animate-nyancat t)
   :config
@@ -582,13 +640,34 @@
 
 (use-package paradox
   :ensure t
+  :defer 3
   :init
   (paradox-enable))
 
-(use-package theme-magic
+(use-package command-log-mode
   :ensure t
+  :defer 3
   :config
-  (theme-magic-export-theme-mode))
+  (global-command-log-mode))
+
+(use-package whole-line-or-region
+  :ensure t
+  :defer 3
+  :config
+  (whole-line-or-region-global-mode))
+
+(use-package dap-mode
+  :ensure t
+  :after eglot
+  :init
+  (setq dap-auto-configure-features '(sessions locals controls tooltip))
+  :hook
+  (python-mode . dap-mode)
+  (c++-mode . dap-mode)
+  (c-mode . dap-mode)
+  :config
+  (require 'dap-python)
+  (require 'dap-lldb))
 
 (provide 'init)
 

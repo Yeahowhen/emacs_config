@@ -1,9 +1,9 @@
-;; Object semanticdb-project-database-file-47984a22
+;; Object semanticdb-project-database-file-49c0ed10
 ;; SEMANTICDB Tags save file
-(semanticdb-project-database-file "semanticdb-project-database-file-47984a22"
+(semanticdb-project-database-file "semanticdb-project-database-file-49c0ed10"
   :tables
   (list
-    (semanticdb-table "semanticdb-table-479849c2"
+    (semanticdb-table "semanticdb-table-49c0ecd0"
       :major-mode c++-mode
       :tags 
         '( ("algorithm" include (:system-flag t) nil [1 21])
@@ -35,9 +35,9 @@
       :file "reverse.cpp"
       :pointmax 825
       :fsize 824
-      :lastmodtime '(25246 61052 691851 935000)
+      :lastmodtime '(25255 61918 10471 390000)
       :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table-479849e2"
+    (semanticdb-table "semanticdb-table-49c0ecf0"
       :major-mode c++-mode
       :tags 
         '( ("iostream" include (:system-flag t) nil [1 20])
@@ -57,7 +57,7 @@
       :fsize 354
       :lastmodtime '(25245 53500 294788 399000)
       :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table-47984a02"
+    (semanticdb-table "semanticdb-table-508a384a"
       :major-mode python-mode
       :tags 
         '( ("os" include nil nil [1 10])
@@ -68,7 +68,15 @@
       :file "test.py"
       :pointmax 215
       :fsize 214
-      :lastmodtime '(25249 36718 140824 630000)
+      :lastmodtime '(25255 61916 586705 676000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-b8977ed6"
+      :major-mode js-mode
+      :tags nil
+      :file "launch.json"
+      :pointmax 218
+      :fsize 217
+      :lastmodtime '(25257 35958 243684 879000)
       :unmatched-syntax nil))
   :file "!Users!howinye!semantic.cache"
   :semantic-tag-version "2.0"
