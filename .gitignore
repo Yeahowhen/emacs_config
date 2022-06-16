@@ -1,1 +1,16 @@
-!init.el
+elpy/
+elpa/
+emojis/
+eshell/
+semanticdb/
+transient/
+url/
+auto-save-list/
+ac-comphist.dat
+bookmarks
+org-roam.db
+places
+projectile-bookmarks.eld
+projectile.cache
+recentf
+tramp
