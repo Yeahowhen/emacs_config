@@ -1,2 +1,0 @@
-;;; Generated package description from helm-fuzzy.el  -*- no-byte-compile: t -*-
-(define-package "helm-fuzzy" "20200927.532" "Fuzzy matching for helm source" '((emacs "24.4") (helm "1.7.9") (flx "0.5")) :stars '("") :commit "99bb20cd7ec89ac1e2ae6eaecd9ac4b30f570bee" :authors '(("Shen, Jen-Chieh" . "jcs090218@gmail.com")) :maintainer '("Shen, Jen-Chieh" . "jcs090218@gmail.com") :url "https://github.com/jcs-elpa/helm-fuzzy")

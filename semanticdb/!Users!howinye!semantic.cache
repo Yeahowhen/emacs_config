@@ -1,9 +1,9 @@
-;; Object semanticdb-project-database-file-49c0ed10
+;; Object semanticdb-project-database-file-43002554
 ;; SEMANTICDB Tags save file
-(semanticdb-project-database-file "semanticdb-project-database-file-49c0ed10"
+(semanticdb-project-database-file "semanticdb-project-database-file-43002554"
   :tables
   (list
-    (semanticdb-table "semanticdb-table-49c0ecd0"
+    (semanticdb-table "semanticdb-table-b6ac925a"
       :major-mode c++-mode
       :tags 
         '( ("algorithm" include (:system-flag t) nil [1 21])
@@ -37,7 +37,7 @@
       :fsize 824
       :lastmodtime '(25255 61918 10471 390000)
       :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table-49c0ecf0"
+    (semanticdb-table "semanticdb-table-5bfd4a5a"
       :major-mode c++-mode
       :tags 
         '( ("iostream" include (:system-flag t) nil [1 20])
@@ -57,26 +57,26 @@
       :fsize 354
       :lastmodtime '(25245 53500 294788 399000)
       :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table-508a384a"
+    (semanticdb-table "semanticdb-table-b6ad22da"
       :major-mode python-mode
       :tags 
         '( ("os" include nil nil [1 10])
             ("time" include nil nil [11 22])
             ("func" function (:arguments 
-              ( ("args" variable nil (reparse-symbol function_parameters) [33 37]))              ) nil [24 66])
-            ("if" code nil nil [67 215]))          
+              ( ("args" variable nil (reparse-symbol function_parameters) [34 38]))              ) nil [25 67])
+            ("if" code nil nil [69 240]))          
       :file "test.py"
-      :pointmax 215
-      :fsize 214
-      :lastmodtime '(25255 61916 586705 676000)
+      :pointmax 240
+      :fsize 239
+      :lastmodtime '(25258 63788 837420 322000)
       :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table-b8977ed6"
+    (semanticdb-table "semanticdb-table-b6ac755a"
       :major-mode js-mode
       :tags nil
       :file "launch.json"
       :pointmax 218
-      :fsize 217
-      :lastmodtime '(25257 35958 243684 879000)
+      :fsize 367
+      :lastmodtime '(25257 36568 931012 591000)
       :unmatched-syntax nil))
   :file "!Users!howinye!semantic.cache"
   :semantic-tag-version "2.0"

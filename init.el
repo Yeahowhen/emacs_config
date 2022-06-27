@@ -30,7 +30,7 @@
      ("iciba" . "http://www.iciba.com/word?w=%s")))
  '(org-agenda-files nil)
  '(package-selected-packages
-   '(company-box whole-line-or-region dap-mode symon-lingr symon hlinum command-log-mode nlinum helm-flymake helm-fuzzy helm-fuzzy-find helm-google helm-org helm-osx-app paradox nyan-mode doom-themes doom-modeline emojify mode-icons auto-package-update howdoi auctex-latexmk company-auctex auctex pdf-view-restore let-alist ripgrep multi-term restart-emacs helm-system-packages dumb-jump flycheck-pos-tip company-quickhelp apheleia json-rpc consult-eglot eglot lsp-treemacs aggresive-indent indent-guide clipmon move-dup zzz-to-char fix-word pangu-spacing crux multiple-cursors dimmer focus beacon highlight-parentheses color-identifiers-mode goto-line-preview ctrlf helm-swoop centaur-tabs zoom workgroups2 smooth-scroll sublimity ace-popup-menu helpful treemacs-all-the-icons treemacs yasnippet-snippets mwim google google-this rainbow-mode rainbow-delimiters posframe exec-path-from-shell helm-flycheck helm-company helm-lsp org-roam fuzzy auto-compelete org-edit-latex ctable helm-dictionary ace-jump-mode deferred epc helm-descbinds youdao-dictionary helm-firefox ztree-dir ztree-diff dashboard good-scrll smart-region good-scroll ace-window pdf-tools dtrt-indent ws-butler function-args auto-complete-clang which-key helm-xref ag helm-gtags helm-ls-git helm-ls-hg duplicate-thing popwin highlight-symbol highlight-numbers flycheck magit diff-hl ztree recentf-ext treemacs-projectile clean-aindent-mode smartparens yasnippet undo-tree volatile-highlights helm-projectile expand-region imenu-anywhere helm use-package company ggtags))
+   '(jump-char company-box whole-line-or-region dap-mode symon-lingr symon hlinum command-log-mode nlinum helm-flymake helm-fuzzy helm-fuzzy-find helm-google helm-org helm-osx-app paradox nyan-mode doom-themes doom-modeline emojify mode-icons auto-package-update howdoi auctex-latexmk company-auctex auctex pdf-view-restore let-alist ripgrep multi-term restart-emacs helm-system-packages dumb-jump flycheck-pos-tip company-quickhelp apheleia json-rpc consult-eglot eglot lsp-treemacs aggresive-indent indent-guide clipmon move-dup zzz-to-char fix-word pangu-spacing crux multiple-cursors dimmer focus beacon highlight-parentheses color-identifiers-mode goto-line-preview ctrlf helm-swoop centaur-tabs zoom workgroups2 smooth-scroll sublimity ace-popup-menu helpful treemacs-all-the-icons treemacs yasnippet-snippets mwim google google-this rainbow-mode rainbow-delimiters posframe exec-path-from-shell helm-flycheck helm-company helm-lsp fuzzy auto-compelete org-edit-latex ctable helm-dictionary ace-jump-mode deferred epc helm-descbinds youdao-dictionary helm-firefox ztree-dir ztree-diff dashboard good-scrll smart-region good-scroll ace-window pdf-tools dtrt-indent ws-butler function-args auto-complete-clang which-key helm-xref ag helm-gtags helm-ls-git helm-ls-hg duplicate-thing popwin highlight-symbol highlight-numbers flycheck magit diff-hl ztree recentf-ext treemacs-projectile clean-aindent-mode smartparens yasnippet undo-tree volatile-highlights helm-projectile expand-region imenu-anywhere helm use-package company ggtags))
  '(paradox-execute-asynchronously t)
  '(paradox-github-token t)
  '(python-indent-offset 4)
@@ -52,7 +52,6 @@
 (tool-bar-mode -1)
 (tooltip-mode -1)
 (scroll-bar-mode -1)
-(global-linum-mode t)
 (column-number-mode t)
 (show-paren-mode 1)
 (menu-bar-mode -1)
@@ -68,8 +67,8 @@
 (setq make-backup-files nil)
 (setq byte-compile-warnings '(cl-function))
 (setq-default dired-dwim-target 1)
-(setq-default tab-width 4)
 (setq-default indent-tabs-mode nil)
+(setq-default tab-width 4)
 
 (org-babel-do-load-languages
  'org-babel-load-languages
@@ -135,6 +134,10 @@
   :ensure t
   :config
   (hlinum-activate))
+
+(use-package linum-mode
+  :hook
+  (prog-mode . linum-mode))
 
 (use-package which-key
   :ensure t
@@ -320,20 +323,6 @@
   :defer 3
   :config
   (google-this-mode))
-
-(use-package org-roam
-  :ensure t
-  :defer 3
-  :init
-  (setq org-roam-v2-ack t)
-  :custom
-  (org-roam-directory "~/RoamNotes")
-  :bind
-  (("C-c n l" . org-roam-buffer-toggle)
-   ("C-c n f" . org-roam-node-find)
-   ("C-c n i" . org-roam-node-insert))
-  :config
-  (org-roam-db-autosync-enable))
 
 (use-package eglot
   :ensure t
@@ -662,6 +651,12 @@
   :defer 3
   :config
   (whole-line-or-region-global-mode))
+
+(use-package jump-char
+  :ensure t
+  :bind
+  ("C-c f" . jump-char-forward)
+  ("C-c b" . jump-char-backward))
 
 (use-package dap-mode
   :ensure t

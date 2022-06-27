@@ -9,6 +9,7 @@
         indent-for-tab-command
         mwim-beginning-of-code-or-line
         mwim-end-of-code-or-line
+        org-self-insert-command
         ))
 
 (setq mc/cmds-to-run-once
